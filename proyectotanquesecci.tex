@@ -1,0 +1,787 @@
+\documentclass[a4paper,12pt,twoside]{proyectotanquesecci}
+\usepackage{graphicx}
+\usepackage{eqparbox}
+\usepackage[tight,footnotesize]{subfigure}
+\usepackage{hyperref}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{colortbl}
+\usepackage{fancyhdr}
+\usepackage{anysize}
+\marginsize{3cm}{3cm}{2.5cm}{2.5cm}
+\title
+{
+\textbf{Capítulo de libro del grupo de control (M-ECCI)}\\
+\vspace{3cm}
+{\large 
+Sergio Andres Acosta Herrera \\
+Dayanis Andrea Suarez Rodriguez\\
+Omar Andres Castañeda Goméz\\
+Sergio Agustin Oñate Sierra\\}
+\vspace{1cm}
+\textbf{Director}\\
+{\large Ing. Jhon Fredy Bayona Navarro M.Sc.}\\
+\vspace{2cm}
+{\large Bogotá D.C.}
+}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhf{}
+\lhead[\small{\thepage}]%
+      {\small{\rightmark}}
+\rhead[\small{\leftmark}]%
+      {\small{\thepage}}
+\cfoot{}
+\lfoot[\small{M-ECCI}]%
+      {\small{Trabajo de Grado}}
+\rfoot[\small{Trabajo de Grado}]%
+      {\small{M-ECCI}}
+\begin{document}
+\maketitle
+\renewcommand{\contentsname}{Tabla de Contenido}
+\renewcommand{\listtablename}{Lista de Tablas}
+\renewcommand{\listfigurename}{Lista de Figuras}
+\tableofcontents
+\listoftables
+\listoffigures
+
+
+
+
+% ==============================================================================================
+%										SECCION INTRODUCTORIA
+% ==============================================================================================
+
+\chapter{Introducción}
+
+\section{Resumen}
+
+Con mayor eficiencia el nivel de tecnología en la actualidad estimula los parámetros que retroalimentan y contribuyen la necesidad del ser humano con aplicaciones que avanzan a gran escala de industria a industria de alta calidad,  los sistemas hidráulicos son construidos y desarrollados especialmente para el mejoramiento de la dinámica de fluidos como: (químicos, gasolina, aceites, agua)  entre otros. Sin embargo estos sistemas trabajan en conjunto para realizar un análisis integral tanto dinámico, termodinámico y mecánico en el cual la particularidad de cada uno hace parte de la potencia y control de un sistema. El análisis de los mismos se realiza en un laboratorio observando el estado estable y funcional del sistema mediante una simulación computarizada.\\
+
+La simulación se ha convertido en una herramienta fundamental para el estudio de varios sistemas técnicos. En los sistemas hidráulicos la simulación hace un papel útil, lo cual verifica y que todos los mecanismos se accionan adecuadamente y no presenten eventos o fallas en el sistema; aunque las características específicas de los sistemas hidráulicos hacen difícil hacen difícil utilizar software de simulación de tipo general en el estudio.\\
+
+Con frecuencia las universidades tienen herramientas y dispositivos inteligentes para obtener un análisis de investigación y desarrollo e innovación, esto permite que el estudiante requiera habilidades prácticas y capacidades a la hora de enfrentarse con un prototipo de estudio.\\
+
+\newpage
+
+\section{Introducción}
+
+Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de procesos industriales, científicos de todo el mundo han trabajado para lograr que los procesos de manufactura, control automático, accionamiento sean cada vez más efectivos y más eficientes. Con esta meta se han desarrollado nuevos procesos para lograr alcanzar este mejoramiento continuo de un sistema hidráulico para proyectos en tratamiento de agua.\\
+
+El diseño de los sistemas hidráulicos se basa en la interconexión de  sistemas mecánicos a través de bombas, válvulas y pistones móviles, que ofrecen una automatización factible  en el sistema. La utilidad de estos mecanismos hace que sea  funcional y  opere de una manera  eficaz básicamente para generar distintas aplicaciones de procesos industriales, sin embargo el uso es producir energías limpias mediante recursos naturales. Este es un ejemplo de la rueda Pelton en donde interactúan los sistemas hidráulicos, mecánicos y elementos eléctricos, funciona por una turbina que es impulsada por el agua y se usa para conducir electricidad, también existen fluidos comprensibles para la distribución de energía renovable tal como gases, aire, solar y calentamiento de la tierra.\\
+
+En este artículo nos centraremos particularmente en la revolución de los procesos en sistemas hidráulicos comúnmente se presentan  procesos químicos, sistemas de control automático, actuadores y motores de accionamiento.\\
+
+Este análisis hace persuadir que generalmente estamos involucrados en modelos que ya están implementados y particularmente son modelos lineales por las condiciones de las variables a manejar.\\
+
+\newpage
+
+\section{Estado del arte}
+
+El monitoreo de variables es de gran importancia en la industria y por esto es vital preparar a los estudiantes para asumir retos reales de un proceso, aun en el estudio de su carrera, por esta razón el desarrollo e implementación de plantas experimentales y plantas pilotos han tomado una gran fuerza en los últimos años tanto así que existen empresas dedicadas entre otras cosas a la fabricación y comercialización de estas plantas para universidades e institutos de educación superior.\\
+
+De otro lado se han realizo un sin número de investigaciones alrededor del tema de monitoreo de variables en tanques de agua, ya sea nivel, temperatura o presión, las principales en la mayoría de procesos industriales, para este caso, los artículos y tesis han sido una gran fuente de información para alimentar el propio; algunos de los más importantes son:\\
+
+John Freddy Caipa (2010), articulo, Universidad Pedagógica y Tecnológica de Colombia, plantea el desarrollo e implementación de un sistema de control de tanques interconectados utilizando un servo-válvula como actuador y Matlab como software de programación.\\
+
+Oscar Fernando Gil (2011), tesis, Universidad Tecnológica de Colombia, pretende construir un prototipo de un sistema de segundo orden medidor de nivel de dos tanques relacionados, aplicando teorías de control para hacer un sistema seguro, inteligente e independiente.\\
+
+Diego Andrés Ochoa (2012), tesis, Escuela Superior Politécnica del Litoral (Ecuador), plantea la identificación y el diseño de un controlador para la temperatura de un tanque de agua.\\
+
+
+
+
+
+
+
+% ==============================================================================================
+%											MARCO TEORICO
+% ==============================================================================================
+
+
+\chapter{Marco Teorico}
+
+%\chapter{Sistemas hidráulicos}
+\section{Introducción a Sistemas hidráulicos}
+
+Un sistema hidráulico es uno en el cual los líquidos, generalmente son considerados flujo incomprensible. Los sistemas hidráulicos comúnmente aparecen en procesos químicos, sistemas de control automático; y actuadores y motores de accionamiento para la fabricación de equipos. Estos sistemas son usualmente interconectados a sistemas mecánicos a través de bombas, válvulas, y pistones móviles. Una turbina es impulsada por agua y usada para accionar un generador eléctrico es un ejemplo de un sistema donde interactúan elementos hidráulicos, mecánicos y eléctricos. No discutiremos más sobre el tema general de sistemas fluidos, el cual podría incluir fluidos compresibles tales como gases y aire. \\
+
+Un análisis exacto de sistemas hidráulicos no es usualmente factible por su naturaleza distribuida y el carácter no lineal de la resistencia al flujo. Para nuestro análisis dinámico, sin embargo, podemos obtener resultados satisfactorios debido al uso de elementos agrupados y linealizando los resultados no lineales de modelos matemáticos. Por otra parte el diseño de procesos químicos requiere un análisis más exacto donde los modelos estáticos son usados más que los dinámicos.\\
+
+En más casos, los sistemas hidráulicos operan con las variables restantes cerca de un punto de operación específico. Generalmente estamos interesados en los modelos que involucran variables incrementales. Este hecho es particularmente útil porque tales modelos son usualmente lineales, aunque el modelo expresado en las variables finales podría ser no lineal.\\
+
+\subsection{Variables}
+
+Ya que los sistemas hidráulicos involucran el flujo  y la acumulación del líquido, las variables usadas a describir su comportamiento dinámico son:\\
+
+\textit{w}, Velocidad del flujo en metros cúbicos por segundo.\\ 
+
+\textit{v}, Volumen en metros cúbicos.\\ 
+
+\textit{h}, Altura del líquido en metros.\\ 
+
+\textit{p}, Presión en newton por metro cuadrado.\\
+
+A menos que se indique lo contrario, una presión será la presión absoluta. Además,  algunas veces encontraremos conveniente expresar las presiones en términos de presiones manométricas. Una presión manométrica, que se denota por $p^{*}$, se define como la diferencia entre la presión absoluta y la presión atmosférica ${p_{a}}$:
+
+\begin{equation}
+p^{*}*(t)=p(t)-pa
+\label{Ecu 1}
+\end{equation}
+
+Una diferencia de presión, denotado por $\Delta p$, es la diferencia entre las presiones en dos puntos.
+
+\subsection{Leyes de los Elementos}
+
+Los sistemas hidráulicos presentan tres características típicas que pueden ser aproximadas por este grupo de elementos: capacidad, resistencia de flujo, e inertancia.\\
+
+En esta sección discutiremos los dos primeros. La inertancia, que representa la energía cinética de una corriente de fluido en movimiento, suele ser insignificante, y no la consideraremos. Una breve discusión de las bombas centrífugas que actúan como fuentes hidráulicas aparece al final de esta sección.\\
+
+\subsection{Capacitancia}
+
+Cuando liquido está almacenado en un recipiente abierto, existe una relación algebraica entre el volumen del líquido la presión de la base del recipiente. Si el área de la sección transversal del recipiente es dada por una función \textit{A(h)}, donde h es la altura del nivel de líquido por encima del fondo del recipiente, el volumen líquido v  es la integral del área desde la base del recipiente a la parte superior del líquido. 
+Por lo tanto,
+
+\begin{equation}
+v=\int \limits_{0}^{h} A{\lambda}d{\lambda}
+\label{Ecu 2}
+\end{equation}
+
+Donde $ {\lambda} $ es una variable ficticia de integración. Para un líquido de densidad p expresada en kilogramos por metro cúbico, la presión \textit{p} absoluta y la altura del líquido \textit{h} están relacionadas por:
+
+\begin{equation}
+p=pgh+p_{a}
+\label{Ecu 3}
+\end{equation}
+
+Donde \textit{g} es la constante gravitacional ${9.807 m/s^{2}}$ y donde \textit{Pa} es la presión atmosférica, que ha sido tomada como ${1.013 x 10^{5}  N/m^{2}}$\\
+
+Las ecuaciones (1.2) y (1.3) implican que para cualquier geometría del recipiente, la densidad del líquido y la presión atmosférica, tienen una relación algebraica única entre la presión \textit{p} y el volumen de líquido \textit{v}. Una curva característica típica que describe esta relación se muestra es la figura.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{Figura1}
+\renewcommand{\figurename}{Fig.}
+\caption{Presión en función del volumen y el área de un liquido}
+\label{Presión en función del volumen y el área de un liquido}
+\end{figure}
+
+Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1,1 , entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.
+
+\subsubsection{Ejemplo 1:}
+
+Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \textit{L} que contiene un líquido de densidad \textit{p} en unidades de kilogramo por metro cubico.
+Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, como se ve en la figura 2a. También evalúe la capacitancia cuando el cilindro esta sobre uno de sus lados, como se ve en la figura 2b.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{Figura2}
+\renewcommand{\figurename}{Fig.}
+\caption{Vaso cilíndrico. (a) Cilindro vertical. (b) Cilindro horizontal.}
+\label{Vaso cilíndrico. (a) Cilindro vertical. (b) Cilindro horizontal.}
+\end{figure}
+
+\subsubsection{Solución}
+
+Para la configuración en la figura 1,2(a). El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que podemos usar (1.3), y lacapacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
+
+Cuando el recipiente esta sobre uno de sus lados, como se muestra en la figura 2(b), el área de la sección transversal es una función de la altura del liquido h. Puede verificar que el ancho de la superficie del líquido es $2\sqrt{(R^{2})}-(R-h)^{2}$ la cual es cero cuando \textit{h=0} y \textit{h=2R} y tiene el máximo valor de \textit{2R} cuando \textit{h=R}. usando (1.4), encontramos que la capacitancia es:
+
+\begin{equation}
+c_{b}=\frac{2L}{pg}\sqrt{R^{2}}-(R-h)^{2}
+\label{Ecu 4}
+\end{equation}
+
+Como se muestra en la figura 3.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figura3}
+\renewcommand{\figurename}{Fig.}
+\caption{Capacitancia del recipiente.}
+\label{Capacitancia del recipiente.}
+\end{figure}
+
+\subsection{Resistencia}
+
+Como liquido fluye a través de una tubería, allí hay poca presión del líquido a lo largo de la tubería. Del mismo modo ha poca presión si el líquido fluye a través de una válvula o en un orificio. En cambio la presión asociada con el flujo del líquido que resulta la disipación de energía  y usualmente obedece a una relación algebraica no lineal entre la velocidad del flujo $\omega$ la diferencia de presión $\Delta p$. El símbolo de la válvula se muestra en la figura (1.4). Esto también puede ser usado por otros elementos que disipan energía. \\
+
+Un valor positivo de $\omega$ indica que el líquido está fluyendo en la dirección de la flecha; un valor positivo de $\Delta p$ (presión diferencial) indica que la presión en el punto marcado con + es más alta que la presión en el otro punto. La expresión.
+
+\begin{equation}
+w=k\sqrt{\Delta p}
+\end{equation}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figura4}
+\renewcommand{\figurename}{Fig.}
+\caption{simbolo de una válvula hidráulica.}
+\label{simbolo de una válvula hidráulica.}
+\end{figure}
+
+Describe un orificio y una válvula y es una buena aproximación del flujo turbulento a través de las tuberías. Podemos tratar todas las situaciones de interés para nosotros, usando una ley de un elemento no lineal de la forma de (10). En esta ecuación, k es una constante que depende de las características de la tubería, válvula, u orificio. Una curva típica de la velocidad del flujo contra la presión diferencial como se muestra en la figura 1.5(a).
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figura5}
+\renewcommand{\figurename}{Fig.}
+\caption{(a) velocidad de flujo vs presión diferencial. (b) Interpretación de la resistencia hidráulica.}
+\label{(a) velocidad de flujo vs presión diferencial. (b) Interpretación de la resistencia hidráulica.}
+\end{figure}
+
+Ya que (10) es una relación no lineal, se debe linealizar alrededor un punto de operación a fin de desarrollar un modelo lineal de un sistema hidráulico.
+Si se dibuja la tangente a la curva de w verus $\Delta p$  en el punto de operación, el reciproco de su pendiente es definido como la resistencia hidráulica R. \\
+
+La figura 1.5 (b) ilustra la interpretación geométrica de la resistencia, la cual tiene unidades de newton-segundos por metro.\\
+
+Expandiendo (10) en la serie de Taylor alrededor del punto de operación dado.
+
+\begin{equation}
+w=-w+\frac{dw}{d\Delta p}\downarrow -\Delta p (\Delta p -\Delta p - ....)
+\end{equation}
+
+La variable incremental $\overline{w}$  y $\overline{\Delta p}$ son definidos por:
+
+\begin{equation}
+\widehat{w}=w-\overline{w}
+\end{equation}
+
+\begin{equation}
+\overline{\Delta p}=\Delta p - \overline{\Delta p} 
+\end{equation}
+
+Y el segundo y primer término en la expansión son descartados. Así el modelo incremental se convierte
+
+\begin{equation}
+\widehat{w}=\frac{1}{R}-\overline{\Delta p}
+\end{equation}
+
+Donde
+
+\begin{equation}
+\frac{1}{R}=\frac{dw}{d\Delta p}\downarrow\overline{\Delta p}
+\end{equation}
+
+Podemos también expresar la resistencia R en términos de $\overline{\Delta p}$ ó $\overline{w}$llevarlo a la diferenciación requerida usando (10). Específicamente,
+
+\begin{equation}
+\frac{1}{R}=\frac{d}{d\Delta p}(k\Delta p_{\frac{1}{2}})\vdots \overline{\Delta p}
+\end{equation}
+
+Entonces
+\begin{equation}
+R=\frac{k}{2\sqrt{\Delta p}}
+\end{equation} 
+Para expresar la resistencia en términos de $\overline{w}$, se observa de (10) que 
+\begin{equation}
+\overline{w}=k\sqrt{\overline{\Delta p}}
+\end{equation}
+
+Sustituyendo (1.12) en (1.13) dada la ecuación alternativa por resistencia hidráulica como.
+\begin{equation}
+R=\\frac{2\overline{w}}{k^{2}}
+\end{equation}
+Ya que los líquidos típicamente fluyen a través de redes compuestas de tuberías, válvulas y orificios, con frecuencia se debe combinar varias relaciones de la forma de (10) en una sola expresión equivalente. Usamos los modelos linealizados en muchos de nuestros análisis de los sistemas hidráulicos, es importante desarrollar reglas para combinar las resistencias de elementos linealizados que estén en configuración serie y paralelo. En el siguiente ejemplo, considere la relación del flujo versus la presión diferencial y la resistencia equivalente para dos válvulas en serie. La situación del flujo paralelo es tratada en uno de los problemas al final del capítulo.
+
+\subsubsection{Ejemplo 2:}
+
+En la figura 5. Se muestra una configuración en serie de dos válvulas a través  de las cuales fluye un líquido con una velocidad w y a través del cual la presión diferencial es ${\Delta p}$, una válvula equivalente se muestra figura 6. Las dos válvulas son.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figura6}
+\renewcommand{\figurename}{Fig.}
+\caption{Dos válvulas en serie (b). Válvula equivalente.}
+\label{Dos válvulas en serie (b). Válvula equivalente.}
+\end{figure}
+
+\subsubsection{Solución:}
+
+Ya que las dos válvulas son conectadas en serie, tienen la misma velocidad de flujo $\omega$, y la presión diferencial total es $\Delta p = \Delta_{a}+\Delta_{b}$. Para determinar $k_{c}$, se escribe $\Delta p$ en términos de $\omega$ como:
+
+\begin{equation}
+\Delta p= \Delta p_{a}+\Delta p_{b} 
+=(\frac{1}{k^{2}_{a}}+\frac{1}{k^{2}_{a}})\omega^{2}
+\end{equation}
+
+Entonces al resolver para w en términos de $\Delta p$. Después de algunas manipulaciones, se encuentra que:
+
+\begin{equation}
+w=(\frac{{k_{a}k_{b}}}{\sqrt{{k^{2}}_{a}+{k^{2}}_{b}}})
+\end{equation}
+
+Comparando (1.16) con (10) se ve que la válvula constante equivalente es
+
+\begin{equation}
+k_{c}=\frac{k_{a} k_{b}}{\sqrt{k^{2}}a{k^{2}}b}
+\end{equation}
+
+Usando (1.15) para la resistencia  de un modelo linealizado de una válvula equivalente. Se puede escribir:
+
+\begin{equation}
+R_{c}\frac{2\overline{\omega}}{k^{2}_{c}}=
+2\overline{\omega}(\frac{1}{k^{2}_{a}}+\frac{1}{k^{2}_{b}})
+\end{equation}
+
+Sin embargo, para aplicar (1.15) a una válvula individual, vemos que estas resistencias son $R_{a}=2\overline{\omega}/k^{2}_{a}$ y $R_{b}=2\overline{\omega}/k^{2}_{b}$ respectivamente. Usando estas expresiones para $R_{a}$ y $R_{b}$, se puede reescribir como:
+
+\begin{equation}
+R_{c}=R_{a}+R_{b}
+\end{equation}
+
+La cual es idéntica al resultado para un circuito eléctrico lineal.
+
+\subsection{Fuentes}
+
+En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba que deriva su poder de un motor eléctrico. Consideraremos la bomba de tipo centrífuga moviéndose a velocidad constante, que es ampliamente utilizada en procesos químicos. La representación simbólica de una bomba se muestra en la Figura 2.7. Relaciones insumo - producto típicos para una bomba centrífuga siendo conducido a tres velocidades constantes diferentes se muestran en la figura 9. Curvas de la bomba de $\Delta p$ versus $\omega$.\\
+
+\newpage
+
+
+
+% ==============================================================================================
+%										SECCIÓN MODELAMIENTO
+% ==============================================================================================
+
+
+\section{Modelamiento}
+%\chapter{Modelamiento}
+
+
+
+
+\newpage
+
+
+
+% ==============================================================================================
+%										SECCIÓN LINEALIZACIÓN
+% ==============================================================================================
+
+\section{Linealización}
+%\chapter{Linealización}
+
+Un sistema no lineal se define siempre y cuando no se aplique el principio de superposición, es decir, la respuesta a dos entradas no puede calcularse tomando cada una de ellas independientemente y luego sumarlas, debido a esto se usa la linealización.\\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Principio de Superposición.}
+%\label{Principio de Superposición.}
+%\end{figure}
+
+La linealización es un método matemático por el cual se aproxima un sistema no lineal a uno más sencillo de analizar con una solución general del comportamiento del proceso y alrededor de un punto de operación cualquiera \textit{(xs,us)}.\\
+
+Así pues, una función lineal es una aproximación de la función original, que se representa trazando una línea tangente al punto de operación, que se puede interpretar con la siguiente figura:\\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Punto de Operación de una función linealizada.}
+%\label{Punto de Operación de una función linealizada.}
+%\end{figure}
+
+De este modo, la función linealizada solo es válida en el interior de la región representada por el círculo alrededor del punto negro en la figura 2.\\
+
+\begin{equation}
+f\left( x,u\right)=0
+f\left( x_{s},u_{s}\right) =0
+%f\left( x,u\right) = f\left( x_{s},u_{s}\right) +\dfrac {\partial f}{\partial u}\left( x-x_{s}\right) +\dfrac {\partial f}{\partial u}\left( u+u_{s}\right) +\ldots
+%\dfrac {\partial f}{\partial x}\Delta x+\dfrac {\partial f}{\partial u}\Delta u=0
+\end{equation}
+
+\subsection{Características sistemas linealizados}
+
+\begin{enumerate}
+\item La ecuación linealizada no es única, depende del punto alrededor del cual se haya linealizado.
+\item Las variables de la ecuación linealizada están dadas por incrementos con referencia al punto de operación.
+\item Es más sencillo linealizar las ecuaciones término a término.
+\item Diferencias de comportamiento entre el modelo linealizado y el real
+\item Forma de la función a linealizar.
+\item Las diferencias aumentan al alejarse del punto de equilibrio 
+\end{enumerate}
+
+\subsection{Serie de Taylor}
+
+Para linealizar un sistema existen varios métodos tales como logaritmación, cambio de variable, series de Taylor y mínimos cuadrados, sin embargo uno muy común y el cual se utilizara en este caso son las series de Taylor, que se expresan como una suma infinita de los términos de una función.\\
+
+Una función infinitamente derivable en un intervalo puede representarse como un polinomio a partir de sus derivadas evaluadas en un punto “a” de dicho intervalo.\\
+
+\begin{equation}
+%f\left( x\right) =\sum ^{\infty }_{n=0}f^{n}\left( a\right) \dfrac {\left( x-a\right) ^{n}}{n!}
+\end{equation}
+
+\subsubsection{Ejemplo 1:}
+
+%\begin{equation}
+%f^{0}\left( x\right) =f\left( x\right) =e^{x}
+%\end{equation}
+
+\begin{enumerate}
+
+\item Definir las derivadas de la función.
+	\begin{equation}
+	f^{1}\left( x\right) =f'\left( x\right) =e^{x}
+	f^{2}\left( x\right) =f''\left( x\right) =e^{x}
+	f^{3}\left( x\right) =f'''\left( x\right) =e^{x}
+	\end{equation}
+\item Definir un punto de operación “a”.
+	a=0
+\item Definir los valores para “n” desde 0 hasta 3, hay que tener en cuenta que “n” puede llegar a valer $\infty$, sin embargo, entre mayor sea, más pequeño es el valor del termino y por tanto es despreciable para el resultado final de la ecuación. El valor de “n” también depende del número de derivaciones que pueda llegar a tener una ecuación determinada.
+
+	n=0 \\
+	%\begin{equation}
+	%$f^{0}\left( 0\right) \dfrac {\left( x-0\right) ^{0}}{0!}=f^{0}\left( 0\right) \dfrac {1}{1}=f^{0}\left( 0\right)$	
+	$f^{0}\left( 0\right) =f\left( 0\right) =e^{0}=1$ Primer término de la serie
+	%\end{equation}
+	
+	n=1 \\
+	%\begin{equation}
+	%f^{1}\left( 0\right) \dfrac {\left( x-0\right) ^{1}}{1!}=f^{1}\left( 0\right) \dfrac {x}{1}=x\cdot f^{1}\left( 0\right) 
+	
+	%x\cdot f^{1}\left( 0\right) =x\cdot f'\left( 0\right) =x\cdot e^{0}=x Segundo término de la serie
+	%\end{equation}
+	
+	n=2 \\
+	%\begin{equation}
+	%$f^{2}\left( 0\right) \dfrac {\left( x-0\right) ^{2}}{2!}=f^{2}\left( 0\right) \dfrac {x^{2}}{2}=\dfrac {x^{2}\cdot f^{2}\left( 0\right) }{2}$
+	
+	%\dfrac {x^{2}\cdot f^{2}\left( 0\right) }{2}=\dfrac {x^{2}\cdot f''\left( 0\right) }{2}=\dfrac {x^{2}}{2}\cdot e^{0}=\dfrac {x^{2}}{2} Tercer término de la serie
+	%\end{equation}
+	
+	n=3 \\
+	%\begin{equation}
+	%f^{3}\left( 0\right) \dfrac {\left( x-0\right) ^{3}}{3!}=f^{3}\left( 0\right) \dfrac {x^{3}}{6}=\dfrac {x^{3}\cdot f^{2}\left( 0\right) }{6}
+	
+	%\dfrac {x^{3}\cdot f^{3}\left( 0\right) }{6}=\dfrac {x^{3}\cdot f'''\left( 0\right) }{6}=\dfrac {x^{3}}{6}\cdot e^{0}=\dfrac {x^{3}}{6} Cuarto término de la serie
+	%\end{equation}
+	
+\item La serie de Taylor para $f(x)=e^{x}$ es:
+	%\begin{equation}
+	%1+x+\dfrac {x^{2}}{2}+\dfrac {x^{3}}{6}+\ldots
+	%\end{equation}
+\end{enumerate}
+
+\subsubsection{Ejemplo 2:}
+
+Considere el siguiente sistema:
+
+Variables de desviación
+
+%\begin{equation}
+%\Delta h=h-h_{0}
+%\Delta q=q-q_{0}
+
+%A\dfrac {dh}{dt}-q+k\sqrt {h}=0
+
+%\end{equation}
+
+
+
+
+\newpage
+
+
+
+% ==============================================================================================
+%										SECCIÓN IDENTIFICACIÓN
+% ==============================================================================================
+
+\section{Identificación}
+%\chapter{Identificación}
+
+
+\newpage
+
+
+
+% ==============================================================================================
+%											SECCIÓN CONTROL
+% ==============================================================================================
+
+\section{Control}
+%\chapter{Control}
+
+
+\newpage
+
+
+
+
+
+% ==============================================================================================
+%												ANEXOS
+% ==============================================================================================
+
+
+\appendix
+
+\chapter{Tarjetas de circuitos impresos}
+
+\section{Historia}
+
+El inventor de los circuitos impresos fue el ingeniero austriaco Paul Eisler (1907-1995) que fabrico el primer circuito impreso alrededor de 1936 como parte de un radio, alrededor  de 1943 los estadunidenses iniciaron el uso de esta tecnología para la fabricación de radios  usados en la segunda guerra mundial, en 1948 se hizo la liberación de la invención tecnológica para que tuviese fines comerciales, pero su mayor impacto fue su fabricación en serie y el proceso de auto-montaje  que fue desarrollado por la  armada de los estados unidos en  1950..
+Cuando las tarjetas fueron desarrolladas cada componente electrónico tenía pines de cobre o latón de varios milímetros de longitud, y el circuito impreso tenía orificios taladrados para cada pin del componente. Los pines de los componentes atravesaban los orificios y eran soldados a las pistas del circuito impreso. Este método de ensamblaje es llamado through-hole.
+En 1949, Moe Abramson y Stanilus F. Danko, de la armada de  los estados Unidos desarrollaron el proceso de autoensamblaje, en donde las pines de los componentes eran insertadas en una lámina de cobre con el patrón de interconexión, y luego eran soldadas.
+
+\section{Definición}
+
+Una tarjeta de circuito impreso es una superficie conformada por una base de material no conductor y unas pistas o caminos de interconexión de material conductor, estas tarjetas son usadas para interconectar y sostener elementos electrónicos y mecánicos.
+Los caminos o pistas son generalmente  de cobre  muestras que la base se fabrica de diferentes resinas de fibra de vidrio.
+
+\section{Normatividad para la construcción de  tarjetas de circuitos impresos}
+
+\subsection{UNE  20-621-84/3}
+
+Esta norma define  los espesores de material aislante para las placas que poseen una o más capas.
+
+\begin{center}
+0.2, 0.5, 0.7, 0.8, 1.0, 1.2, 1.5, 1.6, 2.0, 2.4, 3.2, 0 6.4.mm
+\end{center}
+
+Las placas que común mente se usan para  tarjetas de una y dos caras conductoras son las  de 2mm, mientras que para las tarjetas multicapas  el espesor depende del número de capas que tenga  y de las hojas de unión entre la misma , los espesores más comunes para tarjetas multicapas son 18, 35, 70 ó 105 um.\\
+
+En esta misma norma  se menciona la forma de interconectar los componentes  a las capas conductoras, estas interconexiones pueden ser de diferentes tipos como lo son:
+
+\begin{enumerate}
+\item Agujeros sin metalizar con nudos.
+\item Agujeros metalizados con nudos.
+\item Agujeros metalizados sin nudos 
+\item Nudos sin agujeros (montajes superficiales)
+\end{enumerate}
+
+El diámetro de los agujeros depende del componente a usar,  pero en esta norma  se indican los diámetros y la tolerancia de los distintos tipos de agujeros.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{tabla1.jpg}
+\renewcommand{\figurename}{Fig.}
+\caption{Tipos de agujeros}
+\label{Tipos de agujeros}
+\end{figure}
+
+Esta misma norma  también define en uno de sus capítulos  el tamaño de las pistas conductoras pues es dependiente  de la corriente eléctrica que va a circular por esta. 
+La siguientes graficas presentan las resistencias de las pistas de cobre para diversos espesores de conductores  en función de la anchura de la pista
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{pistas.jpg}
+\renewcommand{\figurename}{Fig.}
+\caption{Pistas conductoras}
+\label{Pistas conductoras}
+\end{figure}
+
+El ancho de la pista se clacula según las especificaciones de corriente que valla a manejar la tarjeta yteniendo en cuenta la siguiente formula:
+\begin{equation}
+Ancho=\frac{Area}{L*1,378}
+\label{Ecu 2}
+\end{equation}
+
+\subsection{UNE 20-55-2753}
+Esta norma define el tamaño del nudo de soldadura el cual es dependiente del  diámetro del agujero  y su forma, a continuación se muestra las Tabla nominal de nudos y agujeros.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{Tabla2.jpg}
+\renewcommand{\figurename}{Fig.}
+\caption{Tamaño de nudos}
+\label{Tamaño de nudos}
+\end{figure}
+
+\section{Pautas básicas para la construcción de circuitos impresos}
+
+\begin{enumerate}
+\item Hacer el diseño  lo mas sencillo posible, cuanto mas cortas las pistas y mejor sea la distribución de los componentes el resultado será mejor.
+\item Realizar el diseño  en una hoja cuadriculada de una décima de pulga, y hacer coincidir las pistas conductoras con las líneas de la cuadricula o hacerlas mismas con Angulo de 45 grados
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{pauta1.jpg}
+\renewcommand{\figurename}{Fig.}
+\caption{Diseño de pists}
+\label{Diseño de pistas}
+\end{figure}
+
+\item Cuando se necesite una curva no deben emplearse ángulos de  90 grados, sino anguilos de 135 grados.
+
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.8]{pauta3.jpg}
+ \renewcommand{\figurename}{Fig.}
+ \caption{Angulos oara el diseño de pistas }
+ \label{Angulos oara el diseño de pistas }
+ \end{figure}
+\item Para realizar bifurcaciones  en una pista conductora, se contemplara realizar triángulos  suavizados.
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=1.0]{pauta4.jpg}
+ \renewcommand{\figurename}{Fig.}
+ \caption{Diseño de bifurcaciones entre pistas}
+ \label{Diseño de bifurcaciones entre pista }
+ \end{figure}
+ \item Para conocer e l ancho de la pista  se   debe tener en cuenta el flujo de corriente eléctrica que circulara por la misma.
+
+\begin{enumerate}
+\item 1 mm pueden soportar hasta un amperio (1A) de intensidad de corriente
+\item 4.5 mm  pueden soportar hasta 10 amperios (10A) de flujo de intensidad de corriente.
+\item Las pistas más comunes son las de 2 mm que pueden soportar un promedio de dos amperios (2A) y dependiendo del aspersor podrá 0soportar hasta cinco amperios (5A).	
+\end{enumerate}
+\item La separación  entre pistas  maneja un estar de 0.8mm pero en diseños complejos se podrá usar una distancia de 0.4mm. cuando se calcule la distancia entre pistas se considerara la tensión eléctrica que habrá entre ellas.La distancia  entre bordes y pistas  será de aproximadamente 5mm
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=1.0]{pauta61.jpg}
+ \renewcommand{\figurename}{Fig.}
+ \caption{Separación entre pistas}
+ \label{Separación entre pistas}
+ \end{figure}
+\item Todos los componentes se pondrán en paralelos a la a los bordes y no se pondrán pistas entre los bordes de la placa
+\begin{enumerate}
+\item No se pondrán pistas entre dos terminales del cuerpo y componentes activos.
+\item Se debe dejar una décima de pulgada  entre el cuerpo del componente y el punto de soldadura correspondiendo en el orificio de la placa.
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=1.0]{pauta8.jpg}
+ \renewcommand{\figurename}{Fig.}
+ \caption{Separación entre componentes y pistas}
+ \label{Separación entre componentes y pistas }
+ \end{figure}
+\end{enumerate}
+\item En algunas placas de circuitos impresos se pueden usar componentes de tipo SMT que son tarjetas de circuitos impresos pequeñas que se conectan a una tarjeta mayor, existen 4 tipos  las cuales son:
+\begin{enumerate}
+\item LLC 
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=1.3]{LLC.jpg}
+ \renewcommand{\figurename}{Fig.}
+ \caption{Placas de circuitos impresos LLC}
+ \label{Placas de circuitos impresos LLC}
+ \end{figure}
+\item SIMM
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=1.0]{SIMM.jpg}
+ \renewcommand{\figurename}{Fig.}
+ \caption{Placas de circuitos impresos SIMM}
+ \label{Placas de circuitos impresos SIMM}
+ \end{figure}\\
+   
+ \item DIPM
+ \begin{figure}[h]
+  \centering
+  \includegraphics[scale=1.0]{DIP.jpg}
+  \renewcommand{\figurename}{Fig.}
+  \caption{Placas de circuitos impresos DIP }
+  \label{Placas de circuitos impresos DIP}
+  \end{figure}
+ 
+  \item SIP
+  \begin{figure}[h]
+   \centering
+   \includegraphics[scale=1.0]{SIP.jpg}
+   \renewcommand{\figurename}{Fig.}
+   \caption{Placas de circuitos impresos SIP}
+   \label{Placas de circuitos impresos SIP}
+   \end{figure}
+\end{enumerate}
+\end{enumerate}
+
+\section{Disposición  De Componentes}
+
+Para la disposición de los  componentes se debe tener en cuenta que hay dos tipos los cuales son:
+
+\begin{enumerate}
+\item Componentes de inserción (TDH). En estos componentes se insertan los terminales en los nodos de la placa para posterior soldadura.
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1.0]{TDH.jpg}
+  \renewcommand{\figurename}{Fig.}
+  \caption{Componentes en montaje de insercion}
+  \label{Componentes en montaje de insercion}
+  \end{figure}
+\item •	Componentes de montaje superficial (SMD). Son usados  para montajes de alta densidad de componentes
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1.0]{SMD.jpg}
+  \renewcommand{\figurename}{Fig.}
+  \caption{Componentes en montaje superficial}
+  \label{Componentes en montaje Superficial}
+  \end{figure}
+\end{enumerate}
+
+De acuerdo al tipo de componente  y al tipo de rejillas o agujeros que posea la placa se podrán usar dos tipos de Montale horizontal o vertical, el montaje que se selecciones podrá proporcionar mayor comodidad a la hora de  interconectar y soldar todos los componentes.
+
+\begin{enumerate}
+\item	Montaje Vertical
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1.0]{MVERTICAL.jpg}
+  \renewcommand{\figurename}{Fig.}
+  \caption{Componentes en montaje vertical}
+  \label{Componentes en montaje vertical}
+  \end{figure}
+\item	Montaje Horizontal
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1.0]{MHORIZONTAL.jpg}
+  \renewcommand{\figurename}{Fig.}
+  \caption{Componentes en montaje Horizontal}
+  \label{Componentes en montaje Horizontal}
+  \end{figure}
+\end{enumerate}
+
+Una de las prácticas más recomendadas es la separación de componentes análogos de los digitales para evitar problemas  de tamaño, vibración  y resonancia entre los mismo por esta razón se recomienda usar clips de fijación,\\
+
+Para la disposición de los componentes en la placa, estos deben ser fijados  de forma paralela a los ejes X y Y,  pues se debe permitir la identificación  de su código, nomenclatura, valor, etc.
+
+\section{Diseño de Pistas}
+
+En todos los circuitos de alimentación están presentes los componentes RLC  y sus corrientes y tensiones parasitas que tienden a desestabilizar la alimentación del circuito.\\
+
+Cuando el circuito se comporta de forma inestable se dice que hay bucles de corriente (corriente de retorno) , para mediar esto y que el circuito de alimentación no se comporte de forma tan inestable es muy importante que el camino de  o trazado de retoño sea directo\\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1.3]{D_PISTAS2.jpg}
+  \renewcommand{\figurename}{Fig.}
+  \caption{Pistas de alimentación}
+  \label{Pistas de alimentación }
+\end{figure}
+
+componentes análogos de los digitales pues se deben usar dos pistas de  masa o tierra  totalmente independientes para cada circuito,\\
+  
+Se debe tratar de que el trazado de  pistas cubra al menos el 50 porciento de  la superficie total de la placa e interconecte todos los componentes necesarios para el correcto funcionamiento.\\
+
+\section{Composición  química}
+El atacado químico es el proceso por el cual  pasa el diseño de las pistas  y componentes  a la placa, este se puede producir mediante cloruro férrico (Cl3Fe) o ácido clorhídrico(ClH) y agua oxigenada (H2O2). Este atacadoresponde a las siguientes reacciones:
+   
+El cloruro férrico se puede adquirir en el mercado especializado en componentes electrónicos, se presenta ya diluido o en forma de sólido granulado.
+El ácido clorhídrico y el agua oxigenada se pueden adquirir en diversos comercios y la proporción para la mezcla que realizaremos cada vez que lo vayamos a utilizar (no es reutilizable como el cloruro férrico) es la siguiente:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{prueba}
+%\printbib{RPFCU-HBB}
+
+\end{document}
