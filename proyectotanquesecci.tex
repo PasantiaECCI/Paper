@@ -167,13 +167,13 @@ Las ecuaciones (1.2) y (1.3) implican que para cualquier geometría del recipien
 \centering
 \includegraphics[scale=0.4]{Figura1}
 \renewcommand{\figurename}{Fig.}
-\caption{Presión en función del volumen y el área de un liquido}
-\label{Presión en función del volumen y el área de un liquido}
+%\caption{Presi�n en funci�n del volumen y el �rea de un liquido}
+\label{Presi�n en funci�n del volumen y el �rea de un liquido}
 \end{figure}
 
 Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1,1 , entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.
 
-\subsubsection{Ejemplo 1:}
+\subsubsection{Ejemplo:}
 
 Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \textit{L} que contiene un líquido de densidad \textit{p} en unidades de kilogramo por metro cubico.
 Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, como se ve en la figura 2a. También evalúe la capacitancia cuando el cilindro esta sobre uno de sus lados, como se ve en la figura 2b.
@@ -182,7 +182,7 @@ Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, c
 \centering
 \includegraphics[scale=0.4]{Figura2}
 \renewcommand{\figurename}{Fig.}
-\caption{Vaso cilíndrico. (a) Cilindro vertical. (b) Cilindro horizontal.}
+\caption{Vaso cilíndrico. (a) Vertical. (b) Horizontal.}
 \label{Vaso cilíndrico. (a) Cilindro vertical. (b) Cilindro horizontal.}
 \end{figure}
 
@@ -289,7 +289,7 @@ R=\\frac{2\overline{w}}{k^{2}}
 \end{equation}
 Ya que los líquidos típicamente fluyen a través de redes compuestas de tuberías, válvulas y orificios, con frecuencia se debe combinar varias relaciones de la forma de (10) en una sola expresión equivalente. Usamos los modelos linealizados en muchos de nuestros análisis de los sistemas hidráulicos, es importante desarrollar reglas para combinar las resistencias de elementos linealizados que estén en configuración serie y paralelo. En el siguiente ejemplo, considere la relación del flujo versus la presión diferencial y la resistencia equivalente para dos válvulas en serie. La situación del flujo paralelo es tratada en uno de los problemas al final del capítulo.
 
-\subsubsection{Ejemplo 2:}
+\subsubsection{Ejemplo:}
 
 En la figura 5. Se muestra una configuración en serie de dos válvulas a través  de las cuales fluye un líquido con una velocidad w y a través del cual la presión diferencial es ${\Delta p}$, una válvula equivalente se muestra figura 6. Las dos válvulas son.
 
@@ -351,7 +351,6 @@ En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba 
 
 
 \section{Modelamiento}
-%\chapter{Modelamiento}
 
 
 
@@ -365,7 +364,6 @@ En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba 
 % ==============================================================================================
 
 \section{Linealización}
-%\chapter{Linealización}
 
 Un sistema no lineal se define siempre y cuando no se aplique el principio de superposición, es decir, la respuesta a dos entradas no puede calcularse tomando cada una de ellas independientemente y luego sumarlas, debido a esto se usa la linealización.\\
 
@@ -391,12 +389,14 @@ Así pues, una función lineal es una aproximación de la función original, que
 
 De este modo, la función linealizada solo es válida en el interior de la región representada por el círculo alrededor del punto negro en la figura 2.\\
 
-\begin{equation}
-f\left( x,u\right)=0
-f\left( x_{s},u_{s}\right) =0
-%f\left( x,u\right) = f\left( x_{s},u_{s}\right) +\dfrac {\partial f}{\partial u}\left( x-x_{s}\right) +\dfrac {\partial f}{\partial u}\left( u+u_{s}\right) +\ldots
-%\dfrac {\partial f}{\partial x}\Delta x+\dfrac {\partial f}{\partial u}\Delta u=0
-\end{equation}
+%\begin{equation}
+\begin{center}
+	$f\left( x,u\right)=0$\\
+	$f\left( x_{s},u_{s}\right) =0$\\
+	$f\left( x,u\right) = f\left( x_{s},u_{s}\right) +\dfrac {\partial f}{\partial u}\left( x-x_{s}\right) +\dfrac {\partial f}{\partial u}\left( u+u_{s}\right) +\ldots$\\
+	$\dfrac {\partial f}{\partial x}\Delta x+\dfrac {\partial f}{\partial u}\Delta u=0$
+\end{center}
+%\end{equation}
 
 \subsection{Características sistemas linealizados}
 
@@ -413,60 +413,75 @@ f\left( x_{s},u_{s}\right) =0
 
 Para linealizar un sistema existen varios métodos tales como logaritmación, cambio de variable, series de Taylor y mínimos cuadrados, sin embargo uno muy común y el cual se utilizara en este caso son las series de Taylor, que se expresan como una suma infinita de los términos de una función.\\
 
-Una función infinitamente derivable en un intervalo puede representarse como un polinomio a partir de sus derivadas evaluadas en un punto “a” de dicho intervalo.\\
+Una función infinitamente derivable en un intervalo puede representarse como un polinomio a partir de sus derivadas evaluadas en un punto “a” de dicho intervalo.
 
-\begin{equation}
-%f\left( x\right) =\sum ^{\infty }_{n=0}f^{n}\left( a\right) \dfrac {\left( x-a\right) ^{n}}{n!}
-\end{equation}
+%\begin{equation}
+\begin{center}
+	$f\left( x\right) =\sum ^{\infty }_{n=0}f^{n}\left( a\right) \dfrac {\left( x-a\right) ^{n}}{n!}$
+\end{center}
+%end{equation}
 
 \subsubsection{Ejemplo 1:}
 
 %\begin{equation}
-%f^{0}\left( x\right) =f\left( x\right) =e^{x}
+\begin{center}
+	$f^{0}\left( x\right) =f\left( x\right) =e^{x}$
+\end{center}
 %\end{equation}
 
 \begin{enumerate}
 
 \item Definir las derivadas de la función.
-	\begin{equation}
-	f^{1}\left( x\right) =f'\left( x\right) =e^{x}
-	f^{2}\left( x\right) =f''\left( x\right) =e^{x}
-	f^{3}\left( x\right) =f'''\left( x\right) =e^{x}
-	\end{equation}
+	%\begin{equation}
+	\begin{center}
+		$f^{1}\left( x\right) =f'\left( x\right) =e^{x}$\\
+		$f^{2}\left( x\right) =f''\left( x\right) =e^{x}$\\
+		$f^{3}\left( x\right) =f'''\left( x\right) =e^{x}$
+	\end{center}
+	%\end{equation}
 \item Definir un punto de operación “a”.
-	a=0
-\item Definir los valores para “n” desde 0 hasta 3, hay que tener en cuenta que “n” puede llegar a valer $\infty$, sin embargo, entre mayor sea, más pequeño es el valor del termino y por tanto es despreciable para el resultado final de la ecuación. El valor de “n” también depende del número de derivaciones que pueda llegar a tener una ecuación determinada.
+	\begin{center} a=0 \end{center}
+\item Definir los valores para “n” desde 0 hasta 3, hay que tener en cuenta que “n” puede llegar a valer $\infty$, sin embargo, entre mayor sea, más pequeño es el valor del termino y por tanto es despreciable para el resultado final de la ecuación. El valor de “n” también depende del número de derivaciones que pueda llegar a tener una ecuación determinada.\\
 
-	n=0 \\
+	n=0
 	%\begin{equation}
-	%$f^{0}\left( 0\right) \dfrac {\left( x-0\right) ^{0}}{0!}=f^{0}\left( 0\right) \dfrac {1}{1}=f^{0}\left( 0\right)$	
-	$f^{0}\left( 0\right) =f\left( 0\right) =e^{0}=1$ Primer término de la serie
+	\begin{center}
+		$f^{0}\left( 0\right) \dfrac {\left( x-0\right) ^{0}}{0!}=f^{0}\left( 0\right) \dfrac {1}{1}=f^{0}\left( 0\right)$\\
+		$f^{0}\left( 0\right) =f\left( 0\right) =e^{0}=1$ \\
+		\textit{ Primer término de la serie }\\
+	\end{center}
 	%\end{equation}
 	
-	n=1 \\
+	n=1
 	%\begin{equation}
-	%f^{1}\left( 0\right) \dfrac {\left( x-0\right) ^{1}}{1!}=f^{1}\left( 0\right) \dfrac {x}{1}=x\cdot f^{1}\left( 0\right) 
-	
-	%x\cdot f^{1}\left( 0\right) =x\cdot f'\left( 0\right) =x\cdot e^{0}=x Segundo término de la serie
+	\begin{center}
+		$f^{1}\left( 0\right) \dfrac {\left( x-0\right) ^{1}}{1!}=f^{1}\left( 0\right) \dfrac {x}{1}=x\cdot f^{1}\left( 0\right)$\\
+		$x\cdot f^{1}\left( 0\right) =x\cdot f'\left( 0\right) =x\cdot e^{0}=x$\\
+		\textit{ Segundo término de la serie }\\
+	\end{center}
 	%\end{equation}
 	
-	n=2 \\
+	n=2
 	%\begin{equation}
-	%$f^{2}\left( 0\right) \dfrac {\left( x-0\right) ^{2}}{2!}=f^{2}\left( 0\right) \dfrac {x^{2}}{2}=\dfrac {x^{2}\cdot f^{2}\left( 0\right) }{2}$
-	
-	%\dfrac {x^{2}\cdot f^{2}\left( 0\right) }{2}=\dfrac {x^{2}\cdot f''\left( 0\right) }{2}=\dfrac {x^{2}}{2}\cdot e^{0}=\dfrac {x^{2}}{2} Tercer término de la serie
+	\begin{center}
+		$f^{2}\left( 0\right) \dfrac {\left( x-0\right) ^{2}}{2!}=f^{2}\left( 0\right) \dfrac {x^{2}}{2}=\dfrac {x^{2}\cdot f^{2}\left( 0\right) }{2}$\\
+		$\dfrac {x^{2}\cdot f^{2}\left( 0\right) }{2}=\dfrac {x^{2}\cdot f''\left( 0\right) }{2}=\dfrac {x^{2}}{2}\cdot e^{0}=\dfrac {x^{2}}{2}$\\
+		\textit{ Tercer término de la serie }\\
+	\end{center}
 	%\end{equation}
 	
-	n=3 \\
+	n=3
 	%\begin{equation}
-	%f^{3}\left( 0\right) \dfrac {\left( x-0\right) ^{3}}{3!}=f^{3}\left( 0\right) \dfrac {x^{3}}{6}=\dfrac {x^{3}\cdot f^{2}\left( 0\right) }{6}
-	
-	%\dfrac {x^{3}\cdot f^{3}\left( 0\right) }{6}=\dfrac {x^{3}\cdot f'''\left( 0\right) }{6}=\dfrac {x^{3}}{6}\cdot e^{0}=\dfrac {x^{3}}{6} Cuarto término de la serie
+	\begin{center}
+		$f^{3}\left( 0\right) \dfrac {\left( x-0\right) ^{3}}{3!}=f^{3}\left( 0\right) \dfrac {x^{3}}{6}=\dfrac {x^{3}\cdot f^{2}\left( 0\right) }{6}$\\
+		$\dfrac {x^{3}\cdot f^{3}\left( 0\right) }{6}=\dfrac {x^{3}\cdot f'''\left( 0\right) }{6}=\dfrac {x^{3}}{6}\cdot e^{0}=\dfrac {x^{3}}{6}$\\
+		\textit{ Cuarto término de la serie }\\
+	\end{center}
 	%\end{equation}
 	
 \item La serie de Taylor para $f(x)=e^{x}$ es:
 	%\begin{equation}
-	%1+x+\dfrac {x^{2}}{2}+\dfrac {x^{3}}{6}+\ldots
+	\begin{center} $1+x+\dfrac {x^{2}}{2}+\dfrac {x^{3}}{6}+\ldots$ \end{center}
 	%\end{equation}
 \end{enumerate}
 
@@ -477,11 +492,11 @@ Considere el siguiente sistema:
 Variables de desviación
 
 %\begin{equation}
-%\Delta h=h-h_{0}
-%\Delta q=q-q_{0}
-
-%A\dfrac {dh}{dt}-q+k\sqrt {h}=0
-
+\begin{center}
+	$\Delta h=h-h_{0}$\\
+	$\Delta q=q-q_{0}$\\
+	$A\dfrac {dh}{dt}-q+k\sqrt {h}=0$\\
+\end{center}
 %\end{equation}
 
 
