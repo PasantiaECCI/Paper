@@ -352,7 +352,35 @@ En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba 
 
 \section{Modelamiento}
 
+$A\dfrac {dh\left( t\right) }{dt}=q_{i}-q_{o}$ \\
+$q_{o}=\dfrac{h}{R}$ \\
 
+$A\dfrac {dh\left( t\right) }{dt}=q_{i}-\dfrac {h}{R}$ \\
+$\dfrac {dh\left( t\right) }{dt}=\dfrac {q_{i}-\dfrac {h}{R}}{A}$ \\
+$\dfrac {dh\left( t\right) }{dt}=\dfrac {Rq_{i}-h}{AR}$ \\
+
+
+Evaluando con estado estable \\
+$\dfrac {d\overline {h\left( 0\right) }}{dt}=\dfrac {R\overline {q_{i}\left( 0\right) }-\overline {h\left( o\right) }}{AR}$ \\
+
+$ARd\dfrac {\left[ h\left( t\right) -\overline {h\left( 0\right) }\right] }{dt}=R\left[ q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }\right] -\left[ h\left( t\right) -\overline {h\left( 0\right) }\right]$ \\
+
+Variables de desviación \\
+$Q_{in}=q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }$ \\
+$H=h\left( t\right) -\overline {h\left( 0\right) }$ \\
+
+$A\dfrac {RdH}{dt}=RQ_{in}\left( t\right) -H\left( t\right)$ \\
+$A\dfrac {RdH}{dt}+H\left( t\right) =RQ_{in}\left( t\right)$ \\
+$\tau =AR$ \\
+$K=R$ \\
+
+$\dfrac {\tau dH}{dt}+H\left( t\right) =KQ_{in}\left( t\right)$ \\
+
+La place \\
+$\tau sH\left( s\right) +H\left( s\right) =kQ_{in}\left( s\right)$ \\
+$H\left( s\right) \left[ \tau s+1\right] =kQ_{in}\left( s\right)$ \\
+$\dfrac {H\left( s\right) }{Q_{in}\left( s\right) }=\dfrac {k}{\tau s+1}$ \\
+$\dfrac {H\left( s\right) }{Qin\left( s\right) }=\dfrac {R}{AR+1}$ \\
 
 
 \newpage
