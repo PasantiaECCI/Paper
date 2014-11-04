@@ -14,21 +14,28 @@
 \contentsline {subsubsection}{Ejemplo:}{18}{section*.6}
 \contentsline {subsubsection}{Soluci\IeC {\'o}n:}{19}{section*.7}
 \contentsline {subsection}{\numberline {2.1.5}Fuentes}{19}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}Modelamiento}{21}{section.2.2}
-\contentsline {section}{\numberline {2.3}Linealizaci\IeC {\'o}n}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Caracter\IeC {\'\i }sticas sistemas linealizados}{22}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Serie de Taylor}{22}{subsection.2.3.2}
-\contentsline {subsubsection}{Ejemplo 1:}{23}{section*.8}
-\contentsline {subsubsection}{Ejemplo 2:}{24}{section*.9}
-\contentsline {section}{\numberline {2.4}Identificaci\IeC {\'o}n}{25}{section.2.4}
-\contentsline {section}{\numberline {2.5}Control}{26}{section.2.5}
-\contentsline {chapter}{\numberline {A}Tarjetas de circuitos impresos}{27}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Historia}{27}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Definici\IeC {\'o}n}{27}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Normatividad para la construcci\IeC {\'o}n de tarjetas de circuitos impresos}{28}{section.Alph1.3}
-\contentsline {subsection}{\numberline {A.3.1}UNE 20-621-84/3}{28}{subsection.Alph1.3.1}
-\contentsline {subsection}{\numberline {A.3.2}UNE 20-55-2753}{28}{subsection.Alph1.3.2}
-\contentsline {section}{\numberline {A.4}Pautas b\IeC {\'a}sicas para la construcci\IeC {\'o}n de circuitos impresos}{29}{section.Alph1.4}
-\contentsline {section}{\numberline {A.5}Disposici\IeC {\'o}n De Componentes}{31}{section.Alph1.5}
-\contentsline {section}{\numberline {A.6}Dise\IeC {\~n}o de Pistas}{32}{section.Alph1.6}
-\contentsline {section}{\numberline {A.7}Composici\IeC {\'o}n qu\IeC {\'\i }mica}{33}{section.Alph1.7}
+\contentsline {subsection}{\numberline {2.1.6}Modelos Dinamicos de Sistemas Hidraulicos}{20}{subsection.2.1.6}
+\contentsline {subsubsection}{Ejemplo 3:}{20}{section*.8}
+\contentsline {subsubsection}{Soluci\IeC {\'o}n:}{21}{section*.9}
+\contentsline {subsubsection}{Ejemplo 4:}{22}{section*.10}
+\contentsline {subsubsection}{Soluci\IeC {\'o}n:}{22}{section*.11}
+\contentsline {subsubsection}{Ejemplo 5:}{23}{section*.12}
+\contentsline {subsubsection}{Soluci\IeC {\'o}n:}{23}{section*.13}
+\contentsline {section}{\numberline {2.2}Modelamiento}{24}{section.2.2}
+\contentsline {section}{\numberline {2.3}Linealizaci\IeC {\'o}n}{25}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Caracter\IeC {\'\i }sticas sistemas linealizados}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Serie de Taylor}{25}{subsection.2.3.2}
+\contentsline {subsubsection}{Ejemplo 1:}{26}{section*.14}
+\contentsline {subsubsection}{Ejemplo 2:}{27}{section*.15}
+\contentsline {section}{\numberline {2.4}Identificaci\IeC {\'o}n}{28}{section.2.4}
+\contentsline {section}{\numberline {2.5}Control}{29}{section.2.5}
+\contentsline {chapter}{\numberline {A}Tarjetas de circuitos impresos}{31}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Historia}{31}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Definici\IeC {\'o}n}{31}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Normatividad para la construcci\IeC {\'o}n de tarjetas de circuitos impresos}{32}{section.Alph1.3}
+\contentsline {subsection}{\numberline {A.3.1}UNE 20-621-84/3}{32}{subsection.Alph1.3.1}
+\contentsline {subsection}{\numberline {A.3.2}UNE 20-55-2753}{32}{subsection.Alph1.3.2}
+\contentsline {section}{\numberline {A.4}Pautas b\IeC {\'a}sicas para la construcci\IeC {\'o}n de circuitos impresos}{33}{section.Alph1.4}
+\contentsline {section}{\numberline {A.5}Disposici\IeC {\'o}n De Componentes}{35}{section.Alph1.5}
+\contentsline {section}{\numberline {A.6}Dise\IeC {\~n}o de Pistas}{36}{section.Alph1.6}
+\contentsline {section}{\numberline {A.7}Composici\IeC {\'o}n qu\IeC {\'\i }mica}{37}{section.Alph1.7}
