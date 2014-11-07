@@ -51,7 +51,6 @@ Sergio Agustin Oñate Sierra\\}
 
 
 
-
 % ==============================================================================================
 %										SECCION INTRODUCTORIA
 % ==============================================================================================
@@ -445,7 +444,7 @@ Sustituyendo este valor de R y C entre la ecuación anterior de la función de t
 
 \begin{equation}
 H\left( s\right) =\frac {4904}{s+1.0216\times 10^{-3}}
-\end{equation}
+\end{equation} \\
 
 Si $\omega_{i}(s)$ es originalmente igual a este valor nominal de $\overline {w}_{i}=6.0\times 10^{-3}m^{3}/s$ y sufre un 10\% aumento paso a la función, luego $w_{i}\left( t\right) =\left[ 0.60\times 10^{-3}\right] U\left( t\right) \frac {m^{3}}{s}$ y $w_{i}\left( s\right) =\left[ 0.60\times 10^{-3}\right] \left( \frac {1}{s}\right)$. Tenemos.
 
@@ -489,6 +488,7 @@ Encontrar el modelo linealizado del sistema hidráulico mostrado en la Figura 11
 La condición equilibrada para el sistema corresponde a 
 
 \begin{equation}
+\omega _{i}=\omega _{0}
 \end{equation}
 
 Donde $\omega_{i}$ y $\Delta p=p_{1}-p_{a}$ debe ser uno de los puntos de la curva de la bomba en la Figura 11 (b), y donde $\omega_{o}$ obedece a la relación de flujo no lineal.
@@ -521,43 +521,48 @@ Después de esta etapa preliminar, podemos utilizar $p_{1}=\frac{1}{c} \left(\om
 p_{1}=\frac{1}{c} \left(\omega_{i}-\omega_{o}\right)
 \end{equation}
 
-Donde, de ω= 1R ∆p, el caudal aproximado a través de la válvula es 
+dDonde, de $\widehat {\omega }=\frac {1}{R}\widehat {\Delta P}$, el caudal aproximado a través de la válvula es 
 
 \begin{equation}
+\omega _{0}=\overline {\omega _{0}}+\frac {1}{R}\widehat {\Delta p}
 \end{equation}
 
-Y donde, de ω= -1K ∆p, el caudal aproximado a través de la bomba es
+Y donde, de $\widehat {\omega }=-\frac {1}{K}\widehat {\Delta p}$, el caudal aproximado a través de la bomba es
 
 \begin{equation}
+\omega _{i}=\overline {\omega }_{i}-\frac {1}{k}\widehat {\Delta \rho }
 \end{equation}
 
-Sustituyendo las ecuaciones anteriores entre el modelo del sistema, usando p1=p1 y ωi=ωo , y nada que ∆p=p1 porque pa es constante, se encuentra el modelo incremental es 
+Sustituyendo las ecuaciones anteriores entre el modelo del sistema, usando $p_{1}=\widehat {p_{1}}$ y $\omega_{i}=\omega_{o}$, y nada que $\widehat {\Delta p}=p_{1}$ porque $p_{a}$ es constante, se encuentra el modelo incremental es 
 
 \begin{equation}
+P_{1}=\frac {1}{c}\left( -\frac {1}{k}-\frac {1}{R}\right) P_{1}
 \end{equation}
 
 Cual se puede escribir como homogéneo de primer orden de la ecuación diferencial.
 
 \begin{equation}
+P_{1}+\frac {1}{c}\left( \frac {1}{k}+\frac {1}{R}\right) P_{1}=0
 \end{equation}
 
 La ecuación anterior indica que la magnitud de la pendiente de la curva sobre la bomba en el punto de operación  está entre la ecuación exactamente igual como la resistencia asociada con la válvula. 
 
-Luego, si se evalúa la resistencia equivalente Req se acuerda
+Luego, si se evalúa la resistencia equivalente $R_{eq}$ se acuerda
 
 \begin{equation}
+R_{eq}=\frac {RK}{R+K}
 \end{equation}
 
 La cual fue derivada por un recipiente y una sola válvula, excepto por la ausencia de un caudal de entrada.
 
 \subsubsection{Ejemplo 5:}
 
-Las válvulas en el sistema hidráulico se muestra en la Figura 13 obedece el flujo de presión con la relación ω1=K1p1-p2 y ω2=k2p2-pa. La presión atmosférica es pa, y las capacitancias de los tanques son C1 y C2. \\
+Las válvulas en el sistema hidráulico se muestra en la Figura 13 obedece el flujo de presión con la relación $\omega _{1}=K_{1}\sqrt {p_{1}}-P_{2}$ y $\omega _{2}=K_{2}\sqrt {p_{2}}-P_{a}$. La presión atmosférica es $p_{a}$, y las capacitancias de los tanques son $C_{1}$ y $C_{2}$. \\
 Encuentre las ecuaciones que determine el punto de operación, y muestra como la curva de bomba es usada entonces. Un modelo derivado linealizado que es válido sobre el punto de operación. \\
 
 \subsubsection{Solución:}
 
-Porque la bomba y los dos tanques son en serie que equilibra las condiciones, se define el punto de operación para los tres caudales sean iguales ωp, ω1 y ω2.
+Porque la bomba y los dos tanques son en serie que equilibra las condiciones, se define el punto de operación para los tres caudales sean iguales $\omega_{p}$, $\omega_{1}$ y $\omega_{2}$.
 
 %\begin{figure}[h]
 %\centering
@@ -570,34 +575,53 @@ Porque la bomba y los dos tanques son en serie que equilibra las condiciones, se
 Los caudales a través de dos válvulas son dados por
 
 \begin{equation}
+\omega _{1}=K_{1}\sqrt {p_{1}}-P_{2}
 \end{equation}
 
-El caudal ωp que pasa a través de la bomba y la presión diferencial ∆p1=p1-pa corresponde más a un punto sobre la curva de la bomba.
+\begin{equation}
+\omega _{2}=K_{2}\sqrt {p_{2}}-P_{a}
+\end{equation}
+
+
+El caudal $\omega_{p}$ que pasa a través de la bomba y la presión diferencial $\Delta p_{1}=p_{1}-p_{a}$ corresponde más a un punto sobre la curva de la bomba.
 
 \begin{equation}
+\omega _{p}=k_{eq}\sqrt {\Delta p_{1}}
 \end{equation}
 
 Donde,
 
 \begin{equation}
+K_{eq}=\frac {K_{1}K_{2}}{\sqrt {k^{2}_{1}}+\left( k_{2}\right) ^{2}}
 \end{equation}
 
-Graficando la ecuación anterior sobre la curva de la bomba como se muestra en la Figura 12(a) siendo las válvulas de ∆p1 y ωp, de la cual se puede encontrar otro valor nominal. \\
-Con esta información, se puede desarrollar el modelo incremental. Usando p=1C(h)[ωin(t)-ωout(t)],  ω=1R∆p, y ω=-1K∆p , se puede escribir el par de ecuaciones diferenciales.
+Graficando la ecuación anterior sobre la curva de la bomba como se muestra en la Figura 12(a) siendo las válvulas de $\Delta p_{1}$ y $\omega_{p}$, de la cual se puede encontrar otro valor nominal. \\
+Con esta información, se puede desarrollar el modelo incremental. Usando $p=\frac {1}{c\left( n\right) }\left[ \omega _{in}\left( t\right) -\omega _{out}\left( t\right) \right] $,  $\omega =\frac {1}{R}\Delta p$, y $\omega =-\frac {1}{K}\Delta p$, se puede escribir el par de ecuaciones diferenciales.
 
 \begin{equation}
+p_{1}=\frac {1}{C_{1}}\left[ -\frac {1}{K}P_{1}-\frac {1}{R_{1}}\left( P_{1}-P_{2}\right) \right] 
 \end{equation}
 
-Donde las resistencias de las válvulas son dadas por R1=2ω1k12 y R2=2ω2k22, y donde –K es la pendiente de la curva de la bomba en el punto de operación. Como se indica en las ecuaciones anteriores, el modelo incremental no tiene entrada y por lo tanto puede responder solo a una condición inicial que no sea cero, que es p1(0)diferente de cero y/o p2 diferente de cero. \\
+\begin{equation}
+p_{1}=\frac {1}{C_{2}}\left[ -\frac {1}{R_{1}}\left( P_{1}-P_{2}\right) -\frac {1}{R_{2}}P_{2}\right] 
+\end{equation}
+
+Donde las resistencias de las válvulas son dadas por $R_{1}=\frac {2\omega _{1}}{\left( k_{1}\right) ^{2}}$ y $R_{2}=\frac {2\omega _{2}}{\left( k_{2}\right) ^{2}}$, y donde –K es la pendiente de la curva de la bomba en el punto de operación. Como se indica en las ecuaciones anteriores, el modelo incremental no tiene entrada y por lo tanto puede responder solo a una condición inicial que no sea cero, que es $p_{1}(0)$ diferente de cero y/o $p_{2}$ diferente de cero. \\
 En la práctica, puede haber corrientes líquidas adicionales que entran ya sea buque, o la velocidad de la bomba puede ser cambiada. También es posible para cualquiera de las dos válvulas que se abren o se cierran ligeramente. Tal cambio modificaría la respectiva resistencia hidráulica. \\
 En la ausencia de una entrada, se puede transformar la ecuación anterior a encontrar la transformada de Laplace de la respuesta cero de entrada. Haciendo esto, se encuentra que después se ve:
 
 \begin{equation}
+\left[ C_{1}s+\left( \frac {1}{k}+\frac {1}{R_{1}}\right) \right] P_{1}\left( s\right) =\frac {1}{R_{1}}P_{2}\left( s\right) +C_{1}P_{1}\left( 0\right) 
 \end{equation}
 
-Se puede encontrar cualquiera de las dos presiones P1 o P2 para combinarlas en estas dos ecuaciones entre una singular transformada. La correspondiente transformada inversa producirá la respuesta de entrada cero en términos p1 y p2. El denominador de cualquiera de las dos p1 y p2 estará la característica del polinomio del sistema, el cual, como se puede verificar, es:
+\begin{equation}
+\left[ C_{1}s+\left( \frac {1}{R_{1}}+\frac {1}{R_{2}}\right) \right] P_{2}\left( s\right) =\frac {1}{R_{1}}P_{1}\left( s\right) +C_{2}P_{2}\left( 0\right) 
+\end{equation}
+
+Se puede encontrar cualquiera de las dos presiones $p_{1}$ o $p_{2}$ para combinarlas en estas dos ecuaciones entre una singular transformada. La correspondiente transformada inversa producirá la respuesta de entrada cero en términos $p_{1}$ y $p_{2}$. El denominador de cualquiera de las dos $p_{1}$ y $p_{2}$ estará la característica del polinomio del sistema, el cual, como se puede verificar, es:
 
 \begin{equation}
+s^{2}+\left[ \frac {1}{C_{2}}\left( \frac {1}{K}+\frac {1}{R_{1}}\right) +\frac {1}{C_{2}}\left( \frac {1}{R_{1}}+\frac {1}{R_{2}}\right) \right] s+\frac {1}{C_{1}C_{2}}\left( \frac {1}{kR_{1}}+\frac {1}{KR_{2}}+\frac {1}{R_{1}R_{2}}\right) 
 \end{equation}
 
 
@@ -624,35 +648,108 @@ Se puede encontrar cualquiera de las dos presiones P1 o P2 para combinarlas en e
 
 \section{Modelamiento}
 
-$A\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}$ \\
-$q_{o}=\frac{h}{R}$ \\
+\begin{equation}
+A\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}
+\end{equation}
 
-$A\frac {dh\left( t\right) }{dt}=q_{i}-\frac {h}{R}$ \\
-$\frac {dh\left( t\right) }{dt}=\frac {q_{i}-\frac {h}{R}}{A}$ \\
-$\frac {dh\left( t\right) }{dt}=\frac {Rq_{i}-h}{AR}$ \\
+Teniendo en cuenta 	que
 
+\begin{equation}
+q_{o}=\frac{h}{R}
+\end{equation}
 
-Evaluando con estado estable \\
-$\frac {d\overline {h\left( 0\right) }}{dt}=\frac {R\overline {q_{i}\left( 0\right) }-\overline {h\left( o\right) }}{AR}$ \\
+Ya que el nivel del tanque es la variable monitoreada se convierte en derivable.\\
+Se reemplaza (1) en (2)
 
-$ARd\frac {\left[ h\left( t\right) -\overline {h\left( 0\right) }\right] }{dt}=R\left[ q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }\right] -\left[ h\left( t\right) -\overline {h\left( 0\right) }\right]$ \\
+\begin{equation}
+A\frac {dh\left( t\right) }{dt}=q_{i}-\frac {h}{R}
+\end{equation}
 
-Variables de desviación \\
-$Q_{in}=q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }$ \\
-$H=h\left( t\right) -\overline {h\left( 0\right) }$ \\
+Se tiene en cuenta que \textit{h}, $Q_{in}$ son variables dependientes de \textit{(t)}
 
-$A\frac {RdH}{dt}=RQ_{in}\left( t\right) -H\left( t\right)$ \\
-$A\frac {RdH}{dt}+H\left( t\right) =RQ_{in}\left( t\right)$ \\
+\begin{equation}
+\frac {dh\left( t\right) }{dt}=\frac {q_{i}-\frac {h}{R}}{A}
+\end{equation}
+
+Separando variables derivables y no derivables
+
+\begin{equation}
+\frac {dh\left( t\right) }{dt}=\frac {Rq_{i}-h}{AR}
+\end{equation}
+
+Evaluando en estado estable, $t=0$
+
+\begin{equation}
+\frac {d\overline {h\left( 0\right) }}{dt}=\frac {R\overline {q_{i}\left( 0\right) }-\overline {h\left( o\right) }}{AR}
+\end{equation}
+
+Operando (resta) (4)-(5) de las variables
+
+%\begin{equation}
+%\end{equation}
+
+\begin{equation}
+ARd\frac {\left[ h\left( t\right) -\overline {h\left( 0\right) }\right] }{dt}=R\left[ q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }\right] -\left[ h\left( t\right) -\overline {h\left( 0\right) }\right]
+\end{equation}
+
+Realizando cambio de variable
+
+\begin{equation}
+Q_{in}=q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }
+\end{equation}
+
+\begin{equation}
+H=h\left( t\right) -\overline {h\left( 0\right) }
+\end{equation}
+
+\begin{equation}
+A\frac {RdH}{dt}=RQ_{in}\left( t\right) -H\left( t\right)
+\end{equation}
+
+Se separan las variables de nivel a un lado de la ecuación
+
+\begin{equation}
+A\frac {RdH}{dt}+H\left( t\right) =RQ_{in}\left( t\right)
+\end{equation}
+
+Realizando segundo cambio de variable en la ecuación 7 \\
+
+\begin{center}
 $\tau =AR$ \\
-$K=R$ \\
+$K=R$
+\end{center}
 
-$\frac {\tau dH}{dt}+H\left( t\right) =KQ_{in}\left( t\right)$ \\
+\begin{equation}
+\frac {\tau dH}{dt}+H\left( t\right) =KQ_{in}\left( t\right)
+\end{equation}
 
-La place \\
-$\tau sH\left( s\right) +H\left( s\right) =kQ_{in}\left( s\right)$ \\
-$H\left( s\right) \left[ \tau s+1\right] =kQ_{in}\left( s\right)$ \\
-$\frac {H\left( s\right) }{Q_{in}\left( s\right) }=\frac {k}{\tau s+1}$ \\
-$\frac {H\left( s\right) }{Qin\left( s\right) }=\frac {R}{AR+1}$ \\
+Se aplica transformada de Laplace para derivada de primer orden en la ecuación 8
+
+\begin{equation}
+\tau sH\left( s\right) +H\left( s\right) =kQ_{in}\left( s\right)
+\end{equation}
+
+Se factorizan terminos de altura \textit{H}
+
+\begin{equation}
+H\left( s\right) \left[ \tau s+1\right] =kQ_{in}\left( s\right)
+\end{equation}
+
+$H(s)$ equivale a la salida del sistema y $Q_{in}(s)$ a la entrada ya que el modelo de función de transferencia es $G=out/in$, se tiene que
+
+\begin{equation}
+\frac {H\left( s\right) }{Q_{in}\left( s\right) }=\frac {k}{\tau s+1}
+\end{equation}
+
+(Modelo de función de transferencia de primer orden) \\
+
+Para realizar el modelo especifico del tanque, es necesario realizar el cambio de variable inverso a la ecuación (8) aplicando la ecuación (11)
+
+\begin{equation}
+\frac {H\left( s\right) }{Qin\left( s\right) }=\frac {R}{AR+1}
+\end{equation}
+
+
 
 
 \newpage
@@ -687,13 +784,13 @@ Así pues, una función lineal es una aproximación de la función original, que
 %\label{Punto de Operación de una función linealizada.}
 %\end{figure}
 
-De este modo, la función linealizada solo es válida en el interior de la región representada por el círculo alrededor del punto negro en la figura 2.\\
+De este modo, la función linealizada solo es válida en el interior de la región representada por el círculo alrededor del punto negro en la figura 2.
 
 %\begin{equation}
 \begin{center}
-	$f\left( x,u\right)=0$\\
-	$f\left( x_{s},u_{s}\right) =0$\\
-	$f\left( x,u\right) = f\left( x_{s},u_{s}\right) +\frac {\partial f}{\partial u}\left( x-x_{s}\right) +\frac {\partial f}{\partial u}\left( u+u_{s}\right) +\ldots$\\
+	$f\left( x,u\right)=0$ \\
+	$f\left( x_{s},u_{s}\right) =0$ \\
+	$f\left( x,u\right) = f\left( x_{s},u_{s}\right) +\frac {\partial f}{\partial u}\left( x-x_{s}\right) +\frac {\partial f}{\partial u}\left( u+u_{s}\right) +\ldots$ \\
 	$\frac {\partial f}{\partial x}\Delta x+\frac {\partial f}{\partial u}\Delta u=0$
 \end{center}
 %\end{equation}

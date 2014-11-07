@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  6 NOV 2014 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  6 NOV 2014 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1537,6 +1537,11 @@ i-li-za-mos $\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 = [] []$,
 LaTeX Info: Redefining \. on input line 431.
 LaTeX Info: Redefining \% on input line 431.
 [21]
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
@@ -1544,698 +1549,367 @@ Underfull \hbox (badness 10000) in paragraph at lines 484--485
 LaTeX Info: Redefining \. on input line 485.
 LaTeX Info: Redefining \% on input line 485.
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
 
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.523 Donde, de ω
-                  = 1R ∆p, el caudal aproximado a través de la válvula es
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:∆ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.523 Donde, de ω= 1R ∆
-                          p, el caudal aproximado a través de la válvula es
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.528 Y donde, de ω
-                    = -1K ∆p, el caudal aproximado a través de la bomba es
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:∆ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.528 Y donde, de ω= -1K ∆
-                             p, el caudal aproximado a través de la bomba es
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 ... el modelo del sistema, usando p1=p1 y ω
-                                                  i=ωo , y nada que ∆p=p1...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 ...modelo del sistema, usando p1=p1 y ωi=ω
-                                                  o , y nada que ∆p=p1 por...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:∆ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 ..., usando p1=p1 y ωi=ωo , y nada que ∆
-                                                  p=p1 porque pa es constant...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Info: Redefining \. on input line 541.
-LaTeX Info: Redefining \% on input line 541.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
 [23]
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.554 ... el flujo de presión con la relación ω
-                                                  1=K1p1-p2 y ω2=k2p2-pa. L...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.554 ...resión con la relación ω1=K1p1-p2 y ω
-                                                  2=k2p2-pa. La presión atm...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--556
+Underfull \hbox (badness 10000) in paragraph at lines 560--562
 
  []
 
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.559 ...�n para los tres caudales sean iguales ω
-                                                  p, ω1 y ω2.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.559 ...ra los tres caudales sean iguales ωp, ω
-                                                  1 y ω2.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.559 ... tres caudales sean iguales ωp, ω1 y ω
-                                                  2.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 El caudal ω
-                  p que pasa a través de la bomba y la presión diferencial...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:∆ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 ...de la bomba y la presión diferencial ∆
-                                                  p1=p1-pa corresponde más ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:∆ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.584 ... Figura 12(a) siendo las válvulas de ∆
-                                                  p1 y ωp, de la cual se pu...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.584 ... 12(a) siendo las válvulas de ∆p1 y ω
-                                                  p, de la cual se puede enc...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 ... el modelo incremental. Usando p=1C(h)[ω
-                                                  in(t)-ωout(t)],  ω=1R∆...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 ...lo incremental. Usando p=1C(h)[ωin(t)-ω
-                                                  out(t)],  ω=1R∆p, y ω=...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 ...al. Usando p=1C(h)[ωin(t)-ωout(t)],  ω
-                                                  =1R∆p, y ω=-1K∆p , se...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:∆ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 ...ando p=1C(h)[ωin(t)-ωout(t)],  ω=1R∆
-                                                  p, y ω=-1K∆p , se puede...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 ...1C(h)[ωin(t)-ωout(t)],  ω=1R∆p, y ω
-                                                  =-1K∆p , se puede escrib...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:∆ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 ...�in(t)-ωout(t)],  ω=1R∆p, y ω=-1K∆
-                                                  p , se puede escribir el p...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (21.2665pt too wide) in paragraph at lines 584--586
-\OT1/cmr/m/n/12 Con es-ta in-for-ma-ci^^Son, se pue-de desa-rro-llar el mo-de-l
-o in-cre-men-tal. Usan-do p=1C(h)[in(t)-
- []
-
-LaTeX Info: Redefining \. on input line 588.
-LaTeX Info: Redefining \% on input line 588.
+LaTeX Info: Redefining \. on input line 600.
+LaTeX Info: Redefining \% on input line 600.
 [24]
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590 ...ias de las válvulas son dadas por R1=2ω
-                                                  1k12 y R2=2ω2k22, y donde...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:ω not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590 ...�lvulas son dadas por R1=2ω1k12 y R2=2ω
-                                                  2k22, y donde –K es la p...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Info: Redefining \. on input line 615.
-LaTeX Info: Redefining \% on input line 615.
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 626--628
+LaTeX Info: Redefining \. on input line 640.
+LaTeX Info: Redefining \% on input line 640.
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 715--716
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 629--632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--636
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--642
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 643--647
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--655
-
- []
-
-LaTeX Info: Redefining \. on input line 657.
-LaTeX Info: Redefining \% on input line 657.
+LaTeX Info: Redefining \. on input line 720.
+LaTeX Info: Redefining \% on input line 720.
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 667--668
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 689--690
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
-
- []
-
-LaTeX Info: Redefining \. on input line 716.
-LaTeX Info: Redefining \% on input line 716.
+LaTeX Info: Redefining \. on input line 755.
+LaTeX Info: Redefining \% on input line 755.
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 743--744
+Underfull \hbox (badness 10000) in paragraph at lines 765--766
 
  []
 
-LaTeX Info: Redefining \. on input line 783.
-LaTeX Info: Redefining \% on input line 783.
-[28]
-LaTeX Info: Redefining \. on input line 804.
-LaTeX Info: Redefining \% on input line 804.
- [29]
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.792 	\\
+          $f\left( x_{s},u_{s}\right) =0$ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.793 	\\
+          $f\left( x,u\right) = f\left( x_{s},u_{s}\right) +\frac {\partial ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.794 	\\
+          $\frac {\partial f}{\partial x}\Delta x+\frac {\partial f}{\partia...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
+
+ []
+
 LaTeX Info: Redefining \. on input line 816.
 LaTeX Info: Redefining \% on input line 816.
- [30]
-LaTeX Info: Redefining \. on input line 828.
-LaTeX Info: Redefining \% on input line 828.
- [31]
-LaTeX Info: Redefining \. on input line 841.
-LaTeX Info: Redefining \% on input line 841.
- [32
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
 
-]
+ []
+
+LaTeX Info: Redefining \. on input line 881.
+LaTeX Info: Redefining \% on input line 881.
+[29]
+LaTeX Info: Redefining \. on input line 902.
+LaTeX Info: Redefining \% on input line 902.
+ [30]
+LaTeX Info: Redefining \. on input line 914.
+LaTeX Info: Redefining \% on input line 914.
+ [31]
+LaTeX Info: Redefining \. on input line 926.
+LaTeX Info: Redefining \% on input line 926.
+ [32]
 Ap\'{e}ndice A.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-Underfull \hbox (badness 10000) in paragraph at lines 864--865
+ [33
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 962--963
 
  []
 
-<tabla1.jpg, id=592, 560.0925pt x 243.15843pt>
+<tabla1.jpg, id=611, 560.0925pt x 243.15843pt>
 File: tabla1.jpg Graphic file (type jpg)
  <use tabla1.jpg>
-Package pdftex.def Info: tabla1.jpg used on input line 879.
+Package pdftex.def Info: tabla1.jpg used on input line 977.
 (pdftex.def)             Requested size: 448.0746pt x 194.52701pt.
 
-Overfull \hbox (21.28325pt too wide) in paragraph at lines 879--881
+Overfull \hbox (21.28325pt too wide) in paragraph at lines 977--979
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pistas.jpg, id=593, 516.42938pt x 487.8225pt>
+<pistas.jpg, id=612, 516.42938pt x 487.8225pt>
 File: pistas.jpg Graphic file (type jpg)
  <use pistas.jpg>
-Package pdftex.def Info: pistas.jpg used on input line 890.
+Package pdftex.def Info: pistas.jpg used on input line 988.
 (pdftex.def)             Requested size: 413.14406pt x 390.25853pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Tabla2.jpg, id=594, 260.47313pt x 166.37157pt>
+<Tabla2.jpg, id=613, 260.47313pt x 166.37157pt>
 File: Tabla2.jpg Graphic file (type jpg)
  <use Tabla2.jpg>
-Package pdftex.def Info: Tabla2.jpg used on input line 907.
+Package pdftex.def Info: Tabla2.jpg used on input line 1005.
 (pdftex.def)             Requested size: 208.37878pt x 133.09741pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 917.
-LaTeX Info: Redefining \% on input line 917.
-[34] <pauta1.jpg, id=604, 206.27063pt x 110.66344pt>
+LaTeX Info: Redefining \. on input line 1015.
+LaTeX Info: Redefining \% on input line 1015.
+[34] <pauta1.jpg, id=623, 206.27063pt x 110.66344pt>
 File: pauta1.jpg Graphic file (type jpg)
  <use pauta1.jpg>
-Package pdftex.def Info: pauta1.jpg used on input line 920.
+Package pdftex.def Info: pauta1.jpg used on input line 1018.
 (pdftex.def)             Requested size: 165.01671pt x 88.53085pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta3.jpg, id=605, 175.40532pt x 115.93312pt>
+<pauta3.jpg, id=624, 175.40532pt x 115.93312pt>
 File: pauta3.jpg Graphic file (type jpg)
  <use pauta3.jpg>
-Package pdftex.def Info: pauta3.jpg used on input line 930.
+Package pdftex.def Info: pauta3.jpg used on input line 1028.
 (pdftex.def)             Requested size: 140.32443pt x 92.74661pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta4.jpg, id=606, 181.42781pt x 117.43875pt>
+<pauta4.jpg, id=625, 181.42781pt x 117.43875pt>
 File: pauta4.jpg Graphic file (type jpg)
  <use pauta4.jpg>
-Package pdftex.def Info: pauta4.jpg used on input line 938.
+Package pdftex.def Info: pauta4.jpg used on input line 1036.
 (pdftex.def)             Requested size: 181.42737pt x 117.43845pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta61.jpg, id=607, 175.40532pt x 116.68594pt>
+<pauta61.jpg, id=626, 175.40532pt x 116.68594pt>
 File: pauta61.jpg Graphic file (type jpg)
  <use pauta61.jpg>
-Package pdftex.def Info: pauta61.jpg used on input line 953.
+Package pdftex.def Info: pauta61.jpg used on input line 1051.
 (pdftex.def)             Requested size: 175.40488pt x 116.68564pt.
-LaTeX Info: Redefining \. on input line 958.
-LaTeX Info: Redefining \% on input line 958.
+LaTeX Info: Redefining \. on input line 1056.
+LaTeX Info: Redefining \% on input line 1056.
  [35pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.958 \item T
-             odos los componentes se pondrán en paralelos a la a los bordes...
+l.1056 \item T
+              odos los componentes se pondrán en paralelos a la a los borde...
  <./tabla1.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta8.jpg, id=621, 175.40532pt x 116.68594pt>
+<pauta8.jpg, id=640, 175.40532pt x 116.68594pt>
 File: pauta8.jpg Graphic file (type jpg)
  <use pauta8.jpg>
-Package pdftex.def Info: pauta8.jpg used on input line 964.
+Package pdftex.def Info: pauta8.jpg used on input line 1062.
 (pdftex.def)             Requested size: 175.40488pt x 116.68564pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 972.
-LaTeX Info: Redefining \% on input line 972.
+LaTeX Info: Redefining \. on input line 1070.
+LaTeX Info: Redefining \% on input line 1070.
 [36pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
 h1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.972 \item L
-             LC <./pistas.jpg>] <LLC.jpg, id=631, 170.13562pt x 82.80937pt>
+l.1070 \item L
+              LC <./pistas.jpg>] <LLC.jpg, id=650, 170.13562pt x 82.80937pt>
 File: LLC.jpg Graphic file (type jpg)
 
 <use LLC.jpg>
-Package pdftex.def Info: LLC.jpg used on input line 975.
+Package pdftex.def Info: LLC.jpg used on input line 1073.
 (pdftex.def)             Requested size: 221.17627pt x 107.65215pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SIMM.jpg, id=632, 174.6525pt x 97.86563pt>
+<SIMM.jpg, id=651, 174.6525pt x 97.86563pt>
 File: SIMM.jpg Graphic file (type jpg)
  <use SIMM.jpg>
-Package pdftex.def Info: SIMM.jpg used on input line 983.
+Package pdftex.def Info: SIMM.jpg used on input line 1081.
 (pdftex.def)             Requested size: 174.65207pt x 97.86537pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--988
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1086
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<DIP.jpg, id=633, 161.10187pt x 93.34875pt>
+<DIP.jpg, id=652, 161.10187pt x 93.34875pt>
 File: DIP.jpg Graphic file (type jpg)
  <use DIP.jpg>
-Package pdftex.def Info: DIP.jpg used on input line 992.
+Package pdftex.def Info: DIP.jpg used on input line 1090.
 (pdftex.def)             Requested size: 161.10147pt x 93.34851pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SIP.jpg, id=634, 171.64125pt x 93.34875pt>
+<SIP.jpg, id=653, 171.64125pt x 93.34875pt>
 File: SIP.jpg Graphic file (type jpg)
  <use SIP.jpg>
-Package pdftex.def Info: SIP.jpg used on input line 1001.
+Package pdftex.def Info: SIP.jpg used on input line 1099.
 (pdftex.def)             Requested size: 171.64081pt x 93.34851pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<TDH.jpg, id=635, 196.48407pt x 93.34875pt>
+<TDH.jpg, id=654, 196.48407pt x 93.34875pt>
 File: TDH.jpg Graphic file (type jpg)
  <use TDH.jpg>
-Package pdftex.def Info: TDH.jpg used on input line 1017.
+Package pdftex.def Info: TDH.jpg used on input line 1115.
 (pdftex.def)             Requested size: 196.48358pt x 93.34851pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1022
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1120
 .
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1022.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1120.
 
 
-<SMD.jpg, id=636, 204.765pt x 97.11281pt>
+<SMD.jpg, id=655, 204.765pt x 97.11281pt>
 File: SMD.jpg Graphic file (type jpg)
  <use SMD.jpg>
-Package pdftex.def Info: SMD.jpg used on input line 1025.
+Package pdftex.def Info: SMD.jpg used on input line 1123.
 (pdftex.def)             Requested size: 204.76448pt x 97.11256pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<MVERTICAL.jpg, id=637, 255.20343pt x 97.11281pt>
+<MVERTICAL.jpg, id=656, 255.20343pt x 97.11281pt>
 File: MVERTICAL.jpg Graphic file (type jpg)
  <use MVERTICAL.jpg>
-Package pdftex.def Info: MVERTICAL.jpg used on input line 1038.
+Package pdftex.def Info: MVERTICAL.jpg used on input line 1136.
 (pdftex.def)             Requested size: 255.2028pt x 97.11256pt.
-LaTeX Info: Redefining \. on input line 1043.
-LaTeX Info: Redefining \% on input line 1043.
+LaTeX Info: Redefining \. on input line 1141.
+LaTeX Info: Redefining \% on input line 1141.
  [37pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1043 \item	M
+l.1141 \item	M
               ontaje HorizontalpdfTeX warning (ext4): destination with the same
  identifier (name{figure.Alph1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1043 \item	M
+l.1141 \item	M
               ontaje Horizontal <./Tabla2.jpg> <./pauta1.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<MHORIZONTAL.jpg, id=648, 255.20343pt x 108.405pt>
+<MHORIZONTAL.jpg, id=667, 255.20343pt x 108.405pt>
 File: MHORIZONTAL.jpg Graphic file (type jpg)
  <use MHORIZONTAL.jpg>
-Package pdftex.def Info: MHORIZONTAL.jpg used on input line 1046.
+Package pdftex.def Info: MHORIZONTAL.jpg used on input line 1144.
 (pdftex.def)             Requested size: 255.2028pt x 108.40472pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
+Underfull \hbox (badness 10000) in paragraph at lines 1151--1152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1160
 
  []
 
-<D_PISTAS2.jpg, id=649, 239.39438pt x 109.1578pt>
+<D_PISTAS2.jpg, id=668, 239.39438pt x 109.1578pt>
 File: D_PISTAS2.jpg Graphic file (type jpg)
  <use D_PISTAS2.jpg>
-Package pdftex.def Info: D_PISTAS2.jpg used on input line 1065.
+Package pdftex.def Info: D_PISTAS2.jpg used on input line 1163.
 (pdftex.def)             Requested size: 311.21265pt x 141.90512pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 
  []
 
-LaTeX Info: Redefining \. on input line 1072.
-LaTeX Info: Redefining \% on input line 1072.
+LaTeX Info: Redefining \. on input line 1170.
+LaTeX Info: Redefining \% on input line 1170.
 [38pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
 h1.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1072 
+l.1170 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .Alph1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1072 
+l.1170 
         <./pauta3.jpg> <./pauta4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1172
 
  []
 
@@ -2320,13 +1994,13 @@ ph1.17}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.2 \begin{thebibliography}{1}
                                <./D_PISTAS2.jpg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1101.
-LaTeX Info: Redefining \. on input line 1101.
-LaTeX Info: Redefining \% on input line 1101.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1199.
+LaTeX Info: Redefining \. on input line 1199.
+LaTeX Info: Redefining \% on input line 1199.
  [43
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1199.
 
 (./proyectotanquesecci.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -2570,8 +2244,8 @@ l.124 ...tas de alimentación}{figure.Alph1.17}{}}
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1101.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1199.
 
 Package rerunfilecheck Info: File `proyectotanquesecci.out' has not changed.
 (rerunfilecheck)             Checksum: 2830155598D412D49D91D0D68CBF3AA1;2029.
@@ -2579,13 +2253,13 @@ Package rerunfilecheck Info: File `proyectotanquesecci.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1101.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1199.
  ) 
 Here is how much of TeX's memory you used:
- 7596 strings out of 493108
- 109278 string characters out of 6134847
+ 7613 strings out of 493108
+ 109552 string characters out of 6134847
  206648 words of memory out of 5000000
- 10726 multiletter control sequences out of 15000+600000
+ 10724 multiletter control sequences out of 15000+600000
  10368 words of font info for 36 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  35i,13n,43p,1151b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2602,10 +2276,10 @@ live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proyectotanquesecci.pdf (45 pages, 972245 bytes).
+Output written on proyectotanquesecci.pdf (45 pages, 977421 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 609 compressed objects within 7 object streams
- 195 named destinations out of 1000 (max. 500000)
+ 789 PDF objects out of 1000 (max. 8388607)
+ 631 compressed objects within 7 object streams
+ 214 named destinations out of 1000 (max. 500000)
  340 words of extra memory for PDF output out of 10000 (max. 10000000)
 
