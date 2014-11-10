@@ -67,6 +67,10 @@ Con frecuencia las universidades tienen herramientas y dispositivos inteligentes
 
 \newpage
 
+
+
+
+
 \section{Introducción}
 
 Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de procesos industriales, científicos de todo el mundo han trabajado para lograr que los procesos de manufactura, control automático, accionamiento sean cada vez más efectivos y más eficientes. Con esta meta se han desarrollado nuevos procesos para lograr alcanzar este mejoramiento continuo de un sistema hidráulico para proyectos en tratamiento de agua.\\
@@ -76,6 +80,33 @@ El diseño de los sistemas hidráulicos se basa en la interconexión de  sistema
 En este artículo nos centraremos particularmente en la revolución de los procesos en sistemas hidráulicos comúnmente se presentan  procesos químicos, sistemas de control automático, actuadores y motores de accionamiento.\\
 
 Este análisis hace persuadir que generalmente estamos involucrados en modelos que ya están implementados y particularmente son modelos lineales por las condiciones de las variables a manejar.\\
+
+\newpage
+
+
+
+
+\section{Objetivos}
+
+\subsection{Objetivo general}
+
+\begin{enumerate}
+\item Diseñar e implementar un sistema de control que permita manipular el nivel de liquido de un tanque; compuesto por celda de carga, válvula proporcional, válvula on/off y variador, de modo que el nivel del mismo se establezca en un set point establecido.
+\end{enumerate}
+
+\subsection{Objetivos específicos}
+
+\begin{enumerate}
+\item Determinar la respuesta en voltaje de la señal de salida del indicador de nivel (celda de carga) en el tanque 1.
+\item Desarrollar el modelamiento del sistema para la respuesta del nivel en el tanque 1.
+\item Realizar la identificación del sistema del tanque 1 y verificar la controlabilidad del mismo.
+\item Implementar un algoritmo en MATLAB que permita la conexión entre el pc y la planta por medio de la tarjeta de National Instruments NI USB 6008.
+\item Implementar un controlador que permita mantener el nivel del tanque 1 en el set-point establecido por el usuario.
+\end{enumerate}
+
+	
+
+
 
 \newpage
 
@@ -132,7 +163,7 @@ p^{*}*(t)=p(t)-pa
 \label{Ecu 1}
 \end{equation}
 
-Una diferencia de presión, denotado por $\Delta p$, es la diferencia entre las presiones en dos puntos.
+Una diferencia de presión, denotado por $\Delta p$, es la diferencia entre las presiones en dos puntos. \\
 
 \subsection{Leyes de los Elementos}
 
@@ -170,7 +201,7 @@ Las ecuaciones (1.2) y (1.3) implican que para cualquier geometría del recipien
 \label{Presi�n en funci�n del volumen y el �rea de un liquido}
 \end{figure}
 
-Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1,1 , entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.
+Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1,1 , entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.\\
 
 \subsubsection{Ejemplo:}
 
@@ -286,7 +317,7 @@ Sustituyendo (1.12) en (1.13) dada la ecuación alternativa por resistencia hidr
 \begin{equation}
 R=\\frac{2\overline{w}}{k^{2}}
 \end{equation}
-Ya que los líquidos típicamente fluyen a través de redes compuestas de tuberías, válvulas y orificios, con frecuencia se debe combinar varias relaciones de la forma de (10) en una sola expresión equivalente. Usamos los modelos linealizados en muchos de nuestros análisis de los sistemas hidráulicos, es importante desarrollar reglas para combinar las resistencias de elementos linealizados que estén en configuración serie y paralelo. En el siguiente ejemplo, considere la relación del flujo versus la presión diferencial y la resistencia equivalente para dos válvulas en serie. La situación del flujo paralelo es tratada en uno de los problemas al final del capítulo.
+Ya que los líquidos típicamente fluyen a través de redes compuestas de tuberías, válvulas y orificios, con frecuencia se debe combinar varias relaciones de la forma de (10) en una sola expresión equivalente. Usamos los modelos linealizados en muchos de nuestros análisis de los sistemas hidráulicos, es importante desarrollar reglas para combinar las resistencias de elementos linealizados que estén en configuración serie y paralelo. En el siguiente ejemplo, considere la relación del flujo versus la presión diferencial y la resistencia equivalente para dos válvulas en serie. La situación del flujo paralelo es tratada en uno de los problemas al final del capítulo. \\
 
 \subsubsection{Ejemplo:}
 
@@ -333,7 +364,7 @@ Sin embargo, para aplicar (1.15) a una válvula individual, vemos que estas resi
 R_{c}=R_{a}+R_{b}
 \end{equation}
 
-La cual es idéntica al resultado para un circuito eléctrico lineal.
+La cual es idéntica al resultado para un circuito eléctrico lineal. \\
 
 \subsection{Fuentes}
 
@@ -477,7 +508,7 @@ El cambio en el nivel incremental es p1/p, cual se convierte en
 h=0.2937\left( 1-\in \right) \ldots falta\ldots 
 \end{equation}
 
-A obtener la respuesta de la presión del caudal y el nivel de líquido, nos limitamos a añadir los valores nominales $p_{1}=1.157\times 10^{5}\frac {N}{m^{2}}$ y $h=1.468m$  de las variables incrementales. Es interesante observar que a causa de la válvula no lineal, el aumento del 10\% en los resultados de la velocidad de flujo en un aumento del 20\% tanto en la presión manométrica p1-pa y la altura h.
+A obtener la respuesta de la presión del caudal y el nivel de líquido, nos limitamos a añadir los valores nominales $p_{1}=1.157\times 10^{5}\frac {N}{m^{2}}$ y $h=1.468m$  de las variables incrementales. Es interesante observar que a causa de la válvula no lineal, el aumento del 10\% en los resultados de la velocidad de flujo en un aumento del 20\% tanto en la presión manométrica p1-pa y la altura h. \\
 
 \subsubsection{Ejemplo 4:}
 
@@ -553,7 +584,7 @@ Luego, si se evalúa la resistencia equivalente $R_{eq}$ se acuerda
 R_{eq}=\frac {RK}{R+K}
 \end{equation}
 
-La cual fue derivada por un recipiente y una sola válvula, excepto por la ausencia de un caudal de entrada.
+La cual fue derivada por un recipiente y una sola válvula, excepto por la ausencia de un caudal de entrada. \\
 
 \subsubsection{Ejemplo 5:}
 
@@ -920,7 +951,263 @@ Variables de desviación
 % ==============================================================================================
 
 \section{Control}
-%\chapter{Control}
+
+\subsection{Uso de SISOTOOL Para diseño de controles}
+
+Sisotool es una poderosa herramienta de MATLAB que facilita en gran medida el diseño de controles. En sisotool se trabaja de forma gráfica, usando el  método del LGR (lugar geométrico de las raíces). Sisotool puede mostrar en tiempo real las variaciones  de la respuesta del sistema generadas por los cambio que el usuario realice en el LGR, y es esto lo que lo hace tan practico para el diseño de controles. Para ejecutar sisotool basta con llamarlo desde la línea de comando de MATLAB  escribiendo \textit{“sisotool”}. \\
+
+Lo primero que se debe hacer antes de empezar a utilizar sisotool es definir la planta a controlar. Para esto se debe tener un modelo de la planta, es decir su función de transferencia. Sino se tiene el modelo de la planta  es imposible utilizar sisotool para el diseño de un controlador para esta. \\
+
+una vez se tiene el modelo de la planta se procede a realizar su definición en MATLAB. esta se hace con la función \textit{"tf"}. Por ejemplo, digamos que vamos a definir la siguiente planta: \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Función de transferencia.}
+%\label{Función de transferencia.}
+%\end{figure}
+
+Primero debemos definir un vector con los coeficientes del numerador y otro con los coeficientes del denominador. los vectores deben empezar por el coeficiente que multiplica a \textit{s} con mayor exponente hasta llegar al coeficiente que multiplica a \textit{s} con potencia cero, es decir el que no multiplica a ningún \textit{s}. si al polinomio de \textit{s} le hace falta alguna potencia de \textit{s} quiere decir que el coeficiente para esa potencia de \textit{s} es igual a cero, por ejemplo; el vector de coeficientes para el polinomio $s^{4}+2s^{2}+s$ debe ser $[1 0 2 1 0]$.  Entonces la definición de la planta mencionada quedaría como sigue: \\
+
+\begin{center}
+$num=[1];$ \\
+$den=[0.03569  0.1449  1];$ \\
+$G=tf(num,den);$ \\
+\end{center}
+
+Al ejecutar estos comandos se crea en el Workspace de Matlab una función de transferencia de la planta con el nombre \textit{"G"}, Por que \textit{G} fue el nombre que le dimos al ejecutar la función \textit{"tf"}.  Ahora se procede a ejecutar \textit{sisotool}, si no se había realizado con anterioridad.  Ejecutamos \textit{"sisotool"} en la linea de comandos de MATLAB y se abren dos ventanas.  Una se llama \textit{"Control and Estimation Tool Manager"} y la otra \textit{"SISO design for SISO Design Task"}. A continuación se muestran imágenes de las ventanas emergentes. Si no se abren ventanas parecidas a estas, probablemente estés utilizando una versión antigua de \textit{Sisotool}. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Control and Estimation Tool Manager.}
+%\label{Control and Estimation Tool Manager.}
+%\end{figure}
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{SISO design for SISO Design Task.}
+%\label{SISO design for SISO Design Task.}
+%\end{figure}
+
+En \textit{“Control and Estimation Tool Manager”} se escoge la arquitectura de control a utilizar. En la pestaña \textit{“Architecture”}, al dar clic en el botón \textit{“Control Achitecture”} se despliega una ventana que muestra una lista de las arquitecturas disponibles. Para este ejemplo se ha seleccionado la primera de la lista, que se muestra en la imagen a continuación. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - Control Architecture.}
+%\label{Ventana - Control Architecture.}
+%\end{figure}
+
+Después de seleccionar la arquitectura, se importa la función de transferencia de $G(s)$ desde la ventana \textit{“SISO Desing for SISO Desing Task”},  con la opción \textit{“importar”} del menú \textit{“File”}. AL dar clic en \textit{“importar”} Se despliega una ventana en donde se muestra una lista de los sistemas de la arquitectura seleccionada, en este caso  $G$, $H$, $C$ y $F$ que por defecto tienen el valor de \textit{"1"}. La imagen de esta ventana se muestra a continuación. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - System Data.}
+%\label{Ventana - System Data.}
+%\end{figure}
+
+Se selecciona \textit{“G”} que corresponde a la planta y se presiona \textit{“Browser”}. Entonces aparece otra ventana que muestra una lista de las funciones de transferencia que se encuentran en el \textit{WorkSpace} y en donde debe estar la función \textit{“G”} definida anteriormente y que corresponde a nuestra planta. La imagen de la nueva ventana es la que sigue. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - Model Import.}
+%\label{Ventana - Model Import.}
+%\end{figure}
+
+Ahora se selecciona nuestra planta es decir \textit{“G”} se presiona \textit{“import”}, se cierra esta ventana y por último se presiona \textit{“OK”} en la ventana anterior. Habiendo hecho esto, las gráficas de la ventana \textit{"SISO design for SISO Design Task"} se debieron modificar, esta ventana debió quedar como la siguiente imagen. Bueno si es que importaron la misma planta de este ejemplo. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - SISO design for SISO Design Task.}
+%\label{Ventana - SISO design for SISO Design Task.}
+%\end{figure}
+
+La gráfica en la parte superior izquierda de esta ventana es la gráfica del $LGR$. las lineas azules de esta gráfica es el $LGR$ y los puntos rosados representan   la posición actual de los polos del sistema a  lazo cerrado.  En la arquitectura que se escogió y en general \textit{"C"} es el compensador, y es este sobre el que se enfoca el diseño. Es decir necesitamos encontrar un compensador que haga que el sistema  funcione como se desea. \\
+
+Entonces ¿Como se desea que funcione el sistema?  pues eso solo lo sabe el que quiere diseñar el control. Para este ejemplo lo que  vamos a hacer es mejorar la respuesta transitoria del sistema, es decir la respuesta del sistema a un escalón. En primer lugar debemos conocer la respuesta del sistema a lazo abierto, es decir de nuestra planta. Para esto utilizamos la herramienta \textit{“Response to step command”} de \textit{sisotool} que se encuentra en el menú \textit{"Analysis"} de la ventana  \textit{"SISO design for SISO Design Task"}. Al ejecutar esto se abre una ventana en la que aparecen dos gráficas. Esta ventana es la que se muestra mas abajo. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+La gráfica de color Azul es la respuesta del sistema a lazo cerrado y la la gráfica de color verde es la señal de salida del compensador. Para ver la respuesta de la planta se da un clic derecho sobre la gráfica, se selecciona \textit{"Systems"} y después \textit{"PlantG"}. Así como se muestra en la imagen a continuación. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Entonces aparece una tercera gráfica, de color azul pero con  una linea discontinua. Esta es la respuesta transitoria de nuestra planta. y nos sirve como referencia para determinar si la respuesta transitoria del sistema a lazo cerrado ha mejorado o no. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Ahora regresamos a la ventana de trabajo, la ventana en donde aparece el $LGR$. Los puntos rosados en el $LGR$ vuelvo a repetir por si ya se nos había olvidado, representan la posición actual de los polos  del sistema a laso cerrado. Estos puntos solo pueden estar sobre la linea de color azul es decir sobre el $LGR$. Por lo que si se desea poner los polos en una determinada posición, el $LGR$ debe pasar por ahí. Esto es muy importante ahora veremos por que. \\
+
+De todo esto surge la pregunta, ¿En donde debo poner los polos para obtener la respuesta deseada?. Pues bien para responder a esto Sisotool ofrece la posibilidad de incluir unos requerimientos de diseño en la gráfica del $LGR$. Esto quiero decir que al especificar los requerimientos del diseño, sisotool traza una gráfica  sobre el $LGR$ que proporciona una idea de donde deben estar los polos para que el sistema funcione como se desea. Con esto surge otra pregunta. ¿Que polos deben estar en los puntos que me indica Sisotool? pues deben ser los polos dominantes. \\
+
+Los polos dominantes son aquellos que más intervienen en la respuesta de un sistema. Aunque la respuesta de un sistema no está completamente determinada por los polos dominantes, puede hallarse una muy buena aproximación de esta hallando la respuesta solo a partir de la contribución de estos polos. Como regla general se toman como polos dominantes aquellos que están más cerca al origen, pues son los que más influyen en la respuesta. \\
+
+Bien ahora agreguemos los requerimientos del diseño. Para este ejemplo vamos a agregar dos requerimientos de diseño. el tiempo de asentamiento o \textit{"Settling time"} y el porcentaje de sobrepaso o \textit{"Percent Overshoot"}. Para agregar un nuevo requerimiento de diseño se da un clic derecho sobre la gráfica del $LGR$ y se selecciona \textit{"Design Requirements"} y luego \textit{"New"}. Así como se muestra en la imagen de abajo. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Los requerimientos que se van a agregar son:
+
+\begin{center}
+Settling time = 0.75 \\
+Percent Overshoot = 5 \\
+\end{center}
+
+Despues de agregar estos requerimientos de diseño  la gráfica del LGR queda como sigue: \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Al agregar el \textit{“Settling time”} se dibuja una línea vertical  y al agregar el \textit{“Percent Overshoot”} se dibujan dos líneas simétricas sobre el eje real  que parten desde el origen con un determinado Angulo y que interceptan la línea dibujada por el \textit{“Settling time”}. Entonces para que se cumplan los requerimientos del diseño los polos dominantes del sistema se deben encontrar en estos puntos de intersección o muy cerca de ellos. Pero ¿Como muevo los polos hacia estos puntos si la linea del $LGR$ no pasa por ahí?. Bueno aquí viene lo complicado del proceso de diseño. \\
+
+El proceso de diseño del compensador mediante el método LGR consiste en agregar polos o ceros al compensador  para modificar el $LGR$ de tal forma que este pase por los  puntos determinados en donde deben estar los polos dominantes para obtener la respuesta deseada. Después de que esto de consigue, se arrastran los polos  hasta estos puntos, y entonces la gráfica de la respuesta del sistema debe coincidir con la respuesta deseada. Pero puede que esto no ocurra, y seguramente se debe a que los polos que se ubican en estos puntos no son los dominantes. \\
+
+Para poder predecir los cambios que sufre el $LGR$  al agregar un polo o un cero se debe tener  un buen conocimiento de la forma en que se dibuja el $LGR$. Si no posee este conocimiento se recomienda leer las secciones $6.1$, $6.2$ y $6.3$ del capitulo 6 del libro \textit{Ingeniería de Control Moderna de Ogata}. \\
+
+Las opciones para agregar o quitar polos o ceros están donde indica la imagen de abajo. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Ahora si, podemos empezar con el diseño. Para poder correr los polos hacia la izquierda agregamos un cero en el eje real. movemos este cero hasta que el $LGR$ pase por los puntos indicados y arrastramos los polos hasta estos puntos. Despues hacer esto la gráfica del $LGR$ ha debido de que dar como sigue. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Y la gráfica de  la respuesta del sistema que se muestra con la linea azul continua ha debido quedar como sigue. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+En esta imagen se puede apreciar que efectivamente  el tiempo de asentamiento de la respuesta del sistema a lazo cerrado ahora se encuentra alrededor se $0.75 segundos$. aunque no es tan claro que se halla cumplido con el requerimiento del porcentaje de sobrepaso. Como se dijo antes al especificar los requerimientos del diseño, \textit{sisotool} traza una gráfica  sobre el $LGR$ que proporciona una idea de donde deben estar los polos para que el sistema funcione como se desea. Es decir solo da una  aproximación. \\
+
+Bueno, seguimos con el diseño. Se logro cumplir con el requerimiento de tiempo de asentamiento pero se genero otro problema y es el gran error en estado estacionario que posee ahora el sistema a lazo cerrado. La salida debe asentarse en un valor de $1$ pero lo está haciendo en un valor aproximadamente de $0.45$. Ahora para corregir el error en estado estacionario se agrega un integrador, es decir un polo en el origen. El $LGR$ queda como sigue. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Y la gráfica de la respuesta del sistema así. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Tal como se ve, ahora no hay error en estado estacionario pero todo lo demás está peor. Y la gráfica del $LGR$ se modifico totalmente. Pero no hay que preocuparse, la gráfica del $LGR$ puede restablecerse a una forma muy parecida a la anterior agregando un cero en el eje real entre el cero que se había agregado antes y el polo en el origen que se agregó ahora.  Ya que esto obliga a que la parte del $LGR$ que empieza desde el polo en el origen llegue solo hasta el nuevo cero que se agregó. haciendo esto que los polos complejos conjugados que existían originalmente vuelvan a interactuar de la misma forma que antes con el primer cero que se agregó. Al agregar el nuevo cero el $LGR$ queda así: \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Como ahora el polo que esta mas cerca al origen fue el que se agregó. Ya los otros dos polos complejos conjugados no son los dominantes, por lo que las gráficas de los requerimientos de  diseño ya no nos ayudan mucho. \\
+
+Como regla general un sistema es mas estable entre más alejados del origen se encuentren sus polos. Así que corramos los polos a la izquierda para ver el resultado. \\
+
+Mientra movemos los polos hacia la izquierda llega un punto en el que se obtiene la siguiente gráfica de la respuesta del sistema. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Como se puede ver, esta respuesta es bastante mejor de lo que teníamos planeado diseñar. pero también pueden ocurrir casos en los que no logramos llegar siquiera a los objetivos planteados inicialmente. Si se siguen moviendo los polos a la izquierda la respuesta seguirá mejorando, pero cuando hacemos eso estamos aumentando la ganancia del compensador, y no se podrá implementar un compensador que tenga una ganancia muy elevada. \\
+
+Para ver como quedó la función de transferencia del compensador  se selecciona la opción  \textit{"Edit Compensator"} del menú \textit{"designs"} que aparece   en la siguiente imagen. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Y se abre una ventana donde se muestra la ecuación del compensador que se debe utilizar para conseguir la respuesta a la que se ha llegado. Tal como en la siguiente imagen. \\
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.5]{}
+%\renewcommand{\figurename}{Fig.}
+%\caption{Ventana - LTI Viewer for SISO Design Task.}
+%\label{Ventana - LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+
+
+
+
+
 
 
 \newpage
@@ -996,6 +1283,7 @@ El ancho de la pista se clacula según las especificaciones de corriente que val
 Ancho=\frac{Area}{L*1,378}
 \label{Ecu 2}
 \end{equation}
+\\
 
 \subsection{UNE 20-55-2753}
 Esta norma define el tamaño del nudo de soldadura el cual es dependiente del  diámetro del agujero  y su forma, a continuación se muestra las Tabla nominal de nudos y agujeros.
@@ -1150,7 +1438,7 @@ De acuerdo al tipo de componente  y al tipo de rejillas o agujeros que posea la 
 
 Una de las prácticas más recomendadas es la separación de componentes análogos de los digitales para evitar problemas  de tamaño, vibración  y resonancia entre los mismo por esta razón se recomienda usar clips de fijación,\\
 
-Para la disposición de los componentes en la placa, estos deben ser fijados  de forma paralela a los ejes X y Y,  pues se debe permitir la identificación  de su código, nomenclatura, valor, etc.
+Para la disposición de los componentes en la placa, estos deben ser fijados  de forma paralela a los ejes X y Y,  pues se debe permitir la identificación  de su código, nomenclatura, valor, etc. \\
 
 \section{Diseño de Pistas}
 

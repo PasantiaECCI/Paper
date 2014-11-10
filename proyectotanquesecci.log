@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  6 NOV 2014 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  9 NOV 2014 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,575 +529,6 @@ Version 1.0, Aug 13, 1994
 ) (./proyectotanquesecci.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
-      }{Package inputenc Error: Unicode char \u8:� not set up for use with La
-TeX}{See the inputenc package documentation for explanation.}{Your command was 
-ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
-.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-Your command was ignored.
-Type I <command> <return> to replace it with another command,
-or <return> to continue without it.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
-      }{Package inputenc Error: Unicode char \u8:� not set up for use with La
-TeX}{See the inputenc package documentation for explanation.}{Your command was 
-ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
-.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-Your command was ignored.
-Type I <command> <return> to replace it with another command,
-or <return> to continue without it.
-
-
-! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
-      }{Package inputenc Error: Unicode char \u8:� not set up for use with La
-TeX}{See the inputenc package documentation for explanation.}{Your command was 
-ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
-.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-Your command was ignored.
-Type I <command> <return> to replace it with another command,
-or <return> to continue without it.
-
-! Extra \endcsname.
-\@ifundefined ...dafter \ifx \csname #1\endcsname 
-                                                  \relax \expandafter \@firs...
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
-      }{Package inputenc Error: Unicode char \u8:� not set up for use with La
-TeX}{See the inputenc package documentation for explanation.}{Your command was 
-ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
-.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-Your command was ignored.
-Type I <command> <return> to replace it with another command,
-or <return> to continue without it.
-
-
-! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
-      }{Package inputenc Error: Unicode char \u8:� not set up for use with La
-TeX}{See the inputenc package documentation for explanation.}{Your command was 
-ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
-.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-Your command was ignored.
-Type I <command> <return> to replace it with another command,
-or <return> to continue without it.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.46 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Vaso cil\IeC {\'\i }ndrico. (a) Cilindro vertical. (b) Ci
-lindro horizontal.' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.46 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.46 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.46 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.53 ...e una válvula hidráulica}{figure.2.3}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `simbolo de una v\IeC {\'a}lvula hidr\IeC {\'a}ulica.' mul
-tiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.53 ...e una válvula hidráulica}{figure.2.3}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.53 ...e una válvula hidráulica}{figure.2.3}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.53 ...e una válvula hidráulica}{figure.2.3}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.55 ...la resistencia hidráulica}{figure.2.4}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `(a) velocidad de flujo vs presi\IeC {\'o}n diferencial. (
-b) Interpretaci\IeC {\'o}n de la resistencia hidr\IeC {\'a}ulica.' multiply def
-ined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.55 ...la resistencia hidráulica}{figure.2.4}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.55 ...la resistencia hidráulica}{figure.2.4}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.55 ...la resistencia hidráulica}{figure.2.4}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.58 ... (b). Válvula equivalente}{figure.2.5}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Dos v\IeC {\'a}lvulas en serie (b). V\IeC {\'a}lvula equi
-valente.' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.58 ... (b). Válvula equivalente}{figure.2.5}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.58 ... (b). Válvula equivalente}{figure.2.5}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.58 ... (b). Válvula equivalente}{figure.2.5}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: Label `Ecu 2' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.91 ...}{37}{Tamaño de nudos}{figure.Alph1.3}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Tama\IeC {\~n}o de nudos' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.91 ...}{37}{Tamaño de nudos}{figure.Alph1.3}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.91 ...}{37}{Tamaño de nudos}{figure.Alph1.3}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.91 ...}{37}{Tamaño de nudos}{figure.Alph1.3}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.93 ...}{37}{Diseño de pists}{figure.Alph1.4}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Dise\IeC {\~n}o de pistas' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.93 ...}{37}{Diseño de pists}{figure.Alph1.4}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.93 ...}{37}{Diseño de pists}{figure.Alph1.4}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.93 ...}{37}{Diseño de pists}{figure.Alph1.4}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.96 ...a el diseño de pistas}{figure.Alph1.5}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Angulos oara el dise\IeC {\~n}o de pistas ' multiply defi
-ned.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.96 ...a el diseño de pistas}{figure.Alph1.5}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.96 ...a el diseño de pistas}{figure.Alph1.5}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.96 ...a el diseño de pistas}{figure.Alph1.5}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.98 ...rcaciones entre pistas}{figure.Alph1.6}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Dise\IeC {\~n}o de bifurcaciones entre pista ' multiply d
-efined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.98 ...rcaciones entre pistas}{figure.Alph1.6}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.98 ...rcaciones entre pistas}{figure.Alph1.6}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.98 ...rcaciones entre pistas}{figure.Alph1.6}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.103 ...aración entre pistas}{figure.Alph1.7}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Separaci\IeC {\'o}n entre pistas' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.103 ...aración entre pistas}{figure.Alph1.7}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.103 ...aración entre pistas}{figure.Alph1.7}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.103 ...aración entre pistas}{figure.Alph1.7}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.105 ... componentes y pistas}{figure.Alph1.8}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Separaci\IeC {\'o}n entre componentes y pistas ' multiply
- defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.105 ... componentes y pistas}{figure.Alph1.8}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.105 ... componentes y pistas}{figure.Alph1.8}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.105 ... componentes y pistas}{figure.Alph1.8}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.124 ...tas de alimentación}{figure.Alph1.17}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `Pistas de alimentaci\IeC {\'o}n ' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.124 ...tas de alimentación}{figure.Alph1.17}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.124 ...tas de alimentación}{figure.Alph1.17}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
-                                                  
-l.124 ...tas de alimentación}{figure.Alph1.17}{}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 )
 \openout1 = `proyectotanquesecci.aux'.
 
@@ -1115,7 +546,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
- (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
 \scratchdimen=\dimen118
@@ -1164,19 +596,6 @@ LaTeX Info: Redefining \nameref on input line 43.
 
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-[2
-
-]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1185,18 +604,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: No \author given.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.45 \renewcommand
-                  {\contentsname}{Tabla de Contenido} [1]pdfTeX warning (ext4):
- destination with the same identifier (name{page.2}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.48 \tableofcontents
-                      [2
+[1
+
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2
 
 ] (./proyectotanquesecci.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -1218,8 +636,7 @@ LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
  [4
 
-]
-(./proyectotanquesecci.lot
+] (./proyectotanquesecci.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1231,7 +648,8 @@ LaTeX Info: Redefining \% on input line 50.
  [5]
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [6
+
+[6
 
 ] (./proyectotanquesecci.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -1265,16 +683,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -1284,639 +692,825 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
-LaTeX Info: Redefining \. on input line 105.
-LaTeX Info: Redefining \% on input line 105.
-[11]
-LaTeX Info: Redefining \. on input line 105.
-LaTeX Info: Redefining \% on input line 105.
- [12
-
-]
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+[12]
 Cap\'{\i }tulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-LaTeX Info: Redefining \. on input line 158.
-LaTeX Info: Redefining \% on input line 158.
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<Figura1.pdf, id=270, 808.52063pt x 288.3272pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+[13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+LaTeX Info: Redefining \. on input line 186.
+LaTeX Info: Redefining \% on input line 186.
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+<Figura1.pdf, id=290, 808.52063pt x 288.3272pt>
 File: Figura1.pdf Graphic file (type pdf)
  <use Figura1.pdf>
-Package pdftex.def Info: Figura1.pdf used on input line 167.
+Package pdftex.def Info: Figura1.pdf used on input line 198.
 (pdftex.def)             Requested size: 323.40253pt x 115.32883pt.
 
-<Figura2.pdf, id=271, 685.8122pt x 346.29375pt>
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+<Figura2.pdf, id=291, 685.8122pt x 346.29375pt>
 File: Figura2.pdf Graphic file (type pdf)
  <use Figura2.pdf>
-Package pdftex.def Info: Figura2.pdf used on input line 182.
+Package pdftex.def Info: Figura2.pdf used on input line 213.
 (pdftex.def)             Requested size: 274.32002pt x 138.51503pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
- []
-
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.191 
-       <./Figura1.pdf> <./Figura2.pdf
-
-pdfTeX warning: /usr/texbin/pdflatex (file ./Figura2.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->] <Figura3.pdf, id=328, 426.84468pt x 285.31593pt>
-File: Figura3.pdf Graphic file (type pdf)
- <use Figura3.pdf>
-Package pdftex.def Info: Figura3.pdf used on input line 203.
-(pdftex.def)             Requested size: 213.42181pt x 142.65761pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-<Figura4.pdf, id=329, 234.8775pt x 127.22531pt>
-File: Figura4.pdf Graphic file (type pdf)
- <use Figura4.pdf>
-Package pdftex.def Info: Figura4.pdf used on input line 221.
-(pdftex.def)             Requested size: 117.43846pt x 63.61249pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+[15 <./Figura1.pdf>] <Figura3.pdf, id=330, 426.84468pt x 285.31593pt>
+File: Figura3.pdf Graphic file (type pdf)
+
+<use Figura3.pdf>
+Package pdftex.def Info: Figura3.pdf used on input line 234.
+(pdftex.def)             Requested size: 213.42181pt x 142.65761pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+LaTeX Info: Redefining \. on input line 248.
+LaTeX Info: Redefining \% on input line 248.
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.228 
-       <./Figura3.pdf>] <Figura5.pdf, id=361, 770.12718pt x 323.70938pt>
-File: Figura5.pdf Graphic file (type pdf)
+l.248 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.2.2}) has been already used, duplicate ignored
 
-<use Figura5.pdf>
-Package pdftex.def Info: Figura5.pdf used on input line 231.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.248 \end{equation}
+                     <./Figura2.pdf> <./Figura3.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figura3.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] <Figura4.pdf, id=379, 234.8775pt x 127.22531pt>
+File: Figura4.pdf Graphic file (type pdf)
+ <use Figura4.pdf>
+Package pdftex.def Info: Figura4.pdf used on input line 252.
+(pdftex.def)             Requested size: 117.43846pt x 63.61249pt.
+
+<Figura5.pdf, id=380, 770.12718pt x 323.70938pt>
+File: Figura5.pdf Graphic file (type pdf)
+ <use Figura5.pdf>
+Package pdftex.def Info: Figura5.pdf used on input line 262.
 (pdftex.def)             Requested size: 385.06264pt x 161.8543pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-LaTeX Info: Redefining \. on input line 256.
-LaTeX Info: Redefining \% on input line 256.
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.256 \end{equation}
+l.283 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.256 \end{equation}
+l.283 \end{equation}
                      <./Figura4.pdf> <./Figura5.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Figura5.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-Overfull \hbox (2.27502pt too wide) in paragraph at lines 285--286
+Overfull \hbox (2.27502pt too wide) in paragraph at lines 316--317
 []\OT1/cmr/m/n/12 Sustituyendo (1.12) en (1.13) da-da la ecua-ci^^Son al-ter-na
 -ti-va por re-sis-ten-cia hidr^^Sauli-
  []
 
-<Figura6.pdf, id=425, 532.23843pt x 161.85469pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
+
+ []
+
+<Figura6.pdf, id=443, 532.23843pt x 161.85469pt>
 File: Figura6.pdf Graphic file (type pdf)
  <use Figura6.pdf>
-Package pdftex.def Info: Figura6.pdf used on input line 297.
+Package pdftex.def Info: Figura6.pdf used on input line 328.
 (pdftex.def)             Requested size: 266.11856pt x 80.92714pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 309.
-LaTeX Info: Redefining \% on input line 309.
+LaTeX Info: Redefining \. on input line 337.
+LaTeX Info: Redefining \% on input line 337.
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-LaTeX Info: Redefining \. on input line 341.
-LaTeX Info: Redefining \% on input line 341.
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+LaTeX Info: Redefining \. on input line 372.
+LaTeX Info: Redefining \% on input line 372.
 [19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 
+l.372 
        <./Figura6.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
-LaTeX Info: Redefining \. on input line 382.
-LaTeX Info: Redefining \% on input line 382.
+LaTeX Info: Redefining \. on input line 413.
+LaTeX Info: Redefining \% on input line 413.
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 385--387
+Underfull \hbox (badness 10000) in paragraph at lines 416--418
 
  []
 
 
-Overfull \hbox (25.35431pt too wide) in paragraph at lines 409--410
+Overfull \hbox (25.35431pt too wide) in paragraph at lines 440--441
 []\OT1/cmr/m/n/12 Tomando la pre-si^^Son p1 co-mo la va-ria-ble de es-ta-do, ut
 i-li-za-mos $\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 = [] []$,
  []
 
-LaTeX Info: Redefining \. on input line 431.
-LaTeX Info: Redefining \% on input line 431.
+LaTeX Info: Redefining \. on input line 462.
+LaTeX Info: Redefining \% on input line 462.
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
 
  []
 
-LaTeX Info: Redefining \. on input line 485.
-LaTeX Info: Redefining \% on input line 485.
+LaTeX Info: Redefining \. on input line 513.
+LaTeX Info: Redefining \% on input line 513.
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
-LaTeX Info: Redefining \. on input line 543.
-LaTeX Info: Redefining \% on input line 543.
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
+
+ []
+
+LaTeX Info: Redefining \. on input line 568.
+LaTeX Info: Redefining \% on input line 568.
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 560--562
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 
  []
 
-LaTeX Info: Redefining \. on input line 600.
-LaTeX Info: Redefining \% on input line 600.
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--593
+
+ []
+
+LaTeX Info: Redefining \. on input line 625.
+LaTeX Info: Redefining \% on input line 625.
 [24]
-LaTeX Info: Redefining \. on input line 640.
-LaTeX Info: Redefining \% on input line 640.
+LaTeX Info: Redefining \. on input line 671.
+LaTeX Info: Redefining \% on input line 671.
  [25]
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
-LaTeX Info: Redefining \. on input line 720.
-LaTeX Info: Redefining \% on input line 720.
+LaTeX Info: Redefining \. on input line 751.
+LaTeX Info: Redefining \% on input line 751.
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-
- []
-
-LaTeX Info: Redefining \. on input line 755.
-LaTeX Info: Redefining \% on input line 755.
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 775--776
 
  []
 
+LaTeX Info: Redefining \. on input line 786.
+LaTeX Info: Redefining \% on input line 786.
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 796--797
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--778
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
 
  []
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.792 	\\
-          $f\left( x_{s},u_{s}\right) =0$ \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.793 	\\
-          $f\left( x,u\right) = f\left( x_{s},u_{s}\right) +\frac {\partial ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.794 	\\
-          $\frac {\partial f}{\partial x}\Delta x+\frac {\partial f}{\partia...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
 
  []
 
-LaTeX Info: Redefining \. on input line 816.
-LaTeX Info: Redefining \% on input line 816.
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--843
+
+ []
+
+LaTeX Info: Redefining \. on input line 847.
+LaTeX Info: Redefining \% on input line 847.
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 841--842
+Underfull \hbox (badness 10000) in paragraph at lines 872--873
 
  []
 
-LaTeX Info: Redefining \. on input line 881.
-LaTeX Info: Redefining \% on input line 881.
+LaTeX Info: Redefining \. on input line 912.
+LaTeX Info: Redefining \% on input line 912.
 [29]
-LaTeX Info: Redefining \. on input line 902.
-LaTeX Info: Redefining \% on input line 902.
+LaTeX Info: Redefining \. on input line 933.
+LaTeX Info: Redefining \% on input line 933.
  [30]
-LaTeX Info: Redefining \. on input line 914.
-LaTeX Info: Redefining \% on input line 914.
+LaTeX Info: Redefining \. on input line 945.
+LaTeX Info: Redefining \% on input line 945.
  [31]
-LaTeX Info: Redefining \. on input line 926.
-LaTeX Info: Redefining \% on input line 926.
- [32]
+Underfull \hbox (badness 10000) in paragraph at lines 957--958
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
+
+ []
+
+LaTeX Info: Redefining \. on input line 998.
+LaTeX Info: Redefining \% on input line 998.
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+
+ []
+
+LaTeX Info: Redefining \. on input line 1060.
+LaTeX Info: Redefining \% on input line 1060.
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1092--1093
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
+
+ []
+
+LaTeX Info: Redefining \. on input line 1103.
+LaTeX Info: Redefining \% on input line 1103.
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
+
+ []
+
+LaTeX Info: Redefining \. on input line 1161.
+LaTeX Info: Redefining \% on input line 1161.
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
+
+ []
+
+LaTeX Info: Redefining \. on input line 1213.
+LaTeX Info: Redefining \% on input line 1213.
+[36]
 Ap\'{e}ndice A.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 962--963
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1250
 
  []
 
-<tabla1.jpg, id=611, 560.0925pt x 243.15843pt>
+<tabla1.jpg, id=649, 560.0925pt x 243.15843pt>
 File: tabla1.jpg Graphic file (type jpg)
  <use tabla1.jpg>
-Package pdftex.def Info: tabla1.jpg used on input line 977.
+Package pdftex.def Info: tabla1.jpg used on input line 1264.
 (pdftex.def)             Requested size: 448.0746pt x 194.52701pt.
 
-Overfull \hbox (21.28325pt too wide) in paragraph at lines 977--979
+Overfull \hbox (21.28325pt too wide) in paragraph at lines 1264--1266
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pistas.jpg, id=612, 516.42938pt x 487.8225pt>
+<pistas.jpg, id=650, 516.42938pt x 487.8225pt>
 File: pistas.jpg Graphic file (type jpg)
  <use pistas.jpg>
-Package pdftex.def Info: pistas.jpg used on input line 988.
+Package pdftex.def Info: pistas.jpg used on input line 1275.
 (pdftex.def)             Requested size: 413.14406pt x 390.25853pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Tabla2.jpg, id=613, 260.47313pt x 166.37157pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1287
+
+ []
+
+<Tabla2.jpg, id=651, 260.47313pt x 166.37157pt>
 File: Tabla2.jpg Graphic file (type jpg)
  <use Tabla2.jpg>
-Package pdftex.def Info: Tabla2.jpg used on input line 1005.
+Package pdftex.def Info: Tabla2.jpg used on input line 1293.
 (pdftex.def)             Requested size: 208.37878pt x 133.09741pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 1015.
-LaTeX Info: Redefining \% on input line 1015.
-[34] <pauta1.jpg, id=623, 206.27063pt x 110.66344pt>
+LaTeX Info: Redefining \. on input line 1303.
+LaTeX Info: Redefining \% on input line 1303.
+[38] <pauta1.jpg, id=661, 206.27063pt x 110.66344pt>
 File: pauta1.jpg Graphic file (type jpg)
  <use pauta1.jpg>
-Package pdftex.def Info: pauta1.jpg used on input line 1018.
+Package pdftex.def Info: pauta1.jpg used on input line 1306.
 (pdftex.def)             Requested size: 165.01671pt x 88.53085pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta3.jpg, id=624, 175.40532pt x 115.93312pt>
+<pauta3.jpg, id=662, 175.40532pt x 115.93312pt>
 File: pauta3.jpg Graphic file (type jpg)
  <use pauta3.jpg>
-Package pdftex.def Info: pauta3.jpg used on input line 1028.
+Package pdftex.def Info: pauta3.jpg used on input line 1316.
 (pdftex.def)             Requested size: 140.32443pt x 92.74661pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta4.jpg, id=625, 181.42781pt x 117.43875pt>
+<pauta4.jpg, id=663, 181.42781pt x 117.43875pt>
 File: pauta4.jpg Graphic file (type jpg)
  <use pauta4.jpg>
-Package pdftex.def Info: pauta4.jpg used on input line 1036.
+Package pdftex.def Info: pauta4.jpg used on input line 1324.
 (pdftex.def)             Requested size: 181.42737pt x 117.43845pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta61.jpg, id=626, 175.40532pt x 116.68594pt>
+<pauta61.jpg, id=664, 175.40532pt x 116.68594pt>
 File: pauta61.jpg Graphic file (type jpg)
  <use pauta61.jpg>
-Package pdftex.def Info: pauta61.jpg used on input line 1051.
+Package pdftex.def Info: pauta61.jpg used on input line 1339.
 (pdftex.def)             Requested size: 175.40488pt x 116.68564pt.
-LaTeX Info: Redefining \. on input line 1056.
-LaTeX Info: Redefining \% on input line 1056.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+LaTeX Info: Redefining \. on input line 1344.
+LaTeX Info: Redefining \% on input line 1344.
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1056 \item T
+l.1344 \item T
               odos los componentes se pondrán en paralelos a la a los borde...
  <./tabla1.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pauta8.jpg, id=640, 175.40532pt x 116.68594pt>
+<pauta8.jpg, id=677, 175.40532pt x 116.68594pt>
 File: pauta8.jpg Graphic file (type jpg)
  <use pauta8.jpg>
-Package pdftex.def Info: pauta8.jpg used on input line 1062.
+Package pdftex.def Info: pauta8.jpg used on input line 1350.
 (pdftex.def)             Requested size: 175.40488pt x 116.68564pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 1070.
-LaTeX Info: Redefining \% on input line 1070.
-[36pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+LaTeX Info: Redefining \. on input line 1358.
+LaTeX Info: Redefining \% on input line 1358.
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
 h1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1070 \item L
-              LC <./pistas.jpg>] <LLC.jpg, id=650, 170.13562pt x 82.80937pt>
+l.1358 \item L
+              LC <./pistas.jpg>] <LLC.jpg, id=687, 170.13562pt x 82.80937pt>
 File: LLC.jpg Graphic file (type jpg)
 
 <use LLC.jpg>
-Package pdftex.def Info: LLC.jpg used on input line 1073.
+Package pdftex.def Info: LLC.jpg used on input line 1361.
 (pdftex.def)             Requested size: 221.17627pt x 107.65215pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SIMM.jpg, id=651, 174.6525pt x 97.86563pt>
+<SIMM.jpg, id=688, 174.6525pt x 97.86563pt>
 File: SIMM.jpg Graphic file (type jpg)
  <use SIMM.jpg>
-Package pdftex.def Info: SIMM.jpg used on input line 1081.
+Package pdftex.def Info: SIMM.jpg used on input line 1369.
 (pdftex.def)             Requested size: 174.65207pt x 97.86537pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1086
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1374
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<DIP.jpg, id=652, 161.10187pt x 93.34875pt>
+<DIP.jpg, id=689, 161.10187pt x 93.34875pt>
 File: DIP.jpg Graphic file (type jpg)
  <use DIP.jpg>
-Package pdftex.def Info: DIP.jpg used on input line 1090.
+Package pdftex.def Info: DIP.jpg used on input line 1378.
 (pdftex.def)             Requested size: 161.10147pt x 93.34851pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SIP.jpg, id=653, 171.64125pt x 93.34875pt>
+<SIP.jpg, id=690, 171.64125pt x 93.34875pt>
 File: SIP.jpg Graphic file (type jpg)
  <use SIP.jpg>
-Package pdftex.def Info: SIP.jpg used on input line 1099.
+Package pdftex.def Info: SIP.jpg used on input line 1387.
 (pdftex.def)             Requested size: 171.64081pt x 93.34851pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<TDH.jpg, id=654, 196.48407pt x 93.34875pt>
+<TDH.jpg, id=691, 196.48407pt x 93.34875pt>
 File: TDH.jpg Graphic file (type jpg)
  <use TDH.jpg>
-Package pdftex.def Info: TDH.jpg used on input line 1115.
+Package pdftex.def Info: TDH.jpg used on input line 1403.
 (pdftex.def)             Requested size: 196.48358pt x 93.34851pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1120
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1408
 .
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1120.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1408.
 
 
-<SMD.jpg, id=655, 204.765pt x 97.11281pt>
+<SMD.jpg, id=692, 204.765pt x 97.11281pt>
 File: SMD.jpg Graphic file (type jpg)
  <use SMD.jpg>
-Package pdftex.def Info: SMD.jpg used on input line 1123.
+Package pdftex.def Info: SMD.jpg used on input line 1411.
 (pdftex.def)             Requested size: 204.76448pt x 97.11256pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<MVERTICAL.jpg, id=656, 255.20343pt x 97.11281pt>
+<MVERTICAL.jpg, id=693, 255.20343pt x 97.11281pt>
 File: MVERTICAL.jpg Graphic file (type jpg)
  <use MVERTICAL.jpg>
-Package pdftex.def Info: MVERTICAL.jpg used on input line 1136.
+Package pdftex.def Info: MVERTICAL.jpg used on input line 1424.
 (pdftex.def)             Requested size: 255.2028pt x 97.11256pt.
-LaTeX Info: Redefining \. on input line 1141.
-LaTeX Info: Redefining \% on input line 1141.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+LaTeX Info: Redefining \. on input line 1429.
+LaTeX Info: Redefining \% on input line 1429.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1141 \item	M
+l.1429 \item	M
               ontaje HorizontalpdfTeX warning (ext4): destination with the same
  identifier (name{figure.Alph1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1141 \item	M
+l.1429 \item	M
               ontaje Horizontal <./Tabla2.jpg> <./pauta1.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<MHORIZONTAL.jpg, id=667, 255.20343pt x 108.405pt>
+<MHORIZONTAL.jpg, id=704, 255.20343pt x 108.405pt>
 File: MHORIZONTAL.jpg Graphic file (type jpg)
  <use MHORIZONTAL.jpg>
-Package pdftex.def Info: MHORIZONTAL.jpg used on input line 1144.
+Package pdftex.def Info: MHORIZONTAL.jpg used on input line 1432.
 (pdftex.def)             Requested size: 255.2028pt x 108.40472pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1152
+Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1160
+Underfull \hbox (badness 10000) in paragraph at lines 1445--1446
 
  []
 
-<D_PISTAS2.jpg, id=668, 239.39438pt x 109.1578pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1447--1448
+
+ []
+
+<D_PISTAS2.jpg, id=705, 239.39438pt x 109.1578pt>
 File: D_PISTAS2.jpg Graphic file (type jpg)
  <use D_PISTAS2.jpg>
-Package pdftex.def Info: D_PISTAS2.jpg used on input line 1163.
+Package pdftex.def Info: D_PISTAS2.jpg used on input line 1451.
 (pdftex.def)             Requested size: 311.21265pt x 141.90512pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
 
  []
 
-LaTeX Info: Redefining \. on input line 1170.
-LaTeX Info: Redefining \% on input line 1170.
-[38pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+LaTeX Info: Redefining \. on input line 1458.
+LaTeX Info: Redefining \% on input line 1458.
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
 h1.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1170 
+l.1458 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .Alph1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1170 
+l.1458 
         <./pauta3.jpg> <./pauta4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1171--1172
+Underfull \hbox (badness 10000) in paragraph at lines 1459--1460
 
  []
 
 (./proyectotanquesecci.bbl
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1931,7 +1525,7 @@ l.2 \begin{thebibliography}{1}
                                <./pauta61.jpg> <./pauta8.jpg>]
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1959,7 +1553,7 @@ l.2 \begin{thebibliography}{1}
 ]
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [41pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1987,20 +1581,20 @@ l.2 \begin{thebibliography}{1}
 RIZONTAL.jpg>]
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph1.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 \begin{thebibliography}{1}
                                <./D_PISTAS2.jpg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1199.
-LaTeX Info: Redefining \. on input line 1199.
-LaTeX Info: Redefining \% on input line 1199.
- [43
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1487.
+LaTeX Info: Redefining \. on input line 1487.
+LaTeX Info: Redefining \% on input line 1487.
+ [47
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1487.
 
 (./proyectotanquesecci.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -2009,7 +1603,7 @@ LaTeX Info: Redefining \% on input line 23.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
+l.46 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2027,7 +1621,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
+l.46 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -2046,7 +1640,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
+l.46 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -2065,7 +1659,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
+l.46 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -2074,14 +1668,14 @@ or <return> to continue without it.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.43 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
+l.46 ....1.3}{15}{Capacitancia}{equation.2.1.3}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.46 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
+l.50 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2089,14 +1683,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.46 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
+l.50 ...) Vertical. (b) Horizontal}{figure.2.1}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.53 ...e una válvula hidráulica}{figure.2.3}{}}
+l.56 ...e una válvula hidráulica}{figure.2.3}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2104,14 +1698,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.53 ...e una válvula hidráulica}{figure.2.3}{}}
+l.56 ...e una válvula hidráulica}{figure.2.3}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.55 ...la resistencia hidráulica}{figure.2.4}{}}
+l.58 ...la resistencia hidráulica}{figure.2.4}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2119,14 +1713,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.55 ...la resistencia hidráulica}{figure.2.4}{}}
+l.58 ...la resistencia hidráulica}{figure.2.4}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.58 ... (b). Válvula equivalente}{figure.2.5}{}}
+l.61 ... (b). Válvula equivalente}{figure.2.5}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2134,14 +1728,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.58 ... (b). Válvula equivalente}{figure.2.5}{}}
+l.61 ... (b). Válvula equivalente}{figure.2.5}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.91 ...}{37}{Tamaño de nudos}{figure.Alph1.3}{}}
+l.95 ...}{41}{Tamaño de nudos}{figure.Alph1.3}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2149,14 +1743,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.91 ...}{37}{Tamaño de nudos}{figure.Alph1.3}{}}
+l.95 ...}{41}{Tamaño de nudos}{figure.Alph1.3}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.93 ...}{37}{Diseño de pists}{figure.Alph1.4}{}}
+l.97 ...}{41}{Diseño de pists}{figure.Alph1.4}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2164,14 +1758,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.93 ...}{37}{Diseño de pists}{figure.Alph1.4}{}}
+l.97 ...}{41}{Diseño de pists}{figure.Alph1.4}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.96 ...a el diseño de pistas}{figure.Alph1.5}{}}
+l.100 ... el diseño de pistas}{figure.Alph1.5}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2179,14 +1773,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.96 ...a el diseño de pistas}{figure.Alph1.5}{}}
+l.100 ... el diseño de pistas}{figure.Alph1.5}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.98 ...rcaciones entre pistas}{figure.Alph1.6}{}}
+l.102 ...caciones entre pistas}{figure.Alph1.6}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2194,14 +1788,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.98 ...rcaciones entre pistas}{figure.Alph1.6}{}}
+l.102 ...caciones entre pistas}{figure.Alph1.6}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.103 ...aración entre pistas}{figure.Alph1.7}{}}
+l.107 ...aración entre pistas}{figure.Alph1.7}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2209,14 +1803,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.103 ...aración entre pistas}{figure.Alph1.7}{}}
+l.107 ...aración entre pistas}{figure.Alph1.7}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.105 ... componentes y pistas}{figure.Alph1.8}{}}
+l.109 ... componentes y pistas}{figure.Alph1.8}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2224,14 +1818,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.105 ... componentes y pistas}{figure.Alph1.8}{}}
+l.109 ... componentes y pistas}{figure.Alph1.8}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.124 ...tas de alimentación}{figure.Alph1.17}{}}
+l.128 ...tas de alimentación}{figure.Alph1.17}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2239,30 +1833,30 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.124 ...tas de alimentación}{figure.Alph1.17}{}}
+l.128 ...tas de alimentación}{figure.Alph1.17}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1199.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1199.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1487.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1487.
 
 Package rerunfilecheck Info: File `proyectotanquesecci.out' has not changed.
-(rerunfilecheck)             Checksum: 2830155598D412D49D91D0D68CBF3AA1;2029.
+(rerunfilecheck)             Checksum: 91E0FF28E1E349AEF2C2BAD68CF436F8;2330.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1199.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1487.
  ) 
 Here is how much of TeX's memory you used:
- 7613 strings out of 493108
- 109552 string characters out of 6134847
- 206648 words of memory out of 5000000
- 10724 multiletter control sequences out of 15000+600000
- 10368 words of font info for 36 fonts, out of 8000000 for 9000
+ 7648 strings out of 493108
+ 109989 string characters out of 6134847
+ 204264 words of memory out of 5000000
+ 10744 multiletter control sequences out of 15000+600000
+ 10717 words of font info for 37 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 35i,13n,43p,1151b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,13n,43p,1149b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -2275,11 +1869,12 @@ texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proyectotanquesecci.pdf (45 pages, 977421 bytes).
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on proyectotanquesecci.pdf (47 pages, 1003991 bytes).
 PDF statistics:
- 789 PDF objects out of 1000 (max. 8388607)
- 631 compressed objects within 7 object streams
- 214 named destinations out of 1000 (max. 500000)
- 340 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 834 PDF objects out of 1000 (max. 8388607)
+ 673 compressed objects within 7 object streams
+ 228 named destinations out of 1000 (max. 500000)
+ 372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
