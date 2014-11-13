@@ -1095,9 +1095,7 @@ Al agregar el \textit{“Settling time”} se dibuja una línea vertical  y al a
 
 El proceso de diseño del compensador mediante el método $LGR$ consiste en agregar polos o ceros al compensador para modificar el $LGR$ de tal forma que este pase por los puntos determinados en donde deben estar los polos dominantes para obtener la respuesta deseada. Después de consiguir lo anterior, se arrastran los polos  hasta estos puntos, y entonces la gráfica de la respuesta del sistema debe coincidir con la respuesta deseada. Pero puede que esto no ocurra, y seguramente se debe a que los polos que se ubican en estos puntos no son los dominantes. \\
 
-Para poder predecir los cambios que sufre el $LGR$ al agregar un polo o un cero se debe tener un buen conocimiento de la forma en que se dibuja el $LGR$. Si no se posee este conocimiento se recomienda leer las secciones $6.1$, $6.2$ y $6.3$ del capitulo 6 del libro \textit{Ingeniería de Control Moderna de Ogata}. \\
-
-Las opciones para agregar o quitar polos o ceros están donde indica la \textit{Fig. 2.17}. \\
+Para poder predecir los cambios que sufre el $LGR$ al agregar un polo o un cero se debe tener un buen conocimiento de la forma en que se dibuja el $LGR$. Si no se posee este conocimiento se recomienda leer las secciones $6.1$, $6.2$ y $6.3$ del capitulo 6 del libro \textit{Ingeniería de Control Moderna de Ogata}. Las opciones para agregar o quitar polos o ceros están donde indica la \textit{Fig. 2.17}. \\
 
 \begin{figure}[h]
 \centering
@@ -1129,67 +1127,45 @@ Y la gráfica de la respuesta del sistema que se muestra con la linea azul cont�
 
 En esta imagen se puede apreciar que efectivamente  el tiempo de asentamiento de la respuesta del sistema a lazo cerrado ahora se encuentra alrededor se $0.75 segundos$. Aunque no es tan claro que se halla cumplido con el requerimiento del porcentaje de sobrepaso. Como se dijo antes al especificar los requerimientos del diseño, \textit{sisotool} traza una gráfica  sobre el $LGR$ que proporciona una idea de donde deben estar los polos para que el sistema funcione como se desea. Es decir solo da una aproximación. \\
 
-Ya se logro cumplir con el requerimiento de tiempo de asentamiento pero se genero otro problema y es el gran error en estado estacionario que posee ahora el sistema a lazo cerrado. La salida debe asentarse en un valor de $1$ pero lo hace en un valor aproximado de $0.45$. Ahora para corregir el error en estado estacionario se agrega un integrador, es decir un polo en el origen. El $LGR$ queda así. \\
+Ya se logro cumplir con el requerimiento de tiempo de asentamiento pero se genero otro problema y es el gran error en estado estacionario que posee ahora el sistema a lazo cerrado. La salida debe asentarse en un valor de $1$ pero lo hace en un valor aproximado de $0.45$. Ahora para corregir el error en estado estacionario se agrega un integrador, es decir un polo en el origen. El $LGR$ y la gráfica de la respuesta del sistema se observan en la \textit{Fig. 2.20}. \\
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.8]{Ventana14}
+\includegraphics[scale=0.7]{Ventana14}
 \renewcommand{\figurename}{Fig.}
 \caption{LTI Viewer for SISO Design Task.}
 \label{LTI Viewer for SISO Design Task.}
 \end{figure}
 
-Y la gráfica de la respuesta del sistema como la \textit{Fig. 2.21}. \\
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{Ventana15}
-\renewcommand{\figurename}{Fig.}
-\caption{LTI Viewer for SISO Design Task.}
-\label{LTI Viewer for SISO Design Task.}
-\end{figure}
-
-Tal como se ve, ahora no hay error en estado estacionario pero todo lo demás se altero y la gráfica del $LGR$ se modifico totalmente. Lla gráfica del $LGR$ puede restablecerse a forma parecida a la anterior agregando un cero en el eje real entre el cero que se había agregado antes y el polo en el origen que se agregó ahora, ya que esto obliga a que la parte del $LGR$ que empieza desde el polo en el origen llegue solo hasta el nuevo cero que se agregó. haciendo esto que los polos complejos conjugados que existían originalmente vuelvan a interactuar de la misma forma que antes con el primer cero que se agregó. Al agregar el nuevo cero el $LGR$ queda como se observa en la \textit{Fig. 2.22} \\
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{Ventana16}
-\renewcommand{\figurename}{Fig.}
-\caption{LTI Viewer for SISO Design Task.}
-\label{LTI Viewer for SISO Design Task.}
-\end{figure}
+Tal como se ve, ahora no hay error en estado estacionario pero todo lo demás se altero y la gráfica del $LGR$ se modifico totalmente. Lla gráfica del $LGR$ puede restablecerse a forma parecida a la anterior agregando un cero en el eje real entre el cero que se había agregado antes y el polo en el origen que se agregó ahora, ya que esto obliga a que la parte del $LGR$ que empieza desde el polo en el origen llegue solo hasta el nuevo cero que se agregó. Haciendo esto que los polos complejos conjugados que existían originalmente vuelvan a interactuar de la misma forma que antes con el primer cero que se agregó. Al agregar el nuevo cero el $LGR$ queda como se observa en la \textit{Fig. 2.21}. \\
 
 Como ahora el polo que esta mas cerca al origen fue el que se agregó, los otros dos polos complejos conjugados no son los dominantes, por lo que las gráficas de los requerimientos de diseño ya no son proporcionan confiabilidad. \\
 
-Como regla general un sistema es mas estable entre más alejados del origen se encuentren sus polos. Así que se corren los polos a la izquierda para ver el resultado. \\
-
-Mientras se mueven los polos hacia la izquierda se llega un punto en el que se obtiene la siguiente gráfica de la respuesta del sistema. \\
-
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{Ventana17}
+\includegraphics[scale=0.7]{Ventana15}
 \renewcommand{\figurename}{Fig.}
 \caption{LTI Viewer for SISO Design Task.}
 \label{LTI Viewer for SISO Design Task.}
 \end{figure}
 
-Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo inicialmente, pero también pueden ocurrir el caso en que no se logra llegar siquiera a los objetivos planteados inicialmente. Si se siguen moviendo los polos a la izquierda la respuesta seguirá mejorando, pero cuando se hace eso se esta aumentando la ganancia del compensador, y no se podrá implementar un compensador que tenga una ganancia muy elevada. \\
+Como regla general un sistema es mas estable entre más alejados del origen se encuentren sus polos. Así que se corren los polos a la izquierda para ver el resultado. \\
 
-Para ver como queda función de transferencia del compensador se selecciona la opción \textit{"Edit Compensator"} del menú \textit{"designs"} que aparece en la siguiente imagen. \\
+Mientras se mueven los polos hacia la izquierda se llega un punto en el que se obtiene la siguiente gráfica de la \textit{Fig. 2.22} con la respuesta del sistema. \\
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{Ventana16}
+\renewcommand{\figurename}{Fig.}
+\caption{LTI Viewer for SISO Design Task.}
+\label{LTI Viewer for SISO Design Task.}
+\end{figure}
+
+Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo inicialmente, pero también pueden ocurrir el caso en que no se logra llegar siquiera a los objetivos planteados inicialmente. Si se siguen moviendo los polos a la izquierda la respuesta seguirá mejorando, pero cuando se hace eso se esta aumentando la ganancia del compensador, y no se podrá implementar un compensador que tenga una ganancia muy elevada. Para ver como queda función de transferencia del compensador se selecciona la opción $"edit$ $compensator"$ del menú \textit{"designs"} y se abre una ventana donde se muestra la ecuación del compensador que se debe utilizar para conseguir la respuesta a la que se ha llegado. Tal como en la \textit{Fig. 2.23}. \\
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.7]{Ventana18}
-\renewcommand{\figurename}{Fig.}
-\caption{LTI Viewer for SISO Design Task.}
-\label{LTI Viewer for SISO Design Task.}
-\end{figure}
-
-Y se abre una ventana donde se muestra la ecuación del compensador que se debe utilizar para conseguir la respuesta a la que se ha llegado. Tal como en la siguiente imagen. \\
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{Ventana19}
 \renewcommand{\figurename}{Fig.}
 \caption{LTI Viewer for SISO Design Task.}
 \label{LTI Viewer for SISO Design Task.}
