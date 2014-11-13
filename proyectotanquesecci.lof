@@ -6,21 +6,41 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces simbolo de una v\IeC {\'a}lvula hidr\IeC {\'a}ulica.}}{17}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces (a) velocidad de flujo vs presi\IeC {\'o}n diferencial. (b) Interpretaci\IeC {\'o}n de la resistencia hidr\IeC {\'a}ulica.}}{17}{figure.2.4}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Dos v\IeC {\'a}lvulas en serie (b). V\IeC {\'a}lvula equivalente.}}{19}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Funci\IeC {\'o}n de transferencia de la Planta.}}{32}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces (a) Control and Estimation Tool Manager. (b) SISO design for SISO Design Task.}}{33}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Control Architecture.}}{33}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces System Data.}}{34}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Model Import.}}{34}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces SISO design for SISO Design Task.}}{35}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces LTI Viewer for SISO Design Task.}}{36}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces LTI Viewer for SISO Design Task.}}{36}{figure.2.13}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces LTI Viewer for SISO Design Task.}}{37}{figure.2.14}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces LTI Viewer for SISO Design Task.}}{38}{figure.2.15}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces LTI Viewer for SISO Design Task.}}{39}{figure.2.16}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces LTI Viewer for SISO Design Task.}}{39}{figure.2.17}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces LTI Viewer for SISO Design Task.}}{40}{figure.2.18}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces LTI Viewer for SISO Design Task.}}{40}{figure.2.19}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces LTI Viewer for SISO Design Task.}}{41}{figure.2.20}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces LTI Viewer for SISO Design Task.}}{42}{figure.2.21}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces LTI Viewer for SISO Design Task.}}{43}{figure.2.22}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces LTI Viewer for SISO Design Task.}}{43}{figure.2.23}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces LTI Viewer for SISO Design Task.}}{44}{figure.2.24}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces LTI Viewer for SISO Design Task.}}{44}{figure.2.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Tipos de agujeros}}{39}{figure.Alph1.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Pistas conductoras}}{40}{figure.Alph1.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Tama\IeC {\~n}o de nudos}}{41}{figure.Alph1.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Dise\IeC {\~n}o de pists}}{41}{figure.Alph1.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Angulos oara el dise\IeC {\~n}o de pistas }}{42}{figure.Alph1.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Dise\IeC {\~n}o de bifurcaciones entre pistas}}{42}{figure.Alph1.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Separaci\IeC {\'o}n entre pistas}}{43}{figure.Alph1.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Separaci\IeC {\'o}n entre componentes y pistas}}{43}{figure.Alph1.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Placas de circuitos impresos LLC}}{44}{figure.Alph1.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Placas de circuitos impresos SIMM}}{44}{figure.Alph1.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Placas de circuitos impresos DIP }}{44}{figure.Alph1.11}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Placas de circuitos impresos SIP}}{44}{figure.Alph1.12}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Componentes en montaje de insercion}}{45}{figure.Alph1.13}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Componentes en montaje superficial}}{45}{figure.Alph1.14}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Componentes en montaje vertical}}{45}{figure.Alph1.15}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Componentes en montaje Horizontal}}{45}{figure.Alph1.16}
-\contentsline {figure}{\numberline {A.17}{\ignorespaces Pistas de alimentaci\IeC {\'o}n}}{46}{figure.Alph1.17}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Tipos de agujeros}}{47}{figure.Alph1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Pistas conductoras}}{48}{figure.Alph1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Tama\IeC {\~n}o de nudos}}{49}{figure.Alph1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Dise\IeC {\~n}o de pists}}{49}{figure.Alph1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Angulos oara el dise\IeC {\~n}o de pistas }}{50}{figure.Alph1.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Dise\IeC {\~n}o de bifurcaciones entre pistas}}{50}{figure.Alph1.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Separaci\IeC {\'o}n entre pistas}}{51}{figure.Alph1.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Separaci\IeC {\'o}n entre componentes y pistas}}{51}{figure.Alph1.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Placas de circuitos impresos LLC}}{52}{figure.Alph1.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Placas de circuitos impresos SIMM}}{52}{figure.Alph1.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Placas de circuitos impresos DIP }}{52}{figure.Alph1.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Placas de circuitos impresos SIP}}{52}{figure.Alph1.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Componentes en montaje de insercion}}{53}{figure.Alph1.13}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Componentes en montaje superficial}}{53}{figure.Alph1.14}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Componentes en montaje vertical}}{53}{figure.Alph1.15}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Componentes en montaje Horizontal}}{53}{figure.Alph1.16}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Pistas de alimentaci\IeC {\'o}n}}{54}{figure.Alph1.17}

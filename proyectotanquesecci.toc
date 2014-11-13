@@ -33,13 +33,13 @@
 \contentsline {section}{\numberline {2.4}Identificaci\IeC {\'o}n}{31}{section.2.4}
 \contentsline {section}{\numberline {2.5}Control}{32}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Uso de SISOTOOL Para dise\IeC {\~n}o de controles}{32}{subsection.2.5.1}
-\contentsline {chapter}{\numberline {A}Tarjetas de circuitos impresos}{37}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Historia}{37}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Definici\IeC {\'o}n}{37}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Normatividad para la construcci\IeC {\'o}n de tarjetas de circuitos impresos}{38}{section.Alph1.3}
-\contentsline {subsection}{\numberline {A.3.1}UNE 20-621-84/3}{38}{subsection.Alph1.3.1}
-\contentsline {subsection}{\numberline {A.3.2}UNE 20-55-2753}{38}{subsection.Alph1.3.2}
-\contentsline {section}{\numberline {A.4}Pautas b\IeC {\'a}sicas para la construcci\IeC {\'o}n de circuitos impresos}{39}{section.Alph1.4}
-\contentsline {section}{\numberline {A.5}Disposici\IeC {\'o}n De Componentes}{41}{section.Alph1.5}
-\contentsline {section}{\numberline {A.6}Dise\IeC {\~n}o de Pistas}{42}{section.Alph1.6}
-\contentsline {section}{\numberline {A.7}Composici\IeC {\'o}n qu\IeC {\'\i }mica}{43}{section.Alph1.7}
+\contentsline {chapter}{\numberline {A}Tarjetas de circuitos impresos}{45}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Historia}{45}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Definici\IeC {\'o}n}{45}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Normatividad para la construcci\IeC {\'o}n de tarjetas de circuitos impresos}{46}{section.Alph1.3}
+\contentsline {subsection}{\numberline {A.3.1}UNE 20-621-84/3}{46}{subsection.Alph1.3.1}
+\contentsline {subsection}{\numberline {A.3.2}UNE 20-55-2753}{46}{subsection.Alph1.3.2}
+\contentsline {section}{\numberline {A.4}Pautas b\IeC {\'a}sicas para la construcci\IeC {\'o}n de circuitos impresos}{47}{section.Alph1.4}
+\contentsline {section}{\numberline {A.5}Disposici\IeC {\'o}n De Componentes}{49}{section.Alph1.5}
+\contentsline {section}{\numberline {A.6}Dise\IeC {\~n}o de Pistas}{50}{section.Alph1.6}
+\contentsline {section}{\numberline {A.7}Composici\IeC {\'o}n qu\IeC {\'\i }mica}{51}{section.Alph1.7}
