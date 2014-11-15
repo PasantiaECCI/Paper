@@ -61,7 +61,7 @@ Sergio Agustin Oñate Sierra\\}
 
 Con mayor eficiencia el nivel de tecnología en la actualidad estimula los parámetros que retroalimentan y contribuyen la necesidad del ser humano con aplicaciones que avanzan a gran escala de industria a industria de alta calidad,  los sistemas hidráulicos son construidos y desarrollados especialmente para el mejoramiento de la dinámica de fluidos como: (químicos, gasolina, aceites, agua)  entre otros. Sin embargo estos sistemas trabajan en conjunto para realizar un análisis integral tanto dinámico, termodinámico y mecánico en el cual la particularidad de cada uno hace parte de la potencia y control de un sistema. El análisis de los mismos se realiza en un laboratorio observando el estado estable y funcional del sistema mediante una simulación computarizada.\\
 
-La simulación se ha convertido en una herramienta fundamental para el estudio de varios sistemas técnicos. En los sistemas hidráulicos la simulación hace un papel útil, lo cual verifica y que todos los mecanismos se accionan adecuadamente y no presenten eventos o fallas en el sistema; aunque las características específicas de los sistemas hidráulicos hacen difícil hacen difícil utilizar software de simulación de tipo general en el estudio.\\
+La simulación se ha convertido en una herramienta fundamental para el estudio de varios sistemas técnicos. En los sistemas hidráulicos la simulación hace un papel útil, lo cual verifica y que todos los mecanismos se accionan adecuadamente y no presenten eventos o fallas en el sistema; aunque las características específicas de los sistemas hidráulicos hacen difícil utilizar software de simulación de tipo general en el estudio.\\
 
 Con frecuencia las universidades tienen herramientas y dispositivos inteligentes para obtener un análisis de investigación y desarrollo e innovación, esto permite que el estudiante requiera habilidades prácticas y capacidades a la hora de enfrentarse con un prototipo de estudio.\\
 
@@ -382,23 +382,23 @@ La cual es idéntica al resultado para un circuito eléctrico lineal. \\
 
 \subsection{Fuentes}
 
-En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba que deriva su poder de un motor eléctrico. Consideraremos la bomba de tipo centrífuga moviéndose a velocidad constante, que es ampliamente utilizada en procesos químicos. La representación simbólica de una bomba se muestra en la Figura 2.7. Relaciones insumo - producto típicos para una bomba centrífuga siendo conducido a tres velocidades constantes diferentes se muestran en la figura 9. Curvas de la bomba de $\Delta p$ versus $\omega$.\\
+En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba que deriva su poder de un motor eléctrico. Consideraremos la bomba de tipo centrífuga moviéndose a velocidad constante, que es ampliamente utilizada en procesos químicos. La representación simbólica de una bomba se muestra en la Figura 2.7. Relaciones insumo - producto típicos para una bomba centrífuga siendo conducido a tres velocidades constantes diferentes se muestran en la figura 9. Curvas de la bomba de $\Delta p$ versus $\omega$.
 
-%\begin{figure}[h]
-%\centering
-%\includegraphics[scale=0.5]{}
-%\renewcommand{\figurename}{Fig.}
-%\caption{Representación simbólica de la bomba.}
-%\label{Representación simbólica de la bomba.}
-%\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figura7}
+\renewcommand{\figurename}{Fig.}
+\caption{Representación simbólica de la bomba.}
+\label{Representación simbólica de la bomba.}
+\end{figure}
 
-%\begin{figure}[h]
-%\centering
-%\includegraphics[scale=0.5]{}
-%\renewcommand{\figurename}{Fig.}
-%\caption{Curvas típicas de la bomba centrífuga donde ∆p=p2-p1(a) para tres diferentes velocidades de la bomba (ω1<ω2<ω3). (b) muestra la aproximación lineal.}
-%\label{Curvas típicas de la bomba centrífuga donde ∆p=p2-p1(a) para tres diferentes velocidades de la bomba (ω1<ω2<ω3). (b) muestra la aproximación lineal.}
-%\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figura8}
+\renewcommand{\figurename}{Fig.}
+\caption{Curvas típicas de la bomba centrífuga donde ∆p=p2-p1(a) para tres diferentes velocidades de la bomba (ω1<ω2<ω3). (b) muestra la aproximación lineal.}
+\label{Curvas típicas de la bomba centrífuga donde ∆p=p2-p1(a) para tres diferentes velocidades de la bomba (ω1<ω2<ω3). (b) muestra la aproximación lineal.}
+\end{figure}
 
 Se determinan experimentalmente en condiciones de estado estacionario y son bastante no lineal. Para incluir una bomba impulsada a una velocidad constante en un modelo dinámico lineal, primero se determina el punto de funcionamiento de la velocidad de la bomba en particular mediante el cálculo de los valores de \textit{p} y $\omega$. Entonces nos se encuentra la pendiente de la tangente a la curva de la bomba en el punto de trabajo y se define que sea \textit{-K}, que tiene unidades de newton-segundo por metro. Sabiendo donde está, se puede expresar la diferencia de presión gradual $p$ en términos de la tasa de flujo adicional $\omega$ como:
 
@@ -428,15 +428,16 @@ En esta sección, se aplican las leyes y técnicas de análisis de la sección p
 \subsubsection{Ejemplo 3:}
 
 La Figura 10. Muestra un recipiente que recibe líquido a un caudal $\omega_{i}\left(t\right)$ y pierde  líquido a través de una válvula que obliga la no linealidad de relación flujo contra presión $\omega _{0}=k\sqrt {P_{1}-P_{a}}$. El área de la sección transversal es \textit{A} y la densidad del líquido es $\rho$. \\
-La derivada del modelo no lineal obliga para la presión absoluta $\rho_{1}$ al fondo del recipiente. Luego desarrollar la versión linealizada que es válida en la vecindad de la operación punto, y encontrar la función de trasferencia relacionado la transformación de la entrada incremental $\omega_{i}\left(t\right)$ y la presión incremental $\rho_{1}$. \\
 
-%\begin{figure}[h]
-%\centering
-%\includegraphics[scale=0.5]{}
-%\renewcommand{\figurename}{Fig.}
-%\caption{Sistema hidráulico para el ejemplo 3.}
-%\label{Sistema hidráulico para el ejemplo 3.}
-%\end{figure}
+La derivada del modelo no lineal obliga para la presión absoluta $\rho_{1}$ al fondo del recipiente. Luego desarrollar la versión linealizada que es válida en la vecindad de la operación punto, y encontrar la función de trasferencia relacionado la transformación de la entrada incremental $\omega_{i}\left(t\right)$ y la presión incremental $\rho_{1}$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{Figura9}
+\renewcommand{\figurename}{Fig.}
+\caption{Sistema hidráulico para el ejemplo 3.}
+\label{Sistema hidráulico para el ejemplo 3.}
+\end{figure}
 
 Teniendo desarrollados los modelos de sistemas en forma literal, determinar en forma numérica el punto de operación, la función de transferencia, y la respuesta a un aumento de función al paso del 10\% en el caudal de entrada para los siguientes valores de parámetros:
 
@@ -463,7 +464,7 @@ Luego de reemplazar y sustituir las ecuaciones para el desarrollo del planteamie
 H\left( s\right) =\frac {\frac {1}{C}}{s+\frac {1}{RC}}
 \end{equation}
 
-Cual tiene un solo polo en $S=-1RC$. Para el valor del parámetro especificado, el punto de operación dada se reduce a
+Cual tiene un solo polo en $S=-\frac{1}{RC}$. Para el valor del parámetro especificado, el punto de operación dada se reduce a
 
 \begin{equation}
 P_{1}=1.013\times 10^{5}+\left( \frac {6.0\times 10^{-3}}{5.0\times 10^{-5}}\right) ^{2}=1.157\times 10^{5}\frac {N}{m^{2}}
@@ -485,7 +486,7 @@ R=\frac {2\times 60\times 10^{-3}}{\left( 50\times 10^{-5}\right) ^{2}}=4.80\tim
 C=\frac {20}{1000\times 9.807}=2.039\times 10^{-4}m^{5}/N
 \end{equation}
 
-Sustituyendo este valor de R y C entre la ecuación anterior de la función de transferencia, se puede obtener la forma numérica  de la función de transferencia como
+Sustituyendo este valor de $R$ y $C$ entre la ecuación anterior de la función de transferencia, se puede obtener la forma numérica  de la función de transferencia como
 
 \begin{equation}
 H\left( s\right) =\frac {4904}{s+1.0216\times 10^{-3}}
@@ -498,35 +499,35 @@ P_{1}\left( s\right) =\frac {4904\times 0.60\times 10^{-3}}{s\left( s+1.0216\tim
 =\frac {2.942}{s\left( s+1.0216\times 10^{3}\right) }
 \end{equation}
 
-Del teorema del valor final, el estado estacionario de p1 es p1(s) evaluado en s=0, a saber
+Del teorema del valor final, el estado estacionario de $p_{1}$ es $p_{1}(s)$ evaluado en $s=0$, a saber
 
 \begin{equation}
 \lim _{t\rightarrow \infty }P_{1}\left( t\right) =\frac {2942}{1.0216\times 10^{-3}}=2880N/m^{2}
 \end{equation}
 
-La constante de tiempo del modelo linealizado es $\tau = RC$ , cual se convierte en 
+La constante de tiempo del modelo linealizado es $\tau = RC$, cual se convierte en 
 
 \begin{equation}
 \tau =\left( 4.80\times 10^{6}\right) \left( 2.039\times 10^{-4}\right) =978.7s
 \end{equation}
 
-Que es un poco más de 16 minutos. Tenemos la respuesta que la  presión incremental es
+Que es un poco más de 16 minutos. Teniendo la respuesta que la presión incremental es
 
 \begin{equation}
 P_{1}=2888\left( 1-\in \right) \ldots falta\ldots
 \end{equation}
 
-El cambio en el nivel incremental es p1/p, cual se convierte en 
+El cambio en el nivel incremental es $\frac{p_{1}}{p}$, cual se convierte en 
 
 \begin{equation}
 h=0.2937\left( 1-\in \right) \ldots falta\ldots 
 \end{equation}
 
-A obtener la respuesta de la presión del caudal y el nivel de líquido, nos limitamos a añadir los valores nominales $p_{1}=1.157\times 10^{5}\frac {N}{m^{2}}$ y $h=1.468m$  de las variables incrementales. Es interesante observar que a causa de la válvula no lineal, el aumento del 10\% en los resultados de la velocidad de flujo en un aumento del 20\% tanto en la presión manométrica p1-pa y la altura h. \\
+Al obtener la respuesta de la presión del caudal y el nivel de líquido, nos limitamos a añadir los valores nominales $p_{1}=1.157\times 10^{5}\frac {N}{m^{2}}$ y $h=1.468m$ de las variables incrementales. Es interesante observar que a causa de la válvula no lineal, el aumento del 10\% en los resultados de la velocidad de flujo en un aumento del 20\% tanto en la presión manométrica $p_{1}-p_{a}$ y la altura $h$. \\
 
 \subsubsection{Ejemplo 4:}
 
-Encontrar el modelo linealizado del sistema hidráulico mostrado en la Figura 11 (a) que consiste en una bomba centrífuga de velocidad constante la alimentación de un recipiente desde el cual fluye líquido a través de una tubería y válvula de obedecer a la relación $\omega _{0}=k\sqrt {P_{1}}-P_{a}$. La característica de la bomba de la velocidad W de la bomba especificada se muestra en la figura 12.11 (b). \\
+Encontrar el modelo linealizado del sistema hidráulico mostrado en la Figura 11 (a) que consiste en una bomba centrífuga de velocidad constante la alimentación de un recipiente desde el cual fluye líquido a través de una tubería y válvula de obedecer a la relación $\omega _{0}=k\sqrt {P_{1}}-P_{a}$. La característica de la bomba de la velocidad $W$ de la bomba especificada se muestra en la figura 12.11 (b). \\
 
 \subsubsection{Solución:}
 
@@ -542,31 +543,33 @@ Donde $\omega_{i}$ y $\Delta p=p_{1}-p_{a}$ debe ser uno de los puntos de la cur
 \omega_{o}=K\sqrt{\Delta p}
 \end{equation}
 
-Para determinar el punto de trabajo, nos encontramos con la solución de  $\omega_{i}=\omega_{o}$  gráficamente trazando la característica de la válvula  $\omega_{o}=K\sqrt{\Delta p}$  en la curva de la bomba. Hacer esto dada la Figura 12 (a), en el que el punto de trabajo es la intersección de la curva de la válvula y la curva de la bomba, designado como punto A en la figura, una vez que hemos localizado el punto de operación, podemos trazar la tangente a la curva de la bomba como se muestra en la figura 12 (b) y determinar su pendiente -K gráficamente. \\
+Para determinar el punto de trabajo, se encuentra con la solución de $\omega_{i}=\omega_{o}$ gráficamente trazando la característica de la válvula  $\omega_{o}=K\sqrt{\Delta p}$  en la curva de la bomba. \\
 
-%\begin{figure}[h]
-%\centering
-%\includegraphics[scale=0.5]{}
-%\renewcommand{\figurename}{Fig.}
-%\caption{(a) sistema para el Ejemplo 4. (b) Curva de la bomba}
-%\label{(a) sistema para el Ejemplo 4. (b) Curva de la bomba}
-%\end{figure}
+Hacer esto dada la Figura 12 (a), en el que el punto de trabajo es la intersección de la curva de la válvula y la curva de la bomba, designado como punto $A$ en la figura, una vez que se ha localizado el punto de operación, se puede trazar la tangente a la curva de la bomba como se muestra en la figura 12 (b) y determinar su pendiente -K gráficamente.
 
-%\begin{figure}[h]
-%\centering
-%\includegraphics[scale=0.5]{}
-%\renewcommand{\figurename}{Fig.}
-%\caption{(a) Curvas de bombas y válvulas combinadas del Ejemplo 4. (b) curva de la bomba con la aproximación lineal.}
-%\label{(a) Curvas de bombas y válvulas combinadas del Ejemplo 4. (b) curva de la bomba con la aproximación lineal.}
-%\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{Figura10}
+\renewcommand{\figurename}{Fig.}
+\caption{(a) Sistema para el Ejemplo 4. (b) Curva de la bomba}
+\label{(a) Sistema para el Ejemplo 4. (b) Curva de la bomba}
+\end{figure}
 
-Después de esta etapa preliminar, podemos utilizar $p_{1}=\frac{1}{c} \left(\omega_{i}-\omega_{o}\right)$ para escribir el modelo desde el sistema como:
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figura11}
+\renewcommand{\figurename}{Fig.}
+\caption{(a) Curvas de bombas y válvulas combinadas del Ejemplo 4. (b) curva de la bomba con la aproximación lineal.}
+\label{(a) Curvas de bombas y válvulas combinadas del Ejemplo 4. (b) curva de la bomba con la aproximación lineal.}
+\end{figure}
+
+Después de esta etapa preliminar, se puede utilizar $p_{1}=\frac{1}{c} \left(\omega_{i}-\omega_{o}\right)$ para escribir el modelo desde el sistema como:
 
 \begin{equation}
 p_{1}=\frac{1}{c} \left(\omega_{i}-\omega_{o}\right)
 \end{equation}
 
-dDonde, de $\widehat {\omega }=\frac {1}{R}\widehat {\Delta P}$, el caudal aproximado a través de la válvula es 
+Donde, de $\widehat {\omega }=\frac {1}{R}\widehat {\Delta P}$, el caudal aproximado a través de la válvula es 
 
 \begin{equation}
 \omega _{0}=\overline {\omega _{0}}+\frac {1}{R}\widehat {\Delta p}
@@ -609,13 +612,13 @@ Encuentre las ecuaciones que determine el punto de operación, y muestra como la
 
 Porque la bomba y los dos tanques son en serie que equilibra las condiciones, se define el punto de operación para los tres caudales sean iguales $\omega_{p}$, $\omega_{1}$ y $\omega_{2}$.
 
-%\begin{figure}[h]
-%\centering
-%\includegraphics[scale=0.5]{}
-%\renewcommand{\figurename}{Fig.}
-%\caption{Sistema hidráulico con dos tanques considerando el Ejemplo 5.}
-%\label{Sistema hidráulico con dos tanques considerando el Ejemplo 5.}
-%\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{Figura12}
+\renewcommand{\figurename}{Fig.}
+\caption{Sistema hidráulico con dos tanques considerando el Ejemplo 5.}
+\label{Sistema hidráulico con dos tanques considerando el Ejemplo 5.}
+\end{figure}
 
 Los caudales a través de dos válvulas son dados por
 
@@ -651,7 +654,7 @@ p_{1}=\frac {1}{C_{1}}\left[ -\frac {1}{K}P_{1}-\frac {1}{R_{1}}\left( P_{1}-P_{
 p_{1}=\frac {1}{C_{2}}\left[ -\frac {1}{R_{1}}\left( P_{1}-P_{2}\right) -\frac {1}{R_{2}}P_{2}\right] 
 \end{equation}
 
-Donde las resistencias de las válvulas son dadas por $R_{1}=\frac {2\omega _{1}}{\left( k_{1}\right) ^{2}}$ y $R_{2}=\frac {2\omega _{2}}{\left( k_{2}\right) ^{2}}$, y donde –K es la pendiente de la curva de la bomba en el punto de operación. Como se indica en las ecuaciones anteriores, el modelo incremental no tiene entrada y por lo tanto puede responder solo a una condición inicial que no sea cero, que es $p_{1}(0)$ diferente de cero y/o $p_{2}$ diferente de cero. \\
+Donde las resistencias de las válvulas son dadas por $R_{1}=\frac {2\omega _{1}}{\left( k_{1}\right) ^{2}}$ y $R_{2}=\frac {2\omega _{2}}{\left( k_{2}\right) ^{2}}$, y donde $–K$ es la pendiente de la curva de la bomba en el punto de operación. Como se indica en las ecuaciones anteriores, el modelo incremental no tiene entrada y por lo tanto puede responder solo a una condición inicial que no sea cero, que es $p_{1}(0)$ diferente de cero y/o $p_{2}$ diferente de cero. \\
 En la práctica, puede haber corrientes líquidas adicionales que entran ya sea buque, o la velocidad de la bomba puede ser cambiada. También es posible para cualquiera de las dos válvulas que se abren o se cierran ligeramente. Tal cambio modificaría la respectiva resistencia hidráulica. \\
 En la ausencia de una entrada, se puede transformar la ecuación anterior a encontrar la transformada de Laplace de la respuesta cero de entrada. Haciendo esto, se encuentra que después se ve:
 
@@ -753,7 +756,7 @@ Se aplica transformada de Laplace para derivada de primer orden en la ecuación 
 \tau sH\left( s\right) +H\left( s\right) =kQ_{in}\left( s\right)
 \end{equation}
 
-Se factorizan terminos de altura \textit{H}
+Se factoriza en terminos de altura \textit{H}
 
 \begin{equation}
 H\left( s\right) \left[ \tau s+1\right] =kQ_{in}\left( s\right)
