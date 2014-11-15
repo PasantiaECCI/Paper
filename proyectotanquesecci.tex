@@ -73,13 +73,11 @@ Con frecuencia las universidades tienen herramientas y dispositivos inteligentes
 
 \section{Introducción}
 
-Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de procesos industriales, científicos de todo el mundo han trabajado para lograr que los procesos de manufactura, control automático, accionamiento sean cada vez más efectivos y más eficientes. Con esta meta se han desarrollado nuevos procesos para lograr alcanzar este mejoramiento continuo de un sistema hidráulico para proyectos en tratamiento de agua.\\
+Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de procesos industriales, científicos de todo el mundo han trabajado para lograr que los procesos de manufactura, control automático y accionamiento sean cada vez más efectivos y más eficientes. Con esta meta se han desarrollado nuevos procesos para lograr alcanzar este mejoramiento continuo de un sistema hidráulico para proyectos con manipulación de liquidos.\\
 
-El diseño de los sistemas hidráulicos se basa en la interconexión de  sistemas mecánicos a través de bombas, válvulas y pistones móviles, que ofrecen una automatización factible  en el sistema. La utilidad de estos mecanismos hace que sea  funcional y  opere de una manera  eficaz básicamente para generar distintas aplicaciones de procesos industriales, sin embargo el uso es producir energías limpias mediante recursos naturales. Este es un ejemplo de la rueda Pelton en donde interactúan los sistemas hidráulicos, mecánicos y elementos eléctricos, funciona por una turbina que es impulsada por el agua y se usa para conducir electricidad, también existen fluidos comprensibles para la distribución de energía renovable tal como gases, aire, solar y calentamiento de la tierra.\\
+El diseño de los sistemas hidráulicos se basa en la interconexión de  sistemas mecánicos a través de bombas, válvulas y pistones móviles, que ofrecen una automatización factible  en el sistema. La utilidad de estos mecanismos hace que sea  funcional y  opere de una manera  eficaz básicamente para generar distintas aplicaciones de procesos industriales, sin embargo el uso es producir energías limpias mediante recursos naturales.\\
 
-En este artículo nos centraremos particularmente en la revolución de los procesos en sistemas hidráulicos comúnmente se presentan  procesos químicos, sistemas de control automático, actuadores y motores de accionamiento.\\
-
-Este análisis hace persuadir que generalmente estamos involucrados en modelos que ya están implementados y particularmente son modelos lineales por las condiciones de las variables a manejar.\\
+Este texto se centra particularmente en la revolución de los procesos en sistemas hidráulicos en los que comúnmente se presentan procesos químicos, sistemas de control automático, actuadores y motores de accionamiento. Este análisis hace persuadir que generalmente estan involucrados en modelos que ya están implementados y particularmente son modelos lineales por las condiciones de las variables a manejar.\\
 
 \newpage
 
@@ -112,7 +110,7 @@ Este análisis hace persuadir que generalmente estamos involucrados en modelos q
 
 \section{Estado del arte}
 
-El monitoreo de variables es de gran importancia en la industria y por esto es vital preparar a los estudiantes para asumir retos reales de un proceso, aun en el estudio de su carrera, por esta razón el desarrollo e implementación de plantas experimentales y plantas pilotos han tomado una gran fuerza en los últimos años tanto así que existen empresas dedicadas entre otras cosas a la fabricación y comercialización de estas plantas para universidades e institutos de educación superior.\\
+El monitoreo de variables es de gran importancia en la industria y por esto es vital preparar a los estudiantes para asumir retos reales de un proceso, aun en el estudio de su carrera, por esta razón el desarrollo e implementación de plantas experimentales y plantas pilotos han tomado una gran fuerza en los últimos años tanto así que existen empresas dedicadas, entre otras cosas, a la fabricación y comercialización de estas plantas para universidades e institutos de educación superior.\\
 
 De otro lado se han realizo un sin número de investigaciones alrededor del tema de monitoreo de variables en tanques de agua, ya sea nivel, temperatura o presión, las principales en la mayoría de procesos industriales, para este caso, los artículos y tesis han sido una gran fuente de información para alimentar el propio; algunos de los más importantes son:\\
 
@@ -144,6 +142,22 @@ Un análisis exacto de sistemas hidráulicos no es usualmente factible por su na
 
 En más casos, los sistemas hidráulicos operan con las variables restantes cerca de un punto de operación específico. Generalmente estamos interesados en los modelos que involucran variables incrementales. Este hecho es particularmente útil porque tales modelos son usualmente lineales, aunque el modelo expresado en las variables finales podría ser no lineal.\\
 
+
+
+
+
+\newpage
+
+
+
+% ==============================================================================================
+%										SECCIÓN MODELAMIENTO
+% ==============================================================================================
+
+
+\section{Modelamiento}
+
+
 \subsection{Variables}
 
 Ya que los sistemas hidráulicos involucran el flujo  y la acumulación del líquido, las variables usadas a describir su comportamiento dinámico son:\\
@@ -167,13 +181,11 @@ Una diferencia de presión, denotado por $\Delta p$, es la diferencia entre las 
 
 \subsection{Leyes de los Elementos}
 
-Los sistemas hidráulicos presentan tres características típicas que pueden ser aproximadas por este grupo de elementos: capacidad, resistencia de flujo, e inertancia.\\
-
-En esta sección discutiremos los dos primeros. La inertancia, que representa la energía cinética de una corriente de fluido en movimiento, suele ser insignificante, y no la consideraremos. Una breve discusión de las bombas centrífugas que actúan como fuentes hidráulicas aparece al final de esta sección.\\
+Los sistemas hidráulicos presentan tres características típicas que pueden ser aproximadas por este grupo de elementos: capacidad, resistencia de flujo, e inertancia. En esta sección se discutiran los dos primeros. La inertancia, que representa la energía cinética de una corriente de fluido en movimiento, suele ser insignificante, y no la consideraremos.\\
 
 \subsection{Capacitancia}
 
-Cuando liquido está almacenado en un recipiente abierto, existe una relación algebraica entre el volumen del líquido la presión de la base del recipiente. Si el área de la sección transversal del recipiente es dada por una función \textit{A(h)}, donde h es la altura del nivel de líquido por encima del fondo del recipiente, el volumen líquido v  es la integral del área desde la base del recipiente a la parte superior del líquido. 
+Cuando un liquido está almacenado en un recipiente abierto, existe una relación algebraica entre el volumen del líquido la presión de la base del recipiente. Si el área de la sección transversal del recipiente es dada por una función \textit{A(h)}, donde $h$ es la altura del nivel de líquido por encima del fondo del recipiente, el volumen líquido $v$ es la integral del área desde la base del recipiente a la parte superior del líquido. 
 Por lo tanto,
 
 \begin{equation}
@@ -181,7 +193,7 @@ v=\int \limits_{0}^{h} A{\lambda}d{\lambda}
 \label{Ecu 2}
 \end{equation}
 
-Donde $ {\lambda} $ es una variable ficticia de integración. Para un líquido de densidad p expresada en kilogramos por metro cúbico, la presión \textit{p} absoluta y la altura del líquido \textit{h} están relacionadas por:
+Donde ${\lambda}$ es una variable ficticia de integración. Para un líquido de densidad $p$ expresada en kilogramos por metro cúbico, la presión \textit{p} absoluta y la altura del líquido \textit{h} están relacionadas por:
 
 \begin{equation}
 p=pgh+p_{a}
@@ -203,10 +215,9 @@ Las ecuaciones (1.2) y (1.3) implican que para cualquier geometría del recipien
 
 Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1,1 , entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.\\
 
-\subsubsection{Ejemplo:}
+\subsubsection{Ejemplo 1:}
 
-Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \textit{L} que contiene un líquido de densidad \textit{p} en unidades de kilogramo por metro cubico.
-Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, como se ve en la figura 2a. También evalúe la capacitancia cuando el cilindro esta sobre uno de sus lados, como se ve en la figura 2b.
+Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \textit{L} que contiene un líquido de densidad \textit{p} en unidades de kilogramo por metro cubico. Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, como se ve en la figura 2a. También evalúe la capacitancia cuando el cilindro esta sobre uno de sus lados, como se ve en la figura 2b.
 
 \begin{figure}[h]
 \centering
@@ -218,7 +229,7 @@ Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, c
 
 \subsubsection{Solución}
 
-Para la configuración en la figura 1,2(a). El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que podemos usar (1.3), y lacapacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
+Para la configuración en la figura 1,2(a). El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que se puede usar (1.3), y lacapacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
 
 Cuando el recipiente esta sobre uno de sus lados, como se muestra en la figura 2(b), el área de la sección transversal es una función de la altura del liquido h. Puede verificar que el ancho de la superficie del líquido es $2\sqrt{(R^{2})}-(R-h)^{2}$ la cual es cero cuando \textit{h=0} y \textit{h=2R} y tiene el máximo valor de \textit{2R} cuando \textit{h=R}. usando (1.4), encontramos que la capacitancia es:
 
@@ -237,11 +248,11 @@ Como se muestra en la figura 3.
 \label{Capacitancia del recipiente.}
 \end{figure}
 
-\subsection{Resistencia}
+\subsection{Resistencia}
 
-Como liquido fluye a través de una tubería, allí hay poca presión del líquido a lo largo de la tubería. Del mismo modo ha poca presión si el líquido fluye a través de una válvula o en un orificio. En cambio la presión asociada con el flujo del líquido que resulta la disipación de energía  y usualmente obedece a una relación algebraica no lineal entre la velocidad del flujo $\omega$ la diferencia de presión $\Delta p$. El símbolo de la válvula se muestra en la figura (1.4). Esto también puede ser usado por otros elementos que disipan energía. \\
+Como el liquido fluye a través de una tubería, allí hay poca presión del líquido a lo largo de la tubería. Del mismo modo hay poca presión si el líquido fluye a través de una válvula o en un orificio. En cambio la presión asociada con el flujo del líquido que resulta la disipación de energía y usualmente obedece a una relación algebraica no lineal entre la velocidad del flujo $\omega$ y la diferencia de presión $\Delta p$. El símbolo de la válvula se muestra en la figura (1.4). Esto también puede ser usado por otros elementos que disipan energía. \\
 
-Un valor positivo de $\omega$ indica que el líquido está fluyendo en la dirección de la flecha; un valor positivo de $\Delta p$ (presión diferencial) indica que la presión en el punto marcado con + es más alta que la presión en el otro punto. La expresión.
+Un valor positivo de $\omega$ indica que el líquido está fluyendo en la dirección de la flecha; un valor positivo de $\Delta p$ (presión diferencial) indica que la presión en el punto marcado con $+$ es más alta que la presión en el otro punto. La expresión:
 
 \begin{equation}
 w=k\sqrt{\Delta p}
@@ -255,7 +266,7 @@ w=k\sqrt{\Delta p}
 \label{simbolo de una válvula hidráulica.}
 \end{figure}
 
-Describe un orificio y una válvula y es una buena aproximación del flujo turbulento a través de las tuberías. Podemos tratar todas las situaciones de interés para nosotros, usando una ley de un elemento no lineal de la forma de (10). En esta ecuación, k es una constante que depende de las características de la tubería, válvula, u orificio. Una curva típica de la velocidad del flujo contra la presión diferencial como se muestra en la figura 1.5(a).
+Describe un orificio y una válvula y es una buena aproximación del flujo turbulento a través de las tuberías. Se pueden tratar todas las situaciones que sean de interés, usando una ley de un elemento no lineal de la forma de (10). En esta ecuación, $k$ es una constante que depende de las características de la tubería, válvula, u orificio. Una curva típica de la velocidad del flujo contra la presión diferencial como se muestra en la figura 1.5(a).
 
 \begin{figure}[h]
 \centering
@@ -266,7 +277,7 @@ Describe un orificio y una válvula y es una buena aproximación del flujo turbu
 \end{figure}
 
 Ya que (10) es una relación no lineal, se debe linealizar alrededor un punto de operación a fin de desarrollar un modelo lineal de un sistema hidráulico.
-Si se dibuja la tangente a la curva de w verus $\Delta p$  en el punto de operación, el reciproco de su pendiente es definido como la resistencia hidráulica R. \\
+Si se dibuja la tangente a la curva de $w$ verus $\Delta p$  en el punto de operación, el reciproco de su pendiente es definido como la resistencia hidráulica $R$. \\
 
 La figura 1.5 (b) ilustra la interpretación geométrica de la resistencia, la cual tiene unidades de newton-segundos por metro.\\
 
@@ -305,6 +316,7 @@ Podemos también expresar la resistencia R en términos de $\overline{\Delta p}$
 \end{equation}
 
 Entonces
+
 \begin{equation}
 R=\frac{k}{2\sqrt{\Delta p}}
 \end{equation} 
@@ -314,14 +326,16 @@ Para expresar la resistencia en términos de $\overline{w}$, se observa de (10) 
 \end{equation}
 
 Sustituyendo (1.12) en (1.13) dada la ecuación alternativa por resistencia hidráulica como.
+
 \begin{equation}
 R=\\frac{2\overline{w}}{k^{2}}
 \end{equation}
+
 Ya que los líquidos típicamente fluyen a través de redes compuestas de tuberías, válvulas y orificios, con frecuencia se debe combinar varias relaciones de la forma de (10) en una sola expresión equivalente. Usamos los modelos linealizados en muchos de nuestros análisis de los sistemas hidráulicos, es importante desarrollar reglas para combinar las resistencias de elementos linealizados que estén en configuración serie y paralelo. En el siguiente ejemplo, considere la relación del flujo versus la presión diferencial y la resistencia equivalente para dos válvulas en serie. La situación del flujo paralelo es tratada en uno de los problemas al final del capítulo. \\
 
-\subsubsection{Ejemplo:}
+\subsubsection{Ejemplo 2:}
 
-En la figura 5. Se muestra una configuración en serie de dos válvulas a través  de las cuales fluye un líquido con una velocidad w y a través del cual la presión diferencial es ${\Delta p}$, una válvula equivalente se muestra figura 6. Las dos válvulas son.
+En la figura 5. Se muestra una configuración en serie de dos válvulas a través de las cuales fluye un líquido con una velocidad $w$ y a través del cual la presión diferencial es ${\Delta p}$, una válvula equivalente se muestra figura 6. Las dos válvulas son.
 
 \begin{figure}[h]
 \centering
@@ -339,7 +353,7 @@ Ya que las dos válvulas son conectadas en serie, tienen la misma velocidad de f
 \Delta p= \Delta p_{a}+\Delta p_{b} = \left(\frac{1}{k^{2}_{a}}+\frac{1}{k^{2}_{a}}\right)\omega^{2}
 \end{equation} \\
 
-Entonces al resolver para w en términos de $\Delta p$. Después de algunas manipulaciones, se encuentra que:
+Entonces al resolver para $w$ en términos de $\Delta p$. Después de algunas manipulaciones, se encuentra que:
 
 \begin{equation}
 w=\left(\frac{{k_{a}k_{b}}}{\sqrt{{k^{2}}_{a}+{k^{2}}_{b}}} \right)
@@ -351,14 +365,14 @@ Comparando (1.16) con (10) se ve que la válvula constante equivalente es
 k_{c}=\frac{k_{a} k_{b}}{\sqrt{k^{2}}a{k^{2}}b}
 \end{equation}
 
-Usando (1.15) para la resistencia  de un modelo linealizado de una válvula equivalente. Se puede escribir:
+Usando (1.15) para la resistencia de un modelo linealizado de una válvula equivalente. Se puede escribir:
 
 \begin{equation}
 R_{c}\frac{2\overline{\omega}}{k^{2}_{c}}=
 2\overline{\omega}(\frac{1}{k^{2}_{a}}+\frac{1}{k^{2}_{b}})
 \end{equation} \\
 
-Sin embargo, para aplicar (1.15) a una válvula individual, vemos que estas resistencias son $R_{a}=2\overline{\omega}/k^{2}_{a}$ y $R_{b}=2\overline{\omega}/k^{2}_{b}$ respectivamente. Usando estas expresiones para $R_{a}$ y $R_{b}$, se puede reescribir como:
+Sin embargo, para aplicar (1.15) a una válvula individual, se observa que estas resistencias son $R_{a}=2\overline{\omega}/k^{2}_{a}$ y $R_{b}=2\overline{\omega}/k^{2}_{b}$ respectivamente. Usando estas expresiones para $R_{a}$ y $R_{b}$, se puede reescribir como:
 
 \begin{equation}
 R_{c}=R_{a}+R_{b}
@@ -386,34 +400,34 @@ En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba 
 %\label{Curvas típicas de la bomba centrífuga donde ∆p=p2-p1(a) para tres diferentes velocidades de la bomba (ω1<ω2<ω3). (b) muestra la aproximación lineal.}
 %\end{figure}
 
-Se determinan experimentalmente en condiciones de estado estacionario y son bastante no lineal. Para incluir una bomba está impulsada a una velocidad constante en un modelo dinámico lineal, primero determinamos el punto de funcionamiento de la velocidad de la bomba en particular mediante el cálculo de los valores de \textit{p} y $\omega$. Entonces nos encontramos con la pendiente de la tangente a la curva de la bomba en el punto de trabajo y definimos que sea \textit{-K}, que tiene unidades de newton-segundo por metro. Habiendo Donde está, podemos expresar la diferencia de presión gradual p en términos de la tasa de flujo adicional $\omega$ como:
+Se determinan experimentalmente en condiciones de estado estacionario y son bastante no lineal. Para incluir una bomba impulsada a una velocidad constante en un modelo dinámico lineal, primero se determina el punto de funcionamiento de la velocidad de la bomba en particular mediante el cálculo de los valores de \textit{p} y $\omega$. Entonces nos se encuentra la pendiente de la tangente a la curva de la bomba en el punto de trabajo y se define que sea \textit{-K}, que tiene unidades de newton-segundo por metro. Sabiendo donde está, se puede expresar la diferencia de presión gradual $p$ en términos de la tasa de flujo adicional $\omega$ como:
 
 \begin{equation}
 \Delta p=-K\widehat {\omega}
 \end{equation}
 
-Donde la constante K es siempre positivo. La solución de la ecuación anterior para $\omega$ produce:
+Donde la constante $K$ es siempre positiva. La solución de la ecuación anterior para $\omega$ produce:
 
 \begin{equation}
 \widehat {\omega}=-\frac {1}{K}\widehat {\Delta p}
 \end{equation}
 
-Figura 9 (b) Ilustra la relación de la aproximación linealizada a la curva de la bomba no lineal. Podemos escribir la expansión de la series de Taylor para una bomba accionada a una velocidad constante como:
+Figura 9 (b) Ilustra la relación de la aproximación linealizada a la curva de la bomba no lineal. Se puede escribir la expansión de la series de Taylor para una bomba accionada a una velocidad constante como:
 
 \begin{equation}
 \omega =\overline {\omega }+\frac {d\omega }{d\Delta p} \downarrow \frac {\left( \Delta p-\overline {\Delta p}\right)}{\Delta p} +\ldots 
 \end{equation}
 
-Donde el coeficiente $\frac {d\omega }{d\Delta p} \downarrow \frac {}{\Delta p}$ esta es la pendiente de la tangente a la curva de $\omega$ versus $\Delta p$, medida en la operación punto, y tiene el valor $-\frac{1}{K}$. Para dejando caer los términos de la segunda y de orden superior en la expansión y el uso de las variables incrementales $\omega$ frente $\widehat{\Delta p}$, obtenemos más la relación lineal de $\widehat {\omega}=-\frac {1}{K}\widehat {\Delta p}$. \\
+Donde el coeficiente $\frac {d\omega }{d\Delta p} \downarrow \frac {}{\Delta p}$ esta es la pendiente de la tangente a la curva de $\omega$ versus $\Delta p$, medida en la operación punto, y tiene el valor $-\frac{1}{K}$. dejando caer los términos de la segunda y de orden superior en la expansión y el uso de las variables incrementales $\omega$ frente $\widehat{\Delta p}$, se obtiene la relación lineal de $\widehat {\omega}=-\frac {1}{K}\widehat {\Delta p}$. \\
 La manera en cual una constante rápida de la bomba puede estar incorporada entre el modelo dinámico de un sistema hidráulico está ilustrado en el ejemplo 4 en la siguiente sección. \\
 
 \subsection{Modelos Dinamicos de Sistemas Hidraulicos}
 
-En esta sección, se aplican las leyes de los elementos presentados en la sección de sistemas hidráulicos se usan muchas técnicas de análisis  desde el previo capitulo. Vamos a desarrollar y analizar los modelos dinámicos para un solo recipiente con una válvula y una bomba. En cada caso, vamos a derivar el modelo no lineal y luego desarrollar y analizar un modelo linealizado. \\
+En esta sección, se aplican las leyes y técnicas de análisis de la sección previa. Se procede a desarrollar y analizar los modelos dinámicos para un solo recipiente (tanque) con una válvula y una moto-bomba. En cada caso, se deriva el modelo no lineal y luego se desarrolla y analiza un modelo linealizado. \\
 
 \subsubsection{Ejemplo 3:}
 
-La Figura 10. Muestra un recipiente que recibe líquido a un caudal $\omega_{i}\left(t\right)$ y pierde  líquido a través de una válvula que obliga la no linealidad de relación flujo contra presión $\omega _{0}=k\sqrt {P_{1}-P_{a}}$. El área de la sección transversal es \textit{A} y la densidad del líquido es  $\rho$. \\
+La Figura 10. Muestra un recipiente que recibe líquido a un caudal $\omega_{i}\left(t\right)$ y pierde  líquido a través de una válvula que obliga la no linealidad de relación flujo contra presión $\omega _{0}=k\sqrt {P_{1}-P_{a}}$. El área de la sección transversal es \textit{A} y la densidad del líquido es $\rho$. \\
 La derivada del modelo no lineal obliga para la presión absoluta $\rho_{1}$ al fondo del recipiente. Luego desarrollar la versión linealizada que es válida en la vecindad de la operación punto, y encontrar la función de trasferencia relacionado la transformación de la entrada incremental $\omega_{i}\left(t\right)$ y la presión incremental $\rho_{1}$. \\
 
 %\begin{figure}[h]
@@ -424,7 +438,7 @@ La derivada del modelo no lineal obliga para la presión absoluta $\rho_{1}$ al 
 %\label{Sistema hidráulico para el ejemplo 3.}
 %\end{figure}
 
-Teniendo desarrollado los modelos de sistemas en forma literal, determinar en forma numérica el punto de operación, la función de transferencia, y la respuesta a un aumento de función al paso del 10\% en el caudal de entrada para los siguientes valores de parámetros:
+Teniendo desarrollados los modelos de sistemas en forma literal, determinar en forma numérica el punto de operación, la función de transferencia, y la respuesta a un aumento de función al paso del 10\% en el caudal de entrada para los siguientes valores de parámetros:
 
 %\begin{equation}
 \begin{center}
@@ -437,7 +451,7 @@ $\overline{\omega _{i}}=6.0\times 10^{-3}\frac {m^{3}}{s}$ \\
 
 \subsubsection{Solución:}
 
-Tomando la presión p1 como la variable de estado, utilizamos $p=\frac {1}{c}\left[ w_{in}\left( t\right) -W_{out}\left( t\right) \right]$, con $C\left(h\right)$ sustituida por la constante. $C=A/\rho g$, a escribir
+Tomando la presión $p_{1}$ como la variable de estado, utilizamos $p=\frac {1}{c}\left[ w_{in}\left( t\right) -W_{out}\left( t\right) \right]$, con $C\left(h\right)$ sustituida por la constante. $C=A/\rho g$, a escribir
 
 \begin{equation}
 p=\frac {1}{c}\left[ w_{in}\left( t\right) -W_{out}\left( t\right) \right]
@@ -449,7 +463,7 @@ Luego de reemplazar y sustituir las ecuaciones para el desarrollo del planteamie
 H\left( s\right) =\frac {\frac {1}{C}}{s+\frac {1}{RC}}
 \end{equation}
 
-Cual tiene un solo polo en S= -1RC. Para el valor del parámetro especificado, el punto de operación dada se reduce a
+Cual tiene un solo polo en $S=-1RC$. Para el valor del parámetro especificado, el punto de operación dada se reduce a
 
 \begin{equation}
 P_{1}=1.013\times 10^{5}+\left( \frac {6.0\times 10^{-3}}{5.0\times 10^{-5}}\right) ^{2}=1.157\times 10^{5}\frac {N}{m^{2}}
@@ -653,31 +667,10 @@ Se puede encontrar cualquiera de las dos presiones $p_{1}$ o $p_{2}$ para combin
 
 \begin{equation}
 s^{2}+\left[ \frac {1}{C_{2}}\left( \frac {1}{K}+\frac {1}{R_{1}}\right) +\frac {1}{C_{2}}\left( \frac {1}{R_{1}}+\frac {1}{R_{2}}\right) \right] s+\frac {1}{C_{1}C_{2}}\left( \frac {1}{kR_{1}}+\frac {1}{KR_{2}}+\frac {1}{R_{1}R_{2}}\right) 
-\end{equation}
+\end{equation} \\
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-\newpage
-
-
-
-% ==============================================================================================
-%										SECCIÓN MODELAMIENTO
-% ==============================================================================================
-
-
-\section{Modelamiento}
+\subsection{Modelo Dinamico Planta M-ECCI}
 
 \begin{equation}
 A\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}
@@ -826,7 +819,7 @@ De este modo, la función linealizada solo es válida en el interior de la regi�
 \end{center}
 %\end{equation}
 
-\subsection{Características sistemas linealizados}
+\subsection{Características Sistemas linealizados}
 
 \begin{enumerate}
 \item La ecuación linealizada no es única, depende del punto alrededor del cual se haya linealizado.
@@ -952,7 +945,7 @@ Variables de desviación
 
 \section{Control}
 
-\subsection{Uso de SISOTOOL Para diseño de controles}
+\subsection{Uso de SISOTOOL Para Diseño de Controles}
 
 Sisotool es una poderosa herramienta de MATLAB que facilita en gran medida el diseño de controles. En \textit{sisotool} se trabaja de forma gráfica, usando el  método del $LGR$ (lugar geométrico de las raíces). \textit{Sisotool} puede mostrar en tiempo real las variaciones  de la respuesta del sistema generadas por los cambio que el usuario realice en el $LGR$, y es esto lo que lo hace tan practico para el diseño de controles. Para ejecutar \textit{sisotool} basta con llamarlo desde la línea de comando de MATLAB  escribiendo \textit{“sisotool”}. \\
 
@@ -1170,12 +1163,6 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 \caption{LTI Viewer for SISO Design Task.}
 \label{LTI Viewer for SISO Design Task.}
 \end{figure}
-
-
-
-
-
-
 
 
 \newpage
