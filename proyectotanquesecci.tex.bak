@@ -20,7 +20,8 @@
 Sergio Andres Acosta Herrera \\
 Dayanis Andrea Suarez Rodriguez\\
 Omar Andres Castañeda Goméz\\
-Sergio Agustin Oñate Sierra\\}
+Sergio Agustin Oñate Sierra\\
+David Humberto Hernandez Balcazar\\}
 \vspace{1cm}
 \textbf{Director}\\
 {\large Ing. Jhon Fredy Bayona Navarro M.Sc.}\\
@@ -202,18 +203,28 @@ p=pgh+p_{a}
 
 Donde \textit{g} es la constante gravitacional ${9.807 m/s^{2}}$ y donde \textit{Pa} es la presión atmosférica, que ha sido tomada como ${1.013 x 10^{5}  N/m^{2}}$\\
 
-Las ecuaciones (1.2) y (1.3) implican que para cualquier geometría del recipiente, la densidad del líquido y la presión atmosférica, tienen una relación algebraica única entre la presión \textit{p} y el volumen de líquido \textit{v}. Una curva característica típica que describe esta relación se muestra es la figura.
+\begin{equation}
+C=\frac{A}{pg}
+\label{Ecu 4}
+\end{equation}
+
+Las ecuaciones (2.2) y (2.3) implican que para cualquier geometría del recipiente, la densidad del líquido y la presión atmosférica, tienen una relación algebraica única entre la presión \textit{p} y el volumen de líquido \textit{v}. Una curva característica típica que describe esta relación se muestra es la figura.
 
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.4]{Figura1}
 \renewcommand{\figurename}{Fig.}
-%\caption{Presi�n en funci�n del volumen y el �rea de un liquido}
+\caption{Presi�n en funci�n del volumen y el �rea de un liquido}
 \label{Presi�n en funci�n del volumen y el �rea de un liquido}
 \end{figure}
 
-Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1,1 , entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.\\
+Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1 (b), entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.\\
+
+\begin{equation}
+C{h}=\frac{A{h}}{pg}
+\label{Ecu 5}
+\end{equation}
 
 \subsubsection{Ejemplo 1:}
 
@@ -229,9 +240,9 @@ Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \
 
 \subsubsection{Solución}
 
-Para la configuración en la figura 1,2(a). El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que se puede usar (1.3), y lacapacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
+Para la configuración en la figura 2(a). El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que se puede usar $C=\frac{A}{pg}$, y la capacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
 
-Cuando el recipiente esta sobre uno de sus lados, como se muestra en la figura 2(b), el área de la sección transversal es una función de la altura del liquido h. Puede verificar que el ancho de la superficie del líquido es $2\sqrt{(R^{2})}-(R-h)^{2}$ la cual es cero cuando \textit{h=0} y \textit{h=2R} y tiene el máximo valor de \textit{2R} cuando \textit{h=R}. usando (1.4), encontramos que la capacitancia es:
+Cuando el recipiente esta sobre uno de sus lados, como se muestra en la figura 2(b), el área de la sección transversal es una función de la altura del liquido h. Puede verificar que el ancho de la superficie del líquido es $2\sqrt{(R^{2})}-(R-h)^{2}$ la cual es cero cuando \textit{h=0} y \textit{h=2R} y tiene el máximo valor de \textit{2R} cuando \textit{h=R}. usando $C{h}=\frac{A{h}}{pg}$, encontramos que la capacitancia es:
 
 \begin{equation}
 c_{b}=\frac{2L}{pg}\sqrt{R^{2}}-(R-h)^{2}
@@ -250,12 +261,13 @@ Como se muestra en la figura 3.
 
 \subsection{Resistencia}
 
-Como el liquido fluye a través de una tubería, allí hay poca presión del líquido a lo largo de la tubería. Del mismo modo hay poca presión si el líquido fluye a través de una válvula o en un orificio. En cambio la presión asociada con el flujo del líquido que resulta la disipación de energía y usualmente obedece a una relación algebraica no lineal entre la velocidad del flujo $\omega$ y la diferencia de presión $\Delta p$. El símbolo de la válvula se muestra en la figura (1.4). Esto también puede ser usado por otros elementos que disipan energía. \\
+Como el liquido fluye a través de una tubería, allí hay poca presión del líquido a lo largo de la tubería. Del mismo modo hay poca presión si el líquido fluye a través de una válvula o en un orificio. En cambio la presión asociada con el flujo del líquido que resulta la disipación de energía y usualmente obedece a una relación algebraica no lineal entre la velocidad del flujo $\omega$ y la diferencia de presión $\Delta p$. El símbolo de la válvula se muestra en la figura 4. Esto también puede ser usado por otros elementos que disipan energía. \\
 
 Un valor positivo de $\omega$ indica que el líquido está fluyendo en la dirección de la flecha; un valor positivo de $\Delta p$ (presión diferencial) indica que la presión en el punto marcado con $+$ es más alta que la presión en el otro punto. La expresión:
 
 \begin{equation}
 w=k\sqrt{\Delta p}
+\label{Ecu 7}
 \end{equation}
 
 \begin{figure}[h]
@@ -266,7 +278,7 @@ w=k\sqrt{\Delta p}
 \label{simbolo de una válvula hidráulica.}
 \end{figure}
 
-Describe un orificio y una válvula y es una buena aproximación del flujo turbulento a través de las tuberías. Se pueden tratar todas las situaciones que sean de interés, usando una ley de un elemento no lineal de la forma de (10). En esta ecuación, $k$ es una constante que depende de las características de la tubería, válvula, u orificio. Una curva típica de la velocidad del flujo contra la presión diferencial como se muestra en la figura 1.5(a).
+Describe un orificio y una válvula y es una buena aproximación del flujo turbulento a través de las tuberías. Se pueden tratar todas las situaciones que sean de interés, usando una ley de un elemento no lineal de la forma de (7). En esta ecuación, $k$ es una constante que depende de las características de la tubería, válvula, u orificio. Una curva típica de la velocidad del flujo contra la presión diferencial como se muestra en la \textit{Fig. 5(a)}.
 
 \begin{figure}[h]
 \centering
@@ -276,12 +288,12 @@ Describe un orificio y una válvula y es una buena aproximación del flujo turbu
 \label{(a) velocidad de flujo vs presión diferencial. (b) Interpretación de la resistencia hidráulica.}
 \end{figure}
 
-Ya que (10) es una relación no lineal, se debe linealizar alrededor un punto de operación a fin de desarrollar un modelo lineal de un sistema hidráulico.
+Ya que (7) es una relación no lineal, se debe linealizar alrededor un punto de operación a fin de desarrollar un modelo lineal de un sistema hidráulico.
 Si se dibuja la tangente a la curva de $w$ verus $\Delta p$  en el punto de operación, el reciproco de su pendiente es definido como la resistencia hidráulica $R$. \\
 
-La figura 1.5 (b) ilustra la interpretación geométrica de la resistencia, la cual tiene unidades de newton-segundos por metro.\\
+La \textit{Fig. 5(b)} ilustra la interpretación geométrica de la resistencia, la cual tiene unidades de newton-segundos por metro.\\
 
-Expandiendo (10) en la serie de Taylor alrededor del punto de operación dado.
+Expandiendo (7) en la serie de Taylor alrededor del punto de operación dado.
 
 \begin{equation}
 w=-w+\frac{dw}{d\Delta p}\downarrow -\Delta p (\Delta p -\Delta p - ....)
@@ -331,11 +343,11 @@ Sustituyendo (1.12) en (1.13) dada la ecuación alternativa por resistencia hidr
 R=\\frac{2\overline{w}}{k^{2}}
 \end{equation}
 
-Ya que los líquidos típicamente fluyen a través de redes compuestas de tuberías, válvulas y orificios, con frecuencia se debe combinar varias relaciones de la forma de (10) en una sola expresión equivalente. Usamos los modelos linealizados en muchos de nuestros análisis de los sistemas hidráulicos, es importante desarrollar reglas para combinar las resistencias de elementos linealizados que estén en configuración serie y paralelo. En el siguiente ejemplo, considere la relación del flujo versus la presión diferencial y la resistencia equivalente para dos válvulas en serie. La situación del flujo paralelo es tratada en uno de los problemas al final del capítulo. \\
+Ya que los líquidos típicamente fluyen a través de redes compuestas de tuberías, válvulas y orificios, con frecuencia se debe combinar varias relaciones de la forma de (7) en una sola expresión equivalente. Usamos los modelos linealizados en muchos de nuestros análisis de los sistemas hidráulicos, es importante desarrollar reglas para combinar las resistencias de elementos linealizados que estén en configuración serie y paralelo. En el siguiente ejemplo, considere la relación del flujo versus la presión diferencial y la resistencia equivalente para dos válvulas en serie. La situación del flujo paralelo es tratada en uno de los problemas al final del capítulo. \\
 
 \subsubsection{Ejemplo 2:}
 
-En la figura 5. Se muestra una configuración en serie de dos válvulas a través de las cuales fluye un líquido con una velocidad $w$ y a través del cual la presión diferencial es ${\Delta p}$, una válvula equivalente se muestra figura 6. Las dos válvulas son.
+En la \textit{Fig. 2.6(a)}. Se muestra una configuración en serie de dos válvulas a través de las cuales fluye un líquido con una velocidad $w$ y a través del cual la presión diferencial es ${\Delta p}$, una válvula equivalente se muestra \textit{Fig. 2.5(b)}. Las dos válvulas son.
 
 \begin{figure}[h]
 \centering
@@ -359,20 +371,20 @@ Entonces al resolver para $w$ en términos de $\Delta p$. Después de algunas ma
 w=\left(\frac{{k_{a}k_{b}}}{\sqrt{{k^{2}}_{a}+{k^{2}}_{b}}} \right)
 \end{equation} \\
 
-Comparando (1.16) con (10) se ve que la válvula constante equivalente es
+Comparando (2.16) con (7) se ve que la válvula constante equivalente es
 
 \begin{equation}
 k_{c}=\frac{k_{a} k_{b}}{\sqrt{k^{2}}a{k^{2}}b}
 \end{equation}
 
-Usando (1.15) para la resistencia de un modelo linealizado de una válvula equivalente. Se puede escribir:
+Usando (2.15) para la resistencia de un modelo linealizado de una válvula equivalente. Se puede escribir:
 
 \begin{equation}
 R_{c}\frac{2\overline{\omega}}{k^{2}_{c}}=
 2\overline{\omega}(\frac{1}{k^{2}_{a}}+\frac{1}{k^{2}_{b}})
 \end{equation} \\
 
-Sin embargo, para aplicar (1.15) a una válvula individual, se observa que estas resistencias son $R_{a}=2\overline{\omega}/k^{2}_{a}$ y $R_{b}=2\overline{\omega}/k^{2}_{b}$ respectivamente. Usando estas expresiones para $R_{a}$ y $R_{b}$, se puede reescribir como:
+Sin embargo, para aplicar (2.15) a una válvula individual, se observa que estas resistencias son $R_{a}=2\overline{\omega}/k^{2}_{a}$ y $R_{b}=2\overline{\omega}/k^{2}_{b}$ respectivamente. Usando estas expresiones para $R_{a}$ y $R_{b}$, se puede reescribir como:
 
 \begin{equation}
 R_{c}=R_{a}+R_{b}
