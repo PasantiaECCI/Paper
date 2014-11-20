@@ -17,10 +17,8 @@
 \textbf{Capítulo de libro del grupo de control (M-ECCI)}\\
 \vspace{3cm}
 {\large 
-Sergio Andres Acosta Herrera \\
 Dayanis Andrea Suarez Rodriguez\\
-Omar Andres Castañeda Goméz\\
-Sergio Agustin Oñate Sierra\\
+Sergio Andres Acosta Herrera \\
 David Humberto Hernandez Balcazar\\}
 \vspace{1cm}
 \textbf{Director}\\
@@ -52,13 +50,15 @@ David Humberto Hernandez Balcazar\\}
 
 
 
+
+
+
 % ==============================================================================================
-%										SECCION INTRODUCTORIA
+%												RESUMEN
 % ==============================================================================================
 
-\chapter{Introducción}
-
-\section{Resumen}
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
 
 Con mayor eficiencia el nivel de tecnología en la actualidad estimula los parámetros que retroalimentan y contribuyen la necesidad del ser humano con aplicaciones que avanzan a gran escala de industria a industria de alta calidad,  los sistemas hidráulicos son construidos y desarrollados especialmente para el mejoramiento de la dinámica de fluidos como: (químicos, gasolina, aceites, agua)  entre otros. Sin embargo estos sistemas trabajan en conjunto para realizar un análisis integral tanto dinámico, termodinámico y mecánico en el cual la particularidad de cada uno hace parte de la potencia y control de un sistema. El análisis de los mismos se realiza en un laboratorio observando el estado estable y funcional del sistema mediante una simulación computarizada.\\
 
@@ -66,13 +66,15 @@ La simulación se ha convertido en una herramienta fundamental para el estudio d
 
 Con frecuencia las universidades tienen herramientas y dispositivos inteligentes para obtener un análisis de investigación y desarrollo e innovación, esto permite que el estudiante requiera habilidades prácticas y capacidades a la hora de enfrentarse con un prototipo de estudio.\\
 
-\newpage
 
 
 
 
+% ==============================================================================================
+%										CAPITULO INTRODUCCIÓN
+% ==============================================================================================
 
-\section{Introducción}
+\chapter{Introducción}
 
 Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de procesos industriales, científicos de todo el mundo han trabajado para lograr que los procesos de manufactura, control automático y accionamiento sean cada vez más efectivos y más eficientes. Con esta meta se han desarrollado nuevos procesos para lograr alcanzar este mejoramiento continuo de un sistema hidráulico para proyectos con manipulación de liquidos.\\
 
@@ -80,34 +82,15 @@ El diseño de los sistemas hidráulicos se basa en la interconexión de  sistema
 
 Este texto se centra particularmente en la revolución de los procesos en sistemas hidráulicos en los que comúnmente se presentan procesos químicos, sistemas de control automático, actuadores y motores de accionamiento. Este análisis hace persuadir que generalmente estan involucrados en modelos que ya están implementados y particularmente son modelos lineales por las condiciones de las variables a manejar.\\
 
-\newpage
 
 
 
 
-\section{Objetivos}
+% ==============================================================================================
+%										CAPITULO JUSTIFICACIÓN
+% ==============================================================================================
 
-\subsection{Objetivo general}
-
-\begin{enumerate}
-\item Diseñar e implementar un sistema de control que permita manipular el nivel de liquido de un tanque; compuesto por celda de carga, válvula proporcional, válvula on/off y variador, de modo que el nivel del mismo se establezca en un set point establecido.
-\end{enumerate}
-
-\subsection{Objetivos específicos}
-
-\begin{enumerate}
-\item Determinar la respuesta en voltaje de la señal de salida del indicador de nivel (celda de carga) en el tanque 1.
-\item Desarrollar el modelamiento del sistema para la respuesta del nivel en el tanque 1.
-\item Realizar la identificación del sistema del tanque 1 y verificar la controlabilidad del mismo.
-\item Implementar un algoritmo en MATLAB que permita la conexión entre el pc y la planta por medio de la tarjeta de National Instruments NI USB 6008.
-\item Implementar un controlador que permita mantener el nivel del tanque 1 en el set-point establecido por el usuario.
-\end{enumerate}
-
-	
-
-
-
-\newpage
+\chapter{Justificación}
 
 \section{Estado del arte}
 
@@ -125,16 +108,38 @@ Diego Andrés Ochoa (2012), tesis, Escuela Superior Politécnica del Litoral (Ec
 
 
 
+% ==============================================================================================
+%										CAPITULO OBJETIVOS
+% ==============================================================================================
+
+\chapter{Objetivos}
+
+\section{Objetivo general}
+
+\begin{enumerate}
+\item Diseñar e implementar un sistema de control que permita manipular el nivel de liquido de un tanque; compuesto por celda de carga, válvula proporcional, válvula on/off y variador, de modo que el nivel del mismo se establezca en un set point establecido.
+\end{enumerate}
+
+\section{Objetivos específicos}
+
+\begin{enumerate}
+\item Determinar la respuesta en voltaje de la señal de salida del indicador de nivel (celda de carga) en el tanque 1.
+\item Desarrollar el modelamiento del sistema para la respuesta del nivel en el tanque 1.
+\item Realizar la identificación del sistema del tanque 1 y verificar la controlabilidad del mismo.
+\item Implementar un algoritmo en MATLAB que permita la conexión entre el pc y la planta por medio de la tarjeta de National Instruments NI USB 6008.
+\item Implementar un controlador que permita mantener el nivel del tanque 1 en el set-point establecido por el usuario.
+\end{enumerate}
+
+
+
 
 
 % ==============================================================================================
-%											MARCO TEORICO
+%										CAPITULO MARCO TEORICO
 % ==============================================================================================
-
 
 \chapter{Marco Teorico}
 
-%\chapter{Sistemas hidráulicos}
 \section{Introducción a Sistemas hidráulicos}
 
 Un sistema hidráulico es uno en el cual los líquidos, generalmente son considerados flujo incomprensible. Los sistemas hidráulicos comúnmente aparecen en procesos químicos, sistemas de control automático; y actuadores y motores de accionamiento para la fabricación de equipos. Estos sistemas son usualmente interconectados a sistemas mecánicos a través de bombas, válvulas, y pistones móviles. Una turbina es impulsada por agua y usada para accionar un generador eléctrico es un ejemplo de un sistema donde interactúan elementos hidráulicos, mecánicos y eléctricos. No discutiremos más sobre el tema general de sistemas fluidos, el cual podría incluir fluidos compresibles tales como gases y aire. \\
@@ -143,21 +148,16 @@ Un análisis exacto de sistemas hidráulicos no es usualmente factible por su na
 
 En más casos, los sistemas hidráulicos operan con las variables restantes cerca de un punto de operación específico. Generalmente estamos interesados en los modelos que involucran variables incrementales. Este hecho es particularmente útil porque tales modelos son usualmente lineales, aunque el modelo expresado en las variables finales podría ser no lineal.\\
 
-
-
-
-
 \newpage
 
 
 
-% ==============================================================================================
-%										SECCIÓN MODELAMIENTO
-% ==============================================================================================
+
+
+% ==================================== SECCIÓN MODELAMIENTO ====================================
 
 
 \section{Modelamiento}
-
 
 \subsection{Variables}
 
@@ -215,8 +215,8 @@ Las ecuaciones (2.2) y (2.3) implican que para cualquier geometría del recipien
 \centering
 \includegraphics[scale=0.4]{Figura1}
 \renewcommand{\figurename}{Fig.}
-\caption{Presi�n en funci�n del volumen y el �rea de un liquido}
-\label{Presi�n en funci�n del volumen y el �rea de un liquido}
+\caption{Presión en función del volumen y el área de un liquido}
+\label{Presión en función del volumen y el área de un liquido}
 \end{figure}
 
 Si la tangente para la curva  presión vs volumen es dibujada en algún punto, como se muestra en la figura 1 (b), entonces el recíproco de la pendiente es definido como la capacitancia hidráulica, expresada como \textit{C(h)}.\\
@@ -240,7 +240,7 @@ Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \
 
 \subsubsection{Solución}
 
-Para la configuración en la figura 2(a). El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que se puede usar $C=\frac{A}{pg}$, y la capacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
+Para la configuración en la \textit{Fig. 2.2(a)}. El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que se puede usar $C=\frac{A}{pg}$, y la capacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
 
 Cuando el recipiente esta sobre uno de sus lados, como se muestra en la figura 2(b), el área de la sección transversal es una función de la altura del liquido h. Puede verificar que el ancho de la superficie del líquido es $2\sqrt{(R^{2})}-(R-h)^{2}$ la cual es cero cuando \textit{h=0} y \textit{h=2R} y tiene el máximo valor de \textit{2R} cuando \textit{h=R}. usando $C{h}=\frac{A{h}}{pg}$, encontramos que la capacitancia es:
 
@@ -278,7 +278,7 @@ w=k\sqrt{\Delta p}
 \label{simbolo de una válvula hidráulica.}
 \end{figure}
 
-Describe un orificio y una válvula y es una buena aproximación del flujo turbulento a través de las tuberías. Se pueden tratar todas las situaciones que sean de interés, usando una ley de un elemento no lineal de la forma de (7). En esta ecuación, $k$ es una constante que depende de las características de la tubería, válvula, u orificio. Una curva típica de la velocidad del flujo contra la presión diferencial como se muestra en la \textit{Fig. 5(a)}.
+Describe un orificio y una válvula y es una buena aproximación del flujo turbulento a través de las tuberías. Se pueden tratar todas las situaciones que sean de interés, usando una ley de un elemento no lineal de la forma de (7). En esta ecuación, $k$ es una constante que depende de las características de la tubería, válvula, u orificio. Una curva típica de la velocidad del flujo contra la presión diferencial como se muestra en la \textit{Fig. 2.5(a)}.
 
 \begin{figure}[h]
 \centering
@@ -408,8 +408,8 @@ En la mayoría de los sistemas hidráulicos, la fuente de energía es una bomba 
 \centering
 \includegraphics[scale=0.5]{Figura8}
 \renewcommand{\figurename}{Fig.}
-\caption{Curvas típicas de la bomba centrífuga donde ∆p=p2-p1(a) para tres diferentes velocidades de la bomba (ω1<ω2<ω3). (b) muestra la aproximación lineal.}
-\label{Curvas típicas de la bomba centrífuga donde ∆p=p2-p1(a) para tres diferentes velocidades de la bomba (ω1<ω2<ω3). (b) muestra la aproximación lineal.}
+\caption{Curvas típicas de la bomba centrífuga donde $\delta p=p_{2}-p_{1}$ (a) para tres diferentes velocidades de la bomba ($\omega1 < \omega2 < \omega3$). (b) muestra la aproximación lineal.}
+\label{Curvas típicas de la bomba centrífuga donde $\delta p=p_{2}-p_{1}$ (a) para tres diferentes velocidades de la bomba ($\omega1 < \omega2 < \omega3$). (b) muestra la aproximación lineal.}
 \end{figure}
 
 Se determinan experimentalmente en condiciones de estado estacionario y son bastante no lineal. Para incluir una bomba impulsada a una velocidad constante en un modelo dinámico lineal, primero se determina el punto de funcionamiento de la velocidad de la bomba en particular mediante el cálculo de los valores de \textit{p} y $\omega$. Entonces nos se encuentra la pendiente de la tangente a la curva de la bomba en el punto de trabajo y se define que sea \textit{-K}, que tiene unidades de newton-segundo por metro. Sabiendo donde está, se puede expresar la diferencia de presión gradual $p$ en términos de la tasa de flujo adicional $\omega$ como:
@@ -788,16 +788,13 @@ Para realizar el modelo especifico del tanque, es necesario realizar el cambio d
 \frac {H\left( s\right) }{Qin\left( s\right) }=\frac {R}{AR+1}
 \end{equation}
 
-
-
-
 \newpage
 
 
 
-% ==============================================================================================
-%										SECCIÓN LINEALIZACIÓN
-% ==============================================================================================
+
+
+% ==================================== SECCIÓN LINEALIZACIÓN ===================================
 
 \section{Linealización}
 
@@ -935,28 +932,21 @@ Variables de desviación
 \end{center}
 %\end{equation}
 
-
-
-
 \newpage
 
 
 
-% ==============================================================================================
-%										SECCIÓN IDENTIFICACIÓN
-% ==============================================================================================
+% ==================================== SECCIÓN IDENTIFICACIÓN ==================================
 
-\section{Identificación}
-%\chapter{Identificación}
+%\section{Identificación}
 
-
-\newpage
+%\newpage
 
 
 
-% ==============================================================================================
-%											SECCIÓN CONTROL
-% ==============================================================================================
+
+
+% ======================================== SECCIÓN CONTROL =====================================
 
 \section{Control}
 
@@ -1145,7 +1135,7 @@ Ya se logro cumplir con el requerimiento de tiempo de asentamiento pero se gener
 \label{LTI Viewer for SISO Design Task.}
 \end{figure}
 
-Tal como se ve, ahora no hay error en estado estacionario pero todo lo demás se altero y la gráfica del $LGR$ se modifico totalmente. Lla gráfica del $LGR$ puede restablecerse a forma parecida a la anterior agregando un cero en el eje real entre el cero que se había agregado antes y el polo en el origen que se agregó ahora, ya que esto obliga a que la parte del $LGR$ que empieza desde el polo en el origen llegue solo hasta el nuevo cero que se agregó. Haciendo esto que los polos complejos conjugados que existían originalmente vuelvan a interactuar de la misma forma que antes con el primer cero que se agregó. Al agregar el nuevo cero el $LGR$ queda como se observa en la \textit{Fig. 2.21}. \\
+Tal como se ve, ahora no hay error en estado estacionario pero todo lo demás se altero y la gráfica del $LGR$ se modifico totalmente. La gráfica del $LGR$ puede restablecerse a forma parecida a la anterior agregando un cero en el eje real entre el cero que se había agregado antes y el polo en el origen que se agregó ahora, ya que esto obliga a que la parte del $LGR$ que empieza desde el polo en el origen llegue solo hasta el nuevo cero que se agregó. Haciendo esto que los polos complejos conjugados que existían originalmente vuelvan a interactuar de la misma forma que antes con el primer cero que se agregó. Al agregar el nuevo cero el $LGR$ queda como se observa en la \textit{Fig. 2.21}. \\
 
 Como ahora el polo que esta mas cerca al origen fue el que se agregó, los otros dos polos complejos conjugados no son los dominantes, por lo que las gráficas de los requerimientos de diseño ya no son proporcionan confiabilidad. \\
 
@@ -1179,8 +1169,73 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 \label{LTI Viewer for SISO Design Task.}
 \end{figure}
 
+\newpage
+
+
+
+
+
+% ==============================================================================================
+%									CAPITULO DISEÑO METODOLÓGICO
+% ==============================================================================================
+
+\chapter{Diseño Metodologico}
+
+\section{Analisis}
+
+\section{Delimitaciones}
+
+\section{Procedimiento}
+
+\section{Presupuesto}
+
+\section{Materiales y Equipos}
+
+\section{Resultados y Analisis}
+
+
+
+
+
+% ==============================================================================================
+%								CAPITULO CRONOGRAMA DE ACTIVIDADES
+% ==============================================================================================
+
+\chapter{Cronograma de Actividades}
+
+\section{Evidencias}
 
 \newpage
+
+
+
+
+
+% ==============================================================================================
+%									CAPITULO CONCLUSIONES
+% ==============================================================================================
+
+\chapter{Conclusiones}
+
+
+
+
+
+% ==============================================================================================
+%									CAPITULO TRABAJO FUTURO
+% ==============================================================================================
+
+\chapter{Trabajo Futuro}
+
+
+
+
+
+% ==============================================================================================
+%								CAPITULO CRONOGRAMA DE ACTIVIDADES
+% ==============================================================================================
+
+\chapter{Bibliografia}
 
 
 
@@ -1191,248 +1246,12 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 % ==============================================================================================
 
 
-\appendix
+%\appendix
 
-\chapter{Tarjetas de circuitos impresos}
+%\chapter{Tarjetas de circuitos impresos}
 
-\section{Historia}
+%\section{Historia}
 
-El inventor de los circuitos impresos fue el ingeniero austriaco Paul Eisler (1907-1995) que fabrico el primer circuito impreso alrededor de 1936 como parte de un radio, alrededor  de 1943 los estadunidenses iniciaron el uso de esta tecnología para la fabricación de radios  usados en la segunda guerra mundial, en 1948 se hizo la liberación de la invención tecnológica para que tuviese fines comerciales, pero su mayor impacto fue su fabricación en serie y el proceso de auto-montaje  que fue desarrollado por la  armada de los estados unidos en  1950..
-Cuando las tarjetas fueron desarrolladas cada componente electrónico tenía pines de cobre o latón de varios milímetros de longitud, y el circuito impreso tenía orificios taladrados para cada pin del componente. Los pines de los componentes atravesaban los orificios y eran soldados a las pistas del circuito impreso. Este método de ensamblaje es llamado through-hole.
-En 1949, Moe Abramson y Stanilus F. Danko, de la armada de  los estados Unidos desarrollaron el proceso de autoensamblaje, en donde las pines de los componentes eran insertadas en una lámina de cobre con el patrón de interconexión, y luego eran soldadas.
-
-\section{Definición}
-
-Una tarjeta de circuito impreso es una superficie conformada por una base de material no conductor y unas pistas o caminos de interconexión de material conductor, estas tarjetas son usadas para interconectar y sostener elementos electrónicos y mecánicos.
-Los caminos o pistas son generalmente  de cobre  muestras que la base se fabrica de diferentes resinas de fibra de vidrio.
-
-\section{Normatividad para la construcción de  tarjetas de circuitos impresos}
-
-\subsection{UNE  20-621-84/3}
-
-Esta norma define  los espesores de material aislante para las placas que poseen una o más capas.
-
-\begin{center}
-0.2, 0.5, 0.7, 0.8, 1.0, 1.2, 1.5, 1.6, 2.0, 2.4, 3.2, 0 6.4.mm
-\end{center}
-
-Las placas que común mente se usan para  tarjetas de una y dos caras conductoras son las  de 2mm, mientras que para las tarjetas multicapas  el espesor depende del número de capas que tenga  y de las hojas de unión entre la misma , los espesores más comunes para tarjetas multicapas son 18, 35, 70 ó 105 um.\\
-
-En esta misma norma  se menciona la forma de interconectar los componentes  a las capas conductoras, estas interconexiones pueden ser de diferentes tipos como lo son:
-
-\begin{enumerate}
-\item Agujeros sin metalizar con nudos.
-\item Agujeros metalizados con nudos.
-\item Agujeros metalizados sin nudos 
-\item Nudos sin agujeros (montajes superficiales)
-\end{enumerate}
-
-El diámetro de los agujeros depende del componente a usar,  pero en esta norma  se indican los diámetros y la tolerancia de los distintos tipos de agujeros.
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{tabla1.jpg}
-\renewcommand{\figurename}{Fig.}
-\caption{Tipos de agujeros}
-\label{Tipos de agujeros}
-\end{figure}
-
-Esta misma norma  también define en uno de sus capítulos  el tamaño de las pistas conductoras pues es dependiente  de la corriente eléctrica que va a circular por esta. 
-La siguientes graficas presentan las resistencias de las pistas de cobre para diversos espesores de conductores  en función de la anchura de la pista
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{pistas.jpg}
-\renewcommand{\figurename}{Fig.}
-\caption{Pistas conductoras}
-\label{Pistas conductoras}
-\end{figure}
-
-El ancho de la pista se clacula según las especificaciones de corriente que valla a manejar la tarjeta yteniendo en cuenta la siguiente formula:
-\begin{equation}
-Ancho=\frac{Area}{L*1,378}
-\label{Ecu 2}
-\end{equation}
-\\
-
-\subsection{UNE 20-55-2753}
-Esta norma define el tamaño del nudo de soldadura el cual es dependiente del  diámetro del agujero  y su forma, a continuación se muestra las Tabla nominal de nudos y agujeros.
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{Tabla2.jpg}
-\renewcommand{\figurename}{Fig.}
-\caption{Tamaño de nudos}
-\label{Tamaño de nudos}
-\end{figure}
-
-\section{Pautas básicas para la construcción de circuitos impresos}
-
-\begin{enumerate}
-\item Hacer el diseño  lo mas sencillo posible, cuanto mas cortas las pistas y mejor sea la distribución de los componentes el resultado será mejor.
-\item Realizar el diseño  en una hoja cuadriculada de una décima de pulga, y hacer coincidir las pistas conductoras con las líneas de la cuadricula o hacerlas mismas con Angulo de 45 grados
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{pauta1.jpg}
-\renewcommand{\figurename}{Fig.}
-\caption{Diseño de pists}
-\label{Diseño de pistas}
-\end{figure}
-
-\item Cuando se necesite una curva no deben emplearse ángulos de  90 grados, sino anguilos de 135 grados.
-
- \begin{figure}[h]
- \centering
- \includegraphics[scale=0.8]{pauta3.jpg}
- \renewcommand{\figurename}{Fig.}
- \caption{Angulos oara el diseño de pistas }
- \label{Angulos oara el diseño de pistas }
- \end{figure}
-\item Para realizar bifurcaciones  en una pista conductora, se contemplara realizar triángulos  suavizados.
- \begin{figure}[h]
- \centering
- \includegraphics[scale=1.0]{pauta4.jpg}
- \renewcommand{\figurename}{Fig.}
- \caption{Diseño de bifurcaciones entre pistas}
- \label{Diseño de bifurcaciones entre pista }
- \end{figure}
- \item Para conocer e l ancho de la pista  se   debe tener en cuenta el flujo de corriente eléctrica que circulara por la misma.
-
-\begin{enumerate}
-\item 1 mm pueden soportar hasta un amperio (1A) de intensidad de corriente
-\item 4.5 mm  pueden soportar hasta 10 amperios (10A) de flujo de intensidad de corriente.
-\item Las pistas más comunes son las de 2 mm que pueden soportar un promedio de dos amperios (2A) y dependiendo del aspersor podrá 0soportar hasta cinco amperios (5A).	
-\end{enumerate}
-\item La separación  entre pistas  maneja un estar de 0.8mm pero en diseños complejos se podrá usar una distancia de 0.4mm. cuando se calcule la distancia entre pistas se considerara la tensión eléctrica que habrá entre ellas.La distancia  entre bordes y pistas  será de aproximadamente 5mm
- \begin{figure}[h]
- \centering
- \includegraphics[scale=1.0]{pauta61.jpg}
- \renewcommand{\figurename}{Fig.}
- \caption{Separación entre pistas}
- \label{Separación entre pistas}
- \end{figure}
-\item Todos los componentes se pondrán en paralelos a la a los bordes y no se pondrán pistas entre los bordes de la placa
-\begin{enumerate}
-\item No se pondrán pistas entre dos terminales del cuerpo y componentes activos.
-\item Se debe dejar una décima de pulgada  entre el cuerpo del componente y el punto de soldadura correspondiendo en el orificio de la placa.
-\begin{figure}[h]
- \centering
- \includegraphics[scale=1.0]{pauta8.jpg}
- \renewcommand{\figurename}{Fig.}
- \caption{Separación entre componentes y pistas}
- \label{Separación entre componentes y pistas }
- \end{figure}
-\end{enumerate}
-\item En algunas placas de circuitos impresos se pueden usar componentes de tipo SMT que son tarjetas de circuitos impresos pequeñas que se conectan a una tarjeta mayor, existen 4 tipos  las cuales son:
-\begin{enumerate}
-\item LLC 
-\begin{figure}[h]
- \centering
- \includegraphics[scale=1.3]{LLC.jpg}
- \renewcommand{\figurename}{Fig.}
- \caption{Placas de circuitos impresos LLC}
- \label{Placas de circuitos impresos LLC}
- \end{figure}
-\item SIMM
-\begin{figure}[h]
- \centering
- \includegraphics[scale=1.0]{SIMM.jpg}
- \renewcommand{\figurename}{Fig.}
- \caption{Placas de circuitos impresos SIMM}
- \label{Placas de circuitos impresos SIMM}
- \end{figure}\\
-   
- \item DIPM
- \begin{figure}[h]
-  \centering
-  \includegraphics[scale=1.0]{DIP.jpg}
-  \renewcommand{\figurename}{Fig.}
-  \caption{Placas de circuitos impresos DIP }
-  \label{Placas de circuitos impresos DIP}
-  \end{figure}
- 
-  \item SIP
-  \begin{figure}[h]
-   \centering
-   \includegraphics[scale=1.0]{SIP.jpg}
-   \renewcommand{\figurename}{Fig.}
-   \caption{Placas de circuitos impresos SIP}
-   \label{Placas de circuitos impresos SIP}
-   \end{figure}
-\end{enumerate}
-\end{enumerate}
-
-\section{Disposición  De Componentes}
-
-Para la disposición de los  componentes se debe tener en cuenta que hay dos tipos los cuales son:
-
-\begin{enumerate}
-\item Componentes de inserción (TDH). En estos componentes se insertan los terminales en los nodos de la placa para posterior soldadura.
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1.0]{TDH.jpg}
-  \renewcommand{\figurename}{Fig.}
-  \caption{Componentes en montaje de insercion}
-  \label{Componentes en montaje de insercion}
-  \end{figure}
-\item •	Componentes de montaje superficial (SMD). Son usados  para montajes de alta densidad de componentes
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1.0]{SMD.jpg}
-  \renewcommand{\figurename}{Fig.}
-  \caption{Componentes en montaje superficial}
-  \label{Componentes en montaje Superficial}
-  \end{figure}
-\end{enumerate}
-
-De acuerdo al tipo de componente  y al tipo de rejillas o agujeros que posea la placa se podrán usar dos tipos de Montale horizontal o vertical, el montaje que se selecciones podrá proporcionar mayor comodidad a la hora de  interconectar y soldar todos los componentes.
-
-\begin{enumerate}
-\item	Montaje Vertical
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1.0]{MVERTICAL.jpg}
-  \renewcommand{\figurename}{Fig.}
-  \caption{Componentes en montaje vertical}
-  \label{Componentes en montaje vertical}
-  \end{figure}
-\item	Montaje Horizontal
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1.0]{MHORIZONTAL.jpg}
-  \renewcommand{\figurename}{Fig.}
-  \caption{Componentes en montaje Horizontal}
-  \label{Componentes en montaje Horizontal}
-  \end{figure}
-\end{enumerate}
-
-Una de las prácticas más recomendadas es la separación de componentes análogos de los digitales para evitar problemas  de tamaño, vibración  y resonancia entre los mismo por esta razón se recomienda usar clips de fijación,\\
-
-Para la disposición de los componentes en la placa, estos deben ser fijados  de forma paralela a los ejes X y Y,  pues se debe permitir la identificación  de su código, nomenclatura, valor, etc. \\
-
-\section{Diseño de Pistas}
-
-En todos los circuitos de alimentación están presentes los componentes RLC  y sus corrientes y tensiones parasitas que tienden a desestabilizar la alimentación del circuito.\\
-
-Cuando el circuito se comporta de forma inestable se dice que hay bucles de corriente (corriente de retorno) , para mediar esto y que el circuito de alimentación no se comporte de forma tan inestable es muy importante que el camino de  o trazado de retoño sea directo\\
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1.3]{D_PISTAS2.jpg}
-  \renewcommand{\figurename}{Fig.}
-  \caption{Pistas de alimentación}
-  \label{Pistas de alimentación }
-\end{figure}
-
-componentes análogos de los digitales pues se deben usar dos pistas de  masa o tierra  totalmente independientes para cada circuito,\\
-  
-Se debe tratar de que el trazado de  pistas cubra al menos el 50 porciento de  la superficie total de la placa e interconecte todos los componentes necesarios para el correcto funcionamiento.\\
-
-\section{Composición  química}
-El atacado químico es el proceso por el cual  pasa el diseño de las pistas  y componentes  a la placa, este se puede producir mediante cloruro férrico (Cl3Fe) o ácido clorhídrico(ClH) y agua oxigenada (H2O2). Este atacadoresponde a las siguientes reacciones:
-   
-El cloruro férrico se puede adquirir en el mercado especializado en componentes electrónicos, se presenta ya diluido o en forma de sólido granulado.
-El ácido clorhídrico y el agua oxigenada se pueden adquirir en diversos comercios y la proporción para la mezcla que realizaremos cada vez que lo vayamos a utilizar (no es reutilizable como el cloruro férrico) es la siguiente:
 
 
 
