@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  19 NOV 2014 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  24 NOV 2014 08:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -951,10 +951,16 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+
+LaTeX Warning: Label `Ecu 3' multiply defined.
+
+
+LaTeX Warning: Label `Ecu 3' multiply defined.
+
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.101 ...ansferencia de la Planta}{figure.4.13}{}}
+l.103 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -966,7 +972,7 @@ LaTeX Warning: Label `Funci\IeC {\'o}n de transferencia de la Planta.' multiply
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.101 ...ansferencia de la Planta}{figure.4.13}{}}
+l.103 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -974,14 +980,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.101 ...ansferencia de la Planta}{figure.4.13}{}}
+l.103 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.101 ...ansferencia de la Planta}{figure.4.13}{}}
+l.103 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1125,225 +1131,755 @@ l.47 \tableofcontents
 ] (./proyectotanquesecci.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
- [3])
+)
 \tf@toc=\write4
 \openout4 = `proyectotanquesecci.toc'.
 
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [4]
-(./proyectotanquesecci.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lot=\write5
-\openout5 = `proyectotanquesecci.lot'.
-
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
- [5
+ [3]
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+ [4
 
 ]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [6
-
-] (./proyectotanquesecci.lof
+(./proyectotanquesecci.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lof=\write6
-\openout6 = `proyectotanquesecci.lof'.
+\tf@lof=\write5
+\openout5 = `proyectotanquesecci.lof'.
 
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [7]
+ [5]
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ [6]
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...e documento describe el analisis y diseñ
+                                                  o de un prototipo de siste...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ... tanques acoplados al cual se aplican té
+                                                  cnicas de control. El sist...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...interdiciplinarios requeridos para un mó
+                                                  dulo de laboratorio. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 Se muestran fundamentos teó
+                                  ricos básicos de la lógica de control,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 Se muestran fundamentos teóricos bá
+                                            sicos de la lógica de control,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...undamentos teóricos básicos de la ló
+                                                  gica de control, así com...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...básicos de la lógica de control, así
+                                                   como de diseño para un ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...lógica de control, así como de diseñ
+                                                  o para un prototipo de sis...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...tos en los cuales se aplican diversas té
+                                                  cnicas de control al siste...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...istema de entrenamiento diseñado. Ademá
+                                                  s brinda los procedimiento...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...de controladores. Se compara el desempeñ
+                                                  o del controlador frente a...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...brindan recomendaciones para la obtenció
+                                                  n de mejores resultados ta...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...sultados tanto para el desarrollo de prá
+                                                  cticas de laboratorio como...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
-[9
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+[7
 
 ]
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
- [10
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+ [8
 
 ]
 Cap\'{\i }tulo 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-[11]
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[9]
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+ [10]
+Cap\'{\i }tulo 2.
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...omprender de mejor manera las caracterí
+                                                  sticas de las técnicas d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ... manera las características de las té
+                                                  cnicas de control es impor...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...portante el desarrollo de una aplicació
+                                                  n que además de simular ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...esarrollo de una aplicación que ademá
+                                                  s de simular un proceso in...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...ratorios de la universidad no poseen mó
+                                                  dulos de ese tipo, que per...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...ar procesos industriales con interacció
+                                                  n de fluidos. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 El modelamiento matemá
+                              tico ha llegado a ser la principal herramienta...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...er la principal herramienta de la teorí
+                                                  a de control para poder re...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...tema ante diferentes escenarios. Es así
+                                                   como se aplica la lógic...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...cenarios. Es así como se aplica la ló
+                                                  gica de control. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 La Universidad ECCI en los ú
+                                    ltimos años ha adquirido equipos y soft...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+[11
+
+]
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
  [12
 
 ]
-Cap\'{\i }tulo 2.
+Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...trenamiento para control de nivel de lí
+                                                  quidos de tanques acoplados.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
- []
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \item Evaluar el comportamiento diná
+                                            mico del nivel en la planta, de ...
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [13]
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
  [14
-
-]
-Cap\'{\i }tulo 3.
-[15]
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
- [16
 
 ]
 Cap\'{\i }tulo 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+[15]
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 Un modelo matemá
+                        tico es simplemente una imitación de la realidad, ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...atemático es simplemente una imitació
+                                                  n de la realidad, con el c...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...re el comportamiento de sistemas, probá
+                                                  ndolos, controlándolos u...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...to de sistemas, probándolos, controlá
+                                                  ndolos u optimizándolos....
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...bándolos, controlándolos u optimizá
+                                                  ndolos. En el proceso de c...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...ándolos. En el proceso de construcció
+                                                  n de modelos, el principal...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...objetivo es dar una equivalencia matemá
+                                                  tica a un problema de la v...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...erpretar. En los problemas de ingenierí
+                                                  a, se busca capturar esto ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...esto en forma de ecuaciones, haciendo é
+                                                  nfasis en aspectos especif...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...an parte de la realidad, su contribució
+                                                  n en ella sea mínima par...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...lidad, su contribución en ella sea mí
+                                                  nima para simplificar el m...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...para simplificar el modelo y su solució
+                                                  n. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-<Figura1.pdf, id=342, 808.52063pt x 288.3272pt>
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+<Figura1.pdf, id=294, 808.52063pt x 288.3272pt>
 File: Figura1.pdf Graphic file (type pdf)
  <use Figura1.pdf>
-Package pdftex.def Info: Figura1.pdf used on input line 216.
+Package pdftex.def Info: Figura1.pdf used on input line 223.
 (pdftex.def)             Requested size: 323.40253pt x 115.32883pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-<Figura2.pdf, id=343, 685.8122pt x 346.29375pt>
-File: Figura2.pdf Graphic file (type pdf)
- <use Figura2.pdf>
-Package pdftex.def Info: Figura2.pdf used on input line 235.
-(pdftex.def)             Requested size: 274.32002pt x 138.51503pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-
- []
-
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.244 
-       <./Figura1.pdf>] <Figura3.pdf, id=383, 426.84468pt x 285.31593pt>
-File: Figura3.pdf Graphic file (type pdf)
+l.239 
+       <./Figura1.pdf>] <Figura2.pdf, id=335, 685.8122pt x 346.29375pt>
+File: Figura2.pdf Graphic file (type pdf)
 
-<use Figura3.pdf>
-Package pdftex.def Info: Figura3.pdf used on input line 256.
+<use Figura2.pdf>
+Package pdftex.def Info: Figura2.pdf used on input line 242.
+(pdftex.def)             Requested size: 274.32002pt x 138.51503pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+<Figura3.pdf, id=336, 426.84468pt x 285.31593pt>
+File: Figura3.pdf Graphic file (type pdf)
+ <use Figura3.pdf>
+Package pdftex.def Info: Figura3.pdf used on input line 263.
 (pdftex.def)             Requested size: 213.42181pt x 142.65761pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -1353,302 +1889,292 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 ^^]
+l.269 ^^]
          \subsection{Resistencia}
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-LaTeX Info: Redefining \. on input line 265.
-LaTeX Info: Redefining \% on input line 265.
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+LaTeX Info: Redefining \. on input line 272.
+LaTeX Info: Redefining \% on input line 272.
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.265 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.265 
-       <./Figura2.pdf> <./Figura3.pdf
-
-pdfTeX warning: /usr/texbin/pdflatex (file ./Figura3.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->] <Figura4.pdf, id=434, 234.8775pt x 127.22531pt>
+l.272 
+       <./Figura2.pdf>] <Figura4.pdf, id=366, 234.8775pt x 127.22531pt>
 File: Figura4.pdf Graphic file (type pdf)
- <use Figura4.pdf>
-Package pdftex.def Info: Figura4.pdf used on input line 275.
-(pdftex.def)             Requested size: 117.43846pt x 63.61249pt.
 
-<Figura5.pdf, id=435, 770.12718pt x 323.70938pt>
+<use Figura4.pdf>
+Package pdftex.def Info: Figura4.pdf used on input line 282.
+(pdftex.def)             Requested size: 117.43846pt x 63.61249pt.
+ <Figura5.pdf, id=367, 770.12718pt x 323.70938pt>
 File: Figura5.pdf Graphic file (type pdf)
- <use Figura5.pdf>
-Package pdftex.def Info: Figura5.pdf used on input line 285.
+
+<use Figura5.pdf>
+Package pdftex.def Info: Figura5.pdf used on input line 292.
 (pdftex.def)             Requested size: 385.06264pt x 161.8543pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
-LaTeX Info: Redefining \. on input line 293.
-LaTeX Info: Redefining \% on input line 293.
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+LaTeX Info: Redefining \. on input line 307.
+LaTeX Info: Redefining \% on input line 307.
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.293 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.5}) has been already used, duplicate ignored
+l.307 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.293 
-       <./Figura4.pdf> <./Figura5.pdf
+l.307 \end{equation}
+                     <./Figura3.pdf> <./Figura4.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./Figura5.pdf): PDF inclusion: multi
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figura4.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-
- []
-
-
-Overfull \hbox (2.27502pt too wide) in paragraph at lines 340--341
+Overfull \hbox (2.27502pt too wide) in paragraph at lines 347--348
 []\OT1/cmr/m/n/12 Sustituyendo (1.12) en (1.13) da-da la ecua-ci^^Son al-ter-na
 -ti-va por re-sis-ten-cia hidr^^Sauli-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-
- []
-
-LaTeX Info: Redefining \. on input line 347.
-LaTeX Info: Redefining \% on input line 347.
-[22] <Figura6.pdf, id=511, 532.23843pt x 161.85469pt>
-File: Figura6.pdf Graphic file (type pdf)
- <use Figura6.pdf>
-Package pdftex.def Info: Figura6.pdf used on input line 354.
-(pdftex.def)             Requested size: 266.11856pt x 80.92714pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
-
- []
-
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+LaTeX Info: Redefining \. on input line 348.
+LaTeX Info: Redefining \% on input line 348.
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.378 \end{equation}
-                     <./Figura6.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+l.348 
+       <./Figura5.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+<Figura6.pdf, id=465, 532.23843pt x 161.85469pt>
+File: Figura6.pdf Graphic file (type pdf)
+ <use Figura6.pdf>
+Package pdftex.def Info: Figura6.pdf used on input line 361.
+(pdftex.def)             Requested size: 266.11856pt x 80.92714pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
-<Figura7.pdf, id=556, 208.78pt x 228.855pt>
+LaTeX Info: Redefining \. on input line 380.
+LaTeX Info: Redefining \% on input line 380.
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.380 
+       <./Figura6.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+<Figura7.pdf, id=510, 208.78pt x 228.855pt>
 File: Figura7.pdf Graphic file (type pdf)
  <use Figura7.pdf>
-Package pdftex.def Info: Figura7.pdf used on input line 401.
+Package pdftex.def Info: Figura7.pdf used on input line 408.
 (pdftex.def)             Requested size: 104.38972pt x 114.42722pt.
 
-<Figura8.pdf, id=557, 794.97pt x 289.08pt>
+<Figura8.pdf, id=511, 794.97pt x 289.08pt>
 File: Figura8.pdf Graphic file (type pdf)
  <use Figura8.pdf>
-Package pdftex.def Info: Figura8.pdf used on input line 409.
+Package pdftex.def Info: Figura8.pdf used on input line 416.
 (pdftex.def)             Requested size: 397.48402pt x 144.53964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 416.
-LaTeX Info: Redefining \% on input line 416.
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+LaTeX Info: Redefining \. on input line 423.
+LaTeX Info: Redefining \% on input line 423.
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.416 
+l.423 
        <./Figura7.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 433--435
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
-LaTeX Info: Redefining \. on input line 439.
-LaTeX Info: Redefining \% on input line 439.
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
+LaTeX Info: Redefining \. on input line 446.
+LaTeX Info: Redefining \% on input line 446.
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.439 
+l.446 
        <./Figura8.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
 
  []
 
-<Figura9.pdf, id=580, 409.53pt x 240.9pt>
+<Figura9.pdf, id=535, 409.53pt x 240.9pt>
 File: Figura9.pdf Graphic file (type pdf)
  <use Figura9.pdf>
-Package pdftex.def Info: Figura9.pdf used on input line 448.
+Package pdftex.def Info: Figura9.pdf used on input line 455.
 (pdftex.def)             Requested size: 245.7199pt x 144.5411pt.
 
-Overfull \hbox (23.59889pt too wide) in paragraph at lines 467--468
+Overfull \hbox (23.59889pt too wide) in paragraph at lines 474--475
 []\OT1/cmr/m/n/12 Tomando la pre-si^^Son $\OML/cmm/m/it/12 p[]$ \OT1/cmr/m/n/12
  co-mo la va-ria-ble de es-ta-do, uti-li-za-mos $\OML/cmm/m/it/12 p \OT1/cmr/m/
 n/12 = [] []$,
  []
 
-LaTeX Info: Redefining \. on input line 474.
-LaTeX Info: Redefining \% on input line 474.
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
+LaTeX Info: Redefining \. on input line 476.
+LaTeX Info: Redefining \% on input line 476.
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.474 
-       <./Figura9.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+l.476 \begin{equation}
+                       <./Figura9.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
 
  []
 
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 538--539
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+LaTeX Info: Redefining \. on input line 525.
+LaTeX Info: Redefining \% on input line 525.
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
 
-<Figura10.pdf, id=616, 698.61pt x 192.72pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
+
+ []
+
+LaTeX Info: Redefining \. on input line 568.
+LaTeX Info: Redefining \% on input line 568.
+[26] <Figura10.pdf, id=580, 698.61pt x 192.72pt>
 File: Figura10.pdf Graphic file (type pdf)
  <use Figura10.pdf>
-Package pdftex.def Info: Figura10.pdf used on input line 564.
+Package pdftex.def Info: Figura10.pdf used on input line 571.
 (pdftex.def)             Requested size: 419.16924pt x 115.63287pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figura11.pdf, id=617, 843.15pt x 313.17pt>
+<Figura11.pdf, id=581, 843.15pt x 313.17pt>
 File: Figura11.pdf Graphic file (type pdf)
  <use Figura11.pdf>
-Package pdftex.def Info: Figura11.pdf used on input line 572.
+Package pdftex.def Info: Figura11.pdf used on input line 579.
 (pdftex.def)             Requested size: 421.57396pt x 156.58461pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Info: Redefining \. on input line 582.
-LaTeX Info: Redefining \% on input line 582.
-[28]
 LaTeX Info: Redefining \. on input line 604.
 LaTeX Info: Redefining \% on input line 604.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.604 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{figure.4.11}) has been already used, duplicate ignored
+l.604 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.604 \begin{equation}
-                       <./Figura10.pdf> <./Figura11.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
+l.604 
+       <./Figura10.pdf> <./Figura11.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 627--629
 
  []
 
-<Figura12.pdf, id=645, 578.16pt x 192.72pt>
+<Figura12.pdf, id=596, 578.16pt x 192.72pt>
 File: Figura12.pdf Graphic file (type pdf)
  <use Figura12.pdf>
-Package pdftex.def Info: Figura12.pdf used on input line 629.
+Package pdftex.def Info: Figura12.pdf used on input line 636.
 (pdftex.def)             Requested size: 346.89867pt x 115.63287pt.
-LaTeX Info: Redefining \. on input line 643.
-LaTeX Info: Redefining \% on input line 643.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-12}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 655.
+LaTeX Info: Redefining \% on input line 655.
+[28]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 676.
+
+LaTeX Info: Redefining \. on input line 682.
+LaTeX Info: Redefining \% on input line 682.
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.643 \end{equation}
+l.682 \end{equation}
                      <./Figura12.pdf>]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 669.
-
-LaTeX Info: Redefining \. on input line 685.
-LaTeX Info: Redefining \% on input line 685.
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
 
  []
 
-LaTeX Info: Redefining \. on input line 750.
-LaTeX Info: Redefining \% on input line 750.
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 754--755
+LaTeX Info: Redefining \. on input line 694.
+LaTeX Info: Redefining \% on input line 694.
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
-
- []
-
-LaTeX Info: Redefining \. on input line 791.
-LaTeX Info: Redefining \% on input line 791.
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 801--802
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--814
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
 
  []
 
@@ -1660,466 +2186,1927 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.834 ^^]
+l.739 ^^]
          \subsection{Características Sistemas linealizados}
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--848
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
 
  []
 
-LaTeX Info: Redefining \. on input line 852.
-LaTeX Info: Redefining \% on input line 852.
+LaTeX Info: Redefining \. on input line 753.
+LaTeX Info: Redefining \% on input line 753.
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+LaTeX Info: Redefining \. on input line 813.
+LaTeX Info: Redefining \% on input line 813.
+[32]
+LaTeX Info: Redefining \. on input line 840.
+LaTeX Info: Redefining \% on input line 840.
+ [33]
+Underfull \hbox (badness 10000) in paragraph at lines 858--859
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 860--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 866--868
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
+
+ []
+
+LaTeX Info: Redefining \. on input line 882.
+LaTeX Info: Redefining \% on input line 882.
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 La acció
+                n de control integral da una salida del controlador que es p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.894 La señ
+              al de control $u(t)$ tiene un valor diferente de cero cuando l...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.894 ...n valor diferente de cero cuando la señ
+                                                  al de error $e(t)$ es cero...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.894 ...tante, o perturbaciones, el error en ré
+                                                  gimen permanente es cero.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.898 La acció
+                n de control proporciona-integral se define mediante (4.57).
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.904 ...mpo integral y es quien ajusta la acció
+                                                  n integral. La función d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.904 ... ajusta la acción integral. La funció
+                                                  n de transferencia resulta...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ...o que exista error para tener una acció
+                                                  n de control distinta de c...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ... de control distinta de cero. Con acció
+                                                  n integral, un error peque...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ... Con acción integral, un error pequeñ
+                                                  o positivo siempre dará ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ...n error pequeño positivo siempre dará
+                                                   una acción de control c...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ...eño positivo siempre dará una acció
+                                                  n de control creciente, y ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ...iente, y si el error es negativo la señ
+                                                  al de control será decre...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ... es negativo la señal de control será
+                                                   decreciente. Este razonam...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ...nto sencillo muestra que el error en ré
+                                                  gimen permanente será si...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.910 ...e el error en régimen permanente será
+                                                   siempre cero. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
 
  []
 
-LaTeX Info: Redefining \. on input line 917.
-LaTeX Info: Redefining \% on input line 917.
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.912 ...oladores industriales tienen solo acció
+                                                  n PI. Se puede demostrar q...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.912 ...o para todos los procesos donde la diná
+                                                  mica es esencialmente de p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.912 ...jemplo, mediante la respuesta al escaló
+                                                  n.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.920 La acció
+                n de control proporcional-derivativa se define mediante (4.59):
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining \. on input line 924.
+LaTeX Info: Redefining \% on input line 924.
 [35]
-LaTeX Info: Redefining \. on input line 935.
-LaTeX Info: Redefining \% on input line 935.
- [36]
-Underfull \hbox (badness 10000) in paragraph at lines 955--956
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...enominada tiempo derivativo. Esta acció
+                                                  n tiene carácter de prev...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...po derivativo. Esta acción tiene cará
+                                                  cter de previsión, lo qu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...a acción tiene carácter de previsió
+                                                  n, lo que hace más ráp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...rácter de previsión, lo que hace má
+                                                  s rápida la acción de ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...er de previsión, lo que hace más rá
+                                                  pida la acción de contro...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...�n, lo que hace más rápida la acció
+                                                  n de control, aunque tiene...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...entaja importante de amplificar las señ
+                                                  ales de ruido y puede prov...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...les de ruido y puede provocar saturació
+                                                  n en el actuador. La accio...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...r saturación en el actuador. La acció
+                                                  n de control derivativa nu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...trol derivativa nunca se utiliza por sí
+                                                   sola, debido a que sólo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ... utiliza por sí sola, debido a que só
+                                                  lo es eficaz durante peri�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...ido a que sólo es eficaz durante perí
+                                                  odos transitorios. La func...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...ante períodos transitorios. La funció
+                                                  n transferencia de un cont...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.932 Cuando una acció
+                        n de control derivativa se agrega a un controlador p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.932 ...ambio del error y produce una correcció
+                                                  n significativa antes de q...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.932 ...cta al error de estado estacionario, añ
+                                                  ade amortiguamiento al sis...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.932 ...stema y, por tanto, permite un valor má
+                                                  s grande que la ganancia $...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.932 ... cual provoca una mejora en la precisió
+                                                  n en estado estable.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...l, integral y derivativa combinadas reú
+                                                  nen las ventajas de cada u...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...nes de control individuales. La ecuació
+                                                  n de un controlador con es...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...ción de un controlador con esta acció
+                                                  n combinada se obtiene med...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.942 Y su funció
+                   n de transferencia resulta en (4.62).
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 950--951
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--958
+Underfull \hbox (badness 10000) in paragraph at lines 952--953
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 959--960
+LaTeX Info: Redefining \. on input line 953.
+LaTeX Info: Redefining \% on input line 953.
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 954--955
 
  []
 
-<FuncionPlanta.png, id=722, 168.63pt x 45.92157pt>
+<FuncionPlanta.png, id=684, 168.63pt x 45.92157pt>
 File: FuncionPlanta.png Graphic file (type png)
  <use FuncionPlanta.png>
-Package pdftex.def Info: FuncionPlanta.png used on input line 963.
+Package pdftex.def Info: FuncionPlanta.png used on input line 958.
 (pdftex.def)             Requested size: 168.62958pt x 45.92145pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
+Underfull \hbox (badness 10000) in paragraph at lines 964--965
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--978
+Underfull \hbox (badness 10000) in paragraph at lines 972--973
 
  []
 
-LaTeX Info: Redefining \. on input line 978.
-LaTeX Info: Redefining \% on input line 978.
+<Ventana1.png, id=685, 702.625pt x 401.5pt>
+File: Ventana1.png Graphic file (type png)
+ <use Ventana1.png>
+Package pdftex.def Info: Ventana1.png used on input line 976.
+(pdftex.def)             Requested size: 351.31163pt x 200.7495pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
+
+ []
+
+<Ventana2.png, id=687, 321.2pt x 231.86626pt>
+File: Ventana2.png Graphic file (type png)
+ <use Ventana2.png>
+Package pdftex.def Info: Ventana2.png used on input line 986.
+(pdftex.def)             Requested size: 224.83847pt x 162.30525pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
+
+ []
+
+LaTeX Info: Redefining \. on input line 993.
+LaTeX Info: Redefining \% on input line 993.
 [37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.978 
-       <./FuncionPlanta.png>] <Ventana1.png, id=727, 702.625pt x 401.5pt>
-File: Ventana1.png Graphic file (type png)
+l.993 
+       <./FuncionPlanta.png>] <Ventana3.png, id=692, 321.2pt x 252.945pt>
+File: Ventana3.png Graphic file (type png)
 
-<use Ventana1.png>
-Package pdftex.def Info: Ventana1.png used on input line 981.
-(pdftex.def)             Requested size: 351.31163pt x 200.7495pt.
+<use Ventana3.png>
+Package pdftex.def Info: Ventana3.png used on input line 996.
+(pdftex.def)             Requested size: 224.83847pt x 177.06029pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 987--988
 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Ventana2.png, id=729, 321.2pt x 231.86626pt>
-File: Ventana2.png Graphic file (type png)
- <use Ventana2.png>
-Package pdftex.def Info: Ventana2.png used on input line 991.
-(pdftex.def)             Requested size: 224.83847pt x 162.30525pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 997--998
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
 
  []
 
-LaTeX Info: Redefining \. on input line 998.
-LaTeX Info: Redefining \% on input line 998.
+<Ventana4.png, id=693, 321.2pt x 239.89626pt>
+File: Ventana4.png Graphic file (type png)
+ <use Ventana4.png>
+Package pdftex.def Info: Ventana4.png used on input line 1006.
+(pdftex.def)             Requested size: 224.83847pt x 167.92622pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+
+ []
+
+<Ventana5.png, id=694, 337.26pt x 401.5pt>
+File: Ventana5.png Graphic file (type png)
+ <use Ventana5.png>
+Package pdftex.def Info: Ventana5.png used on input line 1016.
+(pdftex.def)             Requested size: 236.08038pt x 281.04808pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
+
+ []
+
+LaTeX Info: Redefining \. on input line 1025.
+LaTeX Info: Redefining \% on input line 1025.
 [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.998 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.15}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.998 
-       <./Ventana1.png> <./Ventana2.png>]
-<Ventana3.png, id=736, 321.2pt x 252.945pt>
-File: Ventana3.png Graphic file (type png)
- <use Ventana3.png>
-Package pdftex.def Info: Ventana3.png used on input line 1001.
-(pdftex.def)             Requested size: 224.83847pt x 177.06029pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
-
- []
-
-<Ventana4.png, id=737, 321.2pt x 239.89626pt>
-File: Ventana4.png Graphic file (type png)
- <use Ventana4.png>
-Package pdftex.def Info: Ventana4.png used on input line 1011.
-(pdftex.def)             Requested size: 224.83847pt x 167.92622pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
-
- []
-
-LaTeX Info: Redefining \. on input line 1018.
-LaTeX Info: Redefining \% on input line 1018.
-[39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1018 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4.17}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1018 
-        <./Ventana3.png> <./Ventana4.png>]
-<Ventana5.png, id=742, 337.26pt x 401.5pt>
-File: Ventana5.png Graphic file (type png)
- <use Ventana5.png>
-Package pdftex.def Info: Ventana5.png used on input line 1021.
-(pdftex.def)             Requested size: 236.08038pt x 281.04808pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
-
- []
-
-<Ventana6.png, id=743, 321.2pt x 286.06876pt>
+l.1025 
+        <./Ventana1.png>] <Ventana6.png, id=700, 321.2pt x 286.06876pt>
 File: Ventana6.png Graphic file (type png)
- <use Ventana6.png>
-Package pdftex.def Info: Ventana6.png used on input line 1033.
+
+<use Ventana6.png>
+Package pdftex.def Info: Ventana6.png used on input line 1028.
 (pdftex.def)             Requested size: 224.83847pt x 200.24675pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 
  []
 
-LaTeX Info: Redefining \. on input line 1040.
-LaTeX Info: Redefining \% on input line 1040.
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1040 
-        <./Ventana5.png>] <Ventana7.png, id=749, 401.5pt x 356.33125pt>
+<Ventana7.png, id=701, 401.5pt x 356.33125pt>
 File: Ventana7.png Graphic file (type png)
-
-<use Ventana7.png>
-Package pdftex.def Info: Ventana7.png used on input line 1043.
+ <use Ventana7.png>
+Package pdftex.def Info: Ventana7.png used on input line 1038.
 (pdftex.def)             Requested size: 240.90184pt x 213.80038pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
 
  []
 
-<Ventana8.png, id=750, 321.2pt x 286.06876pt>
+<Ventana8.png, id=702, 321.2pt x 286.06876pt>
 File: Ventana8.png Graphic file (type png)
  <use Ventana8.png>
-Package pdftex.def Info: Ventana8.png used on input line 1053.
+Package pdftex.def Info: Ventana8.png used on input line 1048.
 (pdftex.def)             Requested size: 224.83847pt x 200.24675pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
 
  []
 
-LaTeX Info: Redefining \. on input line 1060.
-LaTeX Info: Redefining \% on input line 1060.
-[41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-9}) has been already used, duplicate ignored
+LaTeX Info: Redefining \. on input line 1055.
+LaTeX Info: Redefining \% on input line 1055.
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1060 
+l.1055 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4.20}) has been already used, duplicate ignored
+.4.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1060 
-        <./Ventana6.png> <./Ventana7.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
+l.1055 
+        <./Ventana2.png> <./Ventana3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1058--1059
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
 
  []
 
-<Ventana9.png, id=756, 382.42876pt x 401.5pt>
+<Ventana9.png, id=708, 382.42876pt x 401.5pt>
 File: Ventana9.png Graphic file (type png)
  <use Ventana9.png>
-Package pdftex.def Info: Ventana9.png used on input line 1069.
+Package pdftex.def Info: Ventana9.png used on input line 1064.
 (pdftex.def)             Requested size: 229.45901pt x 240.90184pt.
-LaTeX Info: Redefining \. on input line 1073.
-LaTeX Info: Redefining \% on input line 1073.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-21}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 1075.
+LaTeX Info: Redefining \% on input line 1075.
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1073 \end{figure}
-                    <./Ventana8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1083
+l.1075 \end{center}
+                    <./Ventana4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
 
  []
 
-<Ventana10.png, id=761, 307.1475pt x 321.2pt>
+<Ventana10.png, id=713, 307.1475pt x 321.2pt>
 File: Ventana10.png Graphic file (type png)
  <use Ventana10.png>
-Package pdftex.def Info: Ventana10.png used on input line 1086.
+Package pdftex.def Info: Ventana10.png used on input line 1081.
 (pdftex.def)             Requested size: 184.28992pt x 192.72148pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1093
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
-LaTeX Info: Redefining \. on input line 1097.
-LaTeX Info: Redefining \% on input line 1097.
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-2}) has been already used, duplicate ignored
+LaTeX Info: Redefining \. on input line 1092.
+LaTeX Info: Redefining \% on input line 1092.
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1097 
-        <./Ventana9.png>] <Ventana11.png, id=766, 305.14pt x 321.2pt>
+l.1092 
+        <./Ventana5.png>] <Ventana11.png, id=719, 305.14pt x 321.2pt>
 File: Ventana11.png Graphic file (type png)
 
 <use Ventana11.png>
-Package pdftex.def Info: Ventana11.png used on input line 1100.
+Package pdftex.def Info: Ventana11.png used on input line 1095.
 (pdftex.def)             Requested size: 213.59653pt x 224.83847pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
 
  []
 
-LaTeX Info: Redefining \. on input line 1107.
-LaTeX Info: Redefining \% on input line 1107.
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1107 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4.24}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1107 
-        <./Ventana10.png> <./Ventana11.png>]
-<Ventana12.png, id=771, 271.0125pt x 321.2pt>
+<Ventana12.png, id=720, 271.0125pt x 321.2pt>
 File: Ventana12.png Graphic file (type png)
  <use Ventana12.png>
-Package pdftex.def Info: Ventana12.png used on input line 1110.
-(pdftex.def)             Requested size: 189.70744pt x 224.83847pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1116--1117
-
- []
-
-<Ventana13.png, id=772, 321.2pt x 302.12875pt>
-File: Ventana13.png Graphic file (type png)
- <use Ventana13.png>
-Package pdftex.def Info: Ventana13.png used on input line 1120.
-(pdftex.def)             Requested size: 192.72148pt x 181.27864pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1126--1127
-
- []
-
-LaTeX Info: Redefining \. on input line 1127.
-LaTeX Info: Redefining \% on input line 1127.
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1127 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4.26}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1127 
-        <./Ventana12.png> <./Ventana13.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1128--1129
-
- []
-
-<Ventana14.png, id=777, 602.25pt x 321.2pt>
-File: Ventana14.png Graphic file (type png)
- <use Ventana14.png>
-Package pdftex.def Info: Ventana14.png used on input line 1132.
-(pdftex.def)             Requested size: 421.57211pt x 224.83847pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
-
- []
-
-<Ventana15.png, id=778, 271.0125pt x 321.2pt>
-File: Ventana15.png Graphic file (type png)
- <use Ventana15.png>
-Package pdftex.def Info: Ventana15.png used on input line 1144.
+Package pdftex.def Info: Ventana12.png used on input line 1105.
 (pdftex.def)             Requested size: 189.70744pt x 224.83847pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
 
  []
 
-LaTeX Info: Redefining \. on input line 1151.
-LaTeX Info: Redefining \% on input line 1151.
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-7}) has been already used, duplicate ignored
+<Ventana13.png, id=721, 321.2pt x 302.12875pt>
+File: Ventana13.png Graphic file (type png)
+ <use Ventana13.png>
+Package pdftex.def Info: Ventana13.png used on input line 1115.
+(pdftex.def)             Requested size: 192.72148pt x 181.27864pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
+
+ []
+
+<Ventana14.png, id=722, 602.25pt x 321.2pt>
+File: Ventana14.png Graphic file (type png)
+ <use Ventana14.png>
+Package pdftex.def Info: Ventana14.png used on input line 1127.
+(pdftex.def)             Requested size: 421.57211pt x 224.83847pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
+
+ []
+
+LaTeX Info: Redefining \. on input line 1134.
+LaTeX Info: Redefining \% on input line 1134.
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1151 
-        <./Ventana14.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1152--1153
+l.1134 
+        <./Ventana6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 
  []
 
-<Ventana16.png, id=784, 321.2pt x 303.1325pt>
+<Ventana15.png, id=727, 271.0125pt x 321.2pt>
+File: Ventana15.png Graphic file (type png)
+ <use Ventana15.png>
+Package pdftex.def Info: Ventana15.png used on input line 1139.
+(pdftex.def)             Requested size: 189.70744pt x 224.83847pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
+
+ []
+
+<Ventana16.png, id=728, 321.2pt x 303.1325pt>
 File: Ventana16.png Graphic file (type png)
  <use Ventana16.png>
-Package pdftex.def Info: Ventana16.png used on input line 1156.
+Package pdftex.def Info: Ventana16.png used on input line 1151.
 (pdftex.def)             Requested size: 192.72148pt x 181.8809pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
 
  []
 
-LaTeX Info: Redefining \. on input line 1163.
-LaTeX Info: Redefining \% on input line 1163.
+LaTeX Info: Redefining \. on input line 1158.
+LaTeX Info: Redefining \% on input line 1158.
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1158 
+        <./Ventana7.png>] <Ventana18.png, id=734, 375.4025pt x 401.5pt>
+File: Ventana18.png Graphic file (type png)
+
+<use Ventana18.png>
+Package pdftex.def Info: Ventana18.png used on input line 1161.
+(pdftex.def)             Requested size: 262.77995pt x 281.04808pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 1167.
+LaTeX Info: Redefining \% on input line 1167.
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1167 \newpage
+                <./Ventana8.png>]
+LaTeX Info: Redefining \. on input line 1177.
+LaTeX Info: Redefining \% on input line 1177.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1177 \chapter
+               {Diseño Metodologico}pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.4.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1177 \chapter
+               {Diseño Metodologico} <./Ventana9.png> <./Ventana10.png>]
+LaTeX Info: Redefining \. on input line 1177.
+LaTeX Info: Redefining \% on input line 1177.
+
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1177 \chapter
+               {Diseño Metodologico}pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.4.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1177 \chapter
+               {Diseño Metodologico} <./Ventana11.png> <./Ventana12.png>]
+LaTeX Info: Redefining \. on input line 1177.
+LaTeX Info: Redefining \% on input line 1177.
+
 [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1177 \chapter
+               {Diseño Metodologico}pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.4.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1177 \chapter
+               {Diseño Metodologico} <./Ventana13.png> <./Ventana14.png>]
+LaTeX Info: Redefining \. on input line 1177.
+LaTeX Info: Redefining \% on input line 1177.
+
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1163 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4.29}) has been already used, duplicate ignored
+l.1177 \chapter
+               {Diseño Metodologico}pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.4.29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1163 
-        <./Ventana15.png> <./Ventana16.png>]
-<Ventana18.png, id=790, 375.4025pt x 401.5pt>
-File: Ventana18.png Graphic file (type png)
- <use Ventana18.png>
-Package pdftex.def Info: Ventana18.png used on input line 1166.
-(pdftex.def)             Requested size: 262.77995pt x 281.04808pt.
-LaTeX Info: Redefining \. on input line 1172.
-LaTeX Info: Redefining \% on input line 1172.
- [48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-30}) has been already used, duplicate ignored
+l.1177 \chapter
+               {Diseño Metodologico} <./Ventana15.png> <./Ventana16.png>]
+LaTeX Info: Redefining \. on input line 1177.
+LaTeX Info: Redefining \% on input line 1177.
+
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1172 \newpage
-                <./Ventana18.png>]
-Cap\'{\i }tulo 5.
-[49
-
-]
-LaTeX Info: Redefining \. on input line 1204.
-LaTeX Info: Redefining \% on input line 1204.
+l.1177 \chapter
+               {Diseño Metodologico} <./Ventana18.png>]
+LaTeX Info: Redefining \. on input line 1177.
+LaTeX Info: Redefining \% on input line 1177.
  [50
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 El problema se centra en la obtenció
+                                             n del comportamiento de nivel d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 ...́n del comportamiento de nivel del lí
+                                                  quido a través del tiemp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 ...amiento de nivel del líquido a travé
+                                                  s del tiempo $t$ de un tan...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 ...ujo de salida del tanque es una funció
+                                                  n lineal de la altura de l...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 ...na función lineal de la altura de lí
+                                                  quido en su interior ($q_{...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 ...q_{o}=k*h$) y que el tanque tiene un á
+                                                  rea de sección transvers...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 ...ue el tanque tiene un área de secció
+                                                  n transversal constante. S...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 ...transversal constante. Se asume tambié
+                                                  n que la densidad y el flu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 [51]
-LaTeX Info: Redefining \. on input line 1218.
-LaTeX Info: Redefining \% on input line 1218.
- [52
+Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
 
-]
-Cap\'{\i }tulo 7.
+ []
+
+LaTeX Info: Redefining \. on input line 1296.
+LaTeX Info: Redefining \% on input line 1296.
+[52]
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 Sin importar que geometrí
+                                  a posea un tanque, el caudal a través de...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 ...́a posea un tanque, el caudal a travé
+                                                  s de la válvula de salid...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 ... tanque, el caudal a través de la vá
+                                                  lvula de salida será pro...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 ...ravés de la válvula de salida será
+                                                   proporcional a la raíz ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 ...de salida será proporcional a la raí
+                                                  z cuadrada del nivel del l...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 ... a la raíz cuadrada del nivel del lí
+                                                  quido directamente sobre l...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 ...del líquido directamente sobre la vá
+                                                  lvula. De este modo el cau...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1302 ...dal de salida del tanque $q_{o}$, será
+                                                   (5.12):
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1308 ... que involucra el coeficiente de la vá
+                                                  lvula y que además esta ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1308 ...oeficiente de la válvula y que ademá
+                                                  s esta relacionado con la ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1308 ...rtura de la misma y $h$ el nivel de lí
+                                                  quido en el tanque. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 Donde $A$ es á
+                       rea del tanque y $q_{i}$ es el flujo de entrada de li...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 ...y $q_{i}$ es el flujo de entrada de lí
+                                                  quido al tanque. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1316--1317
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 El primer té
+                     rmino de la ecuación (5.13) representa el diferencial...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 El primer término de la ecuació
+                                          n (5.13) representa el diferencial...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...al en el tanque, considerando que el á
+                                                  rea del tanque es uniforme...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...odo el tanque. Observando esta ecuació
+                                                  n es posible definir que e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...nealidad se debe a la presencia del té
+                                                  rmino de raíz cuadrada e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...be a la presencia del término de raí
+                                                  z cuadrada en la ecuació...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...rmino de raíz cuadrada en la ecuació
+                                                  n. Una opción para poder...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...z cuadrada en la ecuación. Una opció
+                                                  n para poder trabajar con ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...ar con este modelo es linealizar el té
+                                                  rmino no lineal de dicha e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ...l término no lineal de dicha ecuació
+                                                  n. La función no lineal ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 ... lineal de dicha ecuación. La funció
+                                                  n no lineal queda definida...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1332 Entonces reemplazando la ecuació
+                                         n (5.15) en la ecuación (5.13) se...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1332 ...ndo la ecuación (5.15) en la ecuació
+                                                  n (5.13) se obtiene:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining \. on input line 1334.
+LaTeX Info: Redefining \% on input line 1334.
 [53]
-LaTeX Info: Redefining \. on input line 1228.
-LaTeX Info: Redefining \% on input line 1228.
- [54
 
-]
-Cap\'{\i }tulo 8.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338 Así
+             en la ecuación (5.16) se tiene la ecuación del modelo de ni...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338 Así en la ecuació
+                            n (5.16) se tiene la ecuación del modelo de ni...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338 ... ecuación (5.16) se tiene la ecuació
+                                                  n del modelo de nivel del ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1338.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1338.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1340 ...t=0$, entonces aplicando esta condició
+                                                  n a la ecuación (5.13) s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1340 ...plicando esta condición a la ecuació
+                                                  n (5.13) se obtiene:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1346 De este modo la ecuació
+                                n (5.16) se convierte en:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1352 ... $\tau$ y $K$ como sigue a continuació
+                                                  n:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1362 ...estado estable. Aplicando a la ecuació
+                                                  n (5.18) la transformada d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1362 ...rmada de La Place se obtiene la funció
+                                                  n de transferencia (5.21),...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1362 ...erencia (5.21), la cual representa teó
+                                                  ricamente el modelo del ni...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1368 Se debe recordar que la ecuació
+                                        n (5.21) es valida solo para el punt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1368 ...da solo para el punto de estabilizació
+                                                  n $hs$, para un nuevo punt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1368 ..., para un nuevo punto de estabilizació
+                                                  n $hs_{2}$ los valores de ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1368 ...es de las constantes $\tau$ y $K$ será
+                                                  n diferentes.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1375 ... en las secciones anteriores es especí
+                                                  ficamente diseñar un con...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1375 ... anteriores es específicamente diseñ
+                                                  ar un controlador para la ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1375 ...e pretende adoptar la mejor combinació
+                                                  n, que cumpla los requerim...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1375 ...e controladores PID pertenece a los mé
+                                                  todos clásicos de contro...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1375 ...ores PID pertenece a los métodos clá
+                                                  sicos de control, sin emba...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+
+ []
+
+LaTeX Info: Redefining \. on input line 1376.
+LaTeX Info: Redefining \% on input line 1376.
+[54]
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1379 Bá
+           sicamente, usando el modelo de la planta linealizada se encuentra...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1379 ...nta linealizada se encuentran los pará
+                                                  metros de un controlador d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1466.
+LaTeX Info: Redefining \. on input line 1466.
+LaTeX Info: Redefining \% on input line 1466.
 [55]
-LaTeX Info: Redefining \. on input line 1238.
-LaTeX Info: Redefining \% on input line 1238.
- [56
-
-]
-Cap\'{\i }tulo 9.
-(./proyectotanquesecci.bbl [57]
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
- [58
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1276.
-LaTeX Info: Redefining \. on input line 1276.
-LaTeX Info: Redefining \% on input line 1276.
- [59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1466.
  (./proyectotanquesecci.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
@@ -2277,7 +4264,7 @@ I'm ignoring this, since I wasn't doing a \csname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.101 ...ansferencia de la Planta}{figure.4.13}{}}
+l.103 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2285,30 +4272,30 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.101 ...ansferencia de la Planta}{figure.4.13}{}}
+l.103 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1276.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1466.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1466.
 
 Package rerunfilecheck Info: File `proyectotanquesecci.out' has not changed.
-(rerunfilecheck)             Checksum: CEEC693C39275CA5D7D8C323315C0208;2152.
+(rerunfilecheck)             Checksum: 0405D90F6CEDCF064D6D68342AD86341;1813.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1276.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1466.
  ) 
 Here is how much of TeX's memory you used:
- 7663 strings out of 493108
- 110246 string characters out of 6134847
- 207726 words of memory out of 5000000
- 10758 multiletter control sequences out of 15000+600000
+ 7649 strings out of 493108
+ 110095 string characters out of 6134847
+ 205715 words of memory out of 5000000
+ 10746 multiletter control sequences out of 15000+600000
  10717 words of font info for 37 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 34i,12n,43p,817b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,13n,43p,818b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -2323,10 +4310,10 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on proyectotanquesecci.pdf (61 pages, 2311179 bytes).
+Output written on proyectotanquesecci.pdf (57 pages, 2320847 bytes).
 PDF statistics:
- 942 PDF objects out of 1000 (max. 8388607)
- 738 compressed objects within 8 object streams
- 226 named destinations out of 1000 (max. 500000)
- 423 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 907 PDF objects out of 1000 (max. 8388607)
+ 707 compressed objects within 8 object streams
+ 230 named destinations out of 1000 (max. 500000)
+ 367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

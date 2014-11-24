@@ -3,38 +3,34 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Presi\IeC {\'o}n en funci\IeC {\'o}n del volumen y el \IeC {\'a}rea de un liquido}}{19}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Vaso cil\IeC {\'\i }ndrico. (a) Vertical. (b) Horizontal.}}{20}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Capacitancia del recipiente.}}{20}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces simbolo de una v\IeC {\'a}lvula hidr\IeC {\'a}ulica.}}{21}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces (a) velocidad de flujo vs presi\IeC {\'o}n diferencial. (b) Interpretaci\IeC {\'o}n de la resistencia hidr\IeC {\'a}ulica.}}{21}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Dos v\IeC {\'a}lvulas en serie (b). V\IeC {\'a}lvula equivalente.}}{23}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Representaci\IeC {\'o}n simb\IeC {\'o}lica de la bomba.}}{24}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Curvas t\IeC {\'\i }picas de la bomba centr\IeC {\'\i }fuga donde $\delta p=p_{2}-p_{1}$ (a) para tres diferentes velocidades de la bomba ($\omega 1 < \omega 2 < \omega 3$). (b) muestra la aproximaci\IeC {\'o}n lineal.}}{25}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Sistema hidr\IeC {\'a}ulico para el ejemplo 3.}}{26}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces (a) Sistema para el Ejemplo 4. (b) Curva de la bomba}}{29}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces (a) Curvas de bombas y v\IeC {\'a}lvulas combinadas del Ejemplo 4. (b) curva de la bomba con la aproximaci\IeC {\'o}n lineal.}}{29}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Sistema hidr\IeC {\'a}ulico con dos tanques considerando el Ejemplo 5.}}{30}{figure.4.12}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Presi\IeC {\'o}n en funci\IeC {\'o}n del volumen y el \IeC {\'a}rea de un liquido}}{17}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Vaso cil\IeC {\'\i }ndrico. (a) Vertical. (b) Horizontal.}}{18}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Capacitancia del recipiente.}}{19}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces simbolo de una v\IeC {\'a}lvula hidr\IeC {\'a}ulica.}}{19}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces (a) velocidad de flujo vs presi\IeC {\'o}n diferencial. (b) Interpretaci\IeC {\'o}n de la resistencia hidr\IeC {\'a}ulica.}}{20}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dos v\IeC {\'a}lvulas en serie (b). V\IeC {\'a}lvula equivalente.}}{21}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Representaci\IeC {\'o}n simb\IeC {\'o}lica de la bomba.}}{22}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Curvas t\IeC {\'\i }picas de la bomba centr\IeC {\'\i }fuga donde $\delta p=p_{2}-p_{1}$ (a) para tres diferentes velocidades de la bomba ($\omega 1 < \omega 2 < \omega 3$). (b) muestra la aproximaci\IeC {\'o}n lineal.}}{23}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sistema hidr\IeC {\'a}ulico para el ejemplo 3.}}{24}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces (a) Sistema para el Ejemplo 4. (b) Curva de la bomba}}{27}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces (a) Curvas de bombas y v\IeC {\'a}lvulas combinadas del Ejemplo 4. (b) curva de la bomba con la aproximaci\IeC {\'o}n lineal.}}{27}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Sistema hidr\IeC {\'a}ulico con dos tanques considerando el Ejemplo 5.}}{29}{figure.4.12}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Funci\IeC {\'o}n de transferencia de la Planta.}}{37}{figure.4.13}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces (a) Control and Estimation Tool Manager. (b) SISO design for SISO Design Task.}}{38}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Control Architecture.}}{38}{figure.4.15}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Control Architecture.}}{39}{figure.4.15}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces System Data.}}{39}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Model Import.}}{39}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces SISO design for SISO Design Task.}}{40}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces LTI Viewer for SISO Design Task.}}{41}{figure.4.19}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces LTI Viewer for SISO Design Task.}}{41}{figure.4.20}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces LTI Viewer for SISO Design Task.}}{42}{figure.4.21}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces LTI Viewer for SISO Design Task.}}{43}{figure.4.22}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces LTI Viewer for SISO Design Task.}}{44}{figure.4.23}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces LTI Viewer for SISO Design Task.}}{44}{figure.4.24}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces LTI Viewer for SISO Design Task.}}{45}{figure.4.25}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces LTI Viewer for SISO Design Task.}}{45}{figure.4.26}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces LTI Viewer for SISO Design Task.}}{46}{figure.4.27}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces LTI Viewer for SISO Design Task.}}{47}{figure.4.28}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces LTI Viewer for SISO Design Task.}}{47}{figure.4.29}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces LTI Viewer for SISO Design Task.}}{48}{figure.4.30}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Model Import.}}{40}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces SISO design for SISO Design Task.}}{41}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces LTI Viewer for SISO Design Task.}}{42}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces LTI Viewer for SISO Design Task.}}{43}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces LTI Viewer for SISO Design Task.}}{44}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces LTI Viewer for SISO Design Task.}}{45}{figure.4.22}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces LTI Viewer for SISO Design Task.}}{45}{figure.4.23}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces LTI Viewer for SISO Design Task.}}{46}{figure.4.24}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces LTI Viewer for SISO Design Task.}}{46}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces LTI Viewer for SISO Design Task.}}{47}{figure.4.26}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces LTI Viewer for SISO Design Task.}}{47}{figure.4.27}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces LTI Viewer for SISO Design Task.}}{48}{figure.4.28}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces LTI Viewer for SISO Design Task.}}{48}{figure.4.29}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces LTI Viewer for SISO Design Task.}}{49}{figure.4.30}
 \addvspace {10\p@ }

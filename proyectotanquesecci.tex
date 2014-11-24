@@ -42,10 +42,10 @@ David Humberto Hernandez Balcazar\\}
 \begin{document}
 \maketitle
 \renewcommand{\contentsname}{Tabla de Contenido}
-\renewcommand{\listtablename}{Lista de Tablas}
+%\renewcommand{\listtablename}{Lista de Tablas}
 \renewcommand{\listfigurename}{Lista de Figuras}
 \tableofcontents
-\listoftables
+%\listoftables
 \listoffigures
 
 
@@ -60,11 +60,14 @@ David Humberto Hernandez Balcazar\\}
 \chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 
-Con mayor eficiencia el nivel de tecnología en la actualidad estimula los parámetros que retroalimentan y contribuyen la necesidad del ser humano con aplicaciones que avanzan a gran escala de industria a industria de alta calidad,  los sistemas hidráulicos son construidos y desarrollados especialmente para el mejoramiento de la dinámica de fluidos como: (químicos, gasolina, aceites, agua)  entre otros. Sin embargo estos sistemas trabajan en conjunto para realizar un análisis integral tanto dinámico, termodinámico y mecánico en el cual la particularidad de cada uno hace parte de la potencia y control de un sistema. El análisis de los mismos se realiza en un laboratorio observando el estado estable y funcional del sistema mediante una simulación computarizada.\\
 
-La simulación se ha convertido en una herramienta fundamental para el estudio de varios sistemas técnicos. En los sistemas hidráulicos la simulación hace un papel útil, lo cual verifica y que todos los mecanismos se accionan adecuadamente y no presenten eventos o fallas en el sistema; aunque las características específicas de los sistemas hidráulicos hacen difícil utilizar software de simulación de tipo general en el estudio.\\
+El presente documento describe el analisis y diseño de un prototipo de sistema de tanques acoplados al cual se aplican técnicas de control. El sistema es desarrollado teniendo en cuenta aspectos de seguridad, estandares industriales y parametros interdiciplinarios requeridos para un módulo de laboratorio. \\
 
-Con frecuencia las universidades tienen herramientas y dispositivos inteligentes para obtener un análisis de investigación y desarrollo e innovación, esto permite que el estudiante requiera habilidades prácticas y capacidades a la hora de enfrentarse con un prototipo de estudio.\\
+Se muestran fundamentos teóricos básicos de la lógica de control, así como de diseño para un prototipo de sistema de entrenamiento para el control de nivel de tanques acoplados. Proporciona procedimientos en los cuales se aplican diversas técnicas de control al sistema de entrenamiento diseñado. Además brinda los procedimientos necesarios que facilitan el diseño de controladores. Se compara el desempeño del controlador frente al sistema no contlado determinando ventajas e inconvenientes que presenta el sistema de control. \\
+
+Finalmente se detallan las conclusiones obtenidas en el desarrollo del proyecto y se brindan recomendaciones para la obtención de mejores resultados tanto para el desarrollo de prácticas de laboratorio como para la implementación del sistema de entrenamiento. \\
+
+
 
 
 
@@ -80,7 +83,11 @@ Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de
 
 El diseño de los sistemas hidráulicos se basa en la interconexión de  sistemas mecánicos a través de bombas, válvulas y pistones móviles, que ofrecen una automatización factible  en el sistema. La utilidad de estos mecanismos hace que sea  funcional y  opere de una manera  eficaz básicamente para generar distintas aplicaciones de procesos industriales, sin embargo el uso es producir energías limpias mediante recursos naturales.\\
 
-Este texto se centra particularmente en la revolución de los procesos en sistemas hidráulicos en los que comúnmente se presentan procesos químicos, sistemas de control automático, actuadores y motores de accionamiento. Este análisis hace persuadir que generalmente estan involucrados en modelos que ya están implementados y particularmente son modelos lineales por las condiciones de las variables a manejar.\\
+Con mayor eficiencia el nivel de tecnología en la actualidad estimula los parámetros que retroalimentan y contribuyen la necesidad del ser humano con aplicaciones que avanzan a gran escala de industria a industria de alta calidad,  los sistemas hidráulicos son construidos y desarrollados especialmente para el mejoramiento de la dinámica de fluidos como: químicos, combustible, aceites, agua, entre otros. Sin embargo estos sistemas trabajan en conjunto para realizar un análisis integral tanto dinámico, termodinámico y mecánico en el cual la particularidad de cada uno hace parte de la potencia y control de un sistema. El análisis de los mismos se realiza en un laboratorio observando el estado estable y funcional del sistema mediante una simulación computarizada.\\
+
+La simulación se ha convertido en una herramienta fundamental para el estudio de varios sistemas técnicos. En los sistemas hidráulicos la simulación juega un papel útil, verifica que todos los mecanismos se accionen adecuadamente y no presenten fallas en el sistema real; aunque las características específicas de los sistemas hidráulicos hacen difícil utilizar software de simulación de tipo general en el estudio.\\
+
+Con frecuencia las universidades tienen herramientas y dispositivos inteligentes para obtener un análisis de investigación y desarrollo e innovación, esto permite que el estudiante requiera habilidades prácticas y capacidades a la hora de enfrentarse con un prototipo de estudio.\\
 
 
 
@@ -92,17 +99,17 @@ Este texto se centra particularmente en la revolución de los procesos en sistem
 
 \chapter{Justificación}
 
+Para comprender de mejor manera las características de las técnicas de control es importante el desarrollo de una aplicación que además de simular un proceso industrial, permita analizar difstintos tipos de controladores. \\
+
+Es por esto que se ha escogido realizar un sistema de entrenamiento para el cual se pueda diseñar un sistema de control puesto que los laboratorios de la universidad no poseen módulos de ese tipo, que permitan simular procesos industriales con interacción de fluidos. \\
+
 \section{Estado del arte}
 
 El monitoreo de variables es de gran importancia en la industria y por esto es vital preparar a los estudiantes para asumir retos reales de un proceso, aun en el estudio de su carrera, por esta razón el desarrollo e implementación de plantas experimentales y plantas pilotos han tomado una gran fuerza en los últimos años tanto así que existen empresas dedicadas, entre otras cosas, a la fabricación y comercialización de estas plantas para universidades e institutos de educación superior.\\
 
-De otro lado se han realizo un sin número de investigaciones alrededor del tema de monitoreo de variables en tanques de agua, ya sea nivel, temperatura o presión, las principales en la mayoría de procesos industriales, para este caso, los artículos y tesis han sido una gran fuente de información para alimentar el propio; algunos de los más importantes son:\\
+El modelamiento matemático ha llegado a ser la principal herramienta de la teoría de control para poder resolver problemas, presentando alternativas para obtener la respuesta adecuada de un sistema ante diferentes escenarios. Es así como se aplica la lógica de control. \\
 
-John Freddy Caipa (2010), articulo, Universidad Pedagógica y Tecnológica de Colombia, plantea el desarrollo e implementación de un sistema de control de tanques interconectados utilizando un servo-válvula como actuador y Matlab como software de programación.\\
-
-Oscar Fernando Gil (2011), tesis, Universidad Tecnológica de Colombia, pretende construir un prototipo de un sistema de segundo orden medidor de nivel de dos tanques relacionados, aplicando teorías de control para hacer un sistema seguro, inteligente e independiente.\\
-
-Diego Andrés Ochoa (2012), tesis, Escuela Superior Politécnica del Litoral (Ecuador), plantea la identificación y el diseño de un controlador para la temperatura de un tanque de agua.\\
+La Universidad ECCI en los últimos años ha adquirido equipos y software especializados que facilitan el desarrollo e implementación de este tipo de controladores, permitiendo a los alumnos implementar escenarios cercanos a los encontrados en la industria. \\
 
 
 
@@ -117,17 +124,15 @@ Diego Andrés Ochoa (2012), tesis, Escuela Superior Politécnica del Litoral (Ec
 \section{Objetivo general}
 
 \begin{enumerate}
-\item Diseñar e implementar un sistema de control que permita manipular el nivel de liquido de un tanque; compuesto por celda de carga, válvula proporcional, válvula on/off y variador, de modo que el nivel del mismo se establezca en un set point establecido.
+\item Diseñar un sistema de control de un sistema de entrenamiento para control de nivel de líquidos de tanques acoplados.
 \end{enumerate}
 
 \section{Objetivos específicos}
 
 \begin{enumerate}
-\item Determinar la respuesta en voltaje de la señal de salida del indicador de nivel (celda de carga) en el tanque 1.
-\item Desarrollar el modelamiento del sistema para la respuesta del nivel en el tanque 1.
-\item Realizar la identificación del sistema del tanque 1 y verificar la controlabilidad del mismo.
-\item Implementar un algoritmo en MATLAB que permita la conexión entre el pc y la planta por medio de la tarjeta de National Instruments NI USB 6008.
-\item Implementar un controlador que permita mantener el nivel del tanque 1 en el set-point establecido por el usuario.
+\item Obtener el modelo matematico para la respuesta del nivel del sistema.
+\item Diseñar un controlador que permita mantener el nivel del sistema en el set-point establecido por el usuario.
+\item Evaluar el comportamiento dinámico del nivel en la planta, de acuerdo al flujo de entrada.
 \end{enumerate}
 
 
@@ -158,6 +163,8 @@ En más casos, los sistemas hidráulicos operan con las variables restantes cerc
 
 
 \section{Modelamiento}
+
+Un modelo matemático es simplemente una imitación de la realidad, con el cual se busca usualmente ganar perspicacia sobre el comportamiento de sistemas, probándolos, controlándolos u optimizándolos. En el proceso de construcción de modelos, el principal objetivo es dar una equivalencia matemática a un problema de la vida real para luego resolver y finalmente interpretar. En los problemas de ingeniería, se busca capturar esto en forma de ecuaciones, haciendo énfasis en aspectos especificos y omitiendo aquellos que aunque hagan parte de la realidad, su contribución en ella sea mínima para simplificar el modelo y su solución. \\
 
 \subsection{Variables}
 
@@ -208,7 +215,7 @@ C=\frac{A}{pg}
 \label{Ecu 4}
 \end{equation}
 
-Las ecuaciones (2.2) y (2.3) implican que para cualquier geometría del recipiente, la densidad del líquido y la presión atmosférica, tienen una relación algebraica única entre la presión \textit{p} y el volumen de líquido \textit{v}. Una curva característica típica que describe esta relación se muestra es la figura.
+Las ecuaciones (2.2) y (2.3) implican que para cualquier geometría del recipiente, la densidad del líquido y la presión atmosférica, tienen una relación algebraica única entre la presión \textit{p} y el volumen de líquido \textit{v}. Una curva característica típica que describe esta relación se muestra es la Figura 4.1.
 
 
 \begin{figure}[h]
@@ -228,7 +235,7 @@ C{h}=\frac{A{h}}{pg}
 
 \subsubsection{Ejemplo 1:}
 
-Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \textit{L} que contiene un líquido de densidad \textit{p} en unidades de kilogramo por metro cubico. Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, como se ve en la figura 2a. También evalúe la capacitancia cuando el cilindro esta sobre uno de sus lados, como se ve en la figura 2b.
+Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \textit{L} que contiene un líquido de densidad \textit{p} en unidades de kilogramo por metro cubico. Encuentre la capacitancia hidráulica del vaso cuando el cilindro es vertical, como se ve en la figura 2a. También evalúe la capacitancia cuando el cilindro esta sobre uno de sus lados, como se ve en la Figura 4.2(b).
 
 \begin{figure}[h]
 \centering
@@ -240,9 +247,9 @@ Considere un vaso formado por un cilindro circular de Radio \textit{R} y Largo \
 
 \subsubsection{Solución}
 
-Para la configuración en la \textit{Fig. 2.2(a)}. El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que se puede usar $C=\frac{A}{pg}$, y la capacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
+Para la configuración en la \textit{Fig. 4.2(a)}. El área de la sección transversal es ${\pi R^{2}}$ y es independiente de la altura del líquido. Así que se puede usar $C=\frac{A}{pg}$, y la capacitancia hidráulica del recipiente es $C_{a}=\pi\frac{R^{2}}{pg}$ \\
 
-Cuando el recipiente esta sobre uno de sus lados, como se muestra en la figura 2(b), el área de la sección transversal es una función de la altura del liquido h. Puede verificar que el ancho de la superficie del líquido es $2\sqrt{(R^{2})}-(R-h)^{2}$ la cual es cero cuando \textit{h=0} y \textit{h=2R} y tiene el máximo valor de \textit{2R} cuando \textit{h=R}. usando $C{h}=\frac{A{h}}{pg}$, encontramos que la capacitancia es:
+Cuando el recipiente esta sobre uno de sus lados, como se muestra en la Figura 4.2(b), el área de la sección transversal es una función de la altura del liquido h. Puede verificar que el ancho de la superficie del líquido es $2\sqrt{(R^{2})}-(R-h)^{2}$ la cual es cero cuando \textit{h=0} y \textit{h=2R} y tiene el máximo valor de \textit{2R} cuando \textit{h=R}. usando $C{h}=\frac{A{h}}{pg}$, encontramos que la capacitancia es:
 
 \begin{equation}
 c_{b}=\frac{2L}{pg}\sqrt{R^{2}}-(R-h)^{2}
@@ -684,110 +691,6 @@ Se puede encontrar cualquiera de las dos presiones $p_{1}$ o $p_{2}$ para combin
 s^{2}+\left[ \frac {1}{C_{2}}\left( \frac {1}{K}+\frac {1}{R_{1}}\right) +\frac {1}{C_{2}}\left( \frac {1}{R_{1}}+\frac {1}{R_{2}}\right) \right] s+\frac {1}{C_{1}C_{2}}\left( \frac {1}{kR_{1}}+\frac {1}{KR_{2}}+\frac {1}{R_{1}R_{2}}\right) 
 \end{equation} \\
 
-
-\subsection{Modelo Dinamico Planta M-ECCI}
-
-\begin{equation}
-A\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}
-\end{equation}
-
-Teniendo en cuenta 	que
-
-\begin{equation}
-q_{o}=\frac{h}{R}
-\end{equation}
-
-Ya que el nivel del tanque es la variable monitoreada se convierte en derivable.\\
-Se reemplaza (1) en (2)
-
-\begin{equation}
-A\frac {dh\left( t\right) }{dt}=q_{i}-\frac {h}{R}
-\end{equation}
-
-Se tiene en cuenta que \textit{h}, $Q_{in}$ son variables dependientes de \textit{(t)}
-
-\begin{equation}
-\frac {dh\left( t\right) }{dt}=\frac {q_{i}-\frac {h}{R}}{A}
-\end{equation}
-
-Separando variables derivables y no derivables
-
-\begin{equation}
-\frac {dh\left( t\right) }{dt}=\frac {Rq_{i}-h}{AR}
-\end{equation}
-
-Evaluando en estado estable, $t=0$
-
-\begin{equation}
-\frac {d\overline {h\left( 0\right) }}{dt}=\frac {R\overline {q_{i}\left( 0\right) }-\overline {h\left( o\right) }}{AR}
-\end{equation}
-
-Operando (resta) (4)-(5) de las variables
-
-%\begin{equation}
-%\end{equation}
-
-\begin{equation}
-ARd\frac {\left[ h\left( t\right) -\overline {h\left( 0\right) }\right] }{dt}=R\left[ q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }\right] -\left[ h\left( t\right) -\overline {h\left( 0\right) }\right]
-\end{equation}
-
-Realizando cambio de variable
-
-\begin{equation}
-Q_{in}=q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }
-\end{equation}
-
-\begin{equation}
-H=h\left( t\right) -\overline {h\left( 0\right) }
-\end{equation}
-
-\begin{equation}
-A\frac {RdH}{dt}=RQ_{in}\left( t\right) -H\left( t\right)
-\end{equation}
-
-Se separan las variables de nivel a un lado de la ecuación
-
-\begin{equation}
-A\frac {RdH}{dt}+H\left( t\right) =RQ_{in}\left( t\right)
-\end{equation}
-
-Realizando segundo cambio de variable en la ecuación 7 \\
-
-\begin{center}
-$\tau =AR$ \\
-$K=R$
-\end{center}
-
-\begin{equation}
-\frac {\tau dH}{dt}+H\left( t\right) =KQ_{in}\left( t\right)
-\end{equation}
-
-Se aplica transformada de Laplace para derivada de primer orden en la ecuación 8
-
-\begin{equation}
-\tau sH\left( s\right) +H\left( s\right) =kQ_{in}\left( s\right)
-\end{equation}
-
-Se factoriza en terminos de altura \textit{H}
-
-\begin{equation}
-H\left( s\right) \left[ \tau s+1\right] =kQ_{in}\left( s\right)
-\end{equation}
-
-$H(s)$ equivale a la salida del sistema y $Q_{in}(s)$ a la entrada ya que el modelo de función de transferencia es $G=out/in$, se tiene que
-
-\begin{equation}
-\frac {H\left( s\right) }{Q_{in}\left( s\right) }=\frac {k}{\tau s+1}
-\end{equation}
-
-(Modelo de función de transferencia de primer orden) \\
-
-Para realizar el modelo especifico del tanque, es necesario realizar el cambio de variable inverso a la ecuación (8) aplicando la ecuación (11)
-
-\begin{equation}
-\frac {H\left( s\right) }{Qin\left( s\right) }=\frac {R}{AR+1}
-\end{equation}
-
 \newpage
 
 
@@ -797,6 +700,8 @@ Para realizar el modelo especifico del tanque, es necesario realizar el cambio d
 % ==================================== SECCIÓN LINEALIZACIÓN ===================================
 
 \section{Linealización}
+
+Realmente, la mayoria de los sistemas fisicos de importancia practica son no lineales. La caracterización de un sistema dinamico por una función de transferencia puede ser hecha solo para sistemas lineales, aquellos descritos por ecuaciones diferenciales lineales. \\
 
 Un sistema no lineal se define siempre y cuando no se aplique el principio de superposición, es decir, la respuesta a dos entradas no puede calcularse tomando cada una de ellas independientemente y luego sumarlas, debido a esto se usa la linealización.\\
 
@@ -949,6 +854,96 @@ Variables de desviación
 % ======================================== SECCIÓN CONTROL =====================================
 
 \section{Control}
+
+Un controlador PID (Proporcional Integrativo Derivativo) es un mecanismo de control generico sobre una realimentación de bucle cerrado, ampliamente usado en la industria para el control de sistemas. El PID es un sistema al cual entra un error calculado a partir de la salida deseada menos la salida obtenida y su salida es utilizada como entrada en el sistema que queremos controlar. El controlador intenta minimizar el error ajustando la entrada del sistema. \\
+
+El controlador PID viene determinado por tres parametros: el proporcional, el integral y el derivativo. Dependiendo de la modalidad del controlador alguno de estos valores puede ser 0, por ejemplo un controlador Proporcional tendra el integral y el derivativo a 0 y un controlador PI solo el derivativo sera 0, etc. Cada uno de estos parametros influye en mayor medida sobre alguna caracteristica de la salida (tiempo de establecimiento, sobreoscilacion,...) pero tambien influye sobre las demas, por lo que por mucho que ajustemos no encontrariamos un PID que redujera el tiempo de establecimiento a 0, la sobreoscilacion a 0, el error a 0. sino que se trata mas de ajustarlo a un termino medio cumpliendo las especificaciones requeridas. \\
+
+\subsection{Estructura de un Controlador PID}
+
+\subsubsection*{Acción Proporcional}
+
+La respuesta proporcional es la base de los tres modos de control, si los otros dos, control integral y control derivativo están presentes, éstos son sumados a la respuesta proporcional. “Proporcional” significa que el cambio presente en la salida del controlador es algún múltiplo del porcentaje del cambio en la medición.
+Este múltiplo es llamado “ganancia” del controlador. Para algunos controladores, la acción proporcional es ajustada por medio del ajuste de ganancia, mientras que para otros se usa una “banda proporcional”. Ambos tienen los mismos propósitos y efectos. \\
+
+Da una salida del controlador que es proporcional al error, es decir $u(t)=KPe(t)$, que descrita desde su función de transferencia queda como se muestra en (4.54).
+
+\begin{equation}
+C_{P}(s)=K_{p}
+\label{Ecu 3}
+\end{equation}
+
+Donde $K_{p}$ es una ganancia proporcional ajustable. Un controlador proporcional puede controlar cualquier planta estable, pero posee desempeño limitado y error
+en régimen permanente. 
+
+\subsubsection*{Acción Integral}
+
+La acción integral da una respuesta proporcional a la integral del error. Esta acción elimina el error en régimen estacionario, provocado por el modo proporcional. En contraparte, se obtiene un mayor tiempo de establecimiento, una respuesta más lenta y el periodo de oscilación es mayor que en el caso de la acción proporcional. \\
+
+La acción de control integral da una salida del controlador que es proporcional al error acumulado, lo que implica que es un modo de controlar lento.
+
+\begin{equation}
+u(t)=K_{i}\int ^{t}_{0}e\left( \tau \right) d\tau
+\label{Ecu 3}
+\end{equation}
+
+\begin{equation}
+C_{I}=\frac{K_{i}}{s}
+\end{equation}
+
+La señal de control $u(t)$ tiene un valor diferente de cero cuando la señal de error $e(t)$ es cero. Por lo que se concluye que dada una referencia constante, o perturbaciones, el error en régimen permanente es cero.
+
+\subsubsection*{Acción Proporcional-Integral}
+
+La acción de control proporciona-integral se define mediante (4.57).
+
+\begin{equation}
+u(t)=K_{p}e(t)+ \frac{K_{p}}{T_{i}} \int ^{t}_{0}e\left( \tau \right) d\left( \tau \right)
+\end{equation}
+
+Donde $T_{i}$ se denomina tiempo integral y es quien ajusta la acción integral. La función de transferencia resulta en (4.58).
+
+\begin{equation}
+C_{PI}\left( s\right) =  K_{p}\left( 1+\frac{1}{\tau _{i}s}\right)
+\end{equation}
+
+Con un control proporcional, es necesario que exista error para tener una acción de control distinta de cero. Con acción integral, un error pequeño positivo siempre dará una acción de control creciente, y si el error es negativo la señal de control será decreciente. Este razonamiento sencillo muestra que el error en régimen permanente será siempre cero. \\
+
+Muchos controladores industriales tienen solo acción PI. Se puede demostrar que un control PI es adecuado para todos los procesos donde la dinámica es esencialmente de primer orden. Lo que puede demostrarse en forma sencilla, por ejemplo, mediante la respuesta al escalón.
+
+\subsubsection*{Acción Derivativa}
+
+La acción derivativa da una respuesta proporcional a la derivada del error (velocidad de cambio del error). Añadiendo esta acción de control a las anteriores se disminuye el exceso de sobreoscilaciones.
+
+\subsubsection*{Acción Proporcional-Derivativa}
+
+La acción de control proporcional-derivativa se define mediante (4.59):
+
+\begin{equation}
+u\left( t\right) =K_{p}e\left( t\right) +K_{p}T_{d}\frac{de\left( t\right)}{dt}
+\end{equation}
+
+Donde $T_{d}$ es una constante de denominada tiempo derivativo. Esta acción tiene carácter de previsión, lo que hace más rápida la acción de control, aunque tiene la desventaja importante de amplificar las señales de ruido y puede provocar saturación en el actuador. La acción de control derivativa nunca se utiliza por sí sola, debido a que sólo es eficaz durante períodos transitorios. La función transferencia de un controlador PD resulta como (4.60).
+
+\begin{equation}
+C_{PD}(s)=K_{p}+sK_{p}T_{d}
+\end{equation}
+
+Cuando una acción de control derivativa se agrega a un controlador proporcional, permite obtener un controlador de alta sensibilidad, es decir que responde a la velocidad del cambio del error y produce una corrección significativa antes de que la magnitud del error se vuelva demasiado grande. Aunque el control derivativo no afecta en forma directa al error de estado estacionario, añade amortiguamiento al sistema y, por tanto, permite un valor más grande que la ganancia $K$, lo cual provoca una mejora en la precisión en estado estable.
+
+\subsubsection*{Acción Proporcional-Integral-Derivativa}
+
+La acciones de control proporcional, integral y derivativa combinadas reúnen las ventajas de cada una de las tres acciones de control individuales. La ecuación de un controlador con esta acción combinada se obtiene mediante (4.61).
+
+\begin{equation}
+u(t)=K_{p}e(t)+ \frac{K_{p}}{T_{i}} \int ^{t}_{0} e(\tau )d\tau +K_{p}T_{d} \frac{de(t)}{dt}
+\end{equation}
+
+Y su función de transferencia resulta en (4.62).
+
+\begin{equation}
+C_{PID}\left( s\right) =K_{p}\left( 1+\frac{1}{\tau _{i}s}+\tau _{d}s\right)
+\end{equation}
 
 \subsection{Uso de SISOTOOL Para Diseño de Controles}
 
@@ -1181,17 +1176,212 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 
 \chapter{Diseño Metodologico}
 
-\section{Analisis}
+%\section{Analisis}
 
-\section{Delimitaciones}
+%\section{Delimitaciones}
+
+
 
 \section{Procedimiento}
 
-\section{Presupuesto}
+La figura ----- muestra el diseño del sistema de entrenamiento de tanques acoplados M-ECCI. El sistema cuenta con dos tanques ubicados en la sección superior del sistema. cada tanque cuenta con un sensor de nivel para determinar la altura del líquido y con un desfogue hacia el tanque de reserva mediante válvulas
+ubicadas en el ducto de salida de cada tanque. \\
 
-\section{Materiales y Equipos}
+Además el sistema cuenta con un tanque de reserva, el mismo que proporciona el líquido a ser bombeado hacia los tanques superiores. En la sección inferior se encuentra ubicada una bomba encargada de distribuir el liquido desde el tanque de reserva hacia los demas. \\
 
-\section{Resultados y Analisis}
+El problema se centra en la obtención del comportamiento de nivel del líquido a través del tiempo $t$ de un tanque, dado el flujo de entrada $q_{i}(t)$. Se asume que el flujo de salida del tanque es una función lineal de la altura de líquido en su interior ($q_{o}=k*h$) y que el tanque tiene un área de sección transversal constante. Se asume también que la densidad y el flujo de entrada $q_{i}(t)$ son constantes.
+
+\subsection{Modelo Dinamico Planta M-ECCI}
+
+Se toma la ecuación inicial (5.1) para determinar la variación de nivel del tanque teniendo en cuenta los caudales de entrada y salida, así como el área del tanque, la cual se considera constante.
+
+\begin{equation}
+A\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}
+\end{equation}
+
+El caudal de salida $q_{o}$ se a continuación.
+
+\begin{equation}
+q_{o}=\frac{h}{R}
+\end{equation}
+
+Se reemplaza (5.1) en (5.2) y se obtiene la ecuación (5.3) para realizar el despeje de la variable a controlar, el nivel del tanque.
+
+\begin{equation}
+A\frac {dh\left( t\right) }{dt}=q_{i}-\frac {h}{R}
+\end{equation}
+
+Se debe tener en cuenta que $h$ y $q_{i}$ son variables dependientes del tiempo $(t)$, por tanto se tiene que:
+
+\begin{equation}
+\frac {dh\left( t\right) }{dt}=\frac {q_{i}(t)-\frac {h(t)}{R}}{A}
+\end{equation}
+
+Se opera la ecuación (5.4) para obtener (5.5), una ecuación simplificada.
+
+\begin{equation}
+\frac {dh\left( t\right) }{dt}=\frac {Rq_{i}(t)-h(t)}{AR}
+\end{equation}
+
+%Evaluando en estado estable, $t=0$
+
+%\begin{equation}
+%\frac {d\overline {h\left( 0\right) }}{dt}=\frac {R\overline {q_{i}\left( 0\right) }-\overline {h\left( o\right) }}{AR}
+%\end{equation}
+
+%Operando (resta) (4)-(5) de las variables
+
+%\begin{equation}
+%\end{equation}
+
+%\begin{equation}
+%ARd\frac {\left[ h\left( t\right) -\overline {h\left( 0\right) }\right] }{dt}=R\left[ q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }\right] -\left[ h\left( t\right) -\overline {h\left( 0\right) }\right]
+%\end{equation}
+
+%Realizando cambio de variable
+
+%\begin{equation}
+%Q_{in}=q_{i}\left( t\right) -\overline {q_{i}\left( 0\right) }
+%\end{equation}
+
+%\begin{equation}
+%H=h\left( t\right) -\overline {h\left( 0\right) }
+%\end{equation}
+
+%\begin{equation}
+%A\frac {RdH}{dt}=RQ_{in}\left( t\right) -H\left( t\right)
+%\end{equation}
+
+En (5.6), se despeja las variable de nivel a un lado de la ecuación a fin de factorizar.
+
+\begin{equation}
+A\frac {Rdh}{dt}+h\left( t\right) =Rq_{i}\left( t\right)
+\end{equation}
+
+Se tiene que $AR$ corresponde a la base de tiempo de la ecuación y $R$ la resistencia que opone la válvula al paso del fluido, sin embargo, este factor es cambiante dependiendo del elemento que se esté usando.
+
+\begin{center}
+$\tau =AR$ \\
+$K=R$
+\end{center}
+
+Se reemplazan los valores anteriores en la ecuación (5.6), de modo que se obtiene:
+
+\begin{equation}
+\frac {\tau dh}{dt}+h\left( t\right) =Kq_{i}\left( t\right)
+\end{equation}
+
+Se aplica transformada de Laplace para derivada de primer orden en la ecuación (5.7).
+
+\begin{equation}
+\tau sh\left( s\right) +h\left( s\right) =Kq_{i}\left( s\right)
+\end{equation}
+
+Se factorizan los terminos de altura \textit{h}.
+
+\begin{equation}
+h\left( s\right) \left( \tau s+1\right) =Kq_{i}\left( s\right)
+\end{equation}
+
+$h(s)$ equivale a la salida del sistema y $q_{i}(s)$ a la entrada. Ya que el modelo de función de transferencia es $G=out/in$, se tiene que:
+
+\begin{equation}
+\frac {h\left( s\right) }{q_{i}\left( s\right) }=\frac {K}{\tau s+1}
+\end{equation}
+
+La ecuación (5.10) representa el modelo de función de transferencia de primer orden para la planta. \\
+
+Para realizar el modelo especifico del tanque, es necesario realizar el cambio de variable inverso a la ecuación (5.7) aplicando la ecuación (5.10).
+
+\begin{equation}
+\frac {h\left( s\right) }{q_{i}\left( s\right) }=\frac {R}{AR+1}
+\end{equation}
+
+\subsection{Linealización}
+
+Sin importar que geometría posea un tanque, el caudal a través de la válvula de salida será proporcional a la raíz cuadrada del nivel del líquido directamente sobre la válvula. De este modo el caudal de salida del tanque $q_{o}$, será (5.12):
+
+\begin{equation}
+q_{o}=C\sqrt{h}
+\end{equation}
+
+Donde $C$ es la constante que involucra el coeficiente de la válvula y que además esta relacionado con la apertura de la misma y $h$ el nivel de líquido en el tanque. \\
+
+De este modo tenemos que el modelo del proceso de nivel en un tanque, dado por la ecuación (5.1) puede expresarce con en la siguiente ecuación.
+
+\begin{equation}
+A\frac{dh}{dt}=q_{i}-C\sqrt{h}
+\end{equation}
+
+Donde $A$ es área del tanque y $q_{i}$ es el flujo de entrada de líquido al tanque. \\
+
+El primer término de la ecuación (5.13) representa el diferencial de caudal en el tanque, considerando que el área del tanque es uniforme, es decir se mantiene constante, a lo largo de todo el tanque. Observando esta ecuación es posible definir que el modelo representa a un proceso no lineal. La no linealidad se debe a la presencia del término de raíz cuadrada en la ecuación. Una opción para poder trabajar con este modelo es linealizar el término no lineal de dicha ecuación. La función no lineal queda definida en la ecuación (5.14).
+
+\begin{equation}
+f(h)=\sqrt{h}
+\end{equation}
+
+En este punto, no es posible realizar el procedimiento realizado en la seccion anterior, y aplicar la transformada de Laplace. Esto es debido a la presencia del termino no lineal para el cual no hay transformada simple. Por medio de la expansión en serie de Taylor, la función puede ser expandida alrededor del punto en estado estacionario $hs$, Asi.
+
+\begin{equation}
+\sqrt{h}=hs^{\frac{1}{2}}+\frac{1}{2}hs^{\frac{-1}{2}}(h-hs)
+\end{equation}
+
+Donde $hs$ es el valor de $h$ en estado estable. \\
+
+Entonces reemplazando la ecuación (5.15) en la ecuación (5.13) se obtiene:
+
+\begin{equation}
+A\frac{dh}{dt}=q_{i}-C\left[hs^{\frac{1}{2}}+\frac{1}{2} hs^{-\frac{1}{2}}\left(h-hs\right) \right]
+\end{equation}
+
+Así en la ecuación (5.16) se tiene la ecuación del modelo de nivel del tanque linealizada en un punto de estado estable $hs$. Ahora se procede a definir la variable $y=(h–hs)$ e introducir la variable $u=(q_{i}–q_{i}s)$, donde $q_{i}s$ representa el valor de caudal de entrada en estado estable. \\
+
+Adicionalmente se debe recordar que en estado estable $dh/dt=0$, entonces aplicando esta condición a la ecuación (5.13) se obtiene:
+
+\begin{equation}
+q_{i}s=C\sqrt{hs}
+\end{equation}
+
+De este modo la ecuación (5.16) se convierte en:
+
+\begin{equation}
+\tau\frac{dy}{dt}=Ku-y
+\end{equation}
+
+Donde se define los valores de las constantes $\tau$ y $K$ como sigue a continuación:
+
+\begin{equation}
+\tau=A\frac{2(hs)^{\frac{1}{2}}}{C}
+\end{equation}
+
+\begin{equation}
+K=\frac{2(hs)^{\frac{1}{2}}}{C}
+\end{equation}
+
+La constante $\tau$ es denominada constante de tiempo mientras que la constante $K$ es la ganancia de estado estable. Aplicando a la ecuación (5.18) la transformada de La Place se obtiene la función de transferencia (5.21), la cual representa teóricamente el modelo del nivel del tanque en un punto de estado estable $hs$.
+
+\begin{equation}
+y(s)=\frac{K}{\tau s+1}u(s)
+\end{equation}
+
+Se debe recordar que la ecuación (5.21) es valida solo para el punto de estabilización $hs$, para un nuevo punto de estabilización $hs_{2}$ los valores de las constantes $\tau$ y $K$ serán diferentes.
+
+
+
+
+\subsection{Diseño de Controlador}
+
+El objetivo de llevar a cabo el modelamiento y linealización de la planta en las secciones anteriores es específicamente diseñar un controlador para la misma. El controlador es seleccionado de la familia de controladores PID, de la cual se pretende adoptar la mejor combinación, que cumpla los requerimientos establecidos. La familia de controladores PID pertenece a los métodos clásicos de control, sin embargo, existen muchos tipos de configuraciones de controladores que pueden ser estudiados y aplicados a partir del modelo ya obtenido. \\
+
+%Esta seccion se enfoca en el modelo linealizado de la planta y se parte de este para diseñar un controlador que se ajuste a los requerimientos detallados mas adelante. Se desarrolla la implementación de dicho controlador haciendo uso del conjunto de herramientas PID de LabVIEW, el cual posee las funciones básicas relacionadas con el uso de controladores PID. \\
+
+Básicamente, usando el modelo de la planta linealizada se encuentran los parámetros de un controlador de la familia PID para la misma, y se evaluan los resultados de las simulaciones.
+
+
+%\section{Materiales y Equipos}
+
+%\section{Analisis de Resultados}
 
 
 
@@ -1201,11 +1391,11 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 %								CAPITULO CRONOGRAMA DE ACTIVIDADES
 % ==============================================================================================
 
-\chapter{Cronograma de Actividades}
+%\chapter{Cronograma de Actividades}
 
-\section{Evidencias}
+%\section{Evidencias}
 
-\newpage
+%\newpage
 
 
 
@@ -1215,7 +1405,7 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 %									CAPITULO CONCLUSIONES
 % ==============================================================================================
 
-\chapter{Conclusiones}
+%\chapter{Conclusiones}
 
 
 
@@ -1225,7 +1415,7 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 %									CAPITULO TRABAJO FUTURO
 % ==============================================================================================
 
-\chapter{Trabajo Futuro}
+%\chapter{Trabajo Futuro}
 
 
 
@@ -1235,7 +1425,7 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 %								CAPITULO CRONOGRAMA DE ACTIVIDADES
 % ==============================================================================================
 
-\chapter{Bibliografia}
+%\chapter{Bibliografia}
 
 
 
@@ -1269,8 +1459,8 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 
 
 
-\bibliographystyle{IEEEtran}
-\bibliography{prueba}
+%\bibliographystyle{IEEEtran}
+%\bibliography{prueba}
 %\printbib{RPFCU-HBB}
 
 \end{document}
