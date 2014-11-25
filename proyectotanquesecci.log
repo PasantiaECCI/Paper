@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  24 NOV 2014 08:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  24 NOV 2014 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -235,6 +235,9 @@ Package babel Info: Making . an active character on input line 617.
 Package babel Info: Making < an active character on input line 662.
 Package babel Info: Making > an active character on input line 662.
 ))
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks18
@@ -529,11 +532,13 @@ Version 1.0, Aug 13, 1994
 ) (./proyectotanquesecci.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -545,7 +550,7 @@ C {\'a}rea de un liquido' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -557,7 +562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -565,7 +570,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing number, treated as zero.
 <to be read again> 
                    \accent@spacefactor 
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -574,21 +579,21 @@ look up `weird error' in the index to The TeXbook.)
 ! Bad space factor (0).
 <to be read again> 
                    \accent@spacefactor 
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
 I allow only values in the range 1..32767 here.
 
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -599,7 +604,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.57 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
+l.61 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -611,7 +616,7 @@ lindro horizontal.' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.57 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
+l.61 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -619,14 +624,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.57 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
+l.61 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.57 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
+l.61 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -640,7 +645,7 @@ LaTeX Warning: Label `Ecu 4' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.65 ...e una válvula hidráulica}{figure.4.4}{}}
+l.69 ...e una válvula hidráulica}{figure.4.4}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -652,7 +657,7 @@ tiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.65 ...e una válvula hidráulica}{figure.4.4}{}}
+l.69 ...e una válvula hidráulica}{figure.4.4}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -660,14 +665,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.65 ...e una válvula hidráulica}{figure.4.4}{}}
+l.69 ...e una válvula hidráulica}{figure.4.4}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.65 ...e una válvula hidráulica}{figure.4.4}{}}
+l.69 ...e una válvula hidráulica}{figure.4.4}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -678,7 +683,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.67 ...la resistencia hidráulica}{figure.4.5}{}}
+l.71 ...la resistencia hidráulica}{figure.4.5}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -691,7 +696,7 @@ ined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.67 ...la resistencia hidráulica}{figure.4.5}{}}
+l.71 ...la resistencia hidráulica}{figure.4.5}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -699,14 +704,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.67 ...la resistencia hidráulica}{figure.4.5}{}}
+l.71 ...la resistencia hidráulica}{figure.4.5}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.67 ...la resistencia hidráulica}{figure.4.5}{}}
+l.71 ...la resistencia hidráulica}{figure.4.5}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -717,7 +722,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.70 ... (b). Válvula equivalente}{figure.4.6}{}}
+l.74 ... (b). Válvula equivalente}{figure.4.6}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -729,7 +734,7 @@ valente.' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.70 ... (b). Válvula equivalente}{figure.4.6}{}}
+l.74 ... (b). Válvula equivalente}{figure.4.6}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -737,14 +742,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.70 ... (b). Válvula equivalente}{figure.4.6}{}}
+l.74 ... (b). Válvula equivalente}{figure.4.6}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.70 ... (b). Válvula equivalente}{figure.4.6}{}}
+l.74 ... (b). Válvula equivalente}{figure.4.6}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -755,7 +760,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.74 ...ón simbólica de la bomba}{figure.4.7}{}}
+l.78 ...ón simbólica de la bomba}{figure.4.7}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -767,7 +772,7 @@ multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.74 ...ón simbólica de la bomba}{figure.4.7}{}}
+l.78 ...ón simbólica de la bomba}{figure.4.7}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -775,14 +780,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.74 ...ón simbólica de la bomba}{figure.4.7}{}}
+l.78 ...ón simbólica de la bomba}{figure.4.7}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.74 ...ón simbólica de la bomba}{figure.4.7}{}}
+l.78 ...ón simbólica de la bomba}{figure.4.7}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -793,7 +798,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.76 ...ra la aproximación lineal}{figure.4.8}{}}
+l.80 ...ra la aproximación lineal}{figure.4.8}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -807,28 +812,28 @@ al.' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.76 ...ra la aproximación lineal}{figure.4.8}{}}
+l.80 ...ra la aproximación lineal}{figure.4.8}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 76.
+(Font)              <6> on input line 80.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.76 ...ra la aproximación lineal}{figure.4.8}{}}
+l.80 ...ra la aproximación lineal}{figure.4.8}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.76 ...ra la aproximación lineal}{figure.4.8}{}}
+l.80 ...ra la aproximación lineal}{figure.4.8}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -839,7 +844,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.80 ...ráulico para el ejemplo 3}{figure.4.9}{}}
+l.84 ...ráulico para el ejemplo 3}{figure.4.9}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -851,7 +856,7 @@ defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.80 ...ráulico para el ejemplo 3}{figure.4.9}{}}
+l.84 ...ráulico para el ejemplo 3}{figure.4.9}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -859,14 +864,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.80 ...ráulico para el ejemplo 3}{figure.4.9}{}}
+l.84 ...ráulico para el ejemplo 3}{figure.4.9}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.80 ...ráulico para el ejemplo 3}{figure.4.9}{}}
+l.84 ...ráulico para el ejemplo 3}{figure.4.9}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -877,7 +882,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.87 ...n la aproximación lineal}{figure.4.11}{}}
+l.91 ...n la aproximación lineal}{figure.4.11}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -890,7 +895,7 @@ defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.87 ...n la aproximación lineal}{figure.4.11}{}}
+l.91 ...n la aproximación lineal}{figure.4.11}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -898,14 +903,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.87 ...n la aproximación lineal}{figure.4.11}{}}
+l.91 ...n la aproximación lineal}{figure.4.11}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.87 ...n la aproximación lineal}{figure.4.11}{}}
+l.91 ...n la aproximación lineal}{figure.4.11}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -916,7 +921,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.91 ...considerando el Ejemplo 5}{figure.4.12}{}}
+l.95 ...considerando el Ejemplo 5}{figure.4.12}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -928,7 +933,7 @@ el Ejemplo 5.' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.91 ...considerando el Ejemplo 5}{figure.4.12}{}}
+l.95 ...considerando el Ejemplo 5}{figure.4.12}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -936,14 +941,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.91 ...considerando el Ejemplo 5}{figure.4.12}{}}
+l.95 ...considerando el Ejemplo 5}{figure.4.12}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.91 ...considerando el Ejemplo 5}{figure.4.12}{}}
+l.95 ...considerando el Ejemplo 5}{figure.4.12}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -960,7 +965,7 @@ LaTeX Warning: Label `Ecu 3' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.103 ...ansferencia de la Planta}{figure.4.13}{}}
+l.107 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -972,7 +977,7 @@ LaTeX Warning: Label `Funci\IeC {\'o}n de transferencia de la Planta.' multiply
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.103 ...ansferencia de la Planta}{figure.4.13}{}}
+l.107 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -980,14 +985,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.103 ...ansferencia de la Planta}{figure.4.13}{}}
+l.107 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Extra }, or forgotten \endgroup.
 \@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
                                                   
-l.103 ...ansferencia de la Planta}{figure.4.13}{}}
+l.107 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1031,20 +1036,20 @@ LaTeX Warning: Label `LTI Viewer for SISO Design Task.' multiply defined.
 )
 \openout1 = `proyectotanquesecci.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
@@ -1074,7 +1079,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1084,16 +1089,16 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./proyectotanquesecci.out) (./proyectotanquesecci.out)
 \@outlinefile=\write3
 \openout3 = `proyectotanquesecci.out'.
 
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1108,9 +1113,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 44.
+(Font)              <14.4> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 45.
 
 
 LaTeX Warning: No \author given.
@@ -1119,233 +1124,47 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 \renewcommand
+l.45 \renewcommand
                   {\contentsname}{Tabla de Contenido} [1]pdfTeX warning (ext4):
  destination with the same identifier (name{page.2}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.47 \tableofcontents
+l.48 \tableofcontents
                       [2
 
-] (./proyectotanquesecci.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+] (./proyectotanquesecci.toc)
 \tf@toc=\write4
 \openout4 = `proyectotanquesecci.toc'.
 
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
  [3]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
  [4
 
 ]
-(./proyectotanquesecci.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+(./proyectotanquesecci.lof)
 \tf@lof=\write5
 \openout5 = `proyectotanquesecci.lof'.
 
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
  [5]
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
- [6]
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [6
 
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...e documento describe el analisis y diseñ
-                                                  o de un prototipo de siste...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ... tanques acoplados al cual se aplican té
-                                                  cnicas de control. El sist...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...interdiciplinarios requeridos para un mó
-                                                  dulo de laboratorio. \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
+]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 Se muestran fundamentos teó
-                                  ricos básicos de la lógica de control,...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 Se muestran fundamentos teóricos bá
-                                            sicos de la lógica de control,...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...undamentos teóricos básicos de la ló
-                                                  gica de control, así com...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...básicos de la lógica de control, así
-                                                   como de diseño para un ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...lógica de control, así como de diseñ
-                                                  o para un prototipo de sis...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...tos en los cuales se aplican diversas té
-                                                  cnicas de control al siste...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...istema de entrenamiento diseñado. Ademá
-                                                  s brinda los procedimiento...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...de controladores. Se compara el desempeñ
-                                                  o del controlador frente a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 ...brindan recomendaciones para la obtenció
-                                                  n de mejores resultados ta...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 ...sultados tanto para el desarrollo de prá
-                                                  cticas de laboratorio como...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
@@ -1354,9 +1173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
-[7
-
-]
+[7]
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
  [8
@@ -1394,92 +1211,9 @@ LaTeX Info: Redefining \% on input line 100.
  [10]
 Cap\'{\i }tulo 2.
 
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 ...omprender de mejor manera las caracterí
-                                                  sticas de las técnicas d...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 ... manera las características de las té
-                                                  cnicas de control es impor...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 ...portante el desarrollo de una aplicació
-                                                  n que además de simular ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 ...esarrollo de una aplicación que ademá
-                                                  s de simular un proceso in...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...ratorios de la universidad no poseen mó
-                                                  dulos de ese tipo, que per...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...ar procesos industriales con interacció
-                                                  n de fluidos. \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
@@ -1487,19 +1221,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 El modelamiento matemá
-                              tico ha llegado a ser la principal herramienta...
+l.110 ...o de Control de la E3T se remonta al añ
+                                                  o 2001, donde a través de...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ... grado denominado “Planeación, diseñ
+                                                  o y realización del labor...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1512,8 +1255,22 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 ...er la principal herramienta de la teorí
-                                                  a de control para poder re...
+l.110 ...ción del laboratorio de instrumentació
+                                                  n electrónica para la E3T...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...ara la E3T” [1], se realizó el diseñ
+                                                  o, construcción, e implem...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1526,22 +1283,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 ...tema ante diferentes escenarios. Es así
-                                                   como se aplica la lógic...
+l.110 ...ción de bancos de trabajo para medició
+                                                  n de nivel, temperatura, c...
 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...cenarios. Es así como se aplica la ló
-                                                  gica de control. \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1558,8 +1302,50 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 La Universidad ECCI en los ú
-                                    ltimos años ha adquirido equipos y soft...
+l.112 De otro lado, los sistemas de nivel de lí
+                                                 quido representan un ejempl...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...ran importancia mantener el nivel de lí
+                                                  quido entre parámetros pr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...son, entre otros: la industria petroquí
+                                                  mica, la producción de pa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...tratamiento de aguas y los procesos quí
+                                                  micos, en los que por el g...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1573,11 +1359,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 [11
 
 ]
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
- [12
 
-]
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ...acceso remoto vía internet [3]. Tambié
+                                                  n en [4] se implementa el ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ...olución para la industria de tintorerí
+                                                  as local a partir de un co...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ... y [7] de UNAL-Manizales donde se diseñ
+                                                  a un sistema automatizado ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+[12]
 Cap\'{\i }tulo 3.
 
 ! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
@@ -1586,7 +1417,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ...trenamiento para control de nivel de lí
+l.129 ...trenamiento para control de nivel de lí
                                                   quidos de tanques acoplados.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1599,25 +1430,22 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \item Evaluar el comportamiento diná
+l.137 \item Evaluar el comportamiento diná
                                             mico del nivel en la planta, de ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13]
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
+[13
+
+]
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
  [14
 
 ]
 Cap\'{\i }tulo 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
@@ -1625,6 +1453,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
@@ -1636,7 +1469,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 Un modelo matemá
+l.169 Un modelo matemá
                         tico es simplemente una imitación de la realidad, ...
 
 Your command was ignored.
@@ -1650,7 +1483,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...atemático es simplemente una imitació
+l.169 ...atemático es simplemente una imitació
                                                   n de la realidad, con el c...
 
 Your command was ignored.
@@ -1664,7 +1497,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...re el comportamiento de sistemas, probá
+l.169 ...re el comportamiento de sistemas, probá
                                                   ndolos, controlándolos u...
 
 Your command was ignored.
@@ -1678,7 +1511,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...to de sistemas, probándolos, controlá
+l.169 ...to de sistemas, probándolos, controlá
                                                   ndolos u optimizándolos....
 
 Your command was ignored.
@@ -1692,7 +1525,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...bándolos, controlándolos u optimizá
+l.169 ...bándolos, controlándolos u optimizá
                                                   ndolos. En el proceso de c...
 
 Your command was ignored.
@@ -1706,7 +1539,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...ándolos. En el proceso de construcció
+l.169 ...ándolos. En el proceso de construcció
                                                   n de modelos, el principal...
 
 Your command was ignored.
@@ -1720,7 +1553,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...objetivo es dar una equivalencia matemá
+l.169 ...objetivo es dar una equivalencia matemá
                                                   tica a un problema de la v...
 
 Your command was ignored.
@@ -1734,7 +1567,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...erpretar. En los problemas de ingenierí
+l.169 ...erpretar. En los problemas de ingenierí
                                                   a, se busca capturar esto ...
 
 Your command was ignored.
@@ -1748,7 +1581,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...esto en forma de ecuaciones, haciendo é
+l.169 ...esto en forma de ecuaciones, haciendo é
                                                   nfasis en aspectos especif...
 
 Your command was ignored.
@@ -1762,7 +1595,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...an parte de la realidad, su contribució
+l.169 ...an parte de la realidad, su contribució
                                                   n en ella sea mínima par...
 
 Your command was ignored.
@@ -1776,7 +1609,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...lidad, su contribución en ella sea mí
+l.169 ...lidad, su contribución en ella sea mí
                                                   nima para simplificar el m...
 
 Your command was ignored.
@@ -1790,19 +1623,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...para simplificar el modelo y su solució
+l.169 ...para simplificar el modelo y su solució
                                                   n. \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
@@ -1827,55 +1655,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+LaTeX Info: Redefining \. on input line 200.
+LaTeX Info: Redefining \% on input line 200.
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-<Figura1.pdf, id=294, 808.52063pt x 288.3272pt>
+<Figura1.pdf, id=202, 808.52063pt x 288.3272pt>
 File: Figura1.pdf Graphic file (type pdf)
  <use Figura1.pdf>
-Package pdftex.def Info: Figura1.pdf used on input line 223.
+Package pdftex.def Info: Figura1.pdf used on input line 225.
 (pdftex.def)             Requested size: 323.40253pt x 115.32883pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-LaTeX Info: Redefining \. on input line 239.
-LaTeX Info: Redefining \% on input line 239.
+LaTeX Info: Redefining \. on input line 241.
+LaTeX Info: Redefining \% on input line 241.
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.239 
-       <./Figura1.pdf>] <Figura2.pdf, id=335, 685.8122pt x 346.29375pt>
+l.241 
+       <./Figura1.pdf>] <Figura2.pdf, id=243, 685.8122pt x 346.29375pt>
 File: Figura2.pdf Graphic file (type pdf)
 
 <use Figura2.pdf>
-Package pdftex.def Info: Figura2.pdf used on input line 242.
+Package pdftex.def Info: Figura2.pdf used on input line 244.
 (pdftex.def)             Requested size: 274.32002pt x 138.51503pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-<Figura3.pdf, id=336, 426.84468pt x 285.31593pt>
+<Figura3.pdf, id=244, 426.84468pt x 285.31593pt>
 File: Figura3.pdf Graphic file (type pdf)
  <use Figura3.pdf>
-Package pdftex.def Info: Figura3.pdf used on input line 263.
+Package pdftex.def Info: Figura3.pdf used on input line 265.
 (pdftex.def)             Requested size: 213.42181pt x 142.65761pt.
 
 
@@ -1889,292 +1722,292 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 ^^]
+l.271 ^^]
          \subsection{Resistencia}
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
+LaTeX Info: Redefining \. on input line 274.
+LaTeX Info: Redefining \% on input line 274.
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.272 
-       <./Figura2.pdf>] <Figura4.pdf, id=366, 234.8775pt x 127.22531pt>
+l.274 
+       <./Figura2.pdf>] <Figura4.pdf, id=275, 234.8775pt x 127.22531pt>
 File: Figura4.pdf Graphic file (type pdf)
 
 <use Figura4.pdf>
-Package pdftex.def Info: Figura4.pdf used on input line 282.
+Package pdftex.def Info: Figura4.pdf used on input line 284.
 (pdftex.def)             Requested size: 117.43846pt x 63.61249pt.
- <Figura5.pdf, id=367, 770.12718pt x 323.70938pt>
+ <Figura5.pdf, id=276, 770.12718pt x 323.70938pt>
 File: Figura5.pdf Graphic file (type pdf)
 
 <use Figura5.pdf>
-Package pdftex.def Info: Figura5.pdf used on input line 292.
+Package pdftex.def Info: Figura5.pdf used on input line 294.
 (pdftex.def)             Requested size: 385.06264pt x 161.8543pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-LaTeX Info: Redefining \. on input line 307.
-LaTeX Info: Redefining \% on input line 307.
+LaTeX Info: Redefining \. on input line 309.
+LaTeX Info: Redefining \% on input line 309.
 [19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.307 \end{equation}
+l.309 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.307 \end{equation}
+l.309 \end{equation}
                      <./Figura3.pdf> <./Figura4.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Figura4.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-Overfull \hbox (2.27502pt too wide) in paragraph at lines 347--348
+Overfull \hbox (2.27502pt too wide) in paragraph at lines 349--350
 []\OT1/cmr/m/n/12 Sustituyendo (1.12) en (1.13) da-da la ecua-ci^^Son al-ter-na
 -ti-va por re-sis-ten-cia hidr^^Sauli-
  []
 
-LaTeX Info: Redefining \. on input line 348.
-LaTeX Info: Redefining \% on input line 348.
+LaTeX Info: Redefining \. on input line 350.
+LaTeX Info: Redefining \% on input line 350.
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.348 
+l.350 
        <./Figura5.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-<Figura6.pdf, id=465, 532.23843pt x 161.85469pt>
+<Figura6.pdf, id=377, 532.23843pt x 161.85469pt>
 File: Figura6.pdf Graphic file (type pdf)
  <use Figura6.pdf>
-Package pdftex.def Info: Figura6.pdf used on input line 361.
+Package pdftex.def Info: Figura6.pdf used on input line 363.
 (pdftex.def)             Requested size: 266.11856pt x 80.92714pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
+LaTeX Info: Redefining \. on input line 382.
+LaTeX Info: Redefining \% on input line 382.
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.380 
+l.382 
        <./Figura6.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
-<Figura7.pdf, id=510, 208.78pt x 228.855pt>
+<Figura7.pdf, id=423, 208.78pt x 228.855pt>
 File: Figura7.pdf Graphic file (type pdf)
  <use Figura7.pdf>
-Package pdftex.def Info: Figura7.pdf used on input line 408.
+Package pdftex.def Info: Figura7.pdf used on input line 410.
 (pdftex.def)             Requested size: 104.38972pt x 114.42722pt.
 
-<Figura8.pdf, id=511, 794.97pt x 289.08pt>
+<Figura8.pdf, id=424, 794.97pt x 289.08pt>
 File: Figura8.pdf Graphic file (type pdf)
  <use Figura8.pdf>
-Package pdftex.def Info: Figura8.pdf used on input line 416.
+Package pdftex.def Info: Figura8.pdf used on input line 418.
 (pdftex.def)             Requested size: 397.48402pt x 144.53964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 423.
-LaTeX Info: Redefining \% on input line 423.
+LaTeX Info: Redefining \. on input line 425.
+LaTeX Info: Redefining \% on input line 425.
 [22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.423 
+l.425 
        <./Figura7.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 440--442
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
-LaTeX Info: Redefining \. on input line 446.
-LaTeX Info: Redefining \% on input line 446.
+LaTeX Info: Redefining \. on input line 448.
+LaTeX Info: Redefining \% on input line 448.
 [23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.446 
+l.448 
        <./Figura8.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
-<Figura9.pdf, id=535, 409.53pt x 240.9pt>
+<Figura9.pdf, id=450, 409.53pt x 240.9pt>
 File: Figura9.pdf Graphic file (type pdf)
  <use Figura9.pdf>
-Package pdftex.def Info: Figura9.pdf used on input line 455.
+Package pdftex.def Info: Figura9.pdf used on input line 457.
 (pdftex.def)             Requested size: 245.7199pt x 144.5411pt.
 
-Overfull \hbox (23.59889pt too wide) in paragraph at lines 474--475
+Overfull \hbox (23.59889pt too wide) in paragraph at lines 476--477
 []\OT1/cmr/m/n/12 Tomando la pre-si^^Son $\OML/cmm/m/it/12 p[]$ \OT1/cmr/m/n/12
  co-mo la va-ria-ble de es-ta-do, uti-li-za-mos $\OML/cmm/m/it/12 p \OT1/cmr/m/
 n/12 = [] []$,
  []
 
-LaTeX Info: Redefining \. on input line 476.
-LaTeX Info: Redefining \% on input line 476.
+LaTeX Info: Redefining \. on input line 478.
+LaTeX Info: Redefining \% on input line 478.
 [24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.476 \begin{equation}
+l.478 \begin{equation}
                        <./Figura9.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
-LaTeX Info: Redefining \. on input line 525.
-LaTeX Info: Redefining \% on input line 525.
+LaTeX Info: Redefining \. on input line 527.
+LaTeX Info: Redefining \% on input line 527.
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 545--546
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
-LaTeX Info: Redefining \. on input line 568.
-LaTeX Info: Redefining \% on input line 568.
-[26] <Figura10.pdf, id=580, 698.61pt x 192.72pt>
+LaTeX Info: Redefining \. on input line 570.
+LaTeX Info: Redefining \% on input line 570.
+[26] <Figura10.pdf, id=497, 698.61pt x 192.72pt>
 File: Figura10.pdf Graphic file (type pdf)
  <use Figura10.pdf>
-Package pdftex.def Info: Figura10.pdf used on input line 571.
+Package pdftex.def Info: Figura10.pdf used on input line 573.
 (pdftex.def)             Requested size: 419.16924pt x 115.63287pt.
 
-<Figura11.pdf, id=581, 843.15pt x 313.17pt>
+<Figura11.pdf, id=498, 843.15pt x 313.17pt>
 File: Figura11.pdf Graphic file (type pdf)
  <use Figura11.pdf>
-Package pdftex.def Info: Figura11.pdf used on input line 579.
+Package pdftex.def Info: Figura11.pdf used on input line 581.
 (pdftex.def)             Requested size: 421.57396pt x 156.58461pt.
-LaTeX Info: Redefining \. on input line 604.
-LaTeX Info: Redefining \% on input line 604.
+LaTeX Info: Redefining \. on input line 606.
+LaTeX Info: Redefining \% on input line 606.
  [27pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.604 
+l.606 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.604 
+l.606 
        <./Figura10.pdf> <./Figura11.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--629
+Underfull \hbox (badness 10000) in paragraph at lines 629--631
 
  []
 
-<Figura12.pdf, id=596, 578.16pt x 192.72pt>
+<Figura12.pdf, id=515, 578.16pt x 192.72pt>
 File: Figura12.pdf Graphic file (type pdf)
  <use Figura12.pdf>
-Package pdftex.def Info: Figura12.pdf used on input line 636.
+Package pdftex.def Info: Figura12.pdf used on input line 638.
 (pdftex.def)             Requested size: 346.89867pt x 115.63287pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 655.
-LaTeX Info: Redefining \% on input line 655.
+LaTeX Info: Redefining \. on input line 657.
+LaTeX Info: Redefining \% on input line 657.
 [28]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 676.
+LaTeX Warning: Command \textendash invalid in math mode on input line 678.
 
-LaTeX Info: Redefining \. on input line 682.
-LaTeX Info: Redefining \% on input line 682.
+LaTeX Info: Redefining \. on input line 684.
+LaTeX Info: Redefining \% on input line 684.
 [29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.682 \end{equation}
+l.684 \end{equation}
                      <./Figura12.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 692--693
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
 
  []
 
-LaTeX Info: Redefining \. on input line 694.
-LaTeX Info: Redefining \% on input line 694.
+LaTeX Info: Redefining \. on input line 696.
+LaTeX Info: Redefining \% on input line 696.
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
+Underfull \hbox (badness 10000) in paragraph at lines 708--709
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 718--719
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
 
@@ -2186,50 +2019,50 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.739 ^^]
+l.741 ^^]
          \subsection{Características Sistemas linealizados}
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 752--753
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
 
  []
 
-LaTeX Info: Redefining \. on input line 753.
-LaTeX Info: Redefining \% on input line 753.
+LaTeX Info: Redefining \. on input line 755.
+LaTeX Info: Redefining \% on input line 755.
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 
  []
 
-LaTeX Info: Redefining \. on input line 813.
-LaTeX Info: Redefining \% on input line 813.
+LaTeX Info: Redefining \. on input line 815.
+LaTeX Info: Redefining \% on input line 815.
 [32]
-LaTeX Info: Redefining \. on input line 840.
-LaTeX Info: Redefining \% on input line 840.
+LaTeX Info: Redefining \. on input line 842.
+LaTeX Info: Redefining \% on input line 842.
  [33]
-Underfull \hbox (badness 10000) in paragraph at lines 858--859
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 860--861
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 866--868
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
+Underfull \hbox (badness 10000) in paragraph at lines 868--870
 
  []
 
-LaTeX Info: Redefining \. on input line 882.
-LaTeX Info: Redefining \% on input line 882.
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
+
+ []
+
+LaTeX Info: Redefining \. on input line 884.
+LaTeX Info: Redefining \% on input line 884.
 [34]
 
 ! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
@@ -2238,7 +2071,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.883 La acció
+l.885 La acció
                 n de control integral da una salida del controlador que es p...
 
 Your command was ignored.
@@ -2252,7 +2085,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.894 La señ
+l.896 La señ
               al de control $u(t)$ tiene un valor diferente de cero cuando l...
 
 Your command was ignored.
@@ -2266,7 +2099,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.894 ...n valor diferente de cero cuando la señ
+l.896 ...n valor diferente de cero cuando la señ
                                                   al de error $e(t)$ es cero...
 
 Your command was ignored.
@@ -2280,7 +2113,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.894 ...tante, o perturbaciones, el error en ré
+l.896 ...tante, o perturbaciones, el error en ré
                                                   gimen permanente es cero.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2293,7 +2126,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.898 La acció
+l.900 La acció
                 n de control proporciona-integral se define mediante (4.57).
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2306,7 +2139,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.904 ...mpo integral y es quien ajusta la acció
+l.906 ...mpo integral y es quien ajusta la acció
                                                   n integral. La función d...
 
 Your command was ignored.
@@ -2320,7 +2153,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.904 ... ajusta la acción integral. La funció
+l.906 ... ajusta la acción integral. La funció
                                                   n de transferencia resulta...
 
 Your command was ignored.
@@ -2334,7 +2167,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ...o que exista error para tener una acció
+l.912 ...o que exista error para tener una acció
                                                   n de control distinta de c...
 
 Your command was ignored.
@@ -2348,7 +2181,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ... de control distinta de cero. Con acció
+l.912 ... de control distinta de cero. Con acció
                                                   n integral, un error peque...
 
 Your command was ignored.
@@ -2362,7 +2195,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ... Con acción integral, un error pequeñ
+l.912 ... Con acción integral, un error pequeñ
                                                   o positivo siempre dará ...
 
 Your command was ignored.
@@ -2376,7 +2209,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ...n error pequeño positivo siempre dará
+l.912 ...n error pequeño positivo siempre dará
                                                    una acción de control c...
 
 Your command was ignored.
@@ -2390,7 +2223,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ...eño positivo siempre dará una acció
+l.912 ...eño positivo siempre dará una acció
                                                   n de control creciente, y ...
 
 Your command was ignored.
@@ -2404,7 +2237,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ...iente, y si el error es negativo la señ
+l.912 ...iente, y si el error es negativo la señ
                                                   al de control será decre...
 
 Your command was ignored.
@@ -2418,7 +2251,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ... es negativo la señal de control será
+l.912 ... es negativo la señal de control será
                                                    decreciente. Este razonam...
 
 Your command was ignored.
@@ -2432,7 +2265,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ...nto sencillo muestra que el error en ré
+l.912 ...nto sencillo muestra que el error en ré
                                                   gimen permanente será si...
 
 Your command was ignored.
@@ -2446,14 +2279,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ...e el error en régimen permanente será
+l.912 ...e el error en régimen permanente será
                                                    siempre cero. \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
 
  []
 
@@ -2464,7 +2297,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.912 ...oladores industriales tienen solo acció
+l.914 ...oladores industriales tienen solo acció
                                                   n PI. Se puede demostrar q...
 
 Your command was ignored.
@@ -2478,7 +2311,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.912 ...o para todos los procesos donde la diná
+l.914 ...o para todos los procesos donde la diná
                                                   mica es esencialmente de p...
 
 Your command was ignored.
@@ -2492,7 +2325,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.912 ...jemplo, mediante la respuesta al escaló
+l.914 ...jemplo, mediante la respuesta al escaló
                                                   n.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2505,15 +2338,15 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.920 La acció
+l.922 La acció
                 n de control proporcional-derivativa se define mediante (4.59):
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Info: Redefining \. on input line 924.
-LaTeX Info: Redefining \% on input line 924.
+LaTeX Info: Redefining \. on input line 926.
+LaTeX Info: Redefining \% on input line 926.
 [35]
 
 ! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
@@ -2522,7 +2355,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...enominada tiempo derivativo. Esta acció
+l.928 ...enominada tiempo derivativo. Esta acció
                                                   n tiene carácter de prev...
 
 Your command was ignored.
@@ -2536,7 +2369,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...po derivativo. Esta acción tiene cará
+l.928 ...po derivativo. Esta acción tiene cará
                                                   cter de previsión, lo qu...
 
 Your command was ignored.
@@ -2550,7 +2383,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...a acción tiene carácter de previsió
+l.928 ...a acción tiene carácter de previsió
                                                   n, lo que hace más ráp...
 
 Your command was ignored.
@@ -2564,7 +2397,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...rácter de previsión, lo que hace má
+l.928 ...rácter de previsión, lo que hace má
                                                   s rápida la acción de ...
 
 Your command was ignored.
@@ -2578,7 +2411,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...er de previsión, lo que hace más rá
+l.928 ...er de previsión, lo que hace más rá
                                                   pida la acción de contro...
 
 Your command was ignored.
@@ -2592,7 +2425,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...�n, lo que hace más rápida la acció
+l.928 ...�n, lo que hace más rápida la acció
                                                   n de control, aunque tiene...
 
 Your command was ignored.
@@ -2606,7 +2439,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...entaja importante de amplificar las señ
+l.928 ...entaja importante de amplificar las señ
                                                   ales de ruido y puede prov...
 
 Your command was ignored.
@@ -2620,7 +2453,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...les de ruido y puede provocar saturació
+l.928 ...les de ruido y puede provocar saturació
                                                   n en el actuador. La accio...
 
 Your command was ignored.
@@ -2634,7 +2467,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...r saturación en el actuador. La acció
+l.928 ...r saturación en el actuador. La acció
                                                   n de control derivativa nu...
 
 Your command was ignored.
@@ -2648,7 +2481,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...trol derivativa nunca se utiliza por sí
+l.928 ...trol derivativa nunca se utiliza por sí
                                                    sola, debido a que sólo...
 
 Your command was ignored.
@@ -2662,7 +2495,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ... utiliza por sí sola, debido a que só
+l.928 ... utiliza por sí sola, debido a que só
                                                   lo es eficaz durante peri�...
 
 Your command was ignored.
@@ -2676,7 +2509,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...ido a que sólo es eficaz durante perí
+l.928 ...ido a que sólo es eficaz durante perí
                                                   odos transitorios. La func...
 
 Your command was ignored.
@@ -2690,7 +2523,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926 ...ante períodos transitorios. La funció
+l.928 ...ante períodos transitorios. La funció
                                                   n transferencia de un cont...
 
 Your command was ignored.
@@ -2704,7 +2537,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.932 Cuando una acció
+l.934 Cuando una acció
                         n de control derivativa se agrega a un controlador p...
 
 Your command was ignored.
@@ -2718,7 +2551,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.932 ...ambio del error y produce una correcció
+l.934 ...ambio del error y produce una correcció
                                                   n significativa antes de q...
 
 Your command was ignored.
@@ -2732,7 +2565,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.932 ...cta al error de estado estacionario, añ
+l.934 ...cta al error de estado estacionario, añ
                                                   ade amortiguamiento al sis...
 
 Your command was ignored.
@@ -2746,7 +2579,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.932 ...stema y, por tanto, permite un valor má
+l.934 ...stema y, por tanto, permite un valor má
                                                   s grande que la ganancia $...
 
 Your command was ignored.
@@ -2760,7 +2593,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.932 ... cual provoca una mejora en la precisió
+l.934 ... cual provoca una mejora en la precisió
                                                   n en estado estable.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2773,7 +2606,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.936 ...l, integral y derivativa combinadas reú
+l.938 ...l, integral y derivativa combinadas reú
                                                   nen las ventajas de cada u...
 
 Your command was ignored.
@@ -2787,7 +2620,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.936 ...nes de control individuales. La ecuació
+l.938 ...nes de control individuales. La ecuació
                                                   n de un controlador con es...
 
 Your command was ignored.
@@ -2801,7 +2634,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.936 ...ción de un controlador con esta acció
+l.938 ...ción de un controlador con esta acció
                                                   n combinada se obtiene med...
 
 Your command was ignored.
@@ -2815,199 +2648,194 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.942 Y su funció
+l.944 Y su funció
                    n de transferencia resulta en (4.62).
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 952--953
 
  []
 
-LaTeX Info: Redefining \. on input line 953.
-LaTeX Info: Redefining \% on input line 953.
-[36]
+
 Underfull \hbox (badness 10000) in paragraph at lines 954--955
 
  []
 
-<FuncionPlanta.png, id=684, 168.63pt x 45.92157pt>
+LaTeX Info: Redefining \. on input line 955.
+LaTeX Info: Redefining \% on input line 955.
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 956--957
+
+ []
+
+<FuncionPlanta.png, id=604, 168.63pt x 45.92157pt>
 File: FuncionPlanta.png Graphic file (type png)
  <use FuncionPlanta.png>
-Package pdftex.def Info: FuncionPlanta.png used on input line 958.
+Package pdftex.def Info: FuncionPlanta.png used on input line 960.
 (pdftex.def)             Requested size: 168.62958pt x 45.92145pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
+Underfull \hbox (badness 10000) in paragraph at lines 966--967
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--973
+Underfull \hbox (badness 10000) in paragraph at lines 974--975
 
  []
 
-<Ventana1.png, id=685, 702.625pt x 401.5pt>
+<Ventana1.png, id=605, 702.625pt x 401.5pt>
 File: Ventana1.png Graphic file (type png)
  <use Ventana1.png>
-Package pdftex.def Info: Ventana1.png used on input line 976.
+Package pdftex.def Info: Ventana1.png used on input line 978.
 (pdftex.def)             Requested size: 351.31163pt x 200.7495pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 982--983
+Underfull \hbox (badness 10000) in paragraph at lines 984--985
 
  []
 
-<Ventana2.png, id=687, 321.2pt x 231.86626pt>
+<Ventana2.png, id=607, 321.2pt x 231.86626pt>
 File: Ventana2.png Graphic file (type png)
  <use Ventana2.png>
-Package pdftex.def Info: Ventana2.png used on input line 986.
+Package pdftex.def Info: Ventana2.png used on input line 988.
 (pdftex.def)             Requested size: 224.83847pt x 162.30525pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 992--993
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
 
  []
 
-LaTeX Info: Redefining \. on input line 993.
-LaTeX Info: Redefining \% on input line 993.
+LaTeX Info: Redefining \. on input line 995.
+LaTeX Info: Redefining \% on input line 995.
 [37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.993 
-       <./FuncionPlanta.png>] <Ventana3.png, id=692, 321.2pt x 252.945pt>
+l.995 
+       <./FuncionPlanta.png>] <Ventana3.png, id=613, 321.2pt x 252.945pt>
 File: Ventana3.png Graphic file (type png)
 
 <use Ventana3.png>
-Package pdftex.def Info: Ventana3.png used on input line 996.
+Package pdftex.def Info: Ventana3.png used on input line 998.
 (pdftex.def)             Requested size: 224.83847pt x 177.06029pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
 
  []
 
-<Ventana4.png, id=693, 321.2pt x 239.89626pt>
+<Ventana4.png, id=614, 321.2pt x 239.89626pt>
 File: Ventana4.png Graphic file (type png)
  <use Ventana4.png>
-Package pdftex.def Info: Ventana4.png used on input line 1006.
+Package pdftex.def Info: Ventana4.png used on input line 1008.
 (pdftex.def)             Requested size: 224.83847pt x 167.92622pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
 
  []
 
-<Ventana5.png, id=694, 337.26pt x 401.5pt>
+<Ventana5.png, id=615, 337.26pt x 401.5pt>
 File: Ventana5.png Graphic file (type png)
  <use Ventana5.png>
-Package pdftex.def Info: Ventana5.png used on input line 1016.
+Package pdftex.def Info: Ventana5.png used on input line 1018.
 (pdftex.def)             Requested size: 236.08038pt x 281.04808pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
 
  []
 
-LaTeX Info: Redefining \. on input line 1025.
-LaTeX Info: Redefining \% on input line 1025.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
+
+ []
+
+LaTeX Info: Redefining \. on input line 1027.
+LaTeX Info: Redefining \% on input line 1027.
 [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1025 
-        <./Ventana1.png>] <Ventana6.png, id=700, 321.2pt x 286.06876pt>
+l.1027 
+        <./Ventana1.png>] <Ventana6.png, id=622, 321.2pt x 286.06876pt>
 File: Ventana6.png Graphic file (type png)
 
 <use Ventana6.png>
-Package pdftex.def Info: Ventana6.png used on input line 1028.
+Package pdftex.def Info: Ventana6.png used on input line 1030.
 (pdftex.def)             Requested size: 224.83847pt x 200.24675pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
 
  []
 
-<Ventana7.png, id=701, 401.5pt x 356.33125pt>
+<Ventana7.png, id=623, 401.5pt x 356.33125pt>
 File: Ventana7.png Graphic file (type png)
  <use Ventana7.png>
-Package pdftex.def Info: Ventana7.png used on input line 1038.
+Package pdftex.def Info: Ventana7.png used on input line 1040.
 (pdftex.def)             Requested size: 240.90184pt x 213.80038pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
 
  []
 
-<Ventana8.png, id=702, 321.2pt x 286.06876pt>
+<Ventana8.png, id=624, 321.2pt x 286.06876pt>
 File: Ventana8.png Graphic file (type png)
  <use Ventana8.png>
-Package pdftex.def Info: Ventana8.png used on input line 1048.
+Package pdftex.def Info: Ventana8.png used on input line 1050.
 (pdftex.def)             Requested size: 224.83847pt x 200.24675pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
 
  []
 
-LaTeX Info: Redefining \. on input line 1055.
-LaTeX Info: Redefining \% on input line 1055.
+LaTeX Info: Redefining \. on input line 1057.
+LaTeX Info: Redefining \% on input line 1057.
 [39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1055 
+l.1057 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1055 
+l.1057 
         <./Ventana2.png> <./Ventana3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1058--1059
 
  []
@@ -3017,41 +2845,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
 
  []
 
-<Ventana9.png, id=708, 382.42876pt x 401.5pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1063
+
+ []
+
+<Ventana9.png, id=632, 382.42876pt x 401.5pt>
 File: Ventana9.png Graphic file (type png)
  <use Ventana9.png>
-Package pdftex.def Info: Ventana9.png used on input line 1064.
+Package pdftex.def Info: Ventana9.png used on input line 1066.
 (pdftex.def)             Requested size: 229.45901pt x 240.90184pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 1075.
-LaTeX Info: Redefining \% on input line 1075.
+LaTeX Info: Redefining \. on input line 1077.
+LaTeX Info: Redefining \% on input line 1077.
 [40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1075 \end{center}
+l.1077 \end{center}
                     <./Ventana4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
 
  []
 
-<Ventana10.png, id=713, 307.1475pt x 321.2pt>
+<Ventana10.png, id=638, 307.1475pt x 321.2pt>
 File: Ventana10.png Graphic file (type png)
  <use Ventana10.png>
-Package pdftex.def Info: Ventana10.png used on input line 1081.
+Package pdftex.def Info: Ventana10.png used on input line 1083.
 (pdftex.def)             Requested size: 184.28992pt x 192.72148pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
@@ -3063,235 +2891,240 @@ Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
-LaTeX Info: Redefining \. on input line 1092.
-LaTeX Info: Redefining \% on input line 1092.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
+
+ []
+
+LaTeX Info: Redefining \. on input line 1094.
+LaTeX Info: Redefining \% on input line 1094.
 [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1092 
-        <./Ventana5.png>] <Ventana11.png, id=719, 305.14pt x 321.2pt>
+l.1094 
+        <./Ventana5.png>] <Ventana11.png, id=645, 305.14pt x 321.2pt>
 File: Ventana11.png Graphic file (type png)
 
 <use Ventana11.png>
-Package pdftex.def Info: Ventana11.png used on input line 1095.
+Package pdftex.def Info: Ventana11.png used on input line 1097.
 (pdftex.def)             Requested size: 213.59653pt x 224.83847pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
-<Ventana12.png, id=720, 271.0125pt x 321.2pt>
+<Ventana12.png, id=646, 271.0125pt x 321.2pt>
 File: Ventana12.png Graphic file (type png)
  <use Ventana12.png>
-Package pdftex.def Info: Ventana12.png used on input line 1105.
+Package pdftex.def Info: Ventana12.png used on input line 1107.
 (pdftex.def)             Requested size: 189.70744pt x 224.83847pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
 
  []
 
-<Ventana13.png, id=721, 321.2pt x 302.12875pt>
+<Ventana13.png, id=647, 321.2pt x 302.12875pt>
 File: Ventana13.png Graphic file (type png)
  <use Ventana13.png>
-Package pdftex.def Info: Ventana13.png used on input line 1115.
+Package pdftex.def Info: Ventana13.png used on input line 1117.
 (pdftex.def)             Requested size: 192.72148pt x 181.27864pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
 
  []
 
-<Ventana14.png, id=722, 602.25pt x 321.2pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
+
+ []
+
+<Ventana14.png, id=648, 602.25pt x 321.2pt>
 File: Ventana14.png Graphic file (type png)
  <use Ventana14.png>
-Package pdftex.def Info: Ventana14.png used on input line 1127.
+Package pdftex.def Info: Ventana14.png used on input line 1129.
 (pdftex.def)             Requested size: 421.57211pt x 224.83847pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 
  []
 
-LaTeX Info: Redefining \. on input line 1134.
-LaTeX Info: Redefining \% on input line 1134.
+LaTeX Info: Redefining \. on input line 1136.
+LaTeX Info: Redefining \% on input line 1136.
 [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1134 
+l.1136 
         <./Ventana6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 
  []
 
-<Ventana15.png, id=727, 271.0125pt x 321.2pt>
+<Ventana15.png, id=654, 271.0125pt x 321.2pt>
 File: Ventana15.png Graphic file (type png)
  <use Ventana15.png>
-Package pdftex.def Info: Ventana15.png used on input line 1139.
+Package pdftex.def Info: Ventana15.png used on input line 1141.
 (pdftex.def)             Requested size: 189.70744pt x 224.83847pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
 
  []
 
-<Ventana16.png, id=728, 321.2pt x 303.1325pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
+
+ []
+
+<Ventana16.png, id=655, 321.2pt x 303.1325pt>
 File: Ventana16.png Graphic file (type png)
  <use Ventana16.png>
-Package pdftex.def Info: Ventana16.png used on input line 1151.
+Package pdftex.def Info: Ventana16.png used on input line 1153.
 (pdftex.def)             Requested size: 192.72148pt x 181.8809pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1160
 
  []
 
-LaTeX Info: Redefining \. on input line 1158.
-LaTeX Info: Redefining \% on input line 1158.
+LaTeX Info: Redefining \. on input line 1160.
+LaTeX Info: Redefining \% on input line 1160.
 [43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1158 
-        <./Ventana7.png>] <Ventana18.png, id=734, 375.4025pt x 401.5pt>
+l.1160 
+        <./Ventana7.png>] <Ventana18.png, id=661, 375.4025pt x 401.5pt>
 File: Ventana18.png Graphic file (type png)
 
 <use Ventana18.png>
-Package pdftex.def Info: Ventana18.png used on input line 1161.
+Package pdftex.def Info: Ventana18.png used on input line 1163.
 (pdftex.def)             Requested size: 262.77995pt x 281.04808pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 1167.
-LaTeX Info: Redefining \% on input line 1167.
+LaTeX Info: Redefining \. on input line 1169.
+LaTeX Info: Redefining \% on input line 1169.
 [44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1167 \newpage
+l.1169 \newpage
                 <./Ventana8.png>]
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
+LaTeX Info: Redefining \. on input line 1179.
+LaTeX Info: Redefining \% on input line 1179.
  [45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico}pdfTeX warning (ext4): destination with th
 e same identifier (name{figure.4.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico} <./Ventana9.png> <./Ventana10.png>]
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
+LaTeX Info: Redefining \. on input line 1179.
+LaTeX Info: Redefining \% on input line 1179.
 
 [46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico}pdfTeX warning (ext4): destination with th
 e same identifier (name{figure.4.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico} <./Ventana11.png> <./Ventana12.png>]
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
+LaTeX Info: Redefining \. on input line 1179.
+LaTeX Info: Redefining \% on input line 1179.
 
 [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico}pdfTeX warning (ext4): destination with th
 e same identifier (name{figure.4.27}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico} <./Ventana13.png> <./Ventana14.png>]
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
+LaTeX Info: Redefining \. on input line 1179.
+LaTeX Info: Redefining \% on input line 1179.
 
 [48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico}pdfTeX warning (ext4): destination with th
 e same identifier (name{figure.4.29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico} <./Ventana15.png> <./Ventana16.png>]
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
+LaTeX Info: Redefining \. on input line 1179.
+LaTeX Info: Redefining \% on input line 1179.
 
 [49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 \chapter
+l.1179 \chapter
                {Diseño Metodologico} <./Ventana18.png>]
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
+LaTeX Info: Redefining \. on input line 1179.
+LaTeX Info: Redefining \% on input line 1179.
  [50
 
 ]
 Cap\'{\i }tulo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
 
  []
 
@@ -3302,7 +3135,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 El problema se centra en la obtenció
+l.1194 El problema se centra en la obtenció
                                              n del comportamiento de nivel d...
 
 Your command was ignored.
@@ -3316,7 +3149,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 ...́n del comportamiento de nivel del lí
+l.1194 ...́n del comportamiento de nivel del lí
                                                   quido a través del tiemp...
 
 Your command was ignored.
@@ -3330,7 +3163,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 ...amiento de nivel del líquido a travé
+l.1194 ...amiento de nivel del líquido a travé
                                                   s del tiempo $t$ de un tan...
 
 Your command was ignored.
@@ -3344,7 +3177,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 ...ujo de salida del tanque es una funció
+l.1194 ...ujo de salida del tanque es una funció
                                                   n lineal de la altura de l...
 
 Your command was ignored.
@@ -3358,7 +3191,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 ...na función lineal de la altura de lí
+l.1194 ...na función lineal de la altura de lí
                                                   quido en su interior ($q_{...
 
 Your command was ignored.
@@ -3372,7 +3205,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 ...q_{o}=k*h$) y que el tanque tiene un á
+l.1194 ...q_{o}=k*h$) y que el tanque tiene un á
                                                   rea de sección transvers...
 
 Your command was ignored.
@@ -3386,7 +3219,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 ...ue el tanque tiene un área de secció
+l.1194 ...ue el tanque tiene un área de secció
                                                   n transversal constante. S...
 
 Your command was ignored.
@@ -3400,7 +3233,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1192 ...transversal constante. Se asume tambié
+l.1194 ...transversal constante. Se asume tambié
                                                   n que la densidad y el flu...
 
 Your command was ignored.
@@ -3408,12 +3241,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
+Underfull \hbox (badness 10000) in paragraph at lines 1294--1295
 
  []
 
-LaTeX Info: Redefining \. on input line 1296.
-LaTeX Info: Redefining \% on input line 1296.
+LaTeX Info: Redefining \. on input line 1298.
+LaTeX Info: Redefining \% on input line 1298.
 [52]
 
 ! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
@@ -3422,7 +3255,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 Sin importar que geometrí
+l.1304 Sin importar que geometrí
                                   a posea un tanque, el caudal a través de...
 
 Your command was ignored.
@@ -3436,7 +3269,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 ...́a posea un tanque, el caudal a travé
+l.1304 ...́a posea un tanque, el caudal a travé
                                                   s de la válvula de salid...
 
 Your command was ignored.
@@ -3450,7 +3283,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 ... tanque, el caudal a través de la vá
+l.1304 ... tanque, el caudal a través de la vá
                                                   lvula de salida será pro...
 
 Your command was ignored.
@@ -3464,7 +3297,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 ...ravés de la válvula de salida será
+l.1304 ...ravés de la válvula de salida será
                                                    proporcional a la raíz ...
 
 Your command was ignored.
@@ -3478,7 +3311,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 ...de salida será proporcional a la raí
+l.1304 ...de salida será proporcional a la raí
                                                   z cuadrada del nivel del l...
 
 Your command was ignored.
@@ -3492,7 +3325,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 ... a la raíz cuadrada del nivel del lí
+l.1304 ... a la raíz cuadrada del nivel del lí
                                                   quido directamente sobre l...
 
 Your command was ignored.
@@ -3506,7 +3339,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 ...del líquido directamente sobre la vá
+l.1304 ...del líquido directamente sobre la vá
                                                   lvula. De este modo el cau...
 
 Your command was ignored.
@@ -3520,7 +3353,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1302 ...dal de salida del tanque $q_{o}$, será
+l.1304 ...dal de salida del tanque $q_{o}$, será
                                                    (5.12):
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3533,7 +3366,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1308 ... que involucra el coeficiente de la vá
+l.1310 ... que involucra el coeficiente de la vá
                                                   lvula y que además esta ...
 
 Your command was ignored.
@@ -3547,7 +3380,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1308 ...oeficiente de la válvula y que ademá
+l.1310 ...oeficiente de la válvula y que ademá
                                                   s esta relacionado con la ...
 
 Your command was ignored.
@@ -3561,14 +3394,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1308 ...rtura de la misma y $h$ el nivel de lí
+l.1310 ...rtura de la misma y $h$ el nivel de lí
                                                   quido en el tanque. \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
+Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
 
  []
 
@@ -3579,7 +3412,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1316 Donde $A$ es á
+l.1318 Donde $A$ es á
                        rea del tanque y $q_{i}$ es el flujo de entrada de li...
 
 Your command was ignored.
@@ -3593,14 +3426,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1316 ...y $q_{i}$ es el flujo de entrada de lí
+l.1318 ...y $q_{i}$ es el flujo de entrada de lí
                                                   quido al tanque. \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1316--1317
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
 
  []
 
@@ -3611,7 +3444,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 El primer té
+l.1320 El primer té
                      rmino de la ecuación (5.13) representa el diferencial...
 
 Your command was ignored.
@@ -3625,7 +3458,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 El primer término de la ecuació
+l.1320 El primer término de la ecuació
                                           n (5.13) representa el diferencial...
 
 Your command was ignored.
@@ -3639,7 +3472,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...al en el tanque, considerando que el á
+l.1320 ...al en el tanque, considerando que el á
                                                   rea del tanque es uniforme...
 
 Your command was ignored.
@@ -3653,7 +3486,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...odo el tanque. Observando esta ecuació
+l.1320 ...odo el tanque. Observando esta ecuació
                                                   n es posible definir que e...
 
 Your command was ignored.
@@ -3667,7 +3500,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...nealidad se debe a la presencia del té
+l.1320 ...nealidad se debe a la presencia del té
                                                   rmino de raíz cuadrada e...
 
 Your command was ignored.
@@ -3681,7 +3514,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...be a la presencia del término de raí
+l.1320 ...be a la presencia del término de raí
                                                   z cuadrada en la ecuació...
 
 Your command was ignored.
@@ -3695,7 +3528,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...rmino de raíz cuadrada en la ecuació
+l.1320 ...rmino de raíz cuadrada en la ecuació
                                                   n. Una opción para poder...
 
 Your command was ignored.
@@ -3709,7 +3542,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...z cuadrada en la ecuación. Una opció
+l.1320 ...z cuadrada en la ecuación. Una opció
                                                   n para poder trabajar con ...
 
 Your command was ignored.
@@ -3723,7 +3556,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...ar con este modelo es linealizar el té
+l.1320 ...ar con este modelo es linealizar el té
                                                   rmino no lineal de dicha e...
 
 Your command was ignored.
@@ -3737,7 +3570,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ...l término no lineal de dicha ecuació
+l.1320 ...l término no lineal de dicha ecuació
                                                   n. La función no lineal ...
 
 Your command was ignored.
@@ -3751,7 +3584,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1318 ... lineal de dicha ecuación. La funció
+l.1320 ... lineal de dicha ecuación. La funció
                                                   n no lineal queda definida...
 
 Your command was ignored.
@@ -3759,7 +3592,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
 
  []
 
@@ -3770,7 +3603,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1332 Entonces reemplazando la ecuació
+l.1334 Entonces reemplazando la ecuació
                                          n (5.15) en la ecuación (5.13) se...
 
 Your command was ignored.
@@ -3784,14 +3617,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1332 ...ndo la ecuación (5.15) en la ecuació
+l.1334 ...ndo la ecuación (5.15) en la ecuació
                                                   n (5.13) se obtiene:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Info: Redefining \. on input line 1334.
-LaTeX Info: Redefining \% on input line 1334.
+LaTeX Info: Redefining \. on input line 1336.
+LaTeX Info: Redefining \% on input line 1336.
 [53]
 
 ! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
@@ -3800,7 +3633,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1338 Así
+l.1340 Así
              en la ecuación (5.16) se tiene la ecuación del modelo de ni...
 
 Your command was ignored.
@@ -3814,7 +3647,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1338 Así en la ecuació
+l.1340 Así en la ecuació
                             n (5.16) se tiene la ecuación del modelo de ni...
 
 Your command was ignored.
@@ -3828,7 +3661,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1338 ... ecuación (5.16) se tiene la ecuació
+l.1340 ... ecuación (5.16) se tiene la ecuació
                                                   n del modelo de nivel del ...
 
 Your command was ignored.
@@ -3836,13 +3669,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 1338.
+LaTeX Warning: Command \textendash invalid in math mode on input line 1340.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 1338.
+LaTeX Warning: Command \textendash invalid in math mode on input line 1340.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
+Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
 
  []
 
@@ -3853,7 +3686,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1340 ...t=0$, entonces aplicando esta condició
+l.1342 ...t=0$, entonces aplicando esta condició
                                                   n a la ecuación (5.13) s...
 
 Your command was ignored.
@@ -3867,7 +3700,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1340 ...plicando esta condición a la ecuació
+l.1342 ...plicando esta condición a la ecuació
                                                   n (5.13) se obtiene:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3880,7 +3713,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1346 De este modo la ecuació
+l.1348 De este modo la ecuació
                                 n (5.16) se convierte en:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3893,7 +3726,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1352 ... $\tau$ y $K$ como sigue a continuació
+l.1354 ... $\tau$ y $K$ como sigue a continuació
                                                   n:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3906,7 +3739,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1362 ...estado estable. Aplicando a la ecuació
+l.1364 ...estado estable. Aplicando a la ecuació
                                                   n (5.18) la transformada d...
 
 Your command was ignored.
@@ -3920,7 +3753,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1362 ...rmada de La Place se obtiene la funció
+l.1364 ...rmada de La Place se obtiene la funció
                                                   n de transferencia (5.21),...
 
 Your command was ignored.
@@ -3934,7 +3767,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1362 ...erencia (5.21), la cual representa teó
+l.1364 ...erencia (5.21), la cual representa teó
                                                   ricamente el modelo del ni...
 
 Your command was ignored.
@@ -3948,7 +3781,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1368 Se debe recordar que la ecuació
+l.1370 Se debe recordar que la ecuació
                                         n (5.21) es valida solo para el punt...
 
 Your command was ignored.
@@ -3962,7 +3795,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1368 ...da solo para el punto de estabilizació
+l.1370 ...da solo para el punto de estabilizació
                                                   n $hs$, para un nuevo punt...
 
 Your command was ignored.
@@ -3976,7 +3809,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1368 ..., para un nuevo punto de estabilizació
+l.1370 ..., para un nuevo punto de estabilizació
                                                   n $hs_{2}$ los valores de ...
 
 Your command was ignored.
@@ -3990,7 +3823,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1368 ...es de las constantes $\tau$ y $K$ será
+l.1370 ...es de las constantes $\tau$ y $K$ será
                                                   n diferentes.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4003,7 +3836,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1375 ... en las secciones anteriores es especí
+l.1377 ... en las secciones anteriores es especí
                                                   ficamente diseñar un con...
 
 Your command was ignored.
@@ -4017,7 +3850,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1375 ... anteriores es específicamente diseñ
+l.1377 ... anteriores es específicamente diseñ
                                                   ar un controlador para la ...
 
 Your command was ignored.
@@ -4031,7 +3864,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1375 ...e pretende adoptar la mejor combinació
+l.1377 ...e pretende adoptar la mejor combinació
                                                   n, que cumpla los requerim...
 
 Your command was ignored.
@@ -4045,7 +3878,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1375 ...e controladores PID pertenece a los mé
+l.1377 ...e controladores PID pertenece a los mé
                                                   todos clásicos de contro...
 
 Your command was ignored.
@@ -4059,7 +3892,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1375 ...ores PID pertenece a los métodos clá
+l.1377 ...ores PID pertenece a los métodos clá
                                                   sicos de control, sin emba...
 
 Your command was ignored.
@@ -4067,12 +3900,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
 
  []
 
-LaTeX Info: Redefining \. on input line 1376.
-LaTeX Info: Redefining \% on input line 1376.
+LaTeX Info: Redefining \. on input line 1378.
+LaTeX Info: Redefining \% on input line 1378.
 [54]
 
 ! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
@@ -4081,7 +3914,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1379 Bá
+l.1381 Bá
            sicamente, usando el modelo de la planta linealizada se encuentra...
 
 Your command was ignored.
@@ -4095,225 +3928,1340 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1379 ...nta linealizada se encuentran los pará
+l.1381 ...nta linealizada se encuentran los pará
                                                   metros de un controlador d...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1466.
-LaTeX Info: Redefining \. on input line 1466.
-LaTeX Info: Redefining \% on input line 1466.
+LaTeX Info: Redefining \. on input line 1410.
+LaTeX Info: Redefining \% on input line 1410.
 [55]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1466.
- (./proyectotanquesecci.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 1410.
+LaTeX Info: Redefining \% on input line 1410.
+ [56
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+]
+Cap\'{\i }tulo 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1413
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1415 \item Se realizó
+                          el montaje y la instrumentación electrónica de...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.53 ...n y el área de un liquido}{figure.4.1}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1415 ...alizó el montaje y la instrumentació
+                                                  n electrónica de un sist...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.57 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1415 ...montaje y la instrumentación electró
+                                                  nica de un sistema de tanq...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.57 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1415 ...aboratorio de control e instrumentació
+                                                  n de la E3T como se puede ...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.65 ...e una válvula hidráulica}{figure.4.4}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1415 ...os resultados presentados en la secció
+                                                  n 2.1 (Figura 8), donde se...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.65 ...e una válvula hidráulica}{figure.4.4}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1415 ...8), donde se evidencia la configuració
+                                                  n del sistema de control i...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.67 ...la resistencia hidráulica}{figure.4.5}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1415 ...ol implementado constituido por una vá
+                                                  lvula proporcional DANFOSS...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.67 ...la resistencia hidráulica}{figure.4.5}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1415 ...una válvula proporcional DANFOSS, vá
+                                                  lvulas manuales y de encen...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.70 ... (b). Válvula equivalente}{figure.4.6}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1415 ...endido apagado, un trasmisor de presió
+                                                  n diferencial HONEYWELL y ...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.70 ... (b). Válvula equivalente}{figure.4.6}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.74 ...ón simbólica de la bomba}{figure.4.7}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.74 ...ón simbólica de la bomba}{figure.4.7}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.76 ...ra la aproximación lineal}{figure.4.8}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.76 ...ra la aproximación lineal}{figure.4.8}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.80 ...ráulico para el ejemplo 3}{figure.4.9}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.80 ...ráulico para el ejemplo 3}{figure.4.9}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.87 ...n la aproximación lineal}{figure.4.11}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.87 ...n la aproximación lineal}{figure.4.11}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.91 ...considerando el Ejemplo 5}{figure.4.12}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.91 ...considerando el Ejemplo 5}{figure.4.12}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.103 ...ansferencia de la Planta}{figure.4.13}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.103 ...ansferencia de la Planta}{figure.4.13}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I'm ignoring this, since I wasn't doing a \csname.
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
 
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1466.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1466.
-
-Package rerunfilecheck Info: File `proyectotanquesecci.out' has not changed.
-(rerunfilecheck)             Checksum: 0405D90F6CEDCF064D6D68342AD86341;1813.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: There were multiply-defined labels.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1466.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1416 \item S
+              e instrumentaron y calibraron tanto el sensor de presión com...
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 7649 strings out of 493108
- 110095 string characters out of 6134847
- 205715 words of memory out of 5000000
- 10746 multiletter control sequences out of 15000+600000
+ 7648 strings out of 493108
+ 110199 string characters out of 6134847
+ 205392 words of memory out of 5000000
+ 10745 multiletter control sequences out of 15000+600000
  10717 words of font info for 37 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 34i,13n,43p,818b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on proyectotanquesecci.pdf (57 pages, 2320847 bytes).
-PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 707 compressed objects within 8 object streams
- 230 named destinations out of 1000 (max. 500000)
- 367 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97i,30n,96p,1099b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

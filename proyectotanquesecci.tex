@@ -4,6 +4,7 @@
 \usepackage[tight,footnotesize]{subfigure}
 \usepackage{hyperref}
 \usepackage[spanish]{babel}
+\selectlanguage{spanish} 
 \usepackage[utf8]{inputenc}
 \hyphenation{op-tical net-works semi-conduc-tor}
 \usepackage{algpseudocode}
@@ -60,12 +61,11 @@ David Humberto Hernandez Balcazar\\}
 \chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 
+El presente documento describe el analisis y diseño de un prototipo de sistema de tanques acoplados al cual se aplican técnicas de control. El sistema es desarrollado teniendo en cuenta aspectos de seguridad, estandares industriales y parametros interdiciplinarios requeridos para un módulo de laboratorio. \\
 
-El presente documento describe el analisis y diseño de un prototipo de sistema de tanques acoplados al cual se aplican técnicas de control. El sistema es desarrollado teniendo en cuenta aspectos de seguridad, estandares industriales y parametros interdiciplinarios requeridos para un módulo de laboratorio. \\
+Se muestran fundamentos teóricos básicos de la lógica de control, asi como de diseño para un prototipo de sistema de entrenamiento para el control de nivel de tanques acoplados. Proporciona procedimientos en los cuales se aplican diversas técnicas de control al sistema de entrenamiento diseñado. Además brinda los procedimientos necesarios que facilitan el diseño de controladores. Se compara el desempeño del controlador frente al sistema no contlado determinando ventajas e inconvenientes que presenta el sistema de control. \\
 
-Se muestran fundamentos teóricos básicos de la lógica de control, así como de diseño para un prototipo de sistema de entrenamiento para el control de nivel de tanques acoplados. Proporciona procedimientos en los cuales se aplican diversas técnicas de control al sistema de entrenamiento diseñado. Además brinda los procedimientos necesarios que facilitan el diseño de controladores. Se compara el desempeño del controlador frente al sistema no contlado determinando ventajas e inconvenientes que presenta el sistema de control. \\
-
-Finalmente se detallan las conclusiones obtenidas en el desarrollo del proyecto y se brindan recomendaciones para la obtención de mejores resultados tanto para el desarrollo de prácticas de laboratorio como para la implementación del sistema de entrenamiento. \\
+Finalmente se detallan las conclusiones obtenidas en el desarrollo del proyecto y se brindan recomendaciones para la obtención de mejores resultados tanto para el desarrollo de prácticas de laboratorio como para la implementación del sistema de entrenamiento. \\
 
 
 
@@ -99,17 +99,19 @@ Con frecuencia las universidades tienen herramientas y dispositivos inteligentes
 
 \chapter{Justificación}
 
-Para comprender de mejor manera las características de las técnicas de control es importante el desarrollo de una aplicación que además de simular un proceso industrial, permita analizar difstintos tipos de controladores. \\
+Para comprender de mejor manera las características de las técnicas de control es importante el desarrollo de una aplicación que además de simular un proceso industrial, permita analizar distintos tipos de controladores. \\
 
-Es por esto que se ha escogido realizar un sistema de entrenamiento para el cual se pueda diseñar un sistema de control puesto que los laboratorios de la universidad no poseen módulos de ese tipo, que permitan simular procesos industriales con interacción de fluidos. \\
+Es por esto que se ha escogido realizar un sistema de entrenamiento para el cual se pueda diseñar un sistema de control puesto que los laboratorios de la universidad no poseen módulos de ese tipo, que permitan simular procesos industriales con interacción de fluidos. \\
 
 \section{Estado del arte}
 
-El monitoreo de variables es de gran importancia en la industria y por esto es vital preparar a los estudiantes para asumir retos reales de un proceso, aun en el estudio de su carrera, por esta razón el desarrollo e implementación de plantas experimentales y plantas pilotos han tomado una gran fuerza en los últimos años tanto así que existen empresas dedicadas, entre otras cosas, a la fabricación y comercialización de estas plantas para universidades e institutos de educación superior.\\
 
-El modelamiento matemático ha llegado a ser la principal herramienta de la teoría de control para poder resolver problemas, presentando alternativas para obtener la respuesta adecuada de un sistema ante diferentes escenarios. Es así como se aplica la lógica de control. \\
 
-La Universidad ECCI en los últimos años ha adquirido equipos y software especializados que facilitan el desarrollo e implementación de este tipo de controladores, permitiendo a los alumnos implementar escenarios cercanos a los encontrados en la industria. \\
+Actualmente, la Universidad Escuela Colombiana de Carreras Industiales (ECCI) cuenta con espacios destinados para la realización de actividades prácticas en las asignaturas de Automatización, Neumatica, Mecanica e Instrumentación Electrónica. Sin embargo, las actuales condiciones de los laboratorios no son suficientes para desarrollar de manera satisfactoria todas las sesiones de laboratorio, principalmente debido a no contar con una dotación de equipos actualizada, operativa y funcional para implementar nuevas practicas, inter-indiciplinarias y mas ampliamente enfocadas a pregrados, postgrados y maestrias. La historia reciente del Laboratorio de Control de la E3T se remonta al año 2001, donde a través de un trabajo de grado denominado “Planeación, diseño y realización del laboratorio de instrumentación electrónica para la E3T” [1], se realizó el diseño, construcción, e implementación de bancos de trabajo para medición de nivel, temperatura, caudal y presión, con guias prácticas de laboratorio asociadas. \\
+
+De otro lado, los sistemas de nivel de líquido representan un ejemplo concreto de sistema de control con amplia difusión en medios industriales. Todo proceso que necesite almacenar sustancias en cualquiera de sus estados requiere realizar registros sobre el nivel de depósito de las mismas. Algunos de los sectores en los que es de gran importancia mantener el nivel de líquido entre parámetros previamente establecidos son, entre otros: la industria petroquímica, la producción de papel, el tratamiento de aguas y los procesos químicos, en los que por el grado de riesgo por contacto humano se requieren procedimientos automatizados. \\
+
+Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca el sistema de laboratorio virtual desarrollado en la Universidad de Murcia en España en el cual se propone un sistema de tres tanques acoplados con acceso remoto vía internet [3]. También en [4] se implementa el diseño y la instrumentación de un sistema de tanques acoplados para prácticas de laboratorio universitario. En [5] se aplica un control predictivo para mantener el nivel de líquido en un prototipo de proceso industrial. En Colombia se destacan algunos trabajos, entre ellos [6] de la UPB-Medellin donde se plantea una solución para la industria de tintorerías local a partir de un control de nivel y [7] de UNAL-Manizales donde se diseña un sistema automatizado de control de nivel para la industria de lácteos en el eje cafetero. En la Universidad Industrial de Santander se han desarrollado varios proyectos de grado relacionados con el control y la automatización de sistemas de nivel de liquido, entre ellos se destacan [8, 9, 10]. \\
 
 
 
@@ -1405,7 +1407,19 @@ Básicamente, usando el modelo de la planta linealizada se encuentran los para�
 %									CAPITULO CONCLUSIONES
 % ==============================================================================================
 
-%\chapter{Conclusiones}
+\chapter{Conclusiones}
+
+A partir de los resultados obtenidos con el presente proyecto de grado, es posible concluir que: \\
+
+\begin{list}
+\item Se realizó el montaje y la instrumentación electrónica de un sistema de tanques acoplados en el laboratorio de control e instrumentación de la E3T como se puede observar de los resultados presentados en la sección 2.1 (Figura 8), donde se evidencia la configuración del sistema de control implementado constituido por una válvula proporcional DANFOSS, válvulas manuales y de encendido apagado, un trasmisor de presión diferencial HONEYWELL y un controlador universal UDC1200.
+\item Se instrumentaron y calibraron tanto el sensor de presión como el actuador (válvula proporcional), para efectuar manipulación del nivel de líquido en el sistema mediante el controlador industrial. Lo anterior se ilustra en las secciones 2.1 y 2.3, en las cuales se explica la caracterización de cada elemento del sistema de control y los respectivos ajustes en los rangos y escalas de sus correspondientes señales.
+\item Se realizó un procedimiento experimental para obtener los parámetros de un modelo matemático apropiado para el sistema, tales como resistencias hidráulicas representadas por válvulas manuales y on-off, al igual que capacitancias hidráulicas relacionadas con el área de sección transversal de los tanques. Lo anterior se ilustra en las secciones 3.1 y 3.2, desarrollos a partir de los cuales se obtuvo una representación matemática del comportamiento del sistema a manera de función de transferencia (ecuación 3.15).
+\item Se validó el modelo matemático obtenido con medidas del sistema real mediante una prueba en lazo abierto que consistió en aplicar una entrada escalón al sistema experimental y comparar posteriormente los resultados de su respuesta con los generados numéricamente para el modelo empleando MATLAB®, como se puede observar en la Figura 14 de la sección 3.3.
+\item Se diseñó e implementó un controlador PID en un dispositivo industrial de referencia HONEYWELL UDC1200 para regular el nivel del tanque de salida. Para esto se calcularon y sintonizaron los valores para las constantes del controlador utilizando el primer método de Ziegler & Nichols. Los resultados obtenidos se muestran en la Tabla 5, las Figuras 19-20 y la sección 4.3, verificando la acción de control y la atenuación del efecto de una perturbación aplicada al sistema mediante la variación del parámetro R1. A pesar de ello, la respuesta experimental obtenida difiere de la predicha por la teoría principalmente por la aparición de oscilaciones, lo cual puede deberse a los errores de aproximación generados por el modelo lineal propuesto para el sistema.
+\item Finalmente se implementó una sintonización automática de los parámetros para el controlador UDC1200, demostrando un mejoramiento en la respuesta del sistema controlado tal y como se describe en la sección 4.4.
+\end{list}
+
 
 
 
@@ -1415,7 +1429,24 @@ Básicamente, usando el modelo de la planta linealizada se encuentran los para�
 %									CAPITULO TRABAJO FUTURO
 % ==============================================================================================
 
-%\chapter{Trabajo Futuro}
+\chapter{Trabajo Futuro}
+
+En desarrollo del presente proyecto de grado se generaron las inquietudes resumidas a continuación. \\
+
+\begin{list}
+\item El sistema real no es un sistema lineal y por tal motivo las variaciones de referencia deben hacerse alrededor del punto de operación. Asimismo, este valor de referencia no debe superar los 40 cm de altura debido a restricciones prácticas.
+\item Tomando en cuenta la ubicación de la tubería de acople de los dos tanques y la tubería de desagüe, el mínimo nivel de líquido de cada uno de los tanques puede variar entre 1 y 4 cm. Para el caso del tanque de salida es posible disminuir este nivel mínimo desconectando la manguera del sensor de presión.
+\item La potencia de salida del controlador se ajustó al 40\%, debido a que es mayor la cantidad de flujo de líquido suministrado al tanque de entrada que el evacuado por la tubería de acople hacia el tanque de salida, ocasionando que el tanque de entrada se rebase hasta su tope.
+\item El valor de perturbación seleccionado para $R_{1}$ fue la máxima apertura de la válvula, debido a que para otro valor de resistencia el efecto de la perturbación no era discriminante, ya que el sistema en estado estable presenta oscilaciones.
+\end{list}
+
+Así mismo, como trabajos futuros complementarios a este trabajo de grado se plantean. \\
+
+\begin{list}
+\item La implementación de un sistema de recirculación de líquido con el fin de aprovechar mejor el recurso hídrico del proceso.
+\item La elección o diseño de un sistema de sensado cuyos rangos de operación estén más cercanos al valor real del sistema.
+\item La implementación de una acción de control y modelado del sistema en donde se contemple la interacción de nivel de líquido entre los dos tanques.
+\end{list}
 
 
 
