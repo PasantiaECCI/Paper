@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.15)  24 NOV 2014 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 NOV 2014 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **proyectotanquesecci.tex
 (./proyectotanquesecci.tex
 LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 79 languages loaded.
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./proyectotanquesecci.cls
 Document Class: proyectotanquesecci 2007/10/19 v1.4h Standard LaTeX document cl
 ass
@@ -1133,30 +1133,37 @@ licate ignored
 l.48 \tableofcontents
                       [2
 
-] (./proyectotanquesecci.toc)
+] (./proyectotanquesecci.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [3])
 \tf@toc=\write4
 \openout4 = `proyectotanquesecci.toc'.
 
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [3]
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
- [4
-
-]
-(./proyectotanquesecci.lof)
+ [4]
+(./proyectotanquesecci.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
 \tf@lof=\write5
 \openout5 = `proyectotanquesecci.lof'.
 
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
- [5]
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
- [6
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+ [5
 
 ]
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -1173,7 +1180,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
-[7]
+[7
+
+]
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
  [8
@@ -1221,135 +1230,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []
 
 
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...o de Control de la E3T se remonta al añ
-                                                  o 2001, donde a través de...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ... grado denominado “Planeación, diseñ
-                                                  o y realización del labor...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...ción del laboratorio de instrumentació
-                                                  n electrónica para la E3T...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...ara la E3T” [1], se realizó el diseñ
-                                                  o, construcción, e implem...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...ción de bancos de trabajo para medició
-                                                  n de nivel, temperatura, c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 De otro lado, los sistemas de nivel de lí
-                                                 quido representan un ejempl...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...ran importancia mantener el nivel de lí
-                                                  quido entre parámetros pr...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...son, entre otros: la industria petroquí
-                                                  mica, la producción de pa...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...tratamiento de aguas y los procesos quí
-                                                  micos, en los que por el g...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
@@ -1359,49 +1242,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 [11
 
 ]
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ...acceso remoto vía internet [3]. Tambié
-                                                  n en [4] se implementa el ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ...olución para la industria de tintorerí
-                                                  as local a partir de un co...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ... y [7] de UNAL-Manizales donde se diseñ
-                                                  a un sistema automatizado ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
@@ -1410,33 +1250,6 @@ LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
 [12]
 Cap\'{\i }tulo 3.
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.129 ...trenamiento para control de nivel de lí
-                                                  quidos de tanques acoplados.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 \item Evaluar el comportamiento diná
-                                            mico del nivel en la planta, de ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 [13
 
 ]
@@ -1462,174 +1275,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
  []
 
 [15]
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 Un modelo matemá
-                        tico es simplemente una imitación de la realidad, ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...atemático es simplemente una imitació
-                                                  n de la realidad, con el c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...re el comportamiento de sistemas, probá
-                                                  ndolos, controlándolos u...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...to de sistemas, probándolos, controlá
-                                                  ndolos u optimizándolos....
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...bándolos, controlándolos u optimizá
-                                                  ndolos. En el proceso de c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...ándolos. En el proceso de construcció
-                                                  n de modelos, el principal...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...objetivo es dar una equivalencia matemá
-                                                  tica a un problema de la v...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...erpretar. En los problemas de ingenierí
-                                                  a, se busca capturar esto ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...esto en forma de ecuaciones, haciendo é
-                                                  nfasis en aspectos especif...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...an parte de la realidad, su contribució
-                                                  n en ella sea mínima par...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...lidad, su contribución en ella sea mí
-                                                  nima para simplificar el m...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...para simplificar el modelo y su solució
-                                                  n. \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -1676,7 +1321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-<Figura1.pdf, id=202, 808.52063pt x 288.3272pt>
+<Figura1.pdf, id=304, 808.52063pt x 288.3272pt>
 File: Figura1.pdf Graphic file (type pdf)
  <use Figura1.pdf>
 Package pdftex.def Info: Figura1.pdf used on input line 225.
@@ -1694,7 +1339,7 @@ LaTeX Info: Redefining \% on input line 241.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.241 
-       <./Figura1.pdf>] <Figura2.pdf, id=243, 685.8122pt x 346.29375pt>
+       <./Figura1.pdf>] <Figura2.pdf, id=345, 685.8122pt x 346.29375pt>
 File: Figura2.pdf Graphic file (type pdf)
 
 <use Figura2.pdf>
@@ -1705,7 +1350,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-<Figura3.pdf, id=244, 426.84468pt x 285.31593pt>
+<Figura3.pdf, id=346, 426.84468pt x 285.31593pt>
 File: Figura3.pdf Graphic file (type pdf)
  <use Figura3.pdf>
 Package pdftex.def Info: Figura3.pdf used on input line 265.
@@ -1740,13 +1385,13 @@ LaTeX Info: Redefining \% on input line 274.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.274 
-       <./Figura2.pdf>] <Figura4.pdf, id=275, 234.8775pt x 127.22531pt>
+       <./Figura2.pdf>] <Figura4.pdf, id=376, 234.8775pt x 127.22531pt>
 File: Figura4.pdf Graphic file (type pdf)
 
 <use Figura4.pdf>
 Package pdftex.def Info: Figura4.pdf used on input line 284.
 (pdftex.def)             Requested size: 117.43846pt x 63.61249pt.
- <Figura5.pdf, id=276, 770.12718pt x 323.70938pt>
+ <Figura5.pdf, id=377, 770.12718pt x 323.70938pt>
 File: Figura5.pdf Graphic file (type pdf)
 
 <use Figura5.pdf>
@@ -1803,7 +1448,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-<Figura6.pdf, id=377, 532.23843pt x 161.85469pt>
+<Figura6.pdf, id=475, 532.23843pt x 161.85469pt>
 File: Figura6.pdf Graphic file (type pdf)
  <use Figura6.pdf>
 Package pdftex.def Info: Figura6.pdf used on input line 363.
@@ -1836,13 +1481,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
-<Figura7.pdf, id=423, 208.78pt x 228.855pt>
+<Figura7.pdf, id=520, 208.78pt x 228.855pt>
 File: Figura7.pdf Graphic file (type pdf)
  <use Figura7.pdf>
 Package pdftex.def Info: Figura7.pdf used on input line 410.
 (pdftex.def)             Requested size: 104.38972pt x 114.42722pt.
 
-<Figura8.pdf, id=424, 794.97pt x 289.08pt>
+<Figura8.pdf, id=521, 794.97pt x 289.08pt>
 File: Figura8.pdf Graphic file (type pdf)
  <use Figura8.pdf>
 Package pdftex.def Info: Figura8.pdf used on input line 418.
@@ -1882,7 +1527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
-<Figura9.pdf, id=450, 409.53pt x 240.9pt>
+<Figura9.pdf, id=545, 409.53pt x 240.9pt>
 File: Figura9.pdf Graphic file (type pdf)
  <use Figura9.pdf>
 Package pdftex.def Info: Figura9.pdf used on input line 457.
@@ -1926,13 +1571,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
 LaTeX Info: Redefining \. on input line 570.
 LaTeX Info: Redefining \% on input line 570.
-[26] <Figura10.pdf, id=497, 698.61pt x 192.72pt>
+[26] <Figura10.pdf, id=590, 698.61pt x 192.72pt>
 File: Figura10.pdf Graphic file (type pdf)
  <use Figura10.pdf>
 Package pdftex.def Info: Figura10.pdf used on input line 573.
 (pdftex.def)             Requested size: 419.16924pt x 115.63287pt.
 
-<Figura11.pdf, id=498, 843.15pt x 313.17pt>
+<Figura11.pdf, id=591, 843.15pt x 313.17pt>
 File: Figura11.pdf Graphic file (type pdf)
  <use Figura11.pdf>
 Package pdftex.def Info: Figura11.pdf used on input line 581.
@@ -1961,7 +1606,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 629--631
 
  []
 
-<Figura12.pdf, id=515, 578.16pt x 192.72pt>
+<Figura12.pdf, id=606, 578.16pt x 192.72pt>
 File: Figura12.pdf Graphic file (type pdf)
  <use Figura12.pdf>
 Package pdftex.def Info: Figura12.pdf used on input line 638.
@@ -2064,597 +1709,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 883--884
 LaTeX Info: Redefining \. on input line 884.
 LaTeX Info: Redefining \% on input line 884.
 [34]
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.885 La acció
-                n de control integral da una salida del controlador que es p...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.896 La señ
-              al de control $u(t)$ tiene un valor diferente de cero cuando l...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.896 ...n valor diferente de cero cuando la señ
-                                                  al de error $e(t)$ es cero...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.896 ...tante, o perturbaciones, el error en ré
-                                                  gimen permanente es cero.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.900 La acció
-                n de control proporciona-integral se define mediante (4.57).
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.906 ...mpo integral y es quien ajusta la acció
-                                                  n integral. La función d...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.906 ... ajusta la acción integral. La funció
-                                                  n de transferencia resulta...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ...o que exista error para tener una acció
-                                                  n de control distinta de c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ... de control distinta de cero. Con acció
-                                                  n integral, un error peque...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ... Con acción integral, un error pequeñ
-                                                  o positivo siempre dará ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ...n error pequeño positivo siempre dará
-                                                   una acción de control c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ...eño positivo siempre dará una acció
-                                                  n de control creciente, y ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ...iente, y si el error es negativo la señ
-                                                  al de control será decre...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ... es negativo la señal de control será
-                                                   decreciente. Este razonam...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ...nto sencillo muestra que el error en ré
-                                                  gimen permanente será si...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.912 ...e el error en régimen permanente será
-                                                   siempre cero. \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 912--913
 
  []
 
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.914 ...oladores industriales tienen solo acció
-                                                  n PI. Se puede demostrar q...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.914 ...o para todos los procesos donde la diná
-                                                  mica es esencialmente de p...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.914 ...jemplo, mediante la respuesta al escaló
-                                                  n.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.922 La acció
-                n de control proporcional-derivativa se define mediante (4.59):
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 LaTeX Info: Redefining \. on input line 926.
 LaTeX Info: Redefining \% on input line 926.
 [35]
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...enominada tiempo derivativo. Esta acció
-                                                  n tiene carácter de prev...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...po derivativo. Esta acción tiene cará
-                                                  cter de previsión, lo qu...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...a acción tiene carácter de previsió
-                                                  n, lo que hace más ráp...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...rácter de previsión, lo que hace má
-                                                  s rápida la acción de ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...er de previsión, lo que hace más rá
-                                                  pida la acción de contro...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...�n, lo que hace más rápida la acció
-                                                  n de control, aunque tiene...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...entaja importante de amplificar las señ
-                                                  ales de ruido y puede prov...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...les de ruido y puede provocar saturació
-                                                  n en el actuador. La accio...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...r saturación en el actuador. La acció
-                                                  n de control derivativa nu...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...trol derivativa nunca se utiliza por sí
-                                                   sola, debido a que sólo...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ... utiliza por sí sola, debido a que só
-                                                  lo es eficaz durante peri�...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...ido a que sólo es eficaz durante perí
-                                                  odos transitorios. La func...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...ante períodos transitorios. La funció
-                                                  n transferencia de un cont...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.934 Cuando una acció
-                        n de control derivativa se agrega a un controlador p...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.934 ...ambio del error y produce una correcció
-                                                  n significativa antes de q...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.934 ...cta al error de estado estacionario, añ
-                                                  ade amortiguamiento al sis...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.934 ...stema y, por tanto, permite un valor má
-                                                  s grande que la ganancia $...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.934 ... cual provoca una mejora en la precisió
-                                                  n en estado estable.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.938 ...l, integral y derivativa combinadas reú
-                                                  nen las ventajas de cada u...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.938 ...nes de control individuales. La ecuació
-                                                  n de un controlador con es...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.938 ...ción de un controlador con esta acció
-                                                  n combinada se obtiene med...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.944 Y su funció
-                   n de transferencia resulta en (4.62).
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 952--953
 
  []
@@ -2671,7 +1732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 956--957
 
  []
 
-<FuncionPlanta.png, id=604, 168.63pt x 45.92157pt>
+<FuncionPlanta.png, id=694, 168.63pt x 45.92157pt>
 File: FuncionPlanta.png Graphic file (type png)
  <use FuncionPlanta.png>
 Package pdftex.def Info: FuncionPlanta.png used on input line 960.
@@ -2686,7 +1747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 974--975
 
  []
 
-<Ventana1.png, id=605, 702.625pt x 401.5pt>
+<Ventana1.png, id=695, 702.625pt x 401.5pt>
 File: Ventana1.png Graphic file (type png)
  <use Ventana1.png>
 Package pdftex.def Info: Ventana1.png used on input line 978.
@@ -2700,7 +1761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 984--985
 
  []
 
-<Ventana2.png, id=607, 321.2pt x 231.86626pt>
+<Ventana2.png, id=697, 321.2pt x 231.86626pt>
 File: Ventana2.png Graphic file (type png)
  <use Ventana2.png>
 Package pdftex.def Info: Ventana2.png used on input line 988.
@@ -2722,7 +1783,7 @@ LaTeX Info: Redefining \% on input line 995.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.995 
-       <./FuncionPlanta.png>] <Ventana3.png, id=613, 321.2pt x 252.945pt>
+       <./FuncionPlanta.png>] <Ventana3.png, id=702, 321.2pt x 252.945pt>
 File: Ventana3.png Graphic file (type png)
 
 <use Ventana3.png>
@@ -2737,7 +1798,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
 
  []
 
-<Ventana4.png, id=614, 321.2pt x 239.89626pt>
+<Ventana4.png, id=703, 321.2pt x 239.89626pt>
 File: Ventana4.png Graphic file (type png)
  <use Ventana4.png>
 Package pdftex.def Info: Ventana4.png used on input line 1008.
@@ -2751,7 +1812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
 
  []
 
-<Ventana5.png, id=615, 337.26pt x 401.5pt>
+<Ventana5.png, id=704, 337.26pt x 401.5pt>
 File: Ventana5.png Graphic file (type png)
  <use Ventana5.png>
 Package pdftex.def Info: Ventana5.png used on input line 1018.
@@ -2778,7 +1839,7 @@ LaTeX Info: Redefining \% on input line 1027.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1027 
-        <./Ventana1.png>] <Ventana6.png, id=622, 321.2pt x 286.06876pt>
+        <./Ventana1.png>] <Ventana6.png, id=710, 321.2pt x 286.06876pt>
 File: Ventana6.png Graphic file (type png)
 
 <use Ventana6.png>
@@ -2793,7 +1854,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
 
  []
 
-<Ventana7.png, id=623, 401.5pt x 356.33125pt>
+<Ventana7.png, id=711, 401.5pt x 356.33125pt>
 File: Ventana7.png Graphic file (type png)
  <use Ventana7.png>
 Package pdftex.def Info: Ventana7.png used on input line 1040.
@@ -2807,7 +1868,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
 
  []
 
-<Ventana8.png, id=624, 321.2pt x 286.06876pt>
+<Ventana8.png, id=712, 321.2pt x 286.06876pt>
 File: Ventana8.png Graphic file (type png)
  <use Ventana8.png>
 Package pdftex.def Info: Ventana8.png used on input line 1050.
@@ -2850,7 +1911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1062--1063
 
  []
 
-<Ventana9.png, id=632, 382.42876pt x 401.5pt>
+<Ventana9.png, id=718, 382.42876pt x 401.5pt>
 File: Ventana9.png Graphic file (type png)
  <use Ventana9.png>
 Package pdftex.def Info: Ventana9.png used on input line 1066.
@@ -2872,7 +1933,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
 
  []
 
-<Ventana10.png, id=638, 307.1475pt x 321.2pt>
+<Ventana10.png, id=723, 307.1475pt x 321.2pt>
 File: Ventana10.png Graphic file (type png)
  <use Ventana10.png>
 Package pdftex.def Info: Ventana10.png used on input line 1083.
@@ -2904,7 +1965,7 @@ LaTeX Info: Redefining \% on input line 1094.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1094 
-        <./Ventana5.png>] <Ventana11.png, id=645, 305.14pt x 321.2pt>
+        <./Ventana5.png>] <Ventana11.png, id=729, 305.14pt x 321.2pt>
 File: Ventana11.png Graphic file (type png)
 
 <use Ventana11.png>
@@ -2919,7 +1980,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
-<Ventana12.png, id=646, 271.0125pt x 321.2pt>
+<Ventana12.png, id=730, 271.0125pt x 321.2pt>
 File: Ventana12.png Graphic file (type png)
  <use Ventana12.png>
 Package pdftex.def Info: Ventana12.png used on input line 1107.
@@ -2933,7 +1994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
 
  []
 
-<Ventana13.png, id=647, 321.2pt x 302.12875pt>
+<Ventana13.png, id=731, 321.2pt x 302.12875pt>
 File: Ventana13.png Graphic file (type png)
  <use Ventana13.png>
 Package pdftex.def Info: Ventana13.png used on input line 1117.
@@ -2952,7 +2013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
 
  []
 
-<Ventana14.png, id=648, 602.25pt x 321.2pt>
+<Ventana14.png, id=732, 602.25pt x 321.2pt>
 File: Ventana14.png Graphic file (type png)
  <use Ventana14.png>
 Package pdftex.def Info: Ventana14.png used on input line 1129.
@@ -2979,7 +2040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 
  []
 
-<Ventana15.png, id=654, 271.0125pt x 321.2pt>
+<Ventana15.png, id=738, 271.0125pt x 321.2pt>
 File: Ventana15.png Graphic file (type png)
  <use Ventana15.png>
 Package pdftex.def Info: Ventana15.png used on input line 1141.
@@ -2998,7 +2059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
 
  []
 
-<Ventana16.png, id=655, 321.2pt x 303.1325pt>
+<Ventana16.png, id=739, 321.2pt x 303.1325pt>
 File: Ventana16.png Graphic file (type png)
  <use Ventana16.png>
 Package pdftex.def Info: Ventana16.png used on input line 1153.
@@ -3020,7 +2081,7 @@ LaTeX Info: Redefining \% on input line 1160.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1160 
-        <./Ventana7.png>] <Ventana18.png, id=661, 375.4025pt x 401.5pt>
+        <./Ventana7.png>] <Ventana18.png, id=744, 375.4025pt x 401.5pt>
 File: Ventana18.png Graphic file (type png)
 
 <use Ventana18.png>
@@ -3128,118 +2189,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
 
  []
 
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 El problema se centra en la obtenció
-                                             n del comportamiento de nivel d...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 ...́n del comportamiento de nivel del lí
-                                                  quido a través del tiemp...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 ...amiento de nivel del líquido a travé
-                                                  s del tiempo $t$ de un tan...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 ...ujo de salida del tanque es una funció
-                                                  n lineal de la altura de l...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 ...na función lineal de la altura de lí
-                                                  quido en su interior ($q_{...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 ...q_{o}=k*h$) y que el tanque tiene un á
-                                                  rea de sección transvers...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 ...ue el tanque tiene un área de secció
-                                                  n transversal constante. S...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1194 ...transversal constante. Se asume tambié
-                                                  n que la densidad y el flu...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 [51]
 Underfull \hbox (badness 10000) in paragraph at lines 1294--1295
 
@@ -3248,189 +2197,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1294--1295
 LaTeX Info: Redefining \. on input line 1298.
 LaTeX Info: Redefining \% on input line 1298.
 [52]
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 Sin importar que geometrí
-                                  a posea un tanque, el caudal a través de...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ...́a posea un tanque, el caudal a travé
-                                                  s de la válvula de salid...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ... tanque, el caudal a través de la vá
-                                                  lvula de salida será pro...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ...ravés de la válvula de salida será
-                                                   proporcional a la raíz ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ...de salida será proporcional a la raí
-                                                  z cuadrada del nivel del l...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ... a la raíz cuadrada del nivel del lí
-                                                  quido directamente sobre l...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ...del líquido directamente sobre la vá
-                                                  lvula. De este modo el cau...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ...dal de salida del tanque $q_{o}$, será
-                                                   (5.12):
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1310 ... que involucra el coeficiente de la vá
-                                                  lvula y que además esta ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1310 ...oeficiente de la válvula y que ademá
-                                                  s esta relacionado con la ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1310 ...rtura de la misma y $h$ el nivel de lí
-                                                  quido en el tanque. \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
 
  []
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1318 Donde $A$ es á
-                       rea del tanque y $q_{i}$ es el flujo de entrada de li...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1318 ...y $q_{i}$ es el flujo de entrada de lí
-                                                  quido al tanque. \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
@@ -3438,236 +2207,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
  []
 
 
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 El primer té
-                     rmino de la ecuación (5.13) representa el diferencial...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 El primer término de la ecuació
-                                          n (5.13) representa el diferencial...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...al en el tanque, considerando que el á
-                                                  rea del tanque es uniforme...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...odo el tanque. Observando esta ecuació
-                                                  n es posible definir que e...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...nealidad se debe a la presencia del té
-                                                  rmino de raíz cuadrada e...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...be a la presencia del término de raí
-                                                  z cuadrada en la ecuació...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...rmino de raíz cuadrada en la ecuació
-                                                  n. Una opción para poder...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...z cuadrada en la ecuación. Una opció
-                                                  n para poder trabajar con ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...ar con este modelo es linealizar el té
-                                                  rmino no lineal de dicha e...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ...l término no lineal de dicha ecuació
-                                                  n. La función no lineal ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1320 ... lineal de dicha ecuación. La funció
-                                                  n no lineal queda definida...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
 
  []
 
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1334 Entonces reemplazando la ecuació
-                                         n (5.15) en la ecuación (5.13) se...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1334 ...ndo la ecuación (5.15) en la ecuació
-                                                  n (5.13) se obtiene:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 LaTeX Info: Redefining \. on input line 1336.
 LaTeX Info: Redefining \% on input line 1336.
 [53]
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1340 Así
-             en la ecuación (5.16) se tiene la ecuación del modelo de ni...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1340 Así en la ecuació
-                            n (5.16) se tiene la ecuación del modelo de ni...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1340 ... ecuación (5.16) se tiene la ecuació
-                                                  n del modelo de nivel del ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 1340.
 
@@ -3680,226 +2226,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
  []
 
 
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1342 ...t=0$, entonces aplicando esta condició
-                                                  n a la ecuación (5.13) s...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1342 ...plicando esta condición a la ecuació
-                                                  n (5.13) se obtiene:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1348 De este modo la ecuació
-                                n (5.16) se convierte en:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1354 ... $\tau$ y $K$ como sigue a continuació
-                                                  n:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1364 ...estado estable. Aplicando a la ecuació
-                                                  n (5.18) la transformada d...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1364 ...rmada de La Place se obtiene la funció
-                                                  n de transferencia (5.21),...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1364 ...erencia (5.21), la cual representa teó
-                                                  ricamente el modelo del ni...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1370 Se debe recordar que la ecuació
-                                        n (5.21) es valida solo para el punt...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1370 ...da solo para el punto de estabilizació
-                                                  n $hs$, para un nuevo punt...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1370 ..., para un nuevo punto de estabilizació
-                                                  n $hs_{2}$ los valores de ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1370 ...es de las constantes $\tau$ y $K$ será
-                                                  n diferentes.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1377 ... en las secciones anteriores es especí
-                                                  ficamente diseñar un con...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1377 ... anteriores es específicamente diseñ
-                                                  ar un controlador para la ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1377 ...e pretende adoptar la mejor combinació
-                                                  n, que cumpla los requerim...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1377 ...e controladores PID pertenece a los mé
-                                                  todos clásicos de contro...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1377 ...ores PID pertenece a los métodos clá
-                                                  sicos de control, sin emba...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
 
  []
@@ -3907,37 +2233,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
 LaTeX Info: Redefining \. on input line 1378.
 LaTeX Info: Redefining \% on input line 1378.
 [54]
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1381 Bá
-           sicamente, usando el modelo de la planta linealizada se encuentra...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1381 ...nta linealizada se encuentran los pará
-                                                  metros de un controlador d...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 LaTeX Info: Redefining \. on input line 1410.
 LaTeX Info: Redefining \% on input line 1410.
-[55]
+ [55]
 LaTeX Info: Redefining \. on input line 1410.
 LaTeX Info: Redefining \% on input line 1410.
  [56
@@ -3956,8 +2254,104 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 \item Se realizó
-                          el montaje y la instrumentación electrónica de...
+l.1417 ... de función de transferencia (ecuació
+                                                  n 3.15).
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1418 ...nsistió en aplicar una entrada escaló
+                                                  n al sistema experimental ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1418
+.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1418.
+
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1418 ... observar en la Figura 14 de la secció
+                                                  n 3.3.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.1419 ...tilizando el primer método de Ziegler &
+                                                   Nichols. Los resultados o...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1419 ...e deberse a los errores de aproximació
+                                                  n generados por el modelo ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[57]
+LaTeX Info: Redefining \. on input line 1432.
+LaTeX Info: Redefining \% on input line 1432.
+ [58]
+Cap\'{\i }tulo 7.
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1434 ...as inquietudes resumidas a continuació
+                                                  n. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1435
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1437 ...acerse alrededor del punto de operació
+                                                  n. Asimismo, este valor de...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3970,8 +2364,21 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...alizó el montaje y la instrumentació
-                                                  n electrónica de un sist...
+l.1437 ...m de altura debido a restricciones prá
+                                                  cticas.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1438 \item Tomando en cuenta la ubicació
+                                            n de la tubería de acople de l...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3984,8 +2391,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...montaje y la instrumentación electró
-                                                  nica de un sistema de tanq...
+l.1438 ... en cuenta la ubicación de la tuberí
+                                                  a de acople de los dos tan...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3998,8 +2405,22 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...aboratorio de control e instrumentació
-                                                  n de la E3T como se puede ...
+l.1438 ... acople de los dos tanques y la tuberí
+                                                  a de desagüe, el mínim...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:̈ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1438 ...s dos tanques y la tubería de desagü
+                                                  e, el mínimo nivel de li...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4012,8 +2433,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...os resultados presentados en la secció
-                                                  n 2.1 (Figura 8), donde se...
+l.1438 ...ues y la tubería de desagüe, el mí
+                                                  nimo nivel de líquido de...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4026,8 +2447,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...8), donde se evidencia la configuració
-                                                  n del sistema de control i...
+l.1438 ... de desagüe, el mínimo nivel de lí
+                                                  quido de cada uno de los t...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4040,8 +2461,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...ol implementado constituido por una vá
-                                                  lvula proporcional DANFOSS...
+l.1438 ...ida es posible disminuir este nivel mí
+                                                  nimo desconectando la mang...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4054,8 +2475,21 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...una válvula proporcional DANFOSS, vá
-                                                  lvulas manuales y de encen...
+l.1438 ...tando la manguera del sensor de presió
+                                                  n.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1439 ...ia de salida del controlador se ajustó
+                                                   al 40\%, debido a que es ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4068,1200 +2502,496 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1415 ...endido apagado, un trasmisor de presió
-                                                  n diferencial HONEYWELL y ...
+l.1439 ...ue es mayor la cantidad de flujo de lí
+                                                  quido suministrado al tanq...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1439 ... entrada que el evacuado por la tuberí
+                                                  a de acople hacia el tanqu...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1440 \item El valor de perturbació
+                                      n seleccionado para $R_{1}$ fue la ma�...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1440 ...�n seleccionado para $R_{1}$ fue la má
+                                                  xima apertura de la válv...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1440 ...{1}$ fue la máxima apertura de la vá
+                                                  lvula, debido a que para o...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1440 ...esistencia el efecto de la perturbació
+                                                  n no era discriminante, ya...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1443 Así
+             mismo, como trabajos futuros complementarios a este trabajo de ...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+Underfull \hbox (badness 10000) in paragraph at lines 1443--1444
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+ []
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1446 \item La implementació
+                               n de un sistema de recirculación de líqui...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1446 ...tación de un sistema de recirculació
+                                                  n de líquido con el fin ...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1446 ...de un sistema de recirculación de lí
+                                                  quido con el fin de aprove...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.1446 ... fin de aprovechar mejor el recurso hí
+                                                  drico del proceso.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1447 \item La elecció
+                         n o diseño de un sistema de sensado cuyos rangos ...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:̃ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1447 \item La elección o diseñ
+                                    o de un sistema de sensado cuyos rangos ...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1447 ...ma de sensado cuyos rangos de operació
+                                                  n estén más cercanos a...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1447 ...nsado cuyos rangos de operación esté
+                                                  n más cercanos al valor ...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1447 ...cuyos rangos de operación estén má
+                                                  s cercanos al valor real d...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1448 \item La implementació
+                               n de una acción de control y modelado del s...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1448 \item La implementación de una acció
+                                               n de control y modelado del s...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1448 ...ma en donde se contemple la interacció
+                                                  n de nivel de líquido en...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+l.1448 ...temple la interacción de nivel de lí
+                                                  quido entre los dos tanques.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1497.
+[59
 
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1497.
+ (./proyectotanquesecci.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.57 ...n y el área de un liquido}{figure.4.1}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+I'm ignoring this, since I wasn't doing a \csname.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.61 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.61 ...) Vertical. (b) Horizontal}{figure.4.2}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+I'm ignoring this, since I wasn't doing a \csname.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.69 ...e una válvula hidráulica}{figure.4.4}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.69 ...e una válvula hidráulica}{figure.4.4}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+I'm ignoring this, since I wasn't doing a \csname.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.71 ...la resistencia hidráulica}{figure.4.5}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.71 ...la resistencia hidráulica}{figure.4.5}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+I'm ignoring this, since I wasn't doing a \csname.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.74 ... (b). Válvula equivalente}{figure.4.6}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.74 ... (b). Válvula equivalente}{figure.4.6}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+I'm ignoring this, since I wasn't doing a \csname.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.78 ...ón simbólica de la bomba}{figure.4.7}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.78 ...ón simbólica de la bomba}{figure.4.7}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+I'm ignoring this, since I wasn't doing a \csname.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.80 ...ra la aproximación lineal}{figure.4.8}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.80 ...ra la aproximación lineal}{figure.4.8}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+I'm ignoring this, since I wasn't doing a \csname.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.84 ...ráulico para el ejemplo 3}{figure.4.9}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.84 ...ráulico para el ejemplo 3}{figure.4.9}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+I'm ignoring this, since I wasn't doing a \csname.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.91 ...n la aproximación lineal}{figure.4.11}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.91 ...n la aproximación lineal}{figure.4.11}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+I'm ignoring this, since I wasn't doing a \csname.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.95 ...considerando el Ejemplo 5}{figure.4.12}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.95 ...considerando el Ejemplo 5}{figure.4.12}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
+I'm ignoring this, since I wasn't doing a \csname.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.107 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.107 ...ansferencia de la Planta}{figure.4.13}{}}
                                                   
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+I'm ignoring this, since I wasn't doing a \csname.
 
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1497.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1497.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+Package rerunfilecheck Info: File `proyectotanquesecci.out' has not changed.
+(rerunfilecheck)             Checksum: D8AD1F34C9C8B7CFF023F394B44AE811;1911.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
+LaTeX Warning: There were multiply-defined labels.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1416 \item S
-              e instrumentaron y calibraron tanto el sensor de presión com...
-(That makes 100 errors; please try again.) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1497.
+ ) 
 Here is how much of TeX's memory you used:
- 7648 strings out of 493108
- 110199 string characters out of 6134847
- 205392 words of memory out of 5000000
- 10745 multiletter control sequences out of 15000+600000
+ 7676 strings out of 493117
+ 110489 string characters out of 6135433
+ 206344 words of memory out of 5000000
+ 10763 multiletter control sequences out of 15000+600000
  10717 words of font info for 37 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 97i,30n,96p,1099b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,13n,43p,1094b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on proyectotanquesecci.pdf (61 pages, 2329324 bytes).
+PDF statistics:
+ 935 PDF objects out of 1000 (max. 8388607)
+ 731 compressed objects within 8 object streams
+ 236 named destinations out of 1000 (max. 500000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!

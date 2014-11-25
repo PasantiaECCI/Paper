@@ -107,11 +107,11 @@ Es por esto que se ha escogido realizar un sistema de entrenamiento para el cual
 
 
 
-Actualmente, la Universidad Escuela Colombiana de Carreras Industiales (ECCI) cuenta con espacios destinados para la realización de actividades prácticas en las asignaturas de Automatización, Neumatica, Mecanica e Instrumentación Electrónica. Sin embargo, las actuales condiciones de los laboratorios no son suficientes para desarrollar de manera satisfactoria todas las sesiones de laboratorio, principalmente debido a no contar con una dotación de equipos actualizada, operativa y funcional para implementar nuevas practicas, inter-indiciplinarias y mas ampliamente enfocadas a pregrados, postgrados y maestrias. La historia reciente del Laboratorio de Control de la E3T se remonta al año 2001, donde a través de un trabajo de grado denominado “Planeación, diseño y realización del laboratorio de instrumentación electrónica para la E3T” [1], se realizó el diseño, construcción, e implementación de bancos de trabajo para medición de nivel, temperatura, caudal y presión, con guias prácticas de laboratorio asociadas. \\
+Actualmente, la Universidad Escuela Colombiana de Carreras Industiales (ECCI) cuenta con espacios destinados para la realización de actividades prácticas en las asignaturas de Automatización, Neumatica, Mecanica e Instrumentación Electrónica. Sin embargo, las actuales condiciones de los laboratorios no son suficientes para desarrollar de manera satisfactoria todas las sesiones de laboratorio, principalmente debido a no contar con una dotación de equipos actualizada, operativa y funcional para implementar nuevas practicas, inter-indiciplinarias y mas ampliamente enfocadas a pregrados, postgrados y maestrias. La historia reciente del Laboratorio de Control de la E3T se remonta al año 2001, donde a través de un trabajo de grado denominado “Planeación, diseño y realización del laboratorio de instrumentación electrónica para la E3T” [1], se realizó el diseño, construcción, e implementación de bancos de trabajo para medición de nivel, temperatura, caudal y presión, con guias prácticas de laboratorio asociadas. \\
 
-De otro lado, los sistemas de nivel de líquido representan un ejemplo concreto de sistema de control con amplia difusión en medios industriales. Todo proceso que necesite almacenar sustancias en cualquiera de sus estados requiere realizar registros sobre el nivel de depósito de las mismas. Algunos de los sectores en los que es de gran importancia mantener el nivel de líquido entre parámetros previamente establecidos son, entre otros: la industria petroquímica, la producción de papel, el tratamiento de aguas y los procesos químicos, en los que por el grado de riesgo por contacto humano se requieren procedimientos automatizados. \\
+De otro lado, los sistemas de nivel de líquido representan un ejemplo concreto de sistema de control con amplia difusión en medios industriales. Todo proceso que necesite almacenar sustancias en estado liquido requiere realizar registros sobre el nivel de depósito de las mismas. Algunos de los sectores en los que es de gran importancia mantener el nivel de líquido entre parámetros previamente establecidos son, entre otros: la industria petroquímica, la producción de papel, el tratamiento de aguas y los procesos químicos, en los que por el grado de riesgo por contacto humano se requieren procedimientos automatizados. \\
 
-Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca el sistema de laboratorio virtual desarrollado en la Universidad de Murcia en España en el cual se propone un sistema de tres tanques acoplados con acceso remoto vía internet [3]. También en [4] se implementa el diseño y la instrumentación de un sistema de tanques acoplados para prácticas de laboratorio universitario. En [5] se aplica un control predictivo para mantener el nivel de líquido en un prototipo de proceso industrial. En Colombia se destacan algunos trabajos, entre ellos [6] de la UPB-Medellin donde se plantea una solución para la industria de tintorerías local a partir de un control de nivel y [7] de UNAL-Manizales donde se diseña un sistema automatizado de control de nivel para la industria de lácteos en el eje cafetero. En la Universidad Industrial de Santander se han desarrollado varios proyectos de grado relacionados con el control y la automatización de sistemas de nivel de liquido, entre ellos se destacan [8, 9, 10]. \\
+Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca el sistema de laboratorio virtual desarrollado en la Universidad de Murcia en España en el cual se propone un sistema de tres tanques acoplados con acceso remoto vía internet [3]. También en [4] se implementa el diseño y la instrumentación de un sistema de tanques acoplados para prácticas de laboratorio universitario. En [5] se aplica un control predictivo para mantener el nivel de líquido en un prototipo de proceso industrial. En Colombia se destacan algunos trabajos, entre ellos [6] de la UPB-Medellin donde se plantea una solución para la industria de tintorerías local a partir de un control de nivel y [7] de UNAL-Manizales donde se diseña un sistema automatizado de control de nivel para la industria de lácteos en el eje cafetero. En la Universidad Industrial de Santander se han desarrollado varios proyectos de grado relacionados con el control y la automatización de sistemas de nivel de liquido, entre ellos se destacan [8, 9, 10]. \\
 
 
 
@@ -126,7 +126,7 @@ Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca
 \section{Objetivo general}
 
 \begin{enumerate}
-\item Diseñar un sistema de control de un sistema de entrenamiento para control de nivel de líquidos de tanques acoplados.
+\item Diseñar un sistema de control de un sistema de entrenamiento para control de nivel de líquidos de tanques acoplados.
 \end{enumerate}
 
 \section{Objetivos específicos}
@@ -134,7 +134,7 @@ Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca
 \begin{enumerate}
 \item Obtener el modelo matematico para la respuesta del nivel del sistema.
 \item Diseñar un controlador que permita mantener el nivel del sistema en el set-point establecido por el usuario.
-\item Evaluar el comportamiento dinámico del nivel en la planta, de acuerdo al flujo de entrada.
+\item Evaluar el comportamiento dinámico del nivel en la planta, de acuerdo al flujo de entrada.
 \end{enumerate}
 
 
@@ -166,7 +166,7 @@ En más casos, los sistemas hidráulicos operan con las variables restantes cerc
 
 \section{Modelamiento}
 
-Un modelo matemático es simplemente una imitación de la realidad, con el cual se busca usualmente ganar perspicacia sobre el comportamiento de sistemas, probándolos, controlándolos u optimizándolos. En el proceso de construcción de modelos, el principal objetivo es dar una equivalencia matemática a un problema de la vida real para luego resolver y finalmente interpretar. En los problemas de ingeniería, se busca capturar esto en forma de ecuaciones, haciendo énfasis en aspectos especificos y omitiendo aquellos que aunque hagan parte de la realidad, su contribución en ella sea mínima para simplificar el modelo y su solución. \\
+Un modelo matemático es simplemente una imitaciín de la realidad, con el cual se busca usualmente ganar perspicacia sobre el comportamiento de sistemas, probándolos, controlándolos u optimizándolos. En el proceso de construcción de modelos, el principal objetivo es dar una equivalencia matemática a un problema de la vida real para luego resolver y finalmente interpretar. En los problemas de ingeniería, se busca capturar esto en forma de ecuaciones, haciendo énfasis en aspectos especificos y omitiendo aquellos que aunque hagan parte de la realidad, su contribución en ella sea mínima para simplificar el modelo y su solución. \\
 
 \subsection{Variables}
 
@@ -882,7 +882,7 @@ en régimen permanente.
 
 La acción integral da una respuesta proporcional a la integral del error. Esta acción elimina el error en régimen estacionario, provocado por el modo proporcional. En contraparte, se obtiene un mayor tiempo de establecimiento, una respuesta más lenta y el periodo de oscilación es mayor que en el caso de la acción proporcional. \\
 
-La acción de control integral da una salida del controlador que es proporcional al error acumulado, lo que implica que es un modo de controlar lento.
+La acción de control integral da una salida del controlador que es proporcional al error acumulado, lo que implica que es un modo de controlar lento.
 
 \begin{equation}
 u(t)=K_{i}\int ^{t}_{0}e\left( \tau \right) d\tau
@@ -893,25 +893,25 @@ u(t)=K_{i}\int ^{t}_{0}e\left( \tau \right) d\tau
 C_{I}=\frac{K_{i}}{s}
 \end{equation}
 
-La señal de control $u(t)$ tiene un valor diferente de cero cuando la señal de error $e(t)$ es cero. Por lo que se concluye que dada una referencia constante, o perturbaciones, el error en régimen permanente es cero.
+La señal de control $u(t)$ tiene un valor diferente de cero cuando la señal de error $e(t)$ es cero. Por lo que se concluye que dada una referencia constante, o perturbaciones, el error en régimen permanente es cero.
 
 \subsubsection*{Acción Proporcional-Integral}
 
-La acción de control proporciona-integral se define mediante (4.57).
+La acción de control proporciona-integral se define mediante (4.57).
 
 \begin{equation}
 u(t)=K_{p}e(t)+ \frac{K_{p}}{T_{i}} \int ^{t}_{0}e\left( \tau \right) d\left( \tau \right)
 \end{equation}
 
-Donde $T_{i}$ se denomina tiempo integral y es quien ajusta la acción integral. La función de transferencia resulta en (4.58).
+Donde $T_{i}$ se denomina tiempo integral y es quien ajusta la acción integral. La función de transferencia resulta en (4.58).
 
 \begin{equation}
 C_{PI}\left( s\right) =  K_{p}\left( 1+\frac{1}{\tau _{i}s}\right)
 \end{equation}
 
-Con un control proporcional, es necesario que exista error para tener una acción de control distinta de cero. Con acción integral, un error pequeño positivo siempre dará una acción de control creciente, y si el error es negativo la señal de control será decreciente. Este razonamiento sencillo muestra que el error en régimen permanente será siempre cero. \\
+Con un control proporcional, es necesario que exista error para tener una acción de control distinta de cero. Con acción integral, un error pequeño positivo siempre dará una acción de control creciente, y si el error es negativo la señal de control será decreciente. Este razonamiento sencillo muestra que el error en régimen permanente será siempre cero. \\
 
-Muchos controladores industriales tienen solo acción PI. Se puede demostrar que un control PI es adecuado para todos los procesos donde la dinámica es esencialmente de primer orden. Lo que puede demostrarse en forma sencilla, por ejemplo, mediante la respuesta al escalón.
+Muchos controladores industriales tienen solo acción PI. Se puede demostrar que un control PI es adecuado para todos los procesos donde la dinámica es esencialmente de primer orden. Lo que puede demostrarse en forma sencilla, por ejemplo, mediante la respuesta al escalón.
 
 \subsubsection*{Acción Derivativa}
 
@@ -919,29 +919,29 @@ La acción derivativa da una respuesta proporcional a la derivada del error (vel
 
 \subsubsection*{Acción Proporcional-Derivativa}
 
-La acción de control proporcional-derivativa se define mediante (4.59):
+La acción de control proporcional-derivativa se define mediante (4.59):
 
 \begin{equation}
 u\left( t\right) =K_{p}e\left( t\right) +K_{p}T_{d}\frac{de\left( t\right)}{dt}
 \end{equation}
 
-Donde $T_{d}$ es una constante de denominada tiempo derivativo. Esta acción tiene carácter de previsión, lo que hace más rápida la acción de control, aunque tiene la desventaja importante de amplificar las señales de ruido y puede provocar saturación en el actuador. La acción de control derivativa nunca se utiliza por sí sola, debido a que sólo es eficaz durante períodos transitorios. La función transferencia de un controlador PD resulta como (4.60).
+Donde $T_{d}$ es una constante de denominada tiempo derivativo. Esta acción tiene carácter de previsión, lo que hace más rápida la acción de control, aunque tiene la desventaja importante de amplificar las señales de ruido y puede provocar saturación en el actuador. La acción de control derivativa nunca se utiliza por sí sola, debido a que sólo es eficaz durante períodos transitorios. La función transferencia de un controlador PD resulta como (4.60).
 
 \begin{equation}
 C_{PD}(s)=K_{p}+sK_{p}T_{d}
 \end{equation}
 
-Cuando una acción de control derivativa se agrega a un controlador proporcional, permite obtener un controlador de alta sensibilidad, es decir que responde a la velocidad del cambio del error y produce una corrección significativa antes de que la magnitud del error se vuelva demasiado grande. Aunque el control derivativo no afecta en forma directa al error de estado estacionario, añade amortiguamiento al sistema y, por tanto, permite un valor más grande que la ganancia $K$, lo cual provoca una mejora en la precisión en estado estable.
+Cuando una acción de control derivativa se agrega a un controlador proporcional, permite obtener un controlador de alta sensibilidad, es decir que responde a la velocidad del cambio del error y produce una corrección significativa antes de que la magnitud del error se vuelva demasiado grande. Aunque el control derivativo no afecta en forma directa al error de estado estacionario, añade amortiguamiento al sistema y, por tanto, permite un valor más grande que la ganancia $K$, lo cual provoca una mejora en la precisión en estado estable.
 
 \subsubsection*{Acción Proporcional-Integral-Derivativa}
 
-La acciones de control proporcional, integral y derivativa combinadas reúnen las ventajas de cada una de las tres acciones de control individuales. La ecuación de un controlador con esta acción combinada se obtiene mediante (4.61).
+La acciones de control proporcional, integral y derivativa combinadas reúnen las ventajas de cada una de las tres acciones de control individuales. La ecuación de un controlador con esta acción combinada se obtiene mediante (4.61).
 
 \begin{equation}
 u(t)=K_{p}e(t)+ \frac{K_{p}}{T_{i}} \int ^{t}_{0} e(\tau )d\tau +K_{p}T_{d} \frac{de(t)}{dt}
 \end{equation}
 
-Y su función de transferencia resulta en (4.62).
+Y su función de transferencia resulta en (4.62).
 
 \begin{equation}
 C_{PID}\left( s\right) =K_{p}\left( 1+\frac{1}{\tau _{i}s}+\tau _{d}s\right)
@@ -1191,7 +1191,7 @@ ubicadas en el ducto de salida de cada tanque. \\
 
 Además el sistema cuenta con un tanque de reserva, el mismo que proporciona el líquido a ser bombeado hacia los tanques superiores. En la sección inferior se encuentra ubicada una bomba encargada de distribuir el liquido desde el tanque de reserva hacia los demas. \\
 
-El problema se centra en la obtención del comportamiento de nivel del líquido a través del tiempo $t$ de un tanque, dado el flujo de entrada $q_{i}(t)$. Se asume que el flujo de salida del tanque es una función lineal de la altura de líquido en su interior ($q_{o}=k*h$) y que el tanque tiene un área de sección transversal constante. Se asume también que la densidad y el flujo de entrada $q_{i}(t)$ son constantes.
+El problema se centra en la obtención del comportamiento de nivel del líquido a través del tiempo $t$ de un tanque, dado el flujo de entrada $q_{i}(t)$. Se asume que el flujo de salida del tanque es una función lineal de la altura de líquido en su interior ($q_{o}=k*h$) y que el tanque tiene un área de sección transversal constante. Se asume también que la densidad y el flujo de entrada $q_{i}(t)$ son constantes.
 
 \subsection{Modelo Dinamico Planta M-ECCI}
 
@@ -1301,13 +1301,13 @@ Para realizar el modelo especifico del tanque, es necesario realizar el cambio d
 
 \subsection{Linealización}
 
-Sin importar que geometría posea un tanque, el caudal a través de la válvula de salida será proporcional a la raíz cuadrada del nivel del líquido directamente sobre la válvula. De este modo el caudal de salida del tanque $q_{o}$, será (5.12):
+Sin importar que geometría posea un tanque, el caudal a través de la válvula de salida será proporcional a la raíz cuadrada del nivel del líquido directamente sobre la válvula. De este modo el caudal de salida del tanque $q_{o}$, será (5.12):
 
 \begin{equation}
 q_{o}=C\sqrt{h}
 \end{equation}
 
-Donde $C$ es la constante que involucra el coeficiente de la válvula y que además esta relacionado con la apertura de la misma y $h$ el nivel de líquido en el tanque. \\
+Donde $C$ es la constante que involucra el coeficiente de la válvula y que además esta relacionado con la apertura de la misma y $h$ el nivel de líquido en el tanque. \\
 
 De este modo tenemos que el modelo del proceso de nivel en un tanque, dado por la ecuación (5.1) puede expresarce con en la siguiente ecuación.
 
@@ -1315,9 +1315,9 @@ De este modo tenemos que el modelo del proceso de nivel en un tanque, dado por l
 A\frac{dh}{dt}=q_{i}-C\sqrt{h}
 \end{equation}
 
-Donde $A$ es área del tanque y $q_{i}$ es el flujo de entrada de líquido al tanque. \\
+Donde $A$ es área del tanque y $q_{i}$ es el flujo de entrada de líquido al tanque. \\
 
-El primer término de la ecuación (5.13) representa el diferencial de caudal en el tanque, considerando que el área del tanque es uniforme, es decir se mantiene constante, a lo largo de todo el tanque. Observando esta ecuación es posible definir que el modelo representa a un proceso no lineal. La no linealidad se debe a la presencia del término de raíz cuadrada en la ecuación. Una opción para poder trabajar con este modelo es linealizar el término no lineal de dicha ecuación. La función no lineal queda definida en la ecuación (5.14).
+El primer término de la ecuación (5.13) representa el diferencial de caudal en el tanque, considerando que el área del tanque es uniforme, es decir se mantiene constante, a lo largo de todo el tanque. Observando esta ecuación es posible definir que el modelo representa a un proceso no lineal. La no linealidad se debe a la presencia del término de raíz cuadrada en la ecuación. Una opción para poder trabajar con este modelo es linealizar el término no lineal de dicha ecuación. La función no lineal queda definida en la ecuación (5.14).
 
 \begin{equation}
 f(h)=\sqrt{h}
@@ -1331,27 +1331,27 @@ En este punto, no es posible realizar el procedimiento realizado en la seccion a
 
 Donde $hs$ es el valor de $h$ en estado estable. \\
 
-Entonces reemplazando la ecuación (5.15) en la ecuación (5.13) se obtiene:
+Entonces reemplazando la ecuación (5.15) en la ecuación (5.13) se obtiene:
 
 \begin{equation}
 A\frac{dh}{dt}=q_{i}-C\left[hs^{\frac{1}{2}}+\frac{1}{2} hs^{-\frac{1}{2}}\left(h-hs\right) \right]
 \end{equation}
 
-Así en la ecuación (5.16) se tiene la ecuación del modelo de nivel del tanque linealizada en un punto de estado estable $hs$. Ahora se procede a definir la variable $y=(h–hs)$ e introducir la variable $u=(q_{i}–q_{i}s)$, donde $q_{i}s$ representa el valor de caudal de entrada en estado estable. \\
+Así en la ecuación (5.16) se tiene la ecuación del modelo de nivel del tanque linealizada en un punto de estado estable $hs$. Ahora se procede a definir la variable $y=(h–hs)$ e introducir la variable $u=(q_{i}–q_{i}s)$, donde $q_{i}s$ representa el valor de caudal de entrada en estado estable. \\
 
-Adicionalmente se debe recordar que en estado estable $dh/dt=0$, entonces aplicando esta condición a la ecuación (5.13) se obtiene:
+Adicionalmente se debe recordar que en estado estable $dh/dt=0$, entonces aplicando esta condición a la ecuación (5.13) se obtiene:
 
 \begin{equation}
 q_{i}s=C\sqrt{hs}
 \end{equation}
 
-De este modo la ecuación (5.16) se convierte en:
+De este modo la ecuación (5.16) se convierte en:
 
 \begin{equation}
 \tau\frac{dy}{dt}=Ku-y
 \end{equation}
 
-Donde se define los valores de las constantes $\tau$ y $K$ como sigue a continuación:
+Donde se define los valores de las constantes $\tau$ y $K$ como sigue a continuación:
 
 \begin{equation}
 \tau=A\frac{2(hs)^{\frac{1}{2}}}{C}
@@ -1361,24 +1361,24 @@ Donde se define los valores de las constantes $\tau$ y $K$ como sigue a continua
 K=\frac{2(hs)^{\frac{1}{2}}}{C}
 \end{equation}
 
-La constante $\tau$ es denominada constante de tiempo mientras que la constante $K$ es la ganancia de estado estable. Aplicando a la ecuación (5.18) la transformada de La Place se obtiene la función de transferencia (5.21), la cual representa teóricamente el modelo del nivel del tanque en un punto de estado estable $hs$.
+La constante $\tau$ es denominada constante de tiempo mientras que la constante $K$ es la ganancia de estado estable. Aplicando a la ecuación (5.18) la transformada de La Place se obtiene la función de transferencia (5.21), la cual representa teóricamente el modelo del nivel del tanque en un punto de estado estable $hs$.
 
 \begin{equation}
 y(s)=\frac{K}{\tau s+1}u(s)
 \end{equation}
 
-Se debe recordar que la ecuación (5.21) es valida solo para el punto de estabilización $hs$, para un nuevo punto de estabilización $hs_{2}$ los valores de las constantes $\tau$ y $K$ serán diferentes.
+Se debe recordar que la ecuación (5.21) es valida solo para el punto de estabilización $hs$, para un nuevo punto de estabilización $hs_{2}$ los valores de las constantes $\tau$ y $K$ serán diferentes.
 
 
 
 
 \subsection{Diseño de Controlador}
 
-El objetivo de llevar a cabo el modelamiento y linealización de la planta en las secciones anteriores es específicamente diseñar un controlador para la misma. El controlador es seleccionado de la familia de controladores PID, de la cual se pretende adoptar la mejor combinación, que cumpla los requerimientos establecidos. La familia de controladores PID pertenece a los métodos clásicos de control, sin embargo, existen muchos tipos de configuraciones de controladores que pueden ser estudiados y aplicados a partir del modelo ya obtenido. \\
+El objetivo de llevar a cabo el modelamiento y linealización de la planta en las secciones anteriores es específicamente diseñar un controlador para la misma. El controlador es seleccionado de la familia de controladores PID, de la cual se pretende adoptar la mejor combinación, que cumpla los requerimientos establecidos. La familia de controladores PID pertenece a los métodos clásicos de control, sin embargo, existen muchos tipos de configuraciones de controladores que pueden ser estudiados y aplicados a partir del modelo ya obtenido. \\
 
 %Esta seccion se enfoca en el modelo linealizado de la planta y se parte de este para diseñar un controlador que se ajuste a los requerimientos detallados mas adelante. Se desarrolla la implementación de dicho controlador haciendo uso del conjunto de herramientas PID de LabVIEW, el cual posee las funciones básicas relacionadas con el uso de controladores PID. \\
 
-Básicamente, usando el modelo de la planta linealizada se encuentran los parámetros de un controlador de la familia PID para la misma, y se evaluan los resultados de las simulaciones.
+Básicamente, usando el modelo de la planta linealizada se encuentran los parámetros de un controlador de la familia PID para la misma, y se evaluan los resultados de las simulaciones.
 
 
 %\section{Materiales y Equipos}
@@ -1411,14 +1411,14 @@ Básicamente, usando el modelo de la planta linealizada se encuentran los para�
 
 A partir de los resultados obtenidos con el presente proyecto de grado, es posible concluir que: \\
 
-\begin{list}
-\item Se realizó el montaje y la instrumentación electrónica de un sistema de tanques acoplados en el laboratorio de control e instrumentación de la E3T como se puede observar de los resultados presentados en la sección 2.1 (Figura 8), donde se evidencia la configuración del sistema de control implementado constituido por una válvula proporcional DANFOSS, válvulas manuales y de encendido apagado, un trasmisor de presión diferencial HONEYWELL y un controlador universal UDC1200.
-\item Se instrumentaron y calibraron tanto el sensor de presión como el actuador (válvula proporcional), para efectuar manipulación del nivel de líquido en el sistema mediante el controlador industrial. Lo anterior se ilustra en las secciones 2.1 y 2.3, en las cuales se explica la caracterización de cada elemento del sistema de control y los respectivos ajustes en los rangos y escalas de sus correspondientes señales.
-\item Se realizó un procedimiento experimental para obtener los parámetros de un modelo matemático apropiado para el sistema, tales como resistencias hidráulicas representadas por válvulas manuales y on-off, al igual que capacitancias hidráulicas relacionadas con el área de sección transversal de los tanques. Lo anterior se ilustra en las secciones 3.1 y 3.2, desarrollos a partir de los cuales se obtuvo una representación matemática del comportamiento del sistema a manera de función de transferencia (ecuación 3.15).
-\item Se validó el modelo matemático obtenido con medidas del sistema real mediante una prueba en lazo abierto que consistió en aplicar una entrada escalón al sistema experimental y comparar posteriormente los resultados de su respuesta con los generados numéricamente para el modelo empleando MATLAB®, como se puede observar en la Figura 14 de la sección 3.3.
-\item Se diseñó e implementó un controlador PID en un dispositivo industrial de referencia HONEYWELL UDC1200 para regular el nivel del tanque de salida. Para esto se calcularon y sintonizaron los valores para las constantes del controlador utilizando el primer método de Ziegler & Nichols. Los resultados obtenidos se muestran en la Tabla 5, las Figuras 19-20 y la sección 4.3, verificando la acción de control y la atenuación del efecto de una perturbación aplicada al sistema mediante la variación del parámetro R1. A pesar de ello, la respuesta experimental obtenida difiere de la predicha por la teoría principalmente por la aparición de oscilaciones, lo cual puede deberse a los errores de aproximación generados por el modelo lineal propuesto para el sistema.
-\item Finalmente se implementó una sintonización automática de los parámetros para el controlador UDC1200, demostrando un mejoramiento en la respuesta del sistema controlado tal y como se describe en la sección 4.4.
-\end{list}
+\begin{itemize}
+\item Se realizó el montaje y la instrumentación electrónica de un sistema de tanques acoplados en el laboratorio de control e instrumentación de la E3T como se puede observar de los resultados presentados en la sección 2.1 (Figura 8), donde se evidencia la configuración del sistema de control implementado constituido por una válvula proporcional DANFOSS, válvulas manuales y de encendido apagado, un trasmisor de presión diferencial HONEYWELL y un controlador universal UDC1200.
+\item Se instrumentaron y calibraron tanto el sensor de presión como el actuador (válvula proporcional), para efectuar manipulación del nivel de líquido en el sistema mediante el controlador industrial. Lo anterior se ilustra en las secciones 2.1 y 2.3, en las cuales se explica la caracterización de cada elemento del sistema de control y los respectivos ajustes en los rangos y escalas de sus correspondientes señales.
+\item Se realizó un procedimiento experimental para obtener los parámetros de un modelo matemático apropiado para el sistema, tales como resistencias hidráulicas representadas por válvulas manuales y on-off, al igual que capacitancias hidráulicas relacionadas con el área de sección transversal de los tanques. Lo anterior se ilustra en las secciones 3.1 y 3.2, desarrollos a partir de los cuales se obtuvo una representación matemática del comportamiento del sistema a manera de función de transferencia (ecuación 3.15).
+\item Se validó el modelo matemático obtenido con medidas del sistema real mediante una prueba en lazo abierto que consistió en aplicar una entrada escalón al sistema experimental y comparar posteriormente los resultados de su respuesta con los generados numéricamente para el modelo empleando MATLAB®, como se puede observar en la Figura 14 de la sección 3.3.
+\item Se diseñó e implementó un controlador PID en un dispositivo industrial de referencia HONEYWELL UDC1200 para regular el nivel del tanque de salida. Para esto se calcularon y sintonizaron los valores para las constantes del controlador utilizando el primer método de Ziegler & Nichols. Los resultados obtenidos se muestran en la Tabla 5, las Figuras 19-20 y la sección 4.3, verificando la acción de control y la atenuación del efecto de una perturbación aplicada al sistema mediante la variación del parámetro $R_{1}$. A pesar de ello, la respuesta experimental obtenida difiere de la predicha por la teoría principalmente por la aparición de oscilaciones, lo cual puede deberse a los errores de aproximación generados por el modelo lineal propuesto para el sistema.
+\item Finalmente se implementó una sintonización automática de los parámetros para el controlador UDC1200, demostrando un mejoramiento en la respuesta del sistema controlado tal y como se describe en la sección 4.4.
+\end{itemize}
 
 
 
@@ -1433,20 +1433,20 @@ A partir de los resultados obtenidos con el presente proyecto de grado, es posib
 
 En desarrollo del presente proyecto de grado se generaron las inquietudes resumidas a continuación. \\
 
-\begin{list}
+\begin{itemize}
 \item El sistema real no es un sistema lineal y por tal motivo las variaciones de referencia deben hacerse alrededor del punto de operación. Asimismo, este valor de referencia no debe superar los 40 cm de altura debido a restricciones prácticas.
 \item Tomando en cuenta la ubicación de la tubería de acople de los dos tanques y la tubería de desagüe, el mínimo nivel de líquido de cada uno de los tanques puede variar entre 1 y 4 cm. Para el caso del tanque de salida es posible disminuir este nivel mínimo desconectando la manguera del sensor de presión.
 \item La potencia de salida del controlador se ajustó al 40\%, debido a que es mayor la cantidad de flujo de líquido suministrado al tanque de entrada que el evacuado por la tubería de acople hacia el tanque de salida, ocasionando que el tanque de entrada se rebase hasta su tope.
 \item El valor de perturbación seleccionado para $R_{1}$ fue la máxima apertura de la válvula, debido a que para otro valor de resistencia el efecto de la perturbación no era discriminante, ya que el sistema en estado estable presenta oscilaciones.
-\end{list}
+\end{itemize}
 
 Así mismo, como trabajos futuros complementarios a este trabajo de grado se plantean. \\
 
-\begin{list}
+\begin{itemize}
 \item La implementación de un sistema de recirculación de líquido con el fin de aprovechar mejor el recurso hídrico del proceso.
 \item La elección o diseño de un sistema de sensado cuyos rangos de operación estén más cercanos al valor real del sistema.
 \item La implementación de una acción de control y modelado del sistema en donde se contemple la interacción de nivel de líquido entre los dos tanques.
-\end{list}
+\end{itemize}
 
 
 
