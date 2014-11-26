@@ -61,12 +61,11 @@ David Humberto Hernandez Balcazar\\}
 \chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 
-El presente documento describe el analisis y diseño de un prototipo de sistema de tanques acoplados al cual se aplican técnicas de control. El sistema es desarrollado teniendo en cuenta aspectos de seguridad, estandares industriales y parametros interdiciplinarios requeridos para un módulo de laboratorio. \\
+El presente documento describe el análisis y diseño de un prototipo de sistema de tanques acoplados al cual se aplican técnicas de control. El sistema es desarrollado teniendo en cuenta aspectos de seguridad, estándares industriales y parámetros multidisciplinarios requeridos para un módulo de laboratorio. \\
 
-Se muestran fundamentos teóricos básicos de la lógica de control, asi como de diseño para un prototipo de sistema de entrenamiento para el control de nivel de tanques acoplados. Proporciona procedimientos en los cuales se aplican diversas técnicas de control al sistema de entrenamiento diseñado. Además brinda los procedimientos necesarios que facilitan el diseño de controladores. Se compara el desempeño del controlador frente al sistema no contlado determinando ventajas e inconvenientes que presenta el sistema de control. \\
+Se muestran fundamentos teóricos básicos de la lógica de control, así como de diseño para un prototipo de sistema de entrenamiento para el control de nivel de tanques acoplados. Proporciona procedimientos en los cuales se aplican diversas técnicas de control al sistema de entrenamiento diseñado. Además brinda los procedimientos necesarios que facilitan el diseño de controladores. Se compara el desempeño del controlador frente al sistema no controlado determinando ventajas e inconvenientes que presenta el sistema de control. \\
 
 Finalmente se detallan las conclusiones obtenidas en el desarrollo del proyecto y se brindan recomendaciones para la obtención de mejores resultados tanto para el desarrollo de prácticas de laboratorio como para la implementación del sistema de entrenamiento. \\
-
 
 
 
@@ -79,7 +78,7 @@ Finalmente se detallan las conclusiones obtenidas en el desarrollo del proyecto 
 
 \chapter{Introducción}
 
-Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de procesos industriales, científicos de todo el mundo han trabajado para lograr que los procesos de manufactura, control automático y accionamiento sean cada vez más efectivos y más eficientes. Con esta meta se han desarrollado nuevos procesos para lograr alcanzar este mejoramiento continuo de un sistema hidráulico para proyectos con manipulación de liquidos.\\
+Desde los inicios del tiempo y particularmente enmarcados dentro del contexto de procesos industriales, científicos de todo el mundo han trabajado para lograr que los procesos de manufactura, control automático y accionamiento sean cada vez más efectivos y más eficientes. Con esta meta se han desarrollado nuevos procesos para lograr alcanzar este mejoramiento continuo de un sistema hidráulico para proyectos con manipulación de líquidos.\\
 
 El diseño de los sistemas hidráulicos se basa en la interconexión de  sistemas mecánicos a través de bombas, válvulas y pistones móviles, que ofrecen una automatización factible  en el sistema. La utilidad de estos mecanismos hace que sea  funcional y  opere de una manera  eficaz básicamente para generar distintas aplicaciones de procesos industriales, sin embargo el uso es producir energías limpias mediante recursos naturales.\\
 
@@ -107,11 +106,11 @@ Es por esto que se ha escogido realizar un sistema de entrenamiento para el cual
 
 
 
-Actualmente, la Universidad Escuela Colombiana de Carreras Industiales (ECCI) cuenta con espacios destinados para la realización de actividades prácticas en las asignaturas de Automatización, Neumatica, Mecanica e Instrumentación Electrónica. Sin embargo, las actuales condiciones de los laboratorios no son suficientes para desarrollar de manera satisfactoria todas las sesiones de laboratorio, principalmente debido a no contar con una dotación de equipos actualizada, operativa y funcional para implementar nuevas practicas, inter-indiciplinarias y mas ampliamente enfocadas a pregrados, postgrados y maestrias. La historia reciente del Laboratorio de Control de la E3T se remonta al año 2001, donde a través de un trabajo de grado denominado “Planeación, diseño y realización del laboratorio de instrumentación electrónica para la E3T” [1], se realizó el diseño, construcción, e implementación de bancos de trabajo para medición de nivel, temperatura, caudal y presión, con guias prácticas de laboratorio asociadas. \\
+Actualmente, la Universidad Escuela Colombiana de Carreras Industriales (ECCI) cuenta con espacios destinados para la realización de actividades prácticas en las asignaturas de Automatización, Neumática, Mecánica e Instrumentación Electrónica. Sin embargo, las actuales condiciones de los laboratorios no son suficientes para desarrollar de manera satisfactoria todas las sesiones de laboratorio, principalmente debido a no contar con una dotación de equipos actualizada, operativa y funcional para implementar nuevas practicas, ínter-disciplinarias y mas ampliamente enfocadas a pre-grados, postgrados y maestrías. La historia reciente del Laboratorio de Control de la E3T se remonta al año 2001, donde a través de un trabajo de grado denominado “Planeación, diseño y realización del laboratorio de instrumentación electrónica para la E3T” [1], se realizó el diseño, construcción, e implementación de bancos de trabajo para medición de nivel, temperatura, caudal y presión, con guías prácticas de laboratorio asociadas. \\
 
 De otro lado, los sistemas de nivel de líquido representan un ejemplo concreto de sistema de control con amplia difusión en medios industriales. Todo proceso que necesite almacenar sustancias en estado liquido requiere realizar registros sobre el nivel de depósito de las mismas. Algunos de los sectores en los que es de gran importancia mantener el nivel de líquido entre parámetros previamente establecidos son, entre otros: la industria petroquímica, la producción de papel, el tratamiento de aguas y los procesos químicos, en los que por el grado de riesgo por contacto humano se requieren procedimientos automatizados. \\
 
-Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca el sistema de laboratorio virtual desarrollado en la Universidad de Murcia en España en el cual se propone un sistema de tres tanques acoplados con acceso remoto vía internet [3]. También en [4] se implementa el diseño y la instrumentación de un sistema de tanques acoplados para prácticas de laboratorio universitario. En [5] se aplica un control predictivo para mantener el nivel de líquido en un prototipo de proceso industrial. En Colombia se destacan algunos trabajos, entre ellos [6] de la UPB-Medellin donde se plantea una solución para la industria de tintorerías local a partir de un control de nivel y [7] de UNAL-Manizales donde se diseña un sistema automatizado de control de nivel para la industria de lácteos en el eje cafetero. En la Universidad Industrial de Santander se han desarrollado varios proyectos de grado relacionados con el control y la automatización de sistemas de nivel de liquido, entre ellos se destacan [8, 9, 10]. \\
+Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca el sistema de laboratorio virtual desarrollado en la Universidad de Murcia en España en el cual se propone un sistema de tres tanques acoplados con acceso remoto vía Internet [3]. También en [4] se implementa el diseño y la instrumentación de un sistema de tanques acoplados para prácticas de laboratorio universitario. En [5] se aplica un control predictivo para mantener el nivel de líquido en un prototipo de proceso industrial. En Colombia se destacan algunos trabajos, entre ellos [6] de la UPB-Medellin donde se plantea una solución para la industria de tintorerías local a partir de un control de nivel y [7] de UNAL-Manizales donde se diseña un sistema automatizado de control de nivel para la industria de lácteos en el eje cafetero. En la Universidad Industrial de Santander se han desarrollado varios proyectos de grado relacionados con el control y la automatización de sistemas de nivel de liquido, entre ellos se destacan [8, 9, 10]. \\
 
 
 
@@ -132,7 +131,7 @@ Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca
 \section{Objetivos específicos}
 
 \begin{enumerate}
-\item Obtener el modelo matematico para la respuesta del nivel del sistema.
+\item Obtener el modelo matemático para la respuesta del nivel del sistema.
 \item Diseñar un controlador que permita mantener el nivel del sistema en el set-point establecido por el usuario.
 \item Evaluar el comportamiento dinámico del nivel en la planta, de acuerdo al flujo de entrada.
 \end{enumerate}
@@ -145,7 +144,7 @@ Respecto a soluciones didácticas para sistemas de nivel de líquido, se destaca
 %										CAPITULO MARCO TEORICO
 % ==============================================================================================
 
-\chapter{Marco Teorico}
+\chapter{Marco Teórico}
 
 \section{Introducción a Sistemas hidráulicos}
 
@@ -166,7 +165,7 @@ En más casos, los sistemas hidráulicos operan con las variables restantes cerc
 
 \section{Modelamiento}
 
-Un modelo matemático es simplemente una imitaciín de la realidad, con el cual se busca usualmente ganar perspicacia sobre el comportamiento de sistemas, probándolos, controlándolos u optimizándolos. En el proceso de construcción de modelos, el principal objetivo es dar una equivalencia matemática a un problema de la vida real para luego resolver y finalmente interpretar. En los problemas de ingeniería, se busca capturar esto en forma de ecuaciones, haciendo énfasis en aspectos especificos y omitiendo aquellos que aunque hagan parte de la realidad, su contribución en ella sea mínima para simplificar el modelo y su solución. \\
+Un modelo matemático es simplemente una imitación de la realidad, con el cual se busca usualmente ganar perspicacia sobre el comportamiento de sistemas, probándolos, controlándolos u optimizándolos. En el proceso de construcción de modelos, el principal objetivo es dar una equivalencia matemática a un problema de la vida real para luego resolver y finalmente interpretar. En los problemas de ingeniería, se busca capturar esto en forma de ecuaciones, haciendo énfasis en aspectos específicos y omitiendo aquellos que aunque hagan parte de la realidad, su contribución en ella sea mínima para simplificar el modelo y su solución. \\
 
 \subsection{Variables}
 
@@ -180,7 +179,7 @@ Ya que los sistemas hidráulicos involucran el flujo  y la acumulación del líq
 
 \textit{p}, Presión en newton por metro cuadrado.\\
 
-A menos que se indique lo contrario, una presión será la presión absoluta. Además,  algunas veces encontraremos conveniente expresar las presiones en términos de presiones manométricas. Una presión manométrica, que se denota por $p^{*}$, se define como la diferencia entre la presión absoluta y la presión atmosférica ${p_{a}}$:
+A menos que se indique lo contrario, una presión será la presión absoluta. Además,  algunas veces se encontrará conveniente expresar las presiones en términos de presiones manométricas. Una presión manométrica, que se denota por $p^{*}$, se define como la diferencia entre la presión absoluta y la presión atmosférica ${p_{a}}$:
 
 \begin{equation}
 p^{*}*(t)=p(t)-pa
@@ -268,7 +267,7 @@ Como se muestra en la figura 3.
 \label{Capacitancia del recipiente.}
 \end{figure}
 
-\subsection{Resistencia}
+\subsection{Resistencia}
 
 Como el liquido fluye a través de una tubería, allí hay poca presión del líquido a lo largo de la tubería. Del mismo modo hay poca presión si el líquido fluye a través de una válvula o en un orificio. En cambio la presión asociada con el flujo del líquido que resulta la disipación de energía y usualmente obedece a una relación algebraica no lineal entre la velocidad del flujo $\omega$ y la diferencia de presión $\Delta p$. El símbolo de la válvula se muestra en la figura 4. Esto también puede ser usado por otros elementos que disipan energía. \\
 
@@ -738,7 +737,7 @@ De este modo, la función linealizada solo es válida en el interior de la regi�
 \end{center}
 %\end{equation}
 
-\subsection{Características Sistemas linealizados}
+\subsection{Caracteristicas de Sistemas Linealizados}
 
 \begin{enumerate}
 \item La ecuación linealizada no es única, depende del punto alrededor del cual se haya linealizado.
@@ -1184,7 +1183,7 @@ Como se observa, esta respuesta es bastante mejor de lo que se tenia plantedo in
 
 
 
-\section{Procedimiento}
+\section{Primera Etapa - Tanque Independiente}
 
 La figura ----- muestra el diseño del sistema de entrenamiento de tanques acoplados M-ECCI. El sistema cuenta con dos tanques ubicados en la sección superior del sistema. cada tanque cuenta con un sensor de nivel para determinar la altura del líquido y con un desfogue hacia el tanque de reserva mediante válvulas
 ubicadas en el ducto de salida de cada tanque. \\
@@ -1372,6 +1371,54 @@ Se debe recordar que la ecuación (5.21) es valida solo para el punto de estabil
 
 
 
+\subsection{Calculo de Parametros}
+
+En este punto se realiza el cálculo para el valor de la constante de tiempo, $\tau$. Considerando un valor de estado estable $hs$ de 40cm y conociendo el área del tanque 1 el cual es -------. El valor de la constante $C$ es desconocido ya que depende de las características de la válvula colocada a la salida del tanque. Sin embargo es posible hallar el valor de dicha constante experimentalmente y calcular un valor aproximado de $\tau$. El procedimiento que se lleva a cabo se presenta a continuación. \\
+
+Es necesario conocer el caudal a la salida de la válvula conectada a la parte inferior del tanque. La primera limitación de este procedimiento es
+que no se dispone de un medidor de caudal ubicado directamente después de la válvula. Para solucionar este problema se toman las mediciones del medidor de caudal bicado en la tubería de entrada de líquido, figura 3.3. Se debe tener en cuenta que en estado estable el caudal de entrada es equivalente al caudal de salida, por lo tanto, una vez que se alcance el estado estable el caudal medido a la entrada será igual al caudal que
+existe a la salida del tanque. \\
+
+Conociendo las dimensiones reales de la tubería, se procede a realizar una verificación inicial sobre los cálculos ideales para los caudales de entrada y salida del tanque.
+
+\begin{center}
+Tuberia de entrada = 1/2 pulgada \\
+Tuberia de salida = 1/4 pulgada
+\end{center}
+
+El caudal máximo que atraviesa una sección de tubería esta dado por la ecuación de continuidad:
+
+\begin{equation}
+Q=\upsilon A=\frac{4\upsilon}{\pi D^{2}}
+\end{equation}
+
+Donde $Q$ es el caudal volumétrico o flujo de agua que circula por la tubería $(m^{3}/s)$, $\upsilon$ es la velocidad del agua en el interior de la tubería $(m/s)$, $A$ es el area de la sección transversal de la tuberia $(m^{2})$ y $D$ es el diámetro de la misma. Debido a que la tubería posee forma circular, el área esta dada por:
+
+\begin{equation}
+A=\pi r^{2}
+\end{equation}
+
+El diámetro exterior de un tubo de PVC de 1/2 pulgada no es exacto, como se puede observar en la Figura -----, siendo realmente de 0.840 pulgadas (2.1336cm). Para obtener valores con mayor exactitud, se debe partir del diámetro interno de la tubería, obteniendo así una medida de 0.9cm para la tuberia de entrada y --cm para la tubería de salida.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{DiametrosPVC}
+\renewcommand{\figurename}{Fig.}
+\caption{Diametros nomiales de tuberia PVC.}
+\label{Diametros nomiales de tuberia PVC.}
+\end{figure}
+
+Para tuberias plasticas y con flujo laminar, la velocidad promedio del agua es de 2 m/s. Usando la eciación ------ se obtiene un caudal de --- para la tuberia de entrada y uno de ---- para la de salida. \\ 
+
+En este punto se presenta la segunda limitación, ya que el caudal maximo de entrada sobrepasa al de salida, lo que indica que el volumen de liquido que ingresa al tanque es muy superior, impidiendo alcanzar un punto de estabilización. En pruebas reales de verificación sobre la planta, se llega a la conclusión de limitar la velocidad de operación de la bomba que alimenta el tanque, para que de esta manera el caudal de entrada no sobrepase al de salida y garantizar el estado estable. \\
+
+
+ 
+
+
+
+
+
 \subsection{Diseño de Controlador}
 
 El objetivo de llevar a cabo el modelamiento y linealización de la planta en las secciones anteriores es específicamente diseñar un controlador para la misma. El controlador es seleccionado de la familia de controladores PID, de la cual se pretende adoptar la mejor combinación, que cumpla los requerimientos establecidos. La familia de controladores PID pertenece a los métodos clásicos de control, sin embargo, existen muchos tipos de configuraciones de controladores que pueden ser estudiados y aplicados a partir del modelo ya obtenido. \\
@@ -1379,6 +1426,44 @@ El objetivo de llevar a cabo el modelamiento y linealización de la planta en la
 %Esta seccion se enfoca en el modelo linealizado de la planta y se parte de este para diseñar un controlador que se ajuste a los requerimientos detallados mas adelante. Se desarrolla la implementación de dicho controlador haciendo uso del conjunto de herramientas PID de LabVIEW, el cual posee las funciones básicas relacionadas con el uso de controladores PID. \\
 
 Básicamente, usando el modelo de la planta linealizada se encuentran los parámetros de un controlador de la familia PID para la misma, y se evaluan los resultados de las simulaciones.
+
+
+
+
+\section{Segunda Etapa - Tanques Acoplados}
+
+En base al desarrollo llevado a cabo en la primera etapa, se amplia el alcance del sistema, permitiendo analizar el comportamiento de un segundo tanque, mas especificamente el tercero, el cual se encuentra ubicado en la zona inferior de la planta y es el encargado de recibir el liquido proveniente del primer tanque. En un escenario real, se hace necesario conocer el comportamiento del nivel sobre ambos tanques, ya que el flujo del liquido en lazo cerrado de la planta real se realiza atravez de ambos y debido a esto no se debe analizar el comportamiento de uno de los tanques obviando la respuesta del segundo. \\
+
+Debido a lo mensionado anteriormente, se procede con el analisis para dos tanques acoplados.
+
+\subsection{Modelo Matematico}
+
+El sistema se encuentra conformado por dos tanques en serie de áreas de sección transversal constantes, por donde fluye un líquido (una sustancia pura) que pasa el primer tanque el segundo tanque como se muestra la figura uno. El objetivo es modelar el sistema para predecir la variación de la altura del segundo tanque de acuerdo a la alimentación del primer tanque $f_{0}(t)$. Se asume que el flujo de salida de cada tanque es una función lineal de la altura de líquido en el respectivo tanque ($f_{1}=K_{1}h_{1}$ y $f_{2}=K_{2}h_{2}$).
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.7]{Ventana15}
+%\renewcommand{\figurename}{Fig.}
+%\caption{LTI Viewer for SISO Design Task.}
+%\label{LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+Para el desarrollo del modelo matemático se trabajaran dos volúmenes de control como se observa en la figura 2. Cómo se pretende obtener la dinámica del nivel del tanque, entonces debe saber cuál es la acumulación en el tanque, conociendo tambien que esta depende del flujo de entrada y salida en el tanque. La dinamica del primer volumen de control Determinará el flujo de entrada en el segundo tanque, por lo que se hace necesario tomar este primer volumen de control. El segundo volumen de control se plantea para realizar sobre el modelo matemático que termine la dinámica del tanque 2 y así predecir el nivel del tanque.
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.7]{Ventana15}
+%\renewcommand{\figurename}{Fig.}
+%\caption{LTI Viewer for SISO Design Task.}
+%\label{LTI Viewer for SISO Design Task.}
+%\end{figure}
+
+
+
+
+
+
+
 
 
 %\section{Materiales y Equipos}
@@ -1414,9 +1499,9 @@ A partir de los resultados obtenidos con el presente proyecto de grado, es posib
 \begin{itemize}
 \item Se realizó el montaje y la instrumentación electrónica de un sistema de tanques acoplados en el laboratorio de control e instrumentación de la E3T como se puede observar de los resultados presentados en la sección 2.1 (Figura 8), donde se evidencia la configuración del sistema de control implementado constituido por una válvula proporcional DANFOSS, válvulas manuales y de encendido apagado, un trasmisor de presión diferencial HONEYWELL y un controlador universal UDC1200.
 \item Se instrumentaron y calibraron tanto el sensor de presión como el actuador (válvula proporcional), para efectuar manipulación del nivel de líquido en el sistema mediante el controlador industrial. Lo anterior se ilustra en las secciones 2.1 y 2.3, en las cuales se explica la caracterización de cada elemento del sistema de control y los respectivos ajustes en los rangos y escalas de sus correspondientes señales.
-\item Se realizó un procedimiento experimental para obtener los parámetros de un modelo matemático apropiado para el sistema, tales como resistencias hidráulicas representadas por válvulas manuales y on-off, al igual que capacitancias hidráulicas relacionadas con el área de sección transversal de los tanques. Lo anterior se ilustra en las secciones 3.1 y 3.2, desarrollos a partir de los cuales se obtuvo una representación matemática del comportamiento del sistema a manera de función de transferencia (ecuación 3.15).
-\item Se validó el modelo matemático obtenido con medidas del sistema real mediante una prueba en lazo abierto que consistió en aplicar una entrada escalón al sistema experimental y comparar posteriormente los resultados de su respuesta con los generados numéricamente para el modelo empleando MATLAB®, como se puede observar en la Figura 14 de la sección 3.3.
-\item Se diseñó e implementó un controlador PID en un dispositivo industrial de referencia HONEYWELL UDC1200 para regular el nivel del tanque de salida. Para esto se calcularon y sintonizaron los valores para las constantes del controlador utilizando el primer método de Ziegler & Nichols. Los resultados obtenidos se muestran en la Tabla 5, las Figuras 19-20 y la sección 4.3, verificando la acción de control y la atenuación del efecto de una perturbación aplicada al sistema mediante la variación del parámetro $R_{1}$. A pesar de ello, la respuesta experimental obtenida difiere de la predicha por la teoría principalmente por la aparición de oscilaciones, lo cual puede deberse a los errores de aproximación generados por el modelo lineal propuesto para el sistema.
+\item Se realizó un procedimiento experimental para obtener los parámetros de un modelo matemático apropiado para el sistema, tales como resistencias hidráulicas representadas por válvulas manuales y on-off, al igual que capacitancias hidráulicas relacionadas con el área de sección transversal de los tanques. Lo anterior se ilustra en las secciones 3.1 y 3.2, desarrollos a partir de los cuales se obtuvo una representación matemática del comportamiento del sistema a manera de función de transferencia (ecuacion 3.15).
+\item Se validó el modelo matemático obtenido con medidas del sistema real mediante una prueba en lazo abierto que consistió en aplicar una entrada escalon al sistema experimental y comparar posteriormente los resultados de su respuesta con los generados numéricamente para el modelo empleando MATLAB®, como se puede observar en la Figura 14 de la seccion 3.3.
+\item Se diseñó e implementó un controlador PID en un dispositivo industrial de referencia HONEYWELL UDC1200 para regular el nivel del tanque de salida. Para esto se calcularon y sintonizaron los valores para las constantes del controlador utilizando el primer método de Ziegler \& Nichols. Los resultados obtenidos se muestran en la Tabla 5, las Figuras 19-20 y la sección 4.3, verificando la acción de control y la atenuación del efecto de una perturbación aplicada al sistema mediante la variación del parámetro $R_{1}$. A pesar de ello, la respuesta experimental obtenida difiere de la predicha por la teoría principalmente por la aparición de oscilaciones, lo cual puede deberse a los errores de aproximacion generados por el modelo lineal propuesto para el sistema.
 \item Finalmente se implementó una sintonización automática de los parámetros para el controlador UDC1200, demostrando un mejoramiento en la respuesta del sistema controlado tal y como se describe en la sección 4.4.
 \end{itemize}
 
@@ -1431,21 +1516,21 @@ A partir de los resultados obtenidos con el presente proyecto de grado, es posib
 
 \chapter{Trabajo Futuro}
 
-En desarrollo del presente proyecto de grado se generaron las inquietudes resumidas a continuación. \\
+En desarrollo del presente proyecto de grado se generaron las inquietudes resumidas a continuacion. \\
 
 \begin{itemize}
-\item El sistema real no es un sistema lineal y por tal motivo las variaciones de referencia deben hacerse alrededor del punto de operación. Asimismo, este valor de referencia no debe superar los 40 cm de altura debido a restricciones prácticas.
-\item Tomando en cuenta la ubicación de la tubería de acople de los dos tanques y la tubería de desagüe, el mínimo nivel de líquido de cada uno de los tanques puede variar entre 1 y 4 cm. Para el caso del tanque de salida es posible disminuir este nivel mínimo desconectando la manguera del sensor de presión.
-\item La potencia de salida del controlador se ajustó al 40\%, debido a que es mayor la cantidad de flujo de líquido suministrado al tanque de entrada que el evacuado por la tubería de acople hacia el tanque de salida, ocasionando que el tanque de entrada se rebase hasta su tope.
-\item El valor de perturbación seleccionado para $R_{1}$ fue la máxima apertura de la válvula, debido a que para otro valor de resistencia el efecto de la perturbación no era discriminante, ya que el sistema en estado estable presenta oscilaciones.
+\item El sistema real no es un sistema lineal y por tal motivo las variaciones de referencia deben hacerse alrededor del punto de operacion. Asimismo, este valor de referencia no debe superar los 40 cm de altura debido a restricciones practicas.
+\item Tomando en cuenta la ubicacion de la tuberia de acople de los dos tanques y la tuberia de desag\"ue, el mínimo nivel de líquido de cada uno de los tanques puede variar entre 1 y 4 cm. Para el caso del tanque de salida es posible disminuir este nivel mínimo desconectando la manguera del sensor de presion.
+\item La potencia de salida del controlador se ajusto al 40\%, debido a que es mayor la cantidad de flujo de liquido suministrado al tanque de entrada que el evacuado por la tuberia de acople hacia el tanque de salida, ocasionando que el tanque de entrada se rebase hasta su tope.
+\item El valor de perturbacion seleccionado para $R_{1}$ fue la maxima apertura de la valvula, debido a que para otro valor de resistencia el efecto de la perturbacion no era discriminante, ya que el sistema en estado estable presenta oscilaciones.
 \end{itemize}
 
-Así mismo, como trabajos futuros complementarios a este trabajo de grado se plantean. \\
+Asi mismo, como trabajos futuros complementarios a este trabajo de grado se plantean. \\
 
 \begin{itemize}
-\item La implementación de un sistema de recirculación de líquido con el fin de aprovechar mejor el recurso hídrico del proceso.
-\item La elección o diseño de un sistema de sensado cuyos rangos de operación estén más cercanos al valor real del sistema.
-\item La implementación de una acción de control y modelado del sistema en donde se contemple la interacción de nivel de líquido entre los dos tanques.
+\item La implementacion de un sistema de recirculacion de liquido con el fin de aprovechar mejor el recurso hidrico del proceso.
+\item La eleccion o diseño de un sistema de sensado cuyos rangos de operacion estén mas cercanos al valor real del sistema.
+\item La implementacion de una accion de control y modelado del sistema en donde se contemple la interaccion de nivel de liquido entre los dos tanques.
 \end{itemize}
 
 
