@@ -1197,7 +1197,7 @@ El problema se centra en la obtención del comportamiento de nivel del líquido 
 Se toma la ecuación inicial (5.1) para determinar la variación de nivel del tanque teniendo en cuenta los caudales de entrada y salida, así como el área del tanque, la cual se considera constante.
 
 \begin{equation}
-A\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}
+C\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}
 \end{equation}
 
 El caudal de salida $q_{o}$ se a continuación.
@@ -1209,19 +1209,19 @@ q_{o}=\frac{h}{R}
 Se reemplaza (5.1) en (5.2) y se obtiene la ecuación (5.3) para realizar el despeje de la variable a controlar, el nivel del tanque.
 
 \begin{equation}
-A\frac {dh\left( t\right) }{dt}=q_{i}-\frac {h}{R}
+C\frac {dh\left( t\right) }{dt}=q_{i}-\frac {h}{R}
 \end{equation}
 
 Se debe tener en cuenta que $h$ y $q_{i}$ son variables dependientes del tiempo $(t)$, por tanto se tiene que:
 
 \begin{equation}
-\frac {dh\left( t\right) }{dt}=\frac {q_{i}(t)-\frac {h(t)}{R}}{A}
+\frac {dh\left( t\right) }{dt}=\frac {q_{i}(t)-\frac {h(t)}{R}}{C}
 \end{equation}
 
 Se opera la ecuación (5.4) para obtener (5.5), una ecuación simplificada.
 
 \begin{equation}
-\frac {dh\left( t\right) }{dt}=\frac {Rq_{i}(t)-h(t)}{AR}
+\frac {dh\left( t\right) }{dt}=\frac {Rq_{i}(t)-h(t)}{RC}
 \end{equation}
 
 %Evaluando en estado estable, $t=0$
@@ -1256,67 +1256,78 @@ Se opera la ecuación (5.4) para obtener (5.5), una ecuación simplificada.
 En (5.6), se despeja las variable de nivel a un lado de la ecuación a fin de factorizar.
 
 \begin{equation}
-A\frac {Rdh}{dt}+h\left( t\right) =Rq_{i}\left( t\right)
+RC\frac {dh}{dt}+h\left( t\right) =Rq_{i}\left( t\right)
 \end{equation}
 
-Se tiene que $AR$ corresponde a la base de tiempo de la ecuación y $R$ la resistencia que opone la válvula al paso del fluido, sin embargo, este factor es cambiante dependiendo del elemento que se esté usando.
+Se tiene que $RC$ corresponde a la base de tiempo de la ecuación y $R$ la resistencia que opone la válvula al paso del fluido, sin embargo, este factor es cambiante dependiendo del elemento que se esté usando. \\
 
-\begin{center}
-$\tau =AR$ \\
-$K=R$
-\end{center}
-
-Se reemplazan los valores anteriores en la ecuación (5.6), de modo que se obtiene:
+Se tiene que $\tau =RC$. Reemplazan los valores anteriores en la ecuación (5.6), se obtiene:
 
 \begin{equation}
-\frac {\tau dh}{dt}+h\left( t\right) =Kq_{i}\left( t\right)
+\frac {dh}{dt}+h\left( t\right) =Rq_{i}\left( t\right)
 \end{equation}
 
 Se aplica transformada de Laplace para derivada de primer orden en la ecuación (5.7).
 
 \begin{equation}
-\tau sh\left( s\right) +h\left( s\right) =Kq_{i}\left( s\right)
+\tau sh\left( s\right) +h\left( s\right) =Rq_{i}\left( s\right)
 \end{equation}
 
 Se factorizan los terminos de altura \textit{h}.
 
 \begin{equation}
-h\left( s\right) \left( \tau s+1\right) =Kq_{i}\left( s\right)
+h\left( s\right) \left( \tau s+1\right) =Rq_{i}\left( s\right)
 \end{equation}
 
 $h(s)$ equivale a la salida del sistema y $q_{i}(s)$ a la entrada. Ya que el modelo de función de transferencia es $G=out/in$, se tiene que:
 
 \begin{equation}
-\frac {h\left( s\right) }{q_{i}\left( s\right) }=\frac {K}{\tau s+1}
+\frac {h\left( s\right) }{q_{i}\left( s\right) }=\frac {R}{\tau s+1}
 \end{equation}
 
 La ecuación (5.10) representa el modelo de función de transferencia de primer orden para la planta. \\
 
-Para realizar el modelo especifico del tanque, es necesario realizar el cambio de variable inverso a la ecuación (5.7) aplicando la ecuación (5.10).
+Para realizar el modelo especifico del tanque, es necesario realizar el cambio de variable inverso de la ecuación (5.7) aplicado a la ecuación (5.10).
 
 \begin{equation}
-\frac {h\left( s\right) }{q_{i}\left( s\right) }=\frac {R}{AR+1}
+\frac {h\left( s\right) }{q_{i}\left( s\right) }=\frac {R}{RCs+1}
+\end{equation}
+
+Partiendo de la ecuación (5.2) se puede plantear que:
+
+\begin{equation}
+q_{o}(s)=\frac{1}{R}h(s)
+\end{equation}
+
+Es asi que la función de transferencia de la planta puede representarce en la forma (5.13).
+
+\begin{equation}
+\frac {q_{o}\left( s\right) }{q_{i}\left( s\right) }=\frac {1}{RCs+1}
 \end{equation}
 
 \subsection{Linealización}
 
-Sin importar que geometría posea un tanque, el caudal a través de la válvula de salida será proporcional a la raíz cuadrada del nivel del líquido directamente sobre la válvula. De este modo el caudal de salida del tanque $q_{o}$, será (5.12):
+Sin importar que geometría posea un tanque, el caudal a través de la válvula de salida será proporcional a la raíz cuadrada del nivel del líquido directamente sobre la válvula, debido a que el flujo es turbulento a través de la resistencia. De este modo el caudal de salida $q_{o}$ del tanque será (5.14):
 
 \begin{equation}
-q_{o}=C\sqrt{h}
+q_{o}=K\sqrt{h}
 \end{equation}
 
-Donde $C$ es la constante que involucra el coeficiente de la válvula y que además esta relacionado con la apertura de la misma y $h$ el nivel de líquido en el tanque. \\
-
-De este modo tenemos que el modelo del proceso de nivel en un tanque, dado por la ecuación (5.1) puede expresarce con en la siguiente ecuación.
+Donde $q_{0}$ es la velocidad del flujo del liquido en estado estable $(m^{3}/s)$, $K$ es la constante que involucra el coeficiente de la válvula $(m^{2}/s)$ y que además esta relacionado con la apertura de la misma y $h$ el nivel de líquido en el tanque $(m)$. Dado que el flujo de entrada menos el flujo de salida durante el intervalo de tiempo $dt$ es igual a la cantidad adicional almacenada en el tanque, se observa que
 
 \begin{equation}
-A\frac{dh}{dt}=q_{i}-C\sqrt{h}
+C\frac{dh}{dt}=q_{i}-q_{o}
 \end{equation}
 
-Donde $A$ es área del tanque y $q_{i}$ es el flujo de entrada de líquido al tanque. \\
+A partir de la relación entre $q_{o}$ y $h$ definida por (5.2), el modelo del proceso de nivel en un tanque para un valor constante de $R$, dado por la ecuación (5.15) puede expresarce con la siguiente ecuación.
 
-El primer término de la ecuación (5.13) representa el diferencial de caudal en el tanque, considerando que el área del tanque es uniforme, es decir se mantiene constante, a lo largo de todo el tanque. Observando esta ecuación es posible definir que el modelo representa a un proceso no lineal. La no linealidad se debe a la presencia del término de raíz cuadrada en la ecuación. Una opción para poder trabajar con este modelo es linealizar el término no lineal de dicha ecuación. La función no lineal queda definida en la ecuación (5.14).
+\begin{equation}
+C\frac{dh}{dt}=q_{i}-K\sqrt{h}
+\end{equation}
+
+Donde $C$ es la capacitancia del tanque y $q_{i}$ es el flujo de entrada de líquido al tanque. \\
+
+El primer término de la ecuación (5.16) representa el diferencial de caudal en el tanque, considerando que el área del tanque es uniforme, es decir se mantiene constante, a lo largo de todo el tanque. Observando esta ecuación es posible definir que el modelo representa a un proceso no lineal. La no linealidad se debe a la presencia del término de raíz cuadrada en la ecuación. Una opción para poder trabajar con este modelo es linealizar el término no lineal de dicha ecuación. La función no lineal queda definida en la ecuación (5.17).
 
 \begin{equation}
 f(h)=\sqrt{h}
@@ -1328,23 +1339,21 @@ En este punto, no es posible realizar el procedimiento realizado en la seccion a
 \sqrt{h}=hs^{\frac{1}{2}}+\frac{1}{2}hs^{\frac{-1}{2}}(h-hs)
 \end{equation}
 
-Donde $hs$ es el valor de $h$ en estado estable. \\
-
-Entonces reemplazando la ecuación (5.15) en la ecuación (5.13) se obtiene:
+Donde $hs$ es el valor de $h$ en estado estable. Entonces reemplazando la ecuación (5.18) en la ecuación (5.16) se obtiene:
 
 \begin{equation}
-A\frac{dh}{dt}=q_{i}-C\left[hs^{\frac{1}{2}}+\frac{1}{2} hs^{-\frac{1}{2}}\left(h-hs\right) \right]
+C\frac{dh}{dt}=q_{i}-K\left[hs^{\frac{1}{2}}+\frac{1}{2} hs^{-\frac{1}{2}}\left(h-hs\right) \right]
 \end{equation}
 
-Así en la ecuación (5.16) se tiene la ecuación del modelo de nivel del tanque linealizada en un punto de estado estable $hs$. Ahora se procede a definir la variable $y=(h–hs)$ e introducir la variable $u=(q_{i}–q_{i}s)$, donde $q_{i}s$ representa el valor de caudal de entrada en estado estable. \\
+Así en la ecuación (5.19) se tiene la ecuación del modelo de nivel del tanque linealizada en un punto de estado estable $hs$. Ahora se procede a definir la variable $y=(h–hs)$ e introducir la variable $u=(q_{i}–q_{i}s)$, donde $q_{i}s$ representa el valor de caudal de entrada en estado estable. \\
 
-Adicionalmente se debe recordar que en estado estable $dh/dt=0$, entonces aplicando esta condición a la ecuación (5.13) se obtiene:
+Adicionalmente se debe recordar que en estado estable $dh/dt=0$, entonces aplicando esta condición a la ecuación (5.16) se obtiene:
 
 \begin{equation}
-q_{i}s=C\sqrt{hs}
+q_{i}s=K\sqrt{hs}
 \end{equation}
 
-De este modo la ecuación (5.16) se convierte en:
+De este modo la ecuación (5.19) se convierte en:
 
 \begin{equation}
 \tau\frac{dy}{dt}=Ku-y
@@ -1353,27 +1362,83 @@ De este modo la ecuación (5.16) se convierte en:
 Donde se define los valores de las constantes $\tau$ y $K$ como sigue a continuación:
 
 \begin{equation}
-\tau=A\frac{2(hs)^{\frac{1}{2}}}{C}
+\tau=C\frac{2(hs)^{\frac{1}{2}}}{K}
 \end{equation}
 
 \begin{equation}
-K=\frac{2(hs)^{\frac{1}{2}}}{C}
+K=\frac{2(hs)^{\frac{1}{2}}}{K}
 \end{equation}
 
-La constante $\tau$ es denominada constante de tiempo mientras que la constante $K$ es la ganancia de estado estable. Aplicando a la ecuación (5.18) la transformada de La Place se obtiene la función de transferencia (5.21), la cual representa teóricamente el modelo del nivel del tanque en un punto de estado estable $hs$.
+La constante $\tau$ es denominada constante de tiempo mientras que la constante $K$ es la ganancia de estado estable. Aplicando a la ecuación (5.21) la transformada de Laplace se obtiene la función de transferencia (5.24), la cual representa teóricamente el modelo del nivel del tanque en un punto de estado estable $hs$.
 
 \begin{equation}
 y(s)=\frac{K}{\tau s+1}u(s)
 \end{equation}
 
-Se debe recordar que la ecuación (5.21) es valida solo para el punto de estabilización $hs$, para un nuevo punto de estabilización $hs_{2}$ los valores de las constantes $\tau$ y $K$ serán diferentes.
+Se debe recordar que la ecuación (5.24) es valida solo para el punto de estabilización $hs$, para un nuevo punto de estabilización $hs_{2}$ los valores de las constantes $\tau$ y $K$ serán diferentes.
 
 
 
 
 \subsection{Calculo de Parametros}
 
-En este punto se realiza el cálculo para el valor de la constante de tiempo, $\tau$. Considerando un valor de estado estable $hs$ de 40cm y conociendo el área del tanque 1 el cual es -------. El valor de la constante $C$ es desconocido ya que depende de las características de la válvula colocada a la salida del tanque. Sin embargo es posible hallar el valor de dicha constante experimentalmente y calcular un valor aproximado de $\tau$. El procedimiento que se lleva a cabo se presenta a continuación. \\
+La capacitancia $C$ de un tanque es el cambio necesario de materia o de energía para realizar un cambio unitario en una variable de referencia. Se mide en unidades de cantidad con respecto a la variable de referencia. Para este caso, la capacitancia de volumen en un tanque abierto con respecto a la altura hidrostática, es el cambio en volumen de líquido almacenado por unidad de cambio de altura, lo cual es equivalente al área de la superficie de líquido.
+
+\begin{center}
+$C=\frac{Cambio\ en\ el\ liquido\ almacenado\ (m^{3})}{Cambio\ en\ la\ altura\ (m)}=\frac{Volumen}{Altura}$
+\end{center}
+
+Dicho esto, la capacitancia de un tanque corresponde a su área transversal ($C=A$).
+
+\begin{equation}
+A=\pi r^{2}
+\end{equation}
+
+Los tanques superiores poseen un raio de 0.15m, por medio del cual puede obtenerse la capacitancia.
+
+\begin{center}
+$C=\pi (0.15m)^{2}$ \\
+$C=0.07068 m^{2}$
+\end{center}
+
+La resistencia $R$ para el flujo de líquido a través de un tubo corto está definida como el cambio necesario en la diferencia de nivel de líquido para producir un cambio de una unidad en la velocidad del flujo, es decir:
+
+\begin{center}
+$R=\frac{Cambio\ en\ la\ diferencia\ de\ nivel\ (m)}{Cambio\ en\ la\ velocidad\ de\ flujo\ (m^{3}/s)}$
+\end{center}
+
+Si consideramos que el flujo es turbulento, la relación entre velocidad de flujo y altura en estado estable se obtiene segun usando (5.14). La resistencia para flujo turbulento se obtiene de:
+
+\begin{equation}
+R_{t}=\frac{dh}{dq}
+\end{equation}
+
+De la ecuación (5.14) se obtiene
+
+\begin{equation}
+dq=\frac{K}{2\sqrt{h}}dh
+\end{equation}
+
+Se procede a simplificar (5.27)
+
+\begin{equation}
+\frac{dh}{dq}=\frac{2\sqrt{h}}{K}=\frac{2\sqrt{h}\sqrt{h}}{q}=\frac{2h}{q}
+\end{equation}
+
+Por tanto, es posible afirmar que
+
+\begin{equation}
+R_{t}=\frac{2h}{q}
+\end{equation}
+
+Este valor se considera constante si los cambios en la altura y el flujo son pequeños. \\
+
+
+
+
+
+
+En este punto se realiza el cálculo para el valor de la constante de tiempo, $\tau$. Considerando un valor de estado estable $hs$ de 40cm y conociendo el área del tanque 1 el cual es -------. El valor de la constante $K$ es desconocido ya que depende de las características de la válvula colocada a la salida del tanque. Sin embargo es posible hallar el valor de dicha constante experimentalmente y calcular un valor aproximado de $\tau$. El procedimiento que se lleva a cabo se presenta a continuación. \\
 
 Es necesario conocer el caudal a la salida de la válvula conectada a la parte inferior del tanque. La primera limitación de este procedimiento es
 que no se dispone de un medidor de caudal ubicado directamente después de la válvula. Para solucionar este problema se toman las mediciones del medidor de caudal bicado en la tubería de entrada de líquido, figura 3.3. Se debe tener en cuenta que en estado estable el caudal de entrada es equivalente al caudal de salida, por lo tanto, una vez que se alcance el estado estable el caudal medido a la entrada será igual al caudal que
