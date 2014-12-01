@@ -1190,23 +1190,23 @@ ubicadas en el ducto de salida de cada tanque. \\
 
 Además el sistema cuenta con un tanque de reserva, el mismo que proporciona el líquido a ser bombeado hacia los tanques superiores. En la sección inferior se encuentra ubicada una bomba encargada de distribuir el liquido desde el tanque de reserva hacia los demas. \\
 
-El problema se centra en la obtención del comportamiento de nivel del líquido a través del tiempo $t$ de un tanque, dado el flujo de entrada $q_{i}(t)$. Se asume que el flujo de salida del tanque es una función lineal de la altura de líquido en su interior ($q_{o}=k*h$) y que el tanque tiene un área de sección transversal constante. Se asume también que la densidad y el flujo de entrada $q_{i}(t)$ son constantes.
+El problema se centra en la obtención del comportamiento de nivel del líquido a través del tiempo $t$ de un tanque, dado el flujo de entrada $q_{i}(t)$. Se asume que el flujo de salida del tanque es una función lineal de la altura de líquido en su interior ($q_{o}=kh$) y que el tanque tiene un área de sección transversal constante. Se asume también que la densidad y el flujo de entrada $q_{i}(t)$ son constantes. \\
 
-\subsection{Modelo Dinamico Planta M-ECCI}
+\subsection{Modelo Dinamico}
 
-Se toma la ecuación inicial (5.1) para determinar la variación de nivel del tanque teniendo en cuenta los caudales de entrada y salida, así como el área del tanque, la cual se considera constante.
+El nivel de un tanque está determinado por el área y la cantidad de líquido que ingresa con respecto a la que sale, teniendo esto en cuenta se plantea la ecuación inicial (5.1) para determinar la variación de nivel del tanque a través del tiempo en función de los caudales de entrada y salida.
 
 \begin{equation}
 C\frac {dh\left( t\right) }{dt}=q_{i}-q_{o}
 \end{equation}
 
-El caudal de salida $q_{o}$ se a continuación.
+El caudal de salida ($q_{o}$) depende del nivel del tanque ($h$) y la resistencia ($R$) de la válvula que se opone al paso del líquido de modo que:
 
 \begin{equation}
 q_{o}=\frac{h}{R}
 \end{equation}
 
-Se reemplaza (5.1) en (5.2) y se obtiene la ecuación (5.3) para realizar el despeje de la variable a controlar, el nivel del tanque.
+Se reemplaza la ecuación (5.2) en (5.1), se obtiene la ecuación (5.33) en la cual se realiza el despeje de la variable a controlar, para este caso, nivel ($h$).
 
 \begin{equation}
 C\frac {dh\left( t\right) }{dt}=q_{i}-\frac {h}{R}
@@ -1261,7 +1261,7 @@ RC\frac {dh}{dt}+h\left( t\right) =Rq_{i}\left( t\right)
 
 Se tiene que $RC$ corresponde a la base de tiempo de la ecuación y $R$ la resistencia que opone la válvula al paso del fluido, sin embargo, este factor es cambiante dependiendo del elemento que se esté usando. \\
 
-Se tiene que $\tau =RC$. Reemplazan los valores anteriores en la ecuación (5.6), se obtiene:
+Se establece que $\tau =RC$. reemplazan los valores anteriores en la ecuación (5.6), se obtiene:
 
 \begin{equation}
 \frac {dh}{dt}+h\left( t\right) =Rq_{i}\left( t\right)
@@ -1273,7 +1273,7 @@ Se aplica transformada de Laplace para derivada de primer orden en la ecuación 
 \tau sh\left( s\right) +h\left( s\right) =Rq_{i}\left( s\right)
 \end{equation}
 
-Se factorizan los terminos de altura \textit{h}.
+Se factorizan los terminos de altura ($h$).
 
 \begin{equation}
 h\left( s\right) \left( \tau s+1\right) =Rq_{i}\left( s\right)
@@ -1305,9 +1305,11 @@ Es asi que la función de transferencia de la planta puede representarce en la f
 \frac {q_{o}\left( s\right) }{q_{i}\left( s\right) }=\frac {1}{RCs+1}
 \end{equation}
 
+\\
+
 \subsection{Linealización}
 
-Sin importar que geometría posea un tanque, el caudal a través de la válvula de salida será proporcional a la raíz cuadrada del nivel del líquido directamente sobre la válvula, debido a que el flujo es turbulento a través de la resistencia. De este modo el caudal de salida $q_{o}$ del tanque será (5.14):
+Sin importar que geometría posea un tanque, el caudal a través de la válvula de salida será proporcional a la raíz cuadrada del nivel del líquido directamente sobre la válvula, debido a que el flujo es turbulento a través de la resistencia. De este modo el caudal de salida $q_{o}$ del tanque será (5.14):
 
 \begin{equation}
 q_{o}=K\sqrt{h}
@@ -1375,7 +1377,7 @@ La constante $\tau$ es denominada constante de tiempo mientras que la constante 
 y(s)=\frac{K}{\tau s+1}u(s)
 \end{equation}
 
-Se debe recordar que la ecuación (5.24) es valida solo para el punto de estabilización $hs$, para un nuevo punto de estabilización $hs_{2}$ los valores de las constantes $\tau$ y $K$ serán diferentes.
+Se debe recordar que la ecuación (5.24) es valida solo para el punto de estabilización $hs$, para un nuevo punto de estabilización $hs_{2}$ los valores de las constantes $\tau$ y $K$ serán diferentes. \\
 
 
 
@@ -1581,12 +1583,23 @@ A partir de los resultados obtenidos con el presente proyecto de grado, es posib
 
 \chapter{Trabajo Futuro}
 
-En desarrollo del presente proyecto de grado se generaron las inquietudes resumidas a continuacion. \\
+En el desarrollo del presente proyecto se presentaron diversos inconvenientes para la solución de los problemas planteados, especialmente durante las diferentes pruebas sobre la planta real, los cuales redujeron las posibilidades de implementar físicamente el controlador diseñado, limitando el desarrollo a un entorno ideal y de simulación. Partiendo de lo anterior, se proponen los siguientes trabajos, y recomendaciones que permitirán la evolución futura del proyecto. \\
+
+Ya que este fue el principal inconveniente para la implementación real de un control, debido a la inestabilidad de la planta; se recomienda ampliar el diámetro de las tuberías.
 
 \begin{itemize}
-\item El sistema real no es un sistema lineal y por tal motivo las variaciones de referencia deben hacerse alrededor del punto de operacion. Asimismo, este valor de referencia no debe superar los 40 cm de altura debido a restricciones practicas.
-\item Tomando en cuenta la ubicacion de la tuberia de acople de los dos tanques y la tuberia de desag\"ue, el mínimo nivel de líquido de cada uno de los tanques puede variar entre 1 y 4 cm. Para el caso del tanque de salida es posible disminuir este nivel mínimo desconectando la manguera del sensor de presion.
+\item Para la tubería de alimentación (entrada) se recomienda eliminar la reducción a $1/4$ de pulgada y ampliar su diámetro a $1/2$ pulgada, igualando las dimensiones de las válvulas de alimentación, lo cual permitirá el flujo del liquido evitando presiones excesivas y fugas en las junturas de las secciones. El control se puede realizar desde el tablero, directamente sobre la bomba, limitando con el variador su potencia de operación, según se requiera. Esto aumentara considerablemente la estabilidad de la planta, ya que actualmente debe limitarse la operación de la bomba a una frecuencia inferior a 20 Hz, alejándola de su rango optimo de operación, lo cual causa que la presión que mantiene la bomba sea irregular.
+
+\item Debido a que en el diseño actual el diámetro de desag\"ue (salida) de los tanques superiores es de $1/4$ de pulgada, siendo una medida inferior a la de alimentación, impide que la planta se estabilice, ya que el flujo de entrada ($q_{i}$) siempre sera mayor al de salida ($q_{o}$). Para esta tubería se recomienda un diámetro de XX pulgadas, que igualara a la correspondiente válvula, evitando el cuello de botella que se presenta actualmente, obteniendo un mayor paso de liquido; lo que permitirá que la planta alcance su estado estable en un punto dado, cuando los flujos de entrada y salida sean equivalentes.
+\end{itemize}
+
+\begin{itemize}
+\item El sistema real no es un sistema lineal y por tal motivo las variaciones de referencia deben hacerse alrededor del punto de operacion. Asimismo, este valor de referencia no debe superar los XX $cm$ de altura debido a restricciones practicas.
+
+\item Tomando en cuenta la ubicacion de la tuberia de acople de los dos tanques y la tuberia de desag\"ue, el mínimo nivel de líquido de cada uno de los tanques puede variar entre 1$cm$ y 4 $cm$. Para el caso del tanque de salida es posible disminuir este nivel mínimo desconectando la manguera del sensor de presion.
+
 \item La potencia de salida del controlador se ajusto al 40\%, debido a que es mayor la cantidad de flujo de liquido suministrado al tanque de entrada que el evacuado por la tuberia de acople hacia el tanque de salida, ocasionando que el tanque de entrada se rebase hasta su tope.
+
 \item El valor de perturbacion seleccionado para $R_{1}$ fue la maxima apertura de la valvula, debido a que para otro valor de resistencia el efecto de la perturbacion no era discriminante, ya que el sistema en estado estable presenta oscilaciones.
 \end{itemize}
 
